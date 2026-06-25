@@ -1,0 +1,263 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_UW6xbj": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_EG6j9A": {
+          "type": "heading",
+          "settings": {
+            "title": "COMPOST COLLECTIVE PROGRAM",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_EG6j9A"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 4
+      }
+    },
+    "section_double_jg7xyh": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_GrP9Mz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Genesis 2:15: \"The Lord God took the man and put him in the Garden of Eden, to work it and take care of it.\"",
+            "text_size": 3,
+            "padding_bottom": 12
+          }
+        },
+        "heading_EGfVJ3": {
+          "type": "heading",
+          "settings": {
+            "title": "Join the Compost Collective Rewards",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_Ug383X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HEAVENLY ESSENTIALS intimates are designed to last longer (up to 3x) than synthetics, cotton or other materials, due to the long and strong fibers of the flax plant. If proper care is taken with washing, each piece can last for several years, making them a great investment.</p><p>The Compost Collective Membership program offers a circular solution to the growing crisis of clothing waste. We partnered with a local Los Angeles compost center to redirect clothing from going to the landfill, and compost it instead, to become nutrient-rich soil. Composting offers a sustainable solution that works with nature’s natural recycling process.</p><p>After years of love and wear - at the end of your garments life, send your pieces to the compost and earn rewards points that will be applied towards your next purchase. Compost Collective members earn credits towards future purchases when sending their garments to the compost at end-of-life! </p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 4
+          }
+        },
+        "buttons_zLadQB": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "JOIN NOW",
+            "button_url": "shopify://products/compost-collective-membership",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 14
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GrP9Mz",
+        "heading_EGfVJ3",
+        "text_Ug383X",
+        "buttons_zLadQB"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/89_312967ec-ac35-4e38-b727-96adf6f52796.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "section_double_qBCXAp": {
+      "type": "section-double",
+      "blocks": {
+        "heading_yLW3rt": {
+          "type": "heading",
+          "settings": {
+            "title": "Why Compost?",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_qfg7Rp": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p><strong>The fashion industry is the second largest polluter in the world. </strong></p><p>Underwear is one of the most difficult articles of clothing to dispose of. It can’t be donated or resold, and often ends up in the trash when it's no longer usable. This contributes to the 26 billion pounds of clothing and textiles that end up in landfills every year. Due to the fact that 80% of textiles are now made from plastic-based, synthetic materials like polyester, nylon, and spandex—derived from fossil fuels—they typically remain in landfills for hundreds of years, contributing to devastating environmental pollution.</p><p>Composting is a climate crisis antidote, that actually nourishes the planets microbiome layers. This all-natural process turns used underwear back into Earth in as little as two weeks, once planted in the ground. In order to combat the growing fashion waste crisis, we created essentials that are equally as good for you as they are for the environment. </p><p></p><p>We believe compostable clothing is the solution to this ecological problem, and invite you to join our collective mission of healing the planet and our bodies, together.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 14
+          }
+        },
+        "buttons_PhpEH7": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "READ OUR GUIDE TO COMPOSTING HERE.",
+            "button_url": "shopify://pages/composting-at-home-guide",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_yLW3rt",
+        "text_qfg7Rp",
+        "buttons_PhpEH7"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_QrXmLg": {
+      "type": "section-double",
+      "blocks": {
+        "heading_CGJjPK": {
+          "type": "heading",
+          "settings": {
+            "title": "Benefits of Compostable Clothing…",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_wB8yCJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fully regenerative - Zero waste</p><p>Better for your body (natural fibers, plant-based) </p><p>Chemical-free, Fertility-friendly </p><p>More durable & longer lasting than synthetics </p><p>Conserves Earth's most precious resource: Water</p><p>Turns back to dirt at end-of-life & improves biodiversity </p><p>Sustainability helps combat climate change</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_7cEU4P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heavenly Essentials envisions a future where fashion is circular,  regenerative and restorative; turning clothes and textiles into valuable resources, that actually nourish the Earth, rather than creating waste.</p><p>The Compost Collective completely reimagines the fashion cycle- to move towards a new circular economy that restores our planet, one essential at a time.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "heading_e9nrie": {
+          "type": "heading",
+          "settings": {
+            "title": "Join Now & Earn Reward Points!",
+            "text_size": 6,
+            "padding_bottom": 22
+          }
+        },
+        "subheading_pxrH3d": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "100% of membership proceeds go to support the Los Angeles Compost.",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_CGJjPK",
+        "text_wB8yCJ",
+        "text_7cEU4P",
+        "heading_e9nrie",
+        "subheading_pxrH3d"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/dreamstime_xxl_57132105.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 34
+      }
+    },
+    "section_divider_FxFqVa": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 27
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_UW6xbj",
+    "section_double_jg7xyh",
+    "section_double_qBCXAp",
+    "section_double_QrXmLg",
+    "section_divider_FxFqVa"
+  ]
+}

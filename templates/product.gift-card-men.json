@@ -1,0 +1,406 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "text_size": 6,
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 22
+          }
+        },
+        "text_jnjwTx": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>{{ product.metafields.custom.single_line_description_.value }}</p>",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        },
+        "text_zKmLy6": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p> </p>",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        },
+        "description_TaWNem": {
+          "type": "description",
+          "settings": {
+            "show_read_more": true,
+            "padding_bottom": 10
+          }
+        },
+        "accordion_UbJrwr": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "ORGANIC LINEN",
+            "text": "<p>We founded Heavenly Essentials to reduce the environmental impact of our intimates & everyday essentials. To take responsibility for the whole life cycle of your Heavenly Essentials, we make all our pieces with the highest quality, super-soft 100% GOTS Certified Organic Linen — a sustainably-sourced fabric that’s also completely compostable.<br/><br/>The softest, most breathable fabric for everyday wear, that is gynecologist recommended. Our organic linen is a natural fibre, grown without any pesticides, fertilizers, or gmo seeds– making your Heavenly Essential’s not only good for you, but the Planet too.</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_pReJKH": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "SHIPPING & RETURNS",
+            "text": "<p>Gift cards are delivered by email immediately after purchase.<br/><br/><strong>RETURNS</strong><br/>Gift cards are non-returnable and non-refundable. For orders placed using a giftcard, we accept returns that are requested within 30 days of receiving the item(s) and refunds will be sent to the original form of payment.</p>",
+            "padding_bottom": 0
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "text_jnjwTx",
+        "text_zKmLy6",
+        "description_TaWNem",
+        "accordion_UbJrwr",
+        "accordion_pReJKH",
+        "variants",
+        "buttons"
+      ],
+      "custom_css": [
+        ".radio__button {width: 74px;}",
+        "@media (min-width: 768px) {.product__price {font-size: 20px; }}",
+        "@media (max-width: 768px) {.product__price {font-size: 18px; }}",
+        ".product__heading {display: none;}",
+        ".product__title {text-align: center; text-transform: uppercase;}",
+        ".product__price__wrap {display: flex; justify-content: center; align-items: center; width: 100%; box-sizing: border-box;}",
+        ".product__title__wrapper {position: relative; padding-right: 0px; padding-top: 0;}",
+        ".accordion__title {font-weight: bold;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "variant_image_scroll": true,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "slider",
+        "padding_top": 30,
+        "padding_bottom": 50
+      }
+    },
+    "section_multicolumn_6J3iGx": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_iD3HiU": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "GOTS CERTIFIED ORGANIC LINEN",
+            "heading_size": 4,
+            "text": "<p>We craft all our pieces using the finest, ultra-soft 100% GOTS Certified Organic Linen — a sustainably-sourced fabric that's biodegradable, ensuring it's as gentle on the Earth as it is on your skin. Every day deserves the luxury of organic linen.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_aXLR3L": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/EHG27J_1.jpg",
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "THOUGHTFULLY SUSTAINABLE",
+            "heading_size": 4,
+            "text": "<p>Currently, only a small fraction of clothing is sustainably sourced. At Heavenly Essentials, we're committed to reducing the environmental footprint of our essentials. By prioritizing durability and quality over quantity, we aim to transform your everyday staples into enduring favorites.</p><p></p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_c4FmHg": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/943.png",
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "YOUR NEW GO-TO PIECES",
+            "heading_size": 4,
+            "text": "<p>Say goodbye to generic options and hello to your new, go-to everyday essentials! At Heavenly Essentials, we design with your comfort and style in mind, ensuring each piece delivers the perfect blend of comfort and charm, without compromise.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_tNM6ng": {
+          "type": "image",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/Screenshot_2025-12-16_at_1.16.03_AM.png",
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "BETTER FOR YOU & THE PLANET",
+            "heading_size": 4,
+            "text": "<p>Our Men's collection has been thoughtfully crafted, with your every need in mind. We believe in feeling confident through comfort and quality, with regenerative pieces that are made from nature and turn back to nature.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary hero__btn",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_iD3HiU",
+        "image_aXLR3L",
+        "image_c4FmHg",
+        "image_tNM6ng"
+      ],
+      "custom_css": [
+        ".column__text p {margin-top: 10px; line-height: 1.5; padding: 15px;}",
+        "@media only screen and (min-width: 750px) {.multicolumn .grid-item {padding: 0px; flex: 0 0 var(--desktop-width); }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_highlights_D4363m": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_9m83Hn": {
+          "type": "highlight",
+          "settings": {
+            "heading": "LUXE LINEN",
+            "textdescription": "<p>Our linen is soft, luxurious, and designed for modern comfort. Made from 100% Organic flax, it offers a premium feel and timeless style.</p>",
+            "url": "",
+            "image": "shopify://shop_images/Noor1_closeup-flax-seed-flax-blossoms-white-backdropgenerative-ai_722401-28898_d4938d8f-b0b7-46b3-aea4-36836cb79927.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_yaWLrn": {
+          "type": "highlight",
+          "settings": {
+            "heading": "WORLDS MOST SUSTAINABLE NATURAL FIBER",
+            "textdescription": "<p>Flax linen is nature's miracle fiber—renewable, biodegradable, and grown with minimal resources, making it the most eco-friendly choice.</p>",
+            "url": "",
+            "image": "shopify://shop_images/Noor2_flax_fiber_24031a01-7cda-45d3-822e-0b4e04cbb45d.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_b9pnp3": {
+          "type": "highlight",
+          "settings": {
+            "heading": "FROM EARTH AND BACK TO EARTH",
+            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a circular economy.</p>",
+            "url": "",
+            "image": "shopify://shop_images/Noor3_8706_ed_3cac8cb7-fe1b-4327-ac03-044abd27af67.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_zLx7cQ": {
+          "type": "highlight",
+          "settings": {
+            "heading": "PLANT-BASED, NATURAL DYES",
+            "textdescription": "<p>We use all-natural, non-toxic dyes derived from fruits, flowers, minerals, and spices; ensuring safe, eco-conscious clothing.</p>",
+            "url": "",
+            "image": "shopify://shop_images/Noor4_natural_dyes_9a26e717-6f2e-440d-a07e-31bfd67be103.png",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_9m83Hn",
+        "highlight_yaWLrn",
+        "highlight_b9pnp3",
+        "highlight_zLx7cQ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
+        ".highlights__item:hover .image-wrapper {opacity: 0;}",
+        ".highlights__item {padding: 0px; margin-bottom: 0px;}",
+        "@media (max-width: 767px) {.body-size-6 {font-size: 14px; }}"
+      ],
+      "settings": {
+        "style": "square",
+        "grid": 4,
+        "width": "wrapper--full-padded",
+        "heading": "WHAT MAKES US SPECIAL",
+        "heading_position": "text-center",
+        "heading_size": 6,
+        "text_size": 6,
+        "color": "#212121",
+        "bg_color": "rgba(0,0,0,0)",
+        "layout_mobile": "2",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products",
+            "limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".preorder-box {display: none;}",
+        ".grid {margin-top: 0px;}",
+        "@media (min-width: 768px) {.new-price {font-size: 14px; } .grid-item {box-shadow: 0 0 0 2px white; } .section-padding {--PT-MOBILE: 1px !important; padding: 15px; }}",
+        "@media (max-width: 767px) {.grid-item:nth-child(odd) {padding-right: 1px; } .grid-item:nth-child(even) {padding-left: 1px; } .section-padding {--PT-MOBILE: 1px !important; padding: 5px; } .new-price {font-size: 12px; }}",
+        " {padding-top: 20px;}"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_size": 4,
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_yGtKnW": {
+      "type": "section-collection",
+      "custom_css": [
+        ".preorder-box {display: none;}",
+        ".grid {margin-top: 0px;}",
+        "@media (min-width: 768px) {.new-price {font-size: 14px; } .grid-item {box-shadow: 0 0 0 2px white; } .section-padding {--PT-MOBILE: 1px !important; padding: 35px; } {padding-top: 15px; }}",
+        "@media (max-width: 767px) {.grid-item:nth-child(odd) {padding-right: 1px; } .grid-item:nth-child(even) {padding-left: 1px; } .section-padding {--PT-MOBILE: 1px !important; padding: 5px; } .new-price {font-size: 14px; }}"
+      ],
+      "settings": {
+        "heading": "YOU'LL ALSO LOVE...",
+        "description": "",
+        "layout": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "best-sellers-men",
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_83xFJT": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_multicolumn_6J3iGx",
+    "section_highlights_D4363m",
+    "related",
+    "section_collection_yGtKnW",
+    "section_divider_83xFJT"
+  ]
+}

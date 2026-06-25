@@ -1,0 +1,450 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "text_size": 6,
+            "padding_bottom": 8
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 8
+          }
+        },
+        "text_jnjwTx": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>{{ product.metafields.custom.single_line_description_.value }}</p>",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        },
+        "text_zKmLy6": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p> </p>",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "description_TaWNem": {
+          "type": "description",
+          "settings": {
+            "show_read_more": true,
+            "padding_bottom": 22
+          }
+        },
+        "accordion_xcrqAb": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "<b>FABRIC & CARE</b>",
+            "text": "<p>{{ product.metafields.custom.fabric_care | metafield_tag }}</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_Te4hRh": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "<b>SIZE & FIT</b>",
+            "text": "<p>{{ product.metafields.custom.size_fit | metafield_tag }}</p><p><a href=\"/pages/international-size-guide\" title=\"International Size Guide\">SIZE CHART</a></p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_UbJrwr": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "<b>ORGANIC LINEN</b>",
+            "text": "<p>We founded Heavenly Essentials to reduce the environmental impact of our intimates & everyday essentials. We make all our pieces with the highest quality, super-soft 100% GOTS Certified Organic linen — a sustainably-sourced fabric that’s also completely compostable. <br/><br/>The most soft, breathable fabric for everyday wear. Our organic linen is a natural fiber, grown without any pesticides, fertilizers, or gmo seeds– making your Heavenly Essential’s not only good for you, but gentle on the planet, too.</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_pReJKH": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "<b>SHIPPING & RETURNS</b>",
+            "text": "<p>Enjoy free US shipping on orders over $100.<br/><br/>Please allow 1-2 business days before your order ships for standard processing.<br/><br/><strong>RETURNS</strong><br/>We accept returns that are requested within 30 days of receiving the item(s).</p>",
+            "padding_bottom": 20
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 32
+          }
+        },
+        "divider_1": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 16
+          }
+        },
+        "complementary_products_WKXzRk": {
+          "type": "complementary-products",
+          "settings": {
+            "complementary_limit": 3,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": [],
+            "show_avaialable_upsell_only": true,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "icon_2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Free shipping on orders over $100",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "icon_1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-email",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Easy 30 Days Returns",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "code_r6gqFF": {
+          "type": "code",
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Add_Product-2.png?v=1725931981\" style=\"width:100%;\"><style>@media (max-width:768px){img{margin-bottom:-20px}}</style>",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "text_jnjwTx",
+        "text_zKmLy6",
+        "variants",
+        "buttons",
+        "description_TaWNem",
+        "accordion_xcrqAb",
+        "accordion_Te4hRh",
+        "accordion_UbJrwr",
+        "accordion_pReJKH",
+        "pickup",
+        "divider_1",
+        "complementary_products_WKXzRk",
+        "upsell",
+        "icon_2",
+        "icon_1",
+        "code_r6gqFF"
+      ],
+      "custom_css": [
+        ".product__price {font-size: 17px;}",
+        "@media (min-width: 768px) {.product__price {font-size: 20px; }}",
+        ".radio__buttons {display: flex; align-items: center; height: 100%; gap: 10px;}",
+        ".selector-wrapper:first-child {border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);}",
+        ".selector-wrapper:last-child {border-bottom: 1px solid var(--border); padding-bottom: 16px;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "variant_image_scroll": false,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "thumbs",
+        "padding_top": 30,
+        "padding_bottom": 45
+      }
+    },
+    "section_divider_93BzHk": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_HQmWBD": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_FTBAaT": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT MAKES US SPECIAL",
+            "text_size": 5,
+            "padding_bottom": 16
+          }
+        },
+        "text_RgcwEN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Intimate essentials for everyday. Consciously made with 100% GOTS Certified Organic linen.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTBAaT",
+        "text_RgcwEN"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {h2 {font-size: 21px; font-weight: normal; }}",
+        "@media (min-width: 768px) {h2 {font-size: 28px; font-weight: normal; }}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "section_highlights_D4363m": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_9m83Hn": {
+          "type": "highlight",
+          "settings": {
+            "heading": "100% ORGANIC LINEN",
+            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
+            "url": "",
+            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_yaWLrn": {
+          "type": "highlight",
+          "settings": {
+            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
+            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
+            "url": "",
+            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_b9pnp3": {
+          "type": "highlight",
+          "settings": {
+            "heading": "FROM EARTH AND BACK",
+            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
+            "url": "",
+            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_zLx7cQ": {
+          "type": "highlight",
+          "settings": {
+            "heading": "PLANT-BASED, NATURAL DYES",
+            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
+            "url": "",
+            "image": "shopify://shop_images/plantdyesswatches.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_9m83Hn",
+        "highlight_yaWLrn",
+        "highlight_b9pnp3",
+        "highlight_zLx7cQ"
+      ],
+      "custom_css": [
+        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
+        ".highlights__item:hover .image-wrapper {opacity: 0;}",
+        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
+        ".body-size-6 {font-size: 28px;}",
+        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
+        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
+      ],
+      "settings": {
+        "style": "square",
+        "grid": 4,
+        "width": "wrapper--full-padded",
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_size": 6,
+        "text_size": 6,
+        "color": "#212121",
+        "bg_color": "rgba(0,0,0,0)",
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_GH3QTq": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Explore More",
+            "limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "custom_css": [
+        ".preorder-box {display: none;}",
+        ".grid {margin-top: 0px;}",
+        "@media (min-width: 768px) {.new-price {font-size: 14px; } .grid-item {box-shadow: 0 0 0 2px white; } .section-padding {--PT-MOBILE: 1px !important; padding: 15px; }}",
+        "@media (max-width: 767px) {.grid-item:nth-child(odd) {padding-right: 1px; } .grid-item:nth-child(even) {padding-left: 1px; } .section-padding {--PT-MOBILE: 1px !important; padding: 5px; } .new-price {font-size: 12px; }}",
+        " {padding-top: 50px;}"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_size": 4,
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 25,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_3tb8fn": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 61,
+        "padding_bottom": 0
+      }
+    },
+    "1724442472d2a1fb7a": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_gaNJNK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_gaNJNK"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_divider_93BzHk",
+    "section_rich_text_HQmWBD",
+    "section_highlights_D4363m",
+    "section_divider_GH3QTq",
+    "related",
+    "section_divider_3tb8fn",
+    "1724442472d2a1fb7a"
+  ]
+}

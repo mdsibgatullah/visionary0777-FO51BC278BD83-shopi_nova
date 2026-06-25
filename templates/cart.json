@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "blocks": {
+        "free-shipping": {
+          "type": "free-shipping",
+          "settings": {
+            "message": "You are ||amount|| away from free shipping.",
+            "free_shipping_gradient": ""
+          }
+        },
+        "order-note": {
+          "type": "order-note",
+          "disabled": true,
+          "settings": {}
+        },
+        "gift-note": {
+          "type": "gift-note",
+          "settings": {}
+        },
+        "cart-message": {
+          "type": "cart-message",
+          "settings": {
+            "cart_custom_message_text": "<p>Use coupon code <strong>HEAVENLY10</strong> for 10% off your first order.</p>",
+            "cart_custom_message_color": ""
+          }
+        },
+        "checkout-buttons": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false
+          }
+        },
+        "upsell-products": {
+          "type": "upsell-products",
+          "settings": {
+            "upsell_auto_open": true
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "order-note",
+        "gift-note",
+        "cart-message",
+        "checkout-buttons",
+        "upsell-products"
+      ],
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_3CAJJB": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "#d3d3d3",
+        "bg_color": "",
+        "padding_top": 61,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_divider_3CAJJB"
+  ]
+}

@@ -1,0 +1,569 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_WFwC9y": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_zJXrQx": {
+          "type": "heading",
+          "settings": {
+            "title": "Sustainability Practices",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_zYiVP8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sustainability is our standard. Every garment is thoughtfully made to enhance your well-being, and support our commitment to environmental care.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_zJXrQx",
+        "text_zYiVP8"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "section_double_aGEtV8": {
+      "type": "section-double",
+      "blocks": {
+        "heading_GaLWPN": {
+          "type": "heading",
+          "settings": {
+            "title": "Organic Materials",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_rJMFWJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heavenly Essentials uses 100%<strong> GOTS certified </strong>(Global Organic Textile Standard)<strong> </strong>Linen, certified in the EU and US. GOTS is the leading standard for organic textiles, in ecological and sustainable production. It assures the raw material was grown organically, without using insecticides, pesticides or any harmful chemicals.</p><p>We also offer <strong>European Flax Certified</strong>, 100% linen. </p><p>We source the finest flax fibers on the Earth, up to 15.5 microns, which is rarer than cashmere. All of our flax is grown and processed in Europe.</p><p>We sew all our garments in Los Angeles (USA), with sustainably sourced, 100% linen thread.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_GaLWPN",
+        "text_rJMFWJ"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Sustainability_flaxflowers.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_jf9qdN": {
+      "type": "section-double",
+      "blocks": {
+        "heading_tWgBd4": {
+          "type": "heading",
+          "settings": {
+            "title": "Premium, Regenerative Fabrics",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_QqGVrr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We exclusively source and only use the highest quality European flax the world has to offer, from regenerative farms in France and Belgium. Our flax is grown organically and regeneratively in Europe (according to GOTS standards), to produce the highest quality linen fabric. The European region’s rich soil and Northern Sea climate are the perfect conditions for growing vibrant, mineral-rich crops, that produces increased lignans; the unique healing compound, found only in linen fabric. When compared to conventionally grown linen, organic linen can have up to ten times the amount of skin-healing lignans!</p><p>All our products are sewn with 100% linen thread. Our flax-based elastics are made from linen and natural tree rubber (from Fair-trade farms) and contain zero synthetics/no plastic at all.</p><p><strong>Our collections embody a new standard in sustainable fashion—where beauty, integrity, and environmental care are seamlessly intertwined.</strong></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_tWgBd4",
+        "text_QqGVrr"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/sustainability_HeavenlyEssentials-8.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_knX4Lj": {
+      "type": "section-double",
+      "blocks": {
+        "heading_HYMNAH": {
+          "type": "heading",
+          "settings": {
+            "title": "Ethical Manufacturing",
+            "text_size": 8,
+            "padding_bottom": 8
+          }
+        },
+        "text_dBbTAX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our raw materials and textiles are grown and processed in Europe. The European textile industry is world-renowned for its craftsmanship, luxury and sustainability-focus.  </p><p>We design and sew all our pieces in the USA, ensuring the highest ethical standards and procedures. We are committed to a fully transparent production process, free of child-labor or any unethical practices. </p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_HYMNAH",
+        "text_dBbTAX"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screen_Shot_2026-06-15_at_8.47.56_AM.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_Hk8Fbj": {
+      "type": "section-double",
+      "blocks": {
+        "heading_TXqNME": {
+          "type": "heading",
+          "settings": {
+            "title": "Plastic-Free, Eco-Luxe Details",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_EkjDVb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heavenly Essentials redefines luxury with a commitment to sustainability and elegant craftsmanship. All of our products are completely plastic-free. Our product range includes thoughtfully designed, real mother of pearl, biblical gemstones and copper metal details- creating timeless sophistication from genuine, organic materials. </p><p>Wearing real copper is renowned for its ability to support the body's magnetic and bio-energy field, and offers natural antimicrobial properties when in contact with the skin. We are committed to adding an elevated touch to each piece of intimate wear, without compromising on comfort or sustainability.</p><p>We believe true luxury lies in conscious choices. By replacing synthetic elements with natural alternatives, we deliver eco-friendly elegance, that supports both your body and the Planet.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_TXqNME",
+        "text_EkjDVb"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/image.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_countdown_timer_yPhCtD": {
+      "type": "section-countdown-timer",
+      "blocks": {
+        "heading_qXPbUV": {
+          "type": "heading",
+          "settings": {
+            "title": "Did you know that 26 Billion Pounds of clothes end up in the landfill every year? Heavenly Essentials is working to combat this through our regenerative, plant-based materials, factory direct model, compostable packaging, and timeless, classic styles - so we can all do our part to better the planet in style.",
+            "text_size": 7
+          }
+        }
+      },
+      "block_order": [
+        "heading_qXPbUV"
+      ],
+      "name": "Countdown",
+      "settings": {
+        "end_date": "",
+        "end_time": "",
+        "period": "am",
+        "end_message": "",
+        "hide_on_complete": true,
+        "digits_size": 1,
+        "text_size": 1,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "bg_gradient": "",
+        "color": "",
+        "digits_gradient": "",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper",
+        "text_align": "text-left",
+        "digits_size_mobile": 1,
+        "text_size_mobile": 1,
+        "text_align_mobile": "text-left--mobile"
+      }
+    },
+    "section_double_dDx9Gn": {
+      "type": "section-double",
+      "blocks": {
+        "heading_TwrUXG": {
+          "type": "heading",
+          "settings": {
+            "title": "Restoring Mother Earth",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_6cn6Xi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've made it our mission to help restore our beautiful Earth with regenerative apparel and circular clothing. Advocating for the health of our planet also means advocating for its people. Our production process actively supports a cleaner, greener way of living for both people and the planet.</p><p>Restoring Mother Earth is at the heart of our mission, and we will continue our commitment to the production of the highest quality, lowest impact linen underwear that the world has to offer.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "image_T7rFfb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Circular_chart_-_weave.png",
+            "image_width": 100,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_TwrUXG",
+        "text_6cn6Xi",
+        "image_T7rFfb"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/ffb7975.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_h39HnH": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_j4dHHK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_7f6kxT": {
+          "type": "heading",
+          "settings": {
+            "title": "Plant-based, Compostable Packaging",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_btqcCk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All of our <strong>products and packaging</strong> are completely plant-based and plastic-free.  Our paper tags and printed materials are <strong>tree-free</strong>, and made from cotton, hemp, grass and/or sugarcane. Not only are your Heavenlies biodegradable and compostable - but so are all of the packaging materials! All of our inks are plant-based, non-toxic and Oeko-Tex certified, including the tagless labels on the inside of our underwear. Our labels are made from linen and natural vegetable inks.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_j4dHHK",
+        "heading_7f6kxT",
+        "text_btqcCk"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Circular_chart_-_weave.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_slideshow_dQJgxn": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_8mTXGW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
+            "mobile_image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Eden on Earth",
+            "heading_size": 11,
+            "description": "Luxury Intimate Wear Made by Nature",
+            "text_size": 5,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#000000",
+            "first_button_text": "View products",
+            "first_button_link": "shopify://collections",
+            "first_button_type": "btn--primary",
+            "first_button_size": "",
+            "first_button_style": "btn--text",
+            "first_button_show_arrow": false,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "image_iDgTMh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lily_FP.png",
+            "mobile_image": "shopify://shop_images/Lily_FP.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Intimates with an Impact",
+            "heading_size": 11,
+            "description": "Plastic-Free Underwear Essentials",
+            "text_size": 5,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#000000",
+            "first_button_text": "View products",
+            "first_button_link": "shopify://collections",
+            "first_button_type": "btn--primary",
+            "first_button_size": "",
+            "first_button_style": "btn--text",
+            "first_button_show_arrow": false,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_8mTXGW",
+        "image_iDgTMh"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "width": "wrapper--full",
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_tab_collections_VNxHja": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_BwfThM": {
+          "type": "collection",
+          "settings": {
+            "title": "TRENDING NOW",
+            "featured_collection": "suggested-products",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_EBJTrh": {
+          "type": "collection",
+          "settings": {
+            "title": "Best Sellers",
+            "featured_collection": "new-arrivals",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_BGAtB4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "title": "Best Sellers",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_BwfThM",
+        "collection_EBJTrh",
+        "collection_BGAtB4"
+      ],
+      "custom_css": [
+        ".preorder-box {display: none;}",
+        ".grid {margin-top: 0px;}",
+        "@media (min-width: 768px) {.grid-item {box-shadow: 0 0 0 2px white; } .section-padding {--PT-MOBILE: 1px !important; padding: 15px; } {padding-top: 50px; }}",
+        "@media (max-width: 767px) {.grid-item:nth-child(odd) {padding-right: 1px; } .grid-item:nth-child(even) {padding-left: 1px; } .section-padding {--PT-MOBILE: 1px !important; padding: 5px; } {padding-top: 30px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "text": "",
+        "text_size": 3,
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 95,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_nRyQRr": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_WFwC9y",
+    "section_double_aGEtV8",
+    "section_double_jf9qdN",
+    "section_double_knX4Lj",
+    "section_double_Hk8Fbj",
+    "section_countdown_timer_yPhCtD",
+    "section_double_dDx9Gn",
+    "section_double_h39HnH",
+    "section_slideshow_dQJgxn",
+    "section_tab_collections_VNxHja",
+    "section_divider_nRyQRr"
+  ]
+}

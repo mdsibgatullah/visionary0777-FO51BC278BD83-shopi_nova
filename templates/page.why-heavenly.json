@@ -1,0 +1,735 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_7tFQ7A": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_QtwHQr": {
+          "type": "heading",
+          "settings": {
+            "title": "Benefits of Wearing Organic Linen",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_3Q3MLQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Flax: Fabric of the Future",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_QtwHQr",
+        "subheading_3Q3MLQ"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_double_jXDN9n": {
+      "type": "section-double",
+      "blocks": {
+        "heading_BnknKB": {
+          "type": "heading",
+          "settings": {
+            "title": "WELCOME TO THE FUTURE OF FASHION : FUNCTIONAL FABRICS!",
+            "text_size": 2,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_FwUDEy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Why Heavenly?",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_gd7zjk": {
+          "type": "heading",
+          "settings": {
+            "title": "Luxury Linen Underwear— More Breathable & Longer-Lasting Than Cotton",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_3GHFkK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Did you know your skin is your body's largest organ? What you put ON your body is just as important as what you put IN your body...",
+            "text_size": 4,
+            "padding_bottom": 12
+          }
+        },
+        "subheading_RpG7t4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "THE WELLNESS INDUSTRY TAUGHT US TO QUESTION WHAT WE EAT. WE ARE HERE TO QUESTION WHAT WE WEAR.",
+            "text_size": 4,
+            "padding_bottom": 12
+          }
+        },
+        "text_qPpCeY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LINEN IS THE WORLDS MOST SUSTAINABLE, WELLNESS-BOOSTING & HIGH PERFORMANCE NATURAL FIBER.</p><p>Linen is a natural fiber made from the flax plant, renowned for its restorative and metaphysical properties. Linen is the only fabric in the world that contains lignans, a unique wound healing compound (inflammation-reducing polyphenols), making it natures only \"healing\" fiber. Linen is the only fabric mentioned over 100 times in the Bible, regarded as a divine and holy material!</p><p>Organic Linen provides a wide range of benefits when it comes in contact with skin, and is often used in the medical industry for heart surgery, due to its natural wound-healing properties. Linen is naturally anti-bacterial, hypoallergenic, breathable, odor-resistant, moisture-wicking and temperature regulating— making it the premier natural fiber to protect your body's most sensitive areas. It is fertility-friendly and supports a healthy skin microbiome. Not only does linen promote wellness with wear, it lasts twice as long as cotton or synthetic fabrics, and softens with every wash!  </p><p></p><p>Heavenly Essentials is excited to offer the world's first 100% GOTS Certified Organic linen knitted fabric, made exclusively for intimate wear! We developed a revolutionary fabric and first of its-kind- linen elastic trim, exclusively made from the miracle flax plant. Our team combined these cutting-edge materials with contemporary designs, that are comfortable and stylish. We are excited to offer spiritual garments, that enhance your body's vibrational frequency and support the well-being of delicate areas.</p><p></p><h6><strong>Exclusively 100% Flax Fibers. </strong></h6>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_BnknKB",
+        "subheading_FwUDEy",
+        "heading_gd7zjk",
+        "subheading_3GHFkK",
+        "subheading_RpG7t4",
+        "text_qPpCeY"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Flax_Flower117.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "text_promo_YnpF9q": {
+      "type": "text-promo",
+      "blocks": {
+        "heading_JH3Vyx": {
+          "type": "heading",
+          "settings": {
+            "title": "1 IN 6",
+            "text_size": 10
+          }
+        },
+        "text_MFkMUm": {
+          "type": "text",
+          "settings": {
+            "content": "Women are experiencing infertility in the United States and worldwide.",
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_JH3Vyx",
+        "text_MFkMUm"
+      ],
+      "name": "Text promo",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "border": true,
+        "bg_color": "",
+        "color": "",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "inner_padding": 25,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "text_promo_jn6rTU": {
+      "type": "text-promo",
+      "blocks": {
+        "heading_y6UhBj": {
+          "type": "heading",
+          "settings": {
+            "title": "50%",
+            "text_size": 10
+          }
+        },
+        "text_DtRNdF": {
+          "type": "text",
+          "settings": {
+            "content": "Decline in Mens sperm count globally.",
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_y6UhBj",
+        "text_DtRNdF"
+      ],
+      "name": "Text promo",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "border": true,
+        "bg_color": "",
+        "color": "",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "inner_padding": 25,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_double_YDKRjL": {
+      "type": "section-double",
+      "blocks": {
+        "heading_LjcXXH": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "text_size": 2,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_QVpFQR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "No Polyester, No Plastic.",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_yccYnt": {
+          "type": "heading",
+          "settings": {
+            "title": "Why no Polyester?",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_tY6RNc": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 4,
+            "padding_bottom": 12
+          }
+        },
+        "subheading_Ud38Yq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_k3FGtg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The industry calls it \"recycled\". We call it what it is: plastic. <strong>Clothing made from polyester is created using petroleum-based plastic, a material linked to cancer risks, hormonal disruption, and infertility.</strong></p><p>A shredded bottle, spun into thread, treated with toxic chemicals, and worn against your skin, all-day long. Researchers are now finding plastic in human blood and testicular tissue.</p><p><br/>Polyester is cheap, easy to source, and carries a higher margin over natural fibers like linen. Synthetic underwear sits on the most permeable skin on your body. The chemicals it leaches are absorbing directly into your reproductive area. The vulvar/penile skin is one of the most absorbent skin areas on the body. What sits against it all day gets absorbed directly into your circulatory and lymphatic systems. </p><p></p><p>Reproductive issues are at an all time high, with 1 in 6 people globally affected by infertility. Man-made fabrics and chemical-derived dyes are directly linked with a number of health issues, including: cancer, infertility, metabolic disorders, skin problems, allergies and autoimmune diseases. Heavenly Essentials offers a natural solution to this problem!</p><p>We believe intimate wear has lost its way. Synthetic fibres, chemical finishes, and plastic-polyester construction have become the default, sold to you as premium. We believe that's backwards. We're not here to follow the industry. </p><p>We're here to restore what fabric was always meant to be: natural, traceable, and built to last. Natural fibers support healthy hormones like testosterone.</p><p></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_LjcXXH",
+        "subheading_QVpFQR",
+        "heading_yccYnt",
+        "subheading_tY6RNc",
+        "subheading_Ud38Yq",
+        "text_k3FGtg"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Sustainablity2-5x3-01-01.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_7bP6db": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_XiQ7Qk": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why Heavenly?",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_q4kAzg": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_rj3xLT": {
+          "type": "heading",
+          "settings": {
+            "title": "Necessity—Reinvented",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_JDWnT3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "NO SYNTHETICS, NO SHORTCUTS.",
+            "text_size": 4,
+            "padding_bottom": 16
+          }
+        },
+        "text_yFfHPX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Heavenly Essentials is in a league of its own. With 100% linen knit fabrics, natural material accents, and effortlessly elegant styles, there is truly no competition.</strong></p><p>We believe fabric is your second skin — what touches your body should be as pure as what you put in it. Our linen is fully biodegradable, breathable, and free from harmful chemicals, pesticides, and toxic treatments.</p><p>No hidden chemicals, no toxins. Just clean softness that lasts.</p><p><strong>Heavenly Essentials</strong> combines timeless styles with ultra-premium, organic materials. Thoughtfully designed for daily wear, that are more comfortable and durable than conventional underwear.</p><p> Every piece is made using the highest quality European flax linen and is completely chemical-free. All our products are <strong>100% plastic-free and have Zero synthetic materials or toxic dyes.</strong> </p><p><strong>* Free of Petrochemicals, Fossil Fuels, Pesticides, PFAS and BPAs.</strong></p><ul><li>Soft & Organic</li><li>Hypoallergenic</li><li>Naturally Antibacterial & Moisture-wicking</li><li>Bleach-free (no chlorine)</li><li>Thermoregulation and Breathable</li><li>Bioavailable, Wound healing properties </li></ul><p><strong>INTIMATES THAT SUPPORT YOUR WELL-BEING.</strong></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_VDbwHK": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XiQ7Qk",
+        "subheading_q4kAzg",
+        "heading_rj3xLT",
+        "subheading_JDWnT3",
+        "text_yFfHPX",
+        "buttons_VDbwHK"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/PS_Demi_3.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_fVp3m6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_9GWHGH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2665_2x_4e1e796f-fe7b-4c46-9e0c-8b38c04f9a71.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_gJPtCA": {
+          "type": "text",
+          "settings": {
+            "subheading": "Innovative Materials... from Nature",
+            "subheading_size": 3,
+            "title": "Organic Linen Elastic & Organic Linen Thread",
+            "heading_size": 7,
+            "text": "<p>Our Heavenly collection is made with only the highest quality natural materials, harvested directly from the Earth. Our intimates are breathable, supremely soft, rich in texture, and comfortable for all-day wear. We replace petroleum-based synthetics with natural alternatives.</p><p>Every pair of Heavenlies has been thoughtfully designed, down to the thread. Each piece features a premium, organic linen elastic, made from a blend of organic flax and natural tree rubber threads: the first of it's kind. All our pieces are fully biodegradable and compostable, at end-of-life, making them the most sustainable underwear to ever exist.  </p><p>As a Biblically-based brand, we believe in not mixing materials, as instructed in Levitical law, (Leviticus 19:19 and Deuteronomy 22:11). Every detail matters in the construction of our intimates. Most 'natural' underwear brands use various materials and have synthetic, polyester (plastic) trims and poly thread, which are toxic for your body and the environment. </p><p>We exclusively use FSC-certified, natural tree rubber (no synthetic rubber) in our organic linen elastic trims. Every pair is sewn with 100% organic linen sewing thread. Heavenly Essentials is proud to be the only underwear brand in the world that features these state-of-the-art materials! </p><p>After years of wear, plant your Heavenlies in the ground and watch them turn back into nutrient-rich soil - a truly regenerative and circular garment.</p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "shopify://pages/biblical-references",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9GWHGH",
+        "text_gJPtCA"
+      ],
+      "custom_css": [
+        "@media (max-width: 767px) {.hero__button {margin-bottom: -21px !important; }}"
+      ],
+      "settings": {
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_announcement_QNXt7h": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_gbJzUB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The world's first Organic linen intimates brand!</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_kPpVdy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Coming Soon: Sleepwear, Robes, Plant-Dyed Colors, Linen Lace Lingerie</strong>|Sign up for emails to stay notified</p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_MCxpJ6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Raises your body's vibrational frequency with wear!</strong></p>",
+            "text_style": "font-body",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "message_Tzz79j": {
+          "type": "message",
+          "settings": {
+            "show_wheel": false,
+            "message": "Shop Regenerative & Fertility-Friendly Underwear",
+            "text_style": "font-body",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_gbJzUB",
+        "text_kPpVdy",
+        "text_MCxpJ6",
+        "message_Tzz79j"
+      ],
+      "custom_css": [
+        "@media (max-width: 767px) {.section-padding {padding-top: 20px !important; padding-bottom: 20px !important; }}"
+      ],
+      "settings": {
+        "show_border": false,
+        "layout": "marquee",
+        "slider_speed": 5,
+        "text_alignment": "center",
+        "marquee_speed": 50,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "text_size": 2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
+    },
+    "section_collections_list_JFaMKJ": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_pxCjLe": {
+          "type": "collection",
+          "name": "Organic Flax Linen",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/100-natural-latex-624102_grande_e3f894ae-417d-4040-879d-3415f732d12b.webp",
+            "title": "Natural Tree Rubber (FSC Certified)"
+          }
+        },
+        "collection_EBxtej": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/Farmer_Flax_Flower_HD.png",
+            "title": "Organic Flax"
+          }
+        },
+        "collection_rr7FPC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/Elastic.png",
+            "title": "Organic Linen Elastics"
+          }
+        },
+        "collection_ibhtWF": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_image": "shopify://shop_images/81z4PqId9ML._UF1000_1000_QL80.jpg",
+            "title": "GOTS Organic Linen Fabrics"
+          }
+        }
+      },
+      "block_order": [
+        "collection_pxCjLe",
+        "collection_EBxtej",
+        "collection_rr7FPC",
+        "collection_ibhtWF"
+      ],
+      "custom_css": [
+        "@media (hover: hover) {.collection-item__info span {background: none !important; background-size: auto !important; background-position: initial !important; background-repeat: initial !important; transition: none !important; }}",
+        "@media (hover: hover) {.collection-item__bg .image-wrapper {transition: unset; --transform-scale: unset; }}"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Certified Organic & Natural Materials",
+        "description": "",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "grid": 4,
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "accordion_with_image_CtzmGa": {
+      "type": "accordion-with-image",
+      "blocks": {
+        "accordion_YepL79": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": true,
+            "heading": "Why Organic Linen?",
+            "text": "<p>Organic linen is an ancient miracle fiber, that contains skin healing and metaphysical properties. It is the only fabric mentioned more than 100 times in the Bible. Linen is breathable, UV-protectant, highly absorbent, moisture-wicking, anti-inflammatory & anti-static. It is temperature regulating, durable & long-lasting!</p><p><strong>LINEN VS. COTTON: </strong>Linen is the strongest and most comfortable natural fiber in the world—highly absorbent, fast-drying, and incredibly durable, lasting up to three times longer than cotton or synthetics. It causes 1.5x less perspiration and is 20% more absorbent than cotton, making it a superior natural fabric. Its production requires twenty times less water and energy than cotton. Flax—the plant from which linen is derived—is the world’s most sustainable and regenerative crop. All of our flax is organically grown, pesticide-free in France, ensuring the purest and most environmentally friendly fiber on the planet.</p><p>Unlike cotton, which traps moisture against the skin, linen effectively absorbs and wicks away sweat and toxins, making it ideal for sensitive skin and conditions such as night sweats, hot flashes, and yeast infections. Its antibacterial qualities may help prevent urinary tract infections, while its natural cooling effect makes it perfect for hot climates. Flax is even used medically in surgical sutures, bandages, and wound dressings due to its biocompatibility and naturally occurring lignans, which have anti-inflammatory properties. Biblically, linen holds divine significance—it was used for priests’ garments, the clothing of saints, and even wrapped around Jesus after His crucifixion. Believed to reduce fevers and soothe skin irritation, linen is regarded as a sacred, healing fabric. Choosing organic linen supports both personal health and environmental well-being: it keeps air and water clean by avoiding toxic manufacturing processes and pesticides, ensuring a purer, more sustainable connection between the earth, the body, and the spirit.</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_iwgYpg": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "Organic Linen Advantages",
+            "text": "<p><strong>1. Strength and durability</strong></p><p>Linen is considered to be the strongest of all natural fibers. It is highly resistant to wear and tear and strengthens with every wash, making it a long-lasting fabric. Organic linen can last two to three times as long as other natural fabrics.</p><p><strong>2. Breathable and highly absorbent</strong></p><p>Linen is beautifully breathable, and allows more airflow to ventilate your body. It is also highly absorbent, retaining up to 20% of its dry weight in moisture. This makes linen the perfect fabric for hot temperatures, due to it's temperature regulating and moisture-wicking properties. </p><p><strong>3. It's a natural fiber with a lower environmental impact than cotton</strong></p><p>The production process of linen requires significantly less water than that of cotton, giving it a lower water footprint. Almost all of the flax plant can be used, making it a zero waste crop. Plus, being a natural fiber, it is also biodegradable.<br/><br/><strong>4. Naturally insect repelling</strong></p><p>Linen has natural insect-repelling properties due to the presence of lignin, a compound that deters pests like moths. This makes it an excellent choice for long-term storage, as it resists damage from common fabric-eating insects.</p><p><strong>5. Luxurious</strong></p><p>Linen is considered to be the most luxurious fabric in the world, due to its unique blend of softness, strength, and natural sheen, which only improves with time and use. Its rich texture, combined with its cooling properties, makes it a premium choice for essential intimates.</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_zcFPF9": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "How is our Linen so Soft?",
+            "text": "<p>Heavenly Essentials developed a specialty type of linen fabric, by looping together linen fibers- to create a knitted flax fabric (the same fabric type most commonly used for underwear). This gives all our products the traditional underwear look, feel and softness; except made from 100% organic linen! Our long-lasting linen gets softer with every wash and lasts up to three times as long as other materials.</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_mrk4rn": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "Certified Organic Dyes",
+            "text": "<p>Heavenly Essentials only uses non-toxic, biodegradable, natural, plant-based dyes that contain <strong>zero heavy metals</strong> or chemicals. Our natural dyes are GOTS (Global Organic Textile Standard) certified organic and NODS certified (Natural Organic Dye Standard). All our dyes are ethically sourced and botanically-based, made from: plants, flowers, fruits, vegetables or minerals. We are exclusively developing herbal-infused intimates, that offer enhance wellness with wear. We strictly use plant-based dyes, and never use colors made from insects. Our dyes do not produce any waste water and are environmentally safe. </p><p><strong>Our white fabrics are exclusively whitened using oxygen and are free from bleach and harmful chemicals.</strong> Heavenly Essentials mission is to create high frequency, healing, heavenly clothing, and therefore do not carry any garments in the color black. Black is the absence of color, and wearing black strains your bodies bio-field and absorbs harmful energy and EMF radiation. All of our colors are produced in small-batches, and dyed by hand at a natural, dye house in Los Angeles.</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_jUHzxC": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "Health Benefits of Natural Fibers",
+            "text": "<p>Organic Linen is a natural alternative to chemical-laden synthetics, and can help promote skin healing. Linens hypoallergenic and antibacterial properties can soothe sensitive skin and reduce irritation. Synthetic fabrics (like Polyester and Spandex) and toxic dyes, are industry-standard and regularly used for underwear, which are directly absorbed through the skin when worn and enter into the bloodstream- causing a range of diseases and health complications. Microplastics (which includes harmful chemicals like BPA & PUFAS) were found in the blood of people who regularly wore plastic (Polyester) clothing. Heavenly Essentials offers a plant-based, organic alternative!</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_iVPkJ3": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": true,
+            "heading": "Compostability",
+            "text": "<p>Heavenly Essentials underwear, intimates and sleepwear will never biodegrade while wearing or washing. They are actually designed to be stronger and last longer than conventional clothing. Flax is regarded as the most durable natural fiber in the world. <strong>Natural fibers can last up to three times longer, making them a great investment! </strong>Only when your garmets time is up, we recommend planting them in the compost.</p><p><strong>When composted, linen Biodegrades (turns back to Earth) in as fast as two weeks! </strong></p>",
+            "padding_bottom": 0
+          }
+        },
+        "image_84BKdx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dovecross.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-right",
+            "bg_color": "",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_YepL79",
+        "accordion_iwgYpg",
+        "accordion_zcFPF9",
+        "accordion_mrk4rn",
+        "accordion_jUHzxC",
+        "accordion_iVPkJ3",
+        "image_84BKdx"
+      ],
+      "settings": {
+        "left_width_percentage": 45,
+        "right_width_percentage": 51,
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "text_promo_f3iAGA": {
+      "type": "text-promo",
+      "blocks": {
+        "heading_khFr3K": {
+          "type": "heading",
+          "settings": {
+            "title": "On Earth as it is in Heaven",
+            "text_size": 6
+          }
+        },
+        "text_DfXhGU": {
+          "type": "text",
+          "settings": {
+            "content": "Matthew 6:10",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "heading_khFr3K",
+        "text_DfXhGU"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "border": true,
+        "bg_color": "",
+        "color": "",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "inner_padding": 50,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_7tFQ7A",
+    "section_double_jXDN9n",
+    "text_promo_YnpF9q",
+    "text_promo_jn6rTU",
+    "section_double_YDKRjL",
+    "section_double_7bP6db",
+    "section_custom_content_fVp3m6",
+    "section_announcement_QNXt7h",
+    "section_collections_list_JFaMKJ",
+    "accordion_with_image_CtzmGa",
+    "text_promo_f3iAGA"
+  ]
+}

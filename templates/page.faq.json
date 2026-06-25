@@ -1,0 +1,403 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-third": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Returns and Exchange Questions"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What is your refund policy?",
+            "content": "<p>Please refer to our refund policy by clicking <a href=\"/pages/refund-policy\" title=\"Refund Policy\">this</a> link.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1"
+      ],
+      "custom_css": [
+        ".accordion__title {font-size: 16px;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-second": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Shipping Questions"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How long does shipping take?",
+            "content": "<p>Shipping times vary depending on your location. Typically, orders are processed within 1-2 business days and arrive within 3-7 business days for standard shipping. Expedited shipping options are also available at checkout.</p><h4></h4>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do you ship internationally?",
+            "content": "<p>Yes, we do offer international shipping to many countries. Shipping costs and delivery times vary based on the destination. You can see the estimated shipping costs and times during the checkout process.</p><h4></h4>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How can I track my order?",
+            "content": "<p>Once your order has been shipped, you will receive a confirmation email with a tracking number. You can use this number to track your order's progress online.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2",
+        "question-3"
+      ],
+      "custom_css": [
+        ".accordion__title {font-size: 16px;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "bg_color": "#ffffff",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_eYe9iL": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_x4dLjn": {
+          "type": "heading",
+          "settings": {
+            "title": "Orders Questions"
+          }
+        },
+        "question_46i44j": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can I cancel or edit my order?",
+            "content": "<p>Once you've received an order confirmation, you can not change it yourself.</p><p>We kindly ask you to send an email to <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.com</a>  as soon as possible and our team will do their best to help you.</p><p>If your package has already been shipped, we cannot edit it.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_VnqCVH": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "My tracking link shows \"delivered\", but I never received my order. What now?",
+            "content": "<p>Contact the shipping company directly. If they are not able to help you, please contact us at <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.com</a> and we will do our best to help you find your package. </p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_6qF4wa": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What happens if my package is lost or stolen?",
+            "content": "<p>After delivery of the package, (unless lost in the mail by the carrier), which is insured, Heavenly Essentials is not responsible for lost or stolen packages. If you require any additional assistance, please contact us at <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.com</a> and we will do our best to resolve.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x4dLjn",
+        "question_46i44j",
+        "question_VnqCVH",
+        "question_6qF4wa"
+      ],
+      "custom_css": [
+        ".accordion__title {font-size: 16px;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-first": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_z449wJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Sizing Questions"
+          }
+        },
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What sizes do you offer?",
+            "content": "<p>We offer a wide range of sizes to ensure the perfect fit for every body. Our sizes typically range from XS to XXL, and we also provide detailed size charts on each product page to help you choose the right size. If you're unsure, our customer support team is happy to assist!</p><h4></h4>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do I find my correct size?",
+            "content": "<p>Our sizing follows standard US size measurements. We recommend using our size guide, which includes instructions on how to measure yourself accurately. If you require further guidance, our team can help you find the perfect fit based on your measurements and preferences.</p><h4></h4>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z449wJ",
+        "faq-0",
+        "faq-1"
+      ],
+      "custom_css": [
+        ".accordion__title {font-size: 16px;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_FB7CCm": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_rzVE47": {
+          "type": "heading",
+          "settings": {
+            "title": "Product Questions"
+          }
+        },
+        "question_dQmYpg": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What kind of dyes are used?",
+            "content": "<p>Our fabrics are GOTS certified organic. <strong>Our white fabrics are exclusively whitened using oxygen and are free from bleach and harmful chemicals. </strong><em>All colors use natural, plant-based dyes.</em></p><p>We only use natural dyes - made from plants, flowers, fruits, vegetables and/or minerals. All of our dyes are GOTS (Global Organic Textile Standard) certified organic, NODS (Natural Organic Dye Standard) and all-natural. Everything we use is non-toxic, biodegradable, low impact, contain zero heavy metals, no insects and produces zero waste water.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_hbFgft": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What materials are your products made from?",
+            "content": "<p>Heavenly Essentials pieces are made from <strong>100% GOTS certified Organic Linen fabric, </strong>100% organic linen sewing thread and natural tree rubber elastics (70% linen, 30% tree rubber). 0 synthetics.</p><p>Our products are made from high-quality and premium European flax linen materials, designed for maximum comfort and durability. We prioritize softness, breathability, and long-lasting wear in all our undergarments.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_3GiRD3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Where are Heavenly Essentials materials sourced?",
+            "content": "<p>All of our products are made from Organic, Chemical-free, Bleach-free and Natural Flax from France. Our products are manufactured in Europe and sewn locally in the USA. </p><p>We are committed to an ethical and transparent supply chain.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rzVE47",
+        "question_dQmYpg",
+        "question_hbFgft",
+        "question_3GiRD3"
+      ],
+      "custom_css": [
+        ".accordion__title {font-size: 16px;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_VtmVJM": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_d9yrbf": {
+          "type": "heading",
+          "settings": {
+            "title": "Care Questions"
+          }
+        },
+        "question_CAhEYF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do I care for my items?",
+            "content": "<p>All HEAVENLY ESSENTIALS items can be hand or machine-washed, on gentle cycle only. If using a washing machine, it must be set on delicate cycle setting. Hand washing will help to extend the life of your garment, and is also more gentle on the environment. We recommend using a wash bag in cool water and laying flat dry - reducing energy and also better for your items longevity.</p><p>Avoid using bleach or chemical detergents. To Whiten & Brighten your Heavenlies, we recommend a bleach-free alternative, like natural Oxygen Whitener, that can be added to the wash cycle. If your garments become 'sheer' over time, we recommend washing and putting in the dryer (when damp) for 10-15 minutes, on the lowest heat setting, so the fibers can expand and thicken.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_j7V7ea": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Compostability?",
+            "content": "<p>Heavenly Essentials underwear is a unique combination of 100% GOTS certified organic flax linen, organic linen thread, and flax/natural tree rubber elastics- making them one of the world's only compostable underwear. Please note that home compost times may vary, due to your compost's unique moisture and microbiome environment. </p><p>Heavenly Essentials underwear are 100% home and commercially compostable! Made from a unique combination of plant-based materials, our panties compost in approximately 2 weeks (temperature, microbiome compost composition dependent). Simply wash, cut up and plant in the compost! </p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_jBXtVF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What is the lifespan of a pair?",
+            "content": "<p><strong>Natural flax fibers can last up to three times longer than synthetics, cotton or other materials, making them a great investment! </strong>With gentle wash and care, <em>Heavenly Essentials are designed to be stronger and last longer than conventional clothing. </em></p><p></p><p>High-quality underwear should typically last several years of regular rotation. However, the exact lifespan depends on how often you wear a specific pair and your laundry routine. </p><p><br/>Expected Lifespan by Usage</p><ul><li>Heavy Rotation (1-2x a week): 6 to 12 months.</li><li>Moderate Rotation (every 2-3 weeks): 2 to 3 years.</li></ul><p><em>Flax is the most durable natural fiber to exist. After years of love and wear, we recommend planting them in the compost. A fully regenerative garment!</em></p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_HbyeMR": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Will HEAVENLY biodegrade on my body?",
+            "content": "<p>Heavenly Essentials underwear, tees and essentials will never biodegrade while wearing or washing them. Only when your heavenlies time is up, we recommend planting them vs. throwing in the trash. Made from flax (plant-based) when planted turn back to Earth in as fast as two weeks. </p><p>In the compost, your Heavenlies will become nutrient rich soil that helps combat climate change. <a href=\"/pages/composting-at-home-guide\" target=\"_blank\" title=\"Composting at Home Guide\">Read here </a>our guide on how to compost. No compost? No problem. <a href=\"/products/compost-collective-membership\" target=\"_blank\" title=\"Compost Collective Membership\">Join our Compost Collective </a>Program and we will compost for you!</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d9yrbf",
+        "question_CAhEYF",
+        "question_j7V7ea",
+        "question_jBXtVF",
+        "question_HbyeMR"
+      ],
+      "custom_css": [
+        ".accordion__title {font-size: 16px;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq-third",
+    "faq-second",
+    "section_accordion_group_eYe9iL",
+    "faq-first",
+    "section_accordion_group_FB7CCm",
+    "section_accordion_group_VtmVJM"
+  ]
+}

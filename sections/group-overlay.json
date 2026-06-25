@@ -1,0 +1,99 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "cookie": {
+      "type": "overlay-cookie",
+      "disabled": true,
+      "settings": {
+        "show_cookies_popup": false,
+        "position": "popup-cookies--left"
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "blocks": {
+        "cart-message": {
+          "type": "cart-message",
+          "settings": {
+            "cart_custom_message_text": "<p>Use coupon code <strong>WELCOME10</strong> for 10% off your first order.</p>",
+            "cart_custom_message_color": "",
+            "pin_to_bottom": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Cart"
+          }
+        },
+        "free-shipping": {
+          "type": "free-shipping",
+          "settings": {
+            "message": "You are ||amount|| away from free shipping.",
+            "free_shipping_gradient": "",
+            "pin_to_bottom": false
+          }
+        },
+        "products": {
+          "type": "products",
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "upsell-products": {
+          "type": "upsell-products",
+          "settings": {
+            "upsell_auto_open": true,
+            "pin_to_bottom": false
+          }
+        },
+        "order-note": {
+          "type": "order-note",
+          "disabled": true,
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "gift-note": {
+          "type": "gift-note",
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "checkout-buttons": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false,
+            "show_view_cart_button": false,
+            "pin_to_bottom": true
+          }
+        }
+      },
+      "block_order": [
+        "cart-message",
+        "title",
+        "free-shipping",
+        "products",
+        "upsell-products",
+        "order-note",
+        "gift-note",
+        "checkout-buttons"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "cookie",
+    "cart-drawer"
+  ]
+}

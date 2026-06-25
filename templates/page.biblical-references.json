@@ -1,0 +1,344 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_UW6xbj": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_EG6j9A": {
+          "type": "heading",
+          "settings": {
+            "title": "BIBLICAL REFERENCES",
+            "text_size": 7,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_EG6j9A"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 4
+      }
+    },
+    "section_double_jg7xyh": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_GrP9Mz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Leviticus 19:19; Deuteronomy 22:11",
+            "text_size": 3,
+            "padding_bottom": 12
+          }
+        },
+        "heading_EGfVJ3": {
+          "type": "heading",
+          "settings": {
+            "title": "Inspired by Mosaic Law & Torah",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_Ug383X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the Biblical inspiration behind the brand. Heavenly Essentials garments follow the Bibles instructions for heaven-approved apparel. Organic linen is an ancient miracle fiber, that contains skin healing and metaphysical properties. It is the only fabric mentioned over 100 times in the Bible. Linen is breathable, UV-protectant, highly absorbent, moisture-wicking, anti-inflammatory and anti-static. It is temperature regulating, durable & long-lasting!</p><p>In the Torah, the \"Mosaic Law\" provides clothing guidelines, most notably the prohibition of wearing garments made of mixed materials, (especially two different kinds of fibers), which contaminates the fabrics frequency and defiles the wearers energy flow and light body. </p><p>Heavenly Essentials adheres to 'Shatnez', all items made exclusively from a single material: organic flax. We offer pure linen pieces: linen fabric, linen elastic, sewn with linen thread. Not a stitch of synthetic or mixed materials!</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 4
+          }
+        },
+        "buttons_zLadQB": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "READ MORE",
+            "button_url": "shopify://collections/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 14
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GrP9Mz",
+        "heading_EGfVJ3",
+        "text_Ug383X",
+        "buttons_zLadQB"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/dovecross_466346b9-2e64-4f48-ae42-55ca22af2be4.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "section_double_qBCXAp": {
+      "type": "section-double",
+      "blocks": {
+        "heading_yLW3rt": {
+          "type": "heading",
+          "settings": {
+            "title": "The Color White",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_qfg7Rp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>White is all colors of the visible light spectrum combined. In Scripture, white represents purity, holiness, and renewal—a reflection of God's light. Inspired by heaven, white linen is the material for sacred garments of angels and the robes of the redeemed. Linen is specified for priestly garments, signifying Godliness and purification of the soul.</p><p>Heavenly Essentials mission is to create high frequency, heavenly clothing, and therefore do not offer any garments in the color black. Black is the absence of color, and wearing black strains the bodies bio-field and absorbs dark/negative energy and harmful EMF radiation. </p><p><strong>Our white fabrics are exclusively whitened using oxygen and are free from bleach and harmful chemicals. </strong>All colors use natural, plant-based dyes.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 14
+          }
+        },
+        "buttons_PhpEH7": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_text": "READ MORE",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_yLW3rt",
+        "text_qfg7Rp",
+        "buttons_PhpEH7"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/RescuerRestorationPrints.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_QrXmLg": {
+      "type": "section-double",
+      "blocks": {
+        "heading_CGJjPK": {
+          "type": "heading",
+          "settings": {
+            "title": "Holy Bible Scriptures",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_wB8yCJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Revelation 19:14</strong></p><p>The armies of heaven were following him, riding on white horses and dressed in fine linen, white and pure.</p><p><strong>Revelation 3:4-18</strong></p><p>They will walk with me, dressed in white, for they are worthy. The one who is victorious will, like them, be dressed in white. </p><p><strong>Revelation 19:8</strong><br/>It was given to her to clothe herself in pure white linen, bright and clean; for the fine linen is the righteous acts of the saints.</p><p><strong>Revelation 7:9</strong></p><p>\"The Great Multitude in White Robes\" After this I looked, and there before me was a great multitude that no one could count, from every nation, tribe, people and language, standing before the throne and before the Lamb. They were wearing white robes and were holding palm branches in their hands.</p><p><strong>Revelation 15:6</strong></p><p>The seven angels who had the seven plagues came out of the temple, clothed in linen, clean and bright, and girded around their chests with golden sashes.<br/></p><p><strong>Exodus 39:28</strong></p><p>The turban and the special head coverings were made of fine linen, and the undergarments were also made of finely woven linen.</p><p><strong>Ezekiel 44:17-18</strong></p><p>They shall be clothed with linen garments. They shall have linen bonnets upon their heads and shall have linen breeches upon their loins.</p><p><strong>John 19:40</strong></p><p>They took the body of Jesus, and wound it in linen clothes with spices. (Messiah's burial cloth)</p><p><strong>Leviticus 16:4</strong></p><p>He shall put on the holy linen tunic, and the linen undergarments shall be next to his body, and he shall be girded with the linen sash and attired with the linen turban (these are holy garments). </p><p><strong>1 Chronicles 15:27</strong><br/>David was clothed with a robe of fine linen with all the Levites who were carrying the ark. David also wore an ephod of linen.</p><p><strong>Proverbs 31:13-24</strong></p><p>The Wife of Noble Character… She selects wool and flax; She is clothed in fine linen and purple. She makes linen garments, and sells them, and supplies robed sashes unto the merchants.</p><p></p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_CGJjPK",
+        "text_wB8yCJ"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Bible_Bed_2f25a56c-a529-4b1b-ba8d-5cf59d7c9fad.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_DeG3A7": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_XxA38P": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Exodus 28:42; Exodus 39:28; Leviticus 6:10; Leviticus 16:4",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_J6AtaH": {
+          "type": "heading",
+          "settings": {
+            "title": "Spiritual Protection Garments",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_P9cHBm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The frequency (energy vibration) of linen is remarkable. Linen has the highest fabric frequency of any natural fabric, with a signature of 5,000 Mhz. Biblically, this is the spiritual-scientific reason linen robes and linen undergarments are the specific material instructed for the Priests to wear in the Temple, and the clothing of saints and angels. </p><p>According to Quantum Physics and Biochemistry, everything in the Universe is made up of atoms, which are molecules vibrating at specific measurable rates, known as frequencies. Every human being and living organism emits their own unique frequency. </p><p>The high frequency of linen serves as a biofield shield to low frequencies (demons) and helps serve as a protective barrier to the wearers aura. Linen improves wellness with wear, since the human body has a resonant frequency range of 70-100 Mhz, and the high frequency of linen transfers to the body, increasing the wearers personal frequency, energy and well-being.</p><p></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XxA38P",
+        "heading_J6AtaH",
+        "text_P9cHBm"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/bodyauracc.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_wcNLhq": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_MVbHG8": {
+          "type": "heading",
+          "settings": {
+            "title": "Heaven on Earth",
+            "heading_size": 11
+          }
+        },
+        "text_LC8RLN": {
+          "type": "text",
+          "settings": {
+            "description": "Regenerative & Restorative Fabrics—Wearable Wellness.",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_CwKRKp": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "shopify://collections/all",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MVbHG8",
+        "text_LC8RLN",
+        "button_CwKRKp"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Screenshot_2025-11-07_at_10.59.57_PM.png",
+        "link": "",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_FxFqVa": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 27
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_UW6xbj",
+    "section_double_jg7xyh",
+    "section_double_qBCXAp",
+    "section_double_QrXmLg",
+    "section_double_DeG3A7",
+    "section_hero_wcNLhq",
+    "section_divider_FxFqVa"
+  ]
+}

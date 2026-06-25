@@ -1,0 +1,404 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_WFwC9y": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_zJXrQx": {
+          "type": "heading",
+          "settings": {
+            "title": "Care Guide",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_zYiVP8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>All Heavenly garments have been crafted with longevity in mind</em>. See our helpful instructions on specific fabric care, to ensure your pieces remain at their finest.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 6
+          }
+        }
+      },
+      "block_order": [
+        "heading_zJXrQx",
+        "text_zYiVP8"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 38,
+        "padding_bottom": 40
+      }
+    },
+    "section_double_jf9qdN": {
+      "type": "section-double",
+      "blocks": {
+        "heading_tWgBd4": {
+          "type": "heading",
+          "settings": {
+            "title": "Organic Linen",
+            "text_size": 8,
+            "padding_bottom": 8
+          }
+        },
+        "text_QqGVrr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We recommend hand-washing your linen garments or using the gentle cycle in the machine at 40° cold water, with a natural detergent. Do not tumble dry, rub or wring out the garment after washing, as it can damage the fibres. </p><p>Wash separately with like colors, and avoid using bleach or chemical detergents. To whiten and brighten your Heavenlies, we recommend a bleach-free alternative, like natural Oxygen powder, that can be added to the wash cycle. If your garments become 'sheer' over time, we recommend putting in the dryer, on the lowest heat setting, so the fibers can expand and thicken.</p><p>Always air-dry items flat or air fluff (low heat), and avoid tumble drying, to prevent unwanted shrinkage- and extend the longevity of your pieces. Low-heat ironing is great to remove wrinkles. Unlike traditional woven linen, knitted linen fabric does not crease!</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_yr6fMH": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "shopify://pages/detailed-care-instructions",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_tWgBd4",
+        "text_QqGVrr",
+        "buttons_yr6fMH"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/943ed.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_nWjKUV": {
+      "type": "section-double",
+      "blocks": {
+        "heading_bm6Pwr": {
+          "type": "heading",
+          "settings": {
+            "title": "Organic Plant-Dyes",
+            "text_size": 8,
+            "padding_bottom": 8
+          }
+        },
+        "text_NBxkLg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To preserve the beauty and integrity of your Heavenly pieces, we recommend gentle care that honors the natural, plant-based dyes and herbal infusions. Since our colors are derived from botanically sourced ingredients— plants, flowers, fruits, vegetables, and minerals, we recommend washing your items in cold water with natural, eco-friendly detergent, and avoid harsh chemicals/ bleach. </p><p>Wash with like colors. Plant-dyes fade naturally over time when washed, and batches may vary in pigment and shade. Line drying out of direct sunlight is best to maintain vibrancy and protect the herbal infusions that support wellness with wear. </p><p>Our plant dyes are GOTS and NODS certified— organic, biodegradable, non-toxic, and environmentally safe. </p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_bm6Pwr",
+        "text_NBxkLg"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/6a00d8358081ff69e201bb09794fd5970d-pi.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_knX4Lj": {
+      "type": "section-double",
+      "blocks": {
+        "heading_HYMNAH": {
+          "type": "heading",
+          "settings": {
+            "title": "Organic Linen Lace",
+            "text_size": 8,
+            "padding_bottom": 8
+          }
+        },
+        "text_dBbTAX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ethereal and elegant, linen lace is a primary feature of our lingerie collections. We use French Leavers lace, made from 100% organic linen fibers.</p><p>Due to the fine nature of lace, it must be treated with great care to avoid damage when washing. Ideally, it should be washed by hand. If using a washing machine, be sure to use a delicate cycle at a low temperature, and use a wash bag.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_HYMNAH",
+        "text_dBbTAX"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/whitelaceset.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_Hk8Fbj": {
+      "type": "section-double",
+      "blocks": {
+        "heading_TXqNME": {
+          "type": "heading",
+          "settings": {
+            "title": "Copper & Gemstone Details",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        },
+        "text_EkjDVb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>(Exodus 28:15-21)</strong></p><p>Inspired by the Priests breastplate for holy garments in the Bible. Avoid machine washing or tumble drying, as these methods can damage the metal accessories, crystal accents, and the integrity of the natural materials. To preserve the beauty and integrity of your Heavenly undergarments, which feature real copper, pearl and biblical gemstone details, we recommend gentle, mindful care. </p><p>Gently hand wash, reshape and lay flat to dry. Always hand wash your bras using cool water and a natural detergent free of harsh chemicals, bleach, or synthetic fragrances. Avoid soaking for extended periods, and do not wring or twist the fabric, as this can stress the natural fibers and delicate embellishments.</p><p>Copper is a living metal that will naturally patina over time, adding unique character to your garment. To maintain its warm glow, gently buff the copper details with a soft, dry cloth after wear to remove oils or moisture. Avoid storing your bra in damp environments that may cause discoloration or degrade the organic elements. </p><p>Because our designs are completely plastic-free and made from natural fibers and organic materials, proper care not only extends the life of your lingerie, but also supports our shared commitment to sustainability and conscious luxury.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_TXqNME",
+        "text_EkjDVb"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_2": "shopify://shop_images/AdobeStock_442899581_1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collections_list_gexhKE": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_hTnKBn": {
+          "type": "collection",
+          "settings": {
+            "collection": "100-organic-knit-linen",
+            "collection_image": "shopify://shop_images/Bikini_BP_225c9a68-eb87-47f8-9570-0f018ec57dc7.jpg",
+            "title": ""
+          }
+        },
+        "collection_TQyw8i": {
+          "type": "collection",
+          "settings": {
+            "collection": "100-organic-woven-linen",
+            "collection_image": "shopify://shop_images/BoxerShortWhite.jpg",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_hTnKBn",
+        "collection_TQyw8i"
+      ],
+      "custom_css": [],
+      "name": "Collection list",
+      "settings": {
+        "title": "",
+        "description": "<h3>Shop Linen</h3><p>Explore our organic linen collections.</p>",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "layout": "grid",
+        "aspect_ratio": 0.8,
+        "grid": 2,
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 29,
+        "padding_bottom": 13
+      }
+    },
+    "section_tab_collections_VNxHja": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_BwfThM": {
+          "type": "collection",
+          "settings": {
+            "title": "TRENDING NOW",
+            "featured_collection": "suggested-products",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_EBJTrh": {
+          "type": "collection",
+          "settings": {
+            "title": "Best Sellers",
+            "featured_collection": "new-arrivals",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_BGAtB4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "title": "Best Sellers",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_BwfThM",
+        "collection_EBJTrh",
+        "collection_BGAtB4"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".preorder-box {display: none;}",
+        ".grid {margin-top: 0px;}",
+        "@media (min-width: 768px) {.grid-item {box-shadow: 0 0 0 2px white; } .section-padding {--PT-MOBILE: 1px !important; padding: 15px; } {padding-top: 50px; }}",
+        "@media (max-width: 767px) {.grid-item:nth-child(odd) {padding-right: 1px; } .grid-item:nth-child(even) {padding-left: 1px; } .section-padding {--PT-MOBILE: 1px !important; padding: 5px; } {padding-top: 30px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "text": "",
+        "text_size": 3,
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 95,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_nRyQRr": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_WFwC9y",
+    "section_double_jf9qdN",
+    "section_double_nWjKUV",
+    "section_double_knX4Lj",
+    "section_double_Hk8Fbj",
+    "section_collections_list_gexhKE",
+    "section_tab_collections_VNxHja",
+    "section_divider_nRyQRr"
+  ]
+}

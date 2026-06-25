@@ -1,0 +1,176 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "text_DH7UQE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free shipping on orders over $100 in US</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_9eE3GL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Exclusive gift with purchase over $300</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_hGQXEg": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Sitewide Summer Sale! Up to 30% Off with code: SUMMER30</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_DH7UQE",
+        "text_9eE3GL",
+        "text_hGQXEg"
+      ],
+      "settings": {
+        "show_border": false,
+        "layout": "slider",
+        "slider_speed": 5,
+        "text_alignment": "center",
+        "show_arrows": false,
+        "marquee_speed": 100,
+        "message_spacing": 30,
+        "text_size": 2,
+        "bg_color": "#212121",
+        "color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "image_EGY8dd": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify://shop_images/IMG_7481_2_74c87e94-bd44-426a-9c46-c64ee953ec96.jpg",
+            "aspect_ratio": 0.8,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "HEAVENLY COLLECTION",
+            "link_text": "Heavenly Comfort, Earthly Purpose – Elevated Luxury, Thoughtfully Made",
+            "link": "shopify://collections/heavenly-collection",
+            "text_color": ""
+          }
+        },
+        "image_TeyN9B": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image": "shopify://shop_images/140edfffff.jpg",
+            "aspect_ratio": 0.8,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "REFINED COMFORT, NATURALLY EMPOWERED",
+            "link_text": "Essential Style for the Conscious Man",
+            "link": "shopify://collections/men",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EGY8dd",
+        "image_TeyN9B"
+      ],
+      "custom_css": [
+        ".hero__description {border-top: 1px solid white; text-transform: capitalize; font-size: 14px;}",
+        ".hero__title {padding: 0px; margin: 0px;}",
+        ".navtext,.header__mobile__hamburger,.header__logo__link {font-size: 12.3px; font-weight: 300;}",
+        "@media (max-width: 767px) {.navlink .icon {width: 20px; height: 20px; } .hero__description {border-top: 1px solid white; text-transform: capitalize; font-size: 12px; } .header__mobile__hamburger .icon {width: 20px; height: 20px; }}",
+        ".predictive-search {background: white;}",
+        ".theme__header {--PT: 14px; --PB: 6px;}"
+      ],
+      "settings": {
+        "header_sticky": true,
+        "header_style": "logo_center_menu_left",
+        "show_separator_line": false,
+        "separator_opacity": 100,
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "cart",
+        "logo": "shopify://shop_images/HE_B_Logobew.png",
+        "logo_max_limit": 130,
+        "logo_max_limit_mobile": 110,
+        "main_menu_linklist": "main-menu-copy",
+        "mobile_menu_linklist": "main-menu-copy",
+        "enable_search": true,
+        "show_social_icons": false,
+        "button_text": "",
+        "button_link": "",
+        "button_type": "btn--primary",
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "highlight_item": "Sale",
+        "highlight_item_color": "#ab8c52",
+        "transparent_home": true,
+        "transparent_product_page": false,
+        "transparent_collection": true,
+        "transparent_article": true,
+        "transparent_page": true,
+        "transparent_logo": "shopify://shop_images/Heavenly_Essentials_Bolded.50_e4b24a31-fbea-4e5a-81a5-63d16d9feb39.png",
+        "secondary_menu_linklist": "",
+        "tertiary_menu_linklist": "",
+        "padding_top": 21,
+        "padding_bottom": 18
+      }
+    },
+    "section_custom_code_TgdQY7": {
+      "type": "section-custom-code",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "code": "",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header",
+    "section_custom_code_TgdQY7"
+  ]
+}

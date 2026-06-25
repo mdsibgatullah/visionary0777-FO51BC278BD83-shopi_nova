@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "show_overlay_text": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "main": {
+      "type": "collection",
+      "disabled": true,
+      "custom_css": [
+        ".product-item {border-top: 2px solid lightgray !important; border-left: 1px solid lightgray !important; border-bottom: 1px solid lightgray !important;}",
+        ".product-item:last-child {border-right: 1px solid lightgray !important;}",
+        ".product-item__bg__slide {padding: 1px !important;}",
+        ".collection__nav {height: 34px; align-items: center !important;}",
+        ".popout--sort {height: 34px !important;}",
+        ".popout--group {height: 34px !important;}",
+        ".preorder-box {display: none;}"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-closed",
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 24,
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_eyWnBC": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_44MjFy": {
+          "type": "heading",
+          "settings": {
+            "title": "COMING SOON",
+            "text_size": 8,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_44MjFy"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "section_rich_text_eyWnBC"
+  ]
+}

@@ -1,0 +1,469 @@
+{% schema %}
+{
+  "name": "Image and Accordion",
+  "max_blocks": 7,
+  "settings": [
+    {
+      "type": "range",
+      "id": "left_width_percentage",
+      "label": "Left Side Width Percentage",
+      "min": 10,
+      "max": 90,
+      "step": 1,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "right_width_percentage",
+      "label": "Right Side Width Percentage",
+      "min": 10,
+      "max": 90,
+      "step": 1,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "label": "Desktop height",
+      "default": "screen-height-one-half",
+      "options": [
+        { "value": "image-height", "label": "Image height" },
+        { "value": "screen-height-full", "label": "Full screen height"},
+        { "value": "screen-height-three-quarters", "label": "3/4 of screen"},
+        { "value": "screen-height-two-thirds", "label": "2/3 of screen"},
+        { "value": "screen-height-one-half", "label": "1/2 of screen"},
+        { "value": "screen-height-one-third", "label": "1/3 of screen"},
+        { "value": "seven-fifty-height-hero", "label": "750px" },
+        { "value": "sixty-fifty-height-hero", "label": "650px" },
+        { "value": "five-fifty-height-hero", "label": "550px" },
+        { "value": "four-fifty-height-hero", "label": "450px" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobile_height",
+      "label": "Mobile height",
+      "default": "screen-height-one-half--mobile",
+      "options": [
+        { "value": "image-height--mobile", "label": "Image height" },
+        { "value": "screen-height-full--mobile", "label": "Full screen height"},
+        { "value": "screen-height-three-quarters--mobile", "label": "3/4 of screen"},
+        { "value": "screen-height-two-thirds--mobile", "label": "2/3 of screen"},
+        { "value": "screen-height-one-half--mobile", "label": "1/2 of screen"},
+        { "value": "screen-height-one-third--mobile", "label": "1/3 of screen"},
+        { "value": "seven-fifty-height-hero--mobile", "label": "750px" },
+        { "value": "sixty-fifty-height-hero--mobile", "label": "650px" },
+        { "value": "five-fifty-height-hero--mobile", "label": "550px" },
+        { "value": "four-fifty-height-hero--mobile", "label": "450px" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full-padded",
+      "options": [
+        {"value": "wrapper--full", "label": "Full width"},
+        {"value": "wrapper--full-padded", "label": "Full width padded"},
+        {"value": "wrapper", "label": "Normal"}
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "borders",
+      "label": "Add borders",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "gutters",
+      "label": "Enable gutters",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "reverse_blocks",
+      "label": "Reverse block placement",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "accordion",
+      "name": "Accordion",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_description",
+          "label": "Show description",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_read_more",
+          "label": "Show read more button",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "default_open",
+          "label": "Open by default",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Accordion"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>"
+        },
+        {
+          "type": "header",
+          "content": "Block spacing"
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 50,
+          "step": 2,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "header",
+          "content": "Overlay"
+        },
+        {
+          "type": "range",
+          "id": "overlay_opacity",
+          "label": "Opacity",
+          "info": "Increase contrast for legible text.",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "%",
+          "default": 0
+        },
+        {
+          "type": "color",
+          "id": "overlay_color",
+          "label": "Overlay color",
+          "default": "#000"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_overlay_text",
+          "label": "Overlay behind text only",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Text"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
+        {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 7
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Text"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Text size",
+          "min": 1,
+          "max": 15,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "select",
+          "id": "flex_align",
+          "label": "Block alignment",
+          "default": "align--middle-center",
+          "options": [
+            { "value": "align--top-left", "label": "Top left" },
+            { "value": "align--top-center", "label": "Top center" },
+            { "value": "align--top-right", "label": "Top right" },
+            { "value": "align--middle-left", "label": "Middle left" },
+            { "value": "align--middle-center", "label": "Absolute center" },
+            { "value": "align--middle-right", "label": "Middle right" },
+            { "value": "align--bottom-left", "label": "Bottom left" },
+            { "value": "align--bottom-center", "label": "Bottom center" },
+            { "value": "align--bottom-right", "label": "Bottom right" }
+          ]
+        },
+        {
+          "type": "header",
+          "content": "Colors"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Text",
+          "default": "#FFFFFF"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image and Accordion",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "accordion"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.image-and-accordion {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* Allows wrapping of items */
+}
+
+.image-and-accordion__accordion {
+  flex: 0 0 {{ section.settings.left_width_percentage }}%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.image-and-accordion__image {
+  flex: 0 0 {{ section.settings.right_width_percentage }}%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  box-sizing: border-box; /* Include padding in width calculations */
+  position: relative; /* Ensure image is properly positioned */
+}
+
+.image-and-accordion__image img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Ensure the image is displayed correctly */
+  visibility: visible; /* Make sure the image is visible */
+  width:100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.text {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .image-and-accordion {
+    flex-direction: row; /* Stack items vertically */
+  }
+
+  .image-and-accordion__accordion,
+  .image-and-accordion__image {
+    flex: 0 0 100%; /* Full width */
+    width: 100%; /* Ensures full width */
+    padding: 0; /* Remove padding to prevent overflow */
+    box-sizing: border-box; /* Ensure consistent sizing */
+  }
+
+  .image-and-accordion__image img {
+    max-width: 100% !important; /* Constrain image to parent width */
+    height: auto !important; /* Maintain aspect ratio */
+    display: block !important; /* Ensure the image is displayed */
+    visibility: visible !important; /* Ensure visibility */
+  }
+}
+
+
+</style>
+
+
+{%- liquid
+  assign desktop_height = section.settings.height
+  assign mobile_height = section.settings.mobile_height
+  assign width = section.settings.width
+
+  assign border_class = ''
+  if section.settings.borders
+    assign border_class = 'brick--border'
+  endif
+
+  assign transparent_header = false
+  assign non_image_block_types = 'text, newsletter, reviews, product, collection' | split: ','
+  unless non_image_block_types contains section.blocks[0].type and non_image_block_types contains section.blocks[1].type
+    assign transparent_header = true
+  endunless
+
+  assign animation_anchor = '#BrickSection--' | append: section.id
+-%}
+
+{%- style -%}
+  #BrickSection--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section id="BrickSection--{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="custom-content"
+  {% if transparent_header %}data-overlay-header{% endif %}
+  class="section-padding">
+   {%- if section.blocks.size > 0 -%}
+    <div class="{% if section.settings.reverse_blocks %} brick__section--reversed-mobile{% endif %}{% if section.settings.gutters %} brick--margin{% endif %} {{ border_class }} {{ width }}">
+<div class="image-and-accordion">
+  <div class="image-and-accordion__accordion">
+    {% for block in section.blocks %}
+      {% if block.type == 'accordion' %}
+        {%- liquid
+                  assign padding_bottom = block.settings.padding_bottom
+                  assign bg_accent = block.settings.bg_color
+                  assign icon_size = block.settings.icon_size
+
+                  capture block_style
+                    if padding_bottom
+                      echo '--block-padding-bottom: ' | append: block.settings.padding_bottom | append: 'px;'
+                    endif
+
+                    if bg_accent
+                      if block.type == 'upsell' or block.type == 'complementary-products'
+                        unless bg_accent == 'rgba(0,0,0,0)' or bg_accent == blank
+                          echo '--bg-accent: ' | append: bg_accent | append: ';'
+                        endunless
+                      endif
+                    endif
+
+                    if icon_size
+                     echo '--icon-size:' | append: icon_size | append: 'px;'
+                    endif
+
+                    if block.type == 'countdown'
+                      assign bg_color = block.settings.bg_color
+                      assign text_color = block.settings.color
+
+                      unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank
+                        echo '--bg: ' | append: bg_color | append: ';'
+                        echo '--countdown-padding: ' | append: 'var(--inner);'
+                      endunless
+
+                      unless text_color == 'rgba(0,0,0,0)' or text_color == blank
+                        echo '--text: ' | append: text_color | append: ';'
+                      endunless
+                    endif
+                  endcapture
+
+                  if block_style != blank
+                    assign block_style = 'style="' | append: block_style | append: '"'
+                  endif
+                -%}
+                    {%- render 'product-description'  product: product, block: block, block_style: block_style -%}
+
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="image-and-accordion__image">
+    {% for block in section.blocks %}
+      {% if block.type == 'image' %}
+        <div>
+          <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.title }}" />
+          {% if block.settings.overlay_opacity > 0 %}
+            <div class="overlay" style="background-color: {{ block.settings.overlay_color }}; opacity: {{ block.settings.overlay_opacity | divided_by: 100 }};"></div>
+          {% endif %}
+          {% if block.settings.show_overlay_text %}
+          <div class="text">
+            <h2 style="font-size: {{ block.settings.heading_size }}rem;">{{ block.settings.title }}</h2>
+            <p style="font-size: {{ block.settings.text_size }}rem;">{{ block.settings.description }}</p>
+          </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+    </div>
+     {% endif %}
+</section>

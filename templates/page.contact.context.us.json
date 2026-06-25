@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.contact.json",
+  "context": {
+    "market": "us"
+  },
+  "sections": {
+    "section_custom_content_Ww3wpb": {
+      "settings": {},
+      "blocks": {
+        "image_e3LGXz": {
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-09-17_at_11.09.57_AM_ce01f936-34d0-4f95-9082-9c60c09cf595.png"
+          }
+        }
+      }
+    }
+  }
+}
