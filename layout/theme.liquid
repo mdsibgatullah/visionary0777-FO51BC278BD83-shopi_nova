@@ -1,15 +1,6 @@
 <!doctype html>
 <html class="no-js no-touch supports-no-cookies" lang="{{ request.locale.iso_code }}">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WQE6NM0BMM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WQE6NM0BMM');
-</script>
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -21,7 +12,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% comment %} <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% endcomment %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="{{ settings.accent_bright }}">
   <link rel="canonical" href="{{ canonical_url }}">
   <!-- ======================= Broadcast Theme V5.8.0 ========================= -->
@@ -160,6 +152,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {%- if request.design_mode -%}
     {{ 'design-mode.css' | asset_url | stylesheet_tag }}
   {%- endif -%}
+
+  {{ 'style.css' | asset_url | stylesheet_tag }}
 
   <script>
     if (window.navigator.userAgent.indexOf('MSIE ') > 0 || window.navigator.userAgent.indexOf('Trident/') > 0) {
@@ -346,7 +340,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
   {%- endcomment -%}
   <!-- Paste marketing code or third party scripts below this comment line ============== -->
-
+ <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
 
   <!-- And above this comment line ================================================== -->
@@ -367,24 +361,6 @@ document.addEventListener('DOMContentLoaded', () => {
     header.style.color = 'black';
   }
 
-  // Add event listeners to menu items for the hover effect
-  menuItems.forEach((menuItem) => {
-    const submenu = menuItem.querySelector('.header__dropdown');
-    
-    if (submenu) {
-      menuItem.addEventListener('mouseenter', () => {
-        header.style.backgroundColor = 'white';
-        header.style.color = 'black';
-      });
-
-      menuItem.addEventListener('mouseleave', () => {
-        if (isHomepage()) {
-          header.style.backgroundColor = ''; // Reset to original color on homepage
-          header.style.color = ''; // Reset text color on homepage
-        }
-      });
-    }
-  });
 });
 </script>
 <script>
@@ -632,11 +608,249 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
-
-
-
 </script>
+
+{% comment %} custom JS code {% endcomment %}
+
+
+{% comment %}
+
+<style>
+  /* ১. ম্যাচ না করা থাম্বনেইলগুলোকে লেআউট থেকে সম্পূর্ণ ভ্যানিশ করা */
+  .product__thumbs .product__thumb.v-strict-hide {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    transform: scale(0) !important;
+    pointer-events: none !important;
+  }
+
+  /* ২. ফাঁকা জায়গা দূর করার ম্যাজিক সিএসএস (ফ্লেক্স ও হাইট অটো রিসেট) */
+  .product__thumbs, 
+  .product__thumbs_holder {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: unset !important;
+    max-height: unset !important;
+    transform: none !important; /* স্লাইডারের পজিশনিং ব্রেক করা */
+  }
+
+  /* ৩. একটিভ থাম্বনেইলগুলোর পজিশন ঠিক রাখা যাতে সিরিয়ালি বসে */
+  .product__thumbs .product__thumb:not(.v-strict-hide) {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+    margin-bottom: 8px !important; /* থাম্বনেইলগুলোর মাঝের গ্যাপ */
+    display: block !important;
+  }
+</style>
+
+<script>
+(function() {
+  function getSelectedColor() {
+    let color = '';
+    
+    // ব্রডকাস্ট কাস্টম সোয়াচ ইনপুট থেকে সিলেক্টেড ভ্যালু নেওয়া
+    const activeRadio = document.querySelector('.swatch input:checked, .variant-input input:checked, input[type="radio"]:checked');
+    if (activeRadio) {
+      const val = activeRadio.value.trim().toLowerCase();
+      if (!['xs','s','m','l','xl','2xl'].includes(val)) {
+        color = val;
+      }
+    }
+    
+    // ব্যাকআপ লেবেল ট্র্যাকিং
+    if (!color) {
+      const labelEl = document.querySelector('[data-variant-label], .product-form__selected-value, .ProductForm__SelectedValue, .variant-input__option-value');
+      if (labelEl) color = labelEl.innerText;
+    }
+    
+    return color ? color.trim().toLowerCase() : '';
+  }
+
+  function applyBroadcastFilter() {
+    const activeColor = getSelectedColor();
+    if (!activeColor) return;
+
+    // আপনার ইন্সপেক্ট এলিমেন্ট অনুযায়ী এক্সাক্ট ক্লাস
+    const thumbs = document.querySelectorAll('.product__thumbs .product__thumb');
+
+    thumbs.forEach(function(thumb) {
+      const img = thumb.querySelector('img');
+      if (img) {
+        const altText = img.getAttribute('alt') ? img.getAttribute('alt').trim().toLowerCase() : '';
+
+        if (altText !== '') {
+          // অল্ট টেক্সট যদি সিলেক্টেড কালারের সাথে মিলে যায়
+          if (altText === activeColor || altText.includes(activeColor)) {
+            thumb.classList.remove('v-strict-hide');
+          } else {
+            // যদি শুধু অন্য কালারের ভ্যারিয়েন্ট ইমেজ হয়
+            if (altText === 'white' || altText === 'natural' || altText.includes('white') || altText.includes('natural')) {
+              thumb.classList.add('v-strict-hide');
+            }
+          }
+        }
+      }
+    });
+  }
+
+  // ইউজার কালার চেঞ্জ করলে বা ক্লিক করলে রান হবে
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('input[type="radio"], label, .swatch-element, .ColorSwatch')) {
+      setTimeout(applyBroadcastFilter, 30);
+      setTimeout(applyBroadcastFilter, 150);
+    }
+  });
+
+  document.addEventListener('change', function() {
+    setTimeout(applyBroadcastFilter, 50);
+  });
+
+  // ইনিশিয়াল লোডের ফাঁকা জায়গা চিরতরে লক করার জন্য মাল্টি-টাইমিং এক্সিকিউশন
+  setTimeout(applyBroadcastFilter, 50);
+  setTimeout(applyBroadcastFilter, 300);
+  setTimeout(applyBroadcastFilter, 800);
+  window.addEventListener('load', applyBroadcastFilter);
+})();
+</script>
+
+{% endcomment %}
+
+
+<style>
+  /* ১. ম্যাচ না করা থাম্বনেইলগুলোকে লেআউট থেকে সম্পূর্ণ ভ্যানিশ করা */
+  .product__thumbs .product__thumb.v-strict-hide {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    transform: scale(0) !important;
+    pointer-events: none !important;
+  }
+
+  /* ২. ফাঁকা জায়গা দূর করার ম্যাজিক সিএসএস (ফ্লেক্স ও হাইট অটো রিসেট) */
+  .product__thumbs, 
+  .product__thumbs_holder {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: unset !important;
+    max-height: unset !important;
+    transform: none !important; 
+  }
+
+  /* ৩. একটিভ থাম্বনেইলগুলোর পজিশন ঠিক রাখা যাতে সিরিয়ালি বসে */
+  .product__thumbs .product__thumb:not(.v-strict-hide) {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+    margin-bottom: 8px !important; 
+    display: block !important;
+  }
+
+  @media only screen and (max-width: 767px){
+   .product__thumbs .product__thumb:not(.v-strict-hide) {
+    margin-bottom: 0px !important; 
+  }
+  
+  }
+
+
+</style>
+
+<script>
+(function() {
+  function getSelectedColor() {
+    let color = '';
+    
+    // ব্রডকাস্ট কাস্টম সোয়াচ ইনপুট থেকে সিলেক্টেড ভ্যালু নেওয়া
+    const activeRadio = document.querySelector('.swatch input:checked, .variant-input input:checked, input[type="radio"]:checked');
+    if (activeRadio) {
+      const val = activeRadio.value.trim().toLowerCase();
+      if (!['xs','s','m','l','xl','2xl'].includes(val)) {
+        color = val;
+      }
+    }
+    
+    // ব্যাকআপ লেবেল ট্র্যাকিং
+    if (!color) {
+      const labelEl = document.querySelector('[data-variant-label], .product-form__selected-value, .ProductForm__SelectedValue, .variant-input__option-value');
+      if (labelEl) color = labelEl.innerText;
+    }
+    
+    return color ? color.trim().toLowerCase() : '';
+  }
+
+  function applyBroadcastFilter() {
+    const activeColor = getSelectedColor();
+    if (!activeColor) return;
+
+    const thumbs = document.querySelectorAll('.product__thumbs .product__thumb');
+
+    thumbs.forEach(function(thumb) {
+      const img = thumb.querySelector('img');
+      if (img) {
+        const altText = img.getAttribute('alt') ? img.getAttribute('alt').trim().toLowerCase() : '';
+
+        if (altText !== '') {
+          if (altText === activeColor || altText.includes(activeColor)) {
+            thumb.classList.remove('v-strict-hide');
+          } else {
+            if (altText === 'white' || altText === 'natural' || altText.includes('white') || altText.includes('natural')) {
+              thumb.classList.add('v-strict-hide');
+            }
+          }
+        }
+      }
+    });
+
+    // --- মেইন ইমেজ অটো-ফিক্স ট্রিক ---
+    // ফিল্টার হওয়ার পর প্রথম যে বৈধ (Visible) থাম্বনেইলটি পাওয়া যাবে, সেটিকে ক্লিক করানো
+    setTimeout(function() {
+      const firstVisibleThumbLink = document.querySelector('.product__thumbs .product__thumb:not(.v-strict-hide) .product__thumb_link, .product__thumbs .product__thumb:not(.v-strict-hide) a');
+      if (firstVisibleThumbLink) {
+        firstVisibleThumbLink.click(); // এটি মেইন ইমেজকে জোর করে কারেন্ট কালারে নিয়ে আসবে
+      }
+    }, 100);
+  }
+
+  // ইউজার কালার চেঞ্জ করলে বা ক্লিক করলে রান হবে
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('input[type="radio"], label, .swatch-element, .ColorSwatch')) {
+      setTimeout(applyBroadcastFilter, 50);
+      setTimeout(applyBroadcastFilter, 250);
+    }
+  });
+
+  document.addEventListener('change', function() {
+    setTimeout(applyBroadcastFilter, 50);
+  });
+
+  // ইনিশিয়াল লোড টাইমিং এক্সিকিউশন
+  setTimeout(applyBroadcastFilter, 150);
+  setTimeout(applyBroadcastFilter, 500);
+  setTimeout(applyBroadcastFilter, 1000);
+  window.addEventListener('load', applyBroadcastFilter);
+})();
+</script>
+
+
+{% comment %} custom toogle dropdwn menu  {% endcomment %}
+
+
 
 </body>
 </html>

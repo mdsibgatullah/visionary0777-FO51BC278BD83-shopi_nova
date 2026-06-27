@@ -20,6 +20,10 @@
             "padding_bottom": 8
           }
         },
+        "judge_me_reviews_preview_badge_cReDFB": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -53,6 +57,22 @@
             "padding_bottom": 16
           }
         },
+        "code_Tq3LmY": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "<img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Icons_1.png?v=1780198369\" alt=\"icons with text\" width=\"100%\">",
+            "padding_bottom": 16
+          }
+        },
+        "code_6wPtiK": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "<div class=\"jn-icon-container\">\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Icons-_plant.png?v=1780207614\" alt=\"\">\n            <p>Plant-Based Luxury</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/100_French_Flax.png?v=1779606898\" alt=\"\">\n            <p>100% French Flax</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Icons-_Made-in-USA.png?v=1780208054\" alt=\"\">\n            <p>Made in USA</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/ddas-finest-material.png?v=1779613797\" alt=\"\">\n            <p>Finest Materials<br>(Non-Toxic)</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/dds-sss.png?v=1779614306\" alt=\"\">\n            <p>GOTS Certified<br>Organic</p>\n        </div>\n    </div>",
+            "padding_bottom": 16
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -60,6 +80,43 @@
             "show_payment_button": true,
             "show_gift_card_recipient": false,
             "padding_bottom": 32
+          }
+        },
+        "subscriptions_app_block_hGGiEM": {
+          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+          "settings": {
+            "widget_style": "card",
+            "widget_style_card_selector": "radio_button",
+            "subscription_policy_url": "shopify://pages/subscription-policy",
+            "color_text_body": "#212121",
+            "dividers_color": "#8f8d8d",
+            "background_color": "#ffffff",
+            "border_thickness": 1,
+            "border_radius": 0,
+            "product": "{{product}}"
+          }
+        },
+        "code_HhmdtB": {
+          "type": "code",
+          "settings": {
+            "code": "",
+            "padding_bottom": 16
+          }
+        },
+        "code_X9bUHM": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "<div class=\"acc acc-subscription\" style=\"display: block;\" data-selected-sub-index=\"1\"> <div class=\"acc-item open\"> <button type=\"button\" class=\"acc-header\"> <span>Buy or gift as a subscription</span> <span class=\"acc-toggle\">−</span></button> <div class=\"acc-body\" style=\"max-height: 210px;\"> <label class=\"sub-option\"> <input type=\"radio\" name=\"subscription-ui\" class=\"sub-ui-radio\" data-target=\"1\"> <span>Deliver every month</span></label> <label class=\"sub-option\"> <input type=\"radio\" name=\"subscription-ui\" class=\"sub-ui-radio\" data-target=\"2\"> <span>Deliver every 6 months</span></label> <label class=\"sub-option\"> <input type=\"radio\" name=\"subscription-ui\" class=\"sub-ui-radio\" data-target=\"3\"> <span>Deliver every 12 months</span></label> <p style=\"margin-top: 7px;\">\n        Automatic renewal, skipping, or cancellation of subscriptions is possible at any time. <a href=\"/policies/subscription-policy\" title=\"View subscription policy\" target=\"_blank\">View subscription policy</a></p></div></div>\n</div>\n\n<style>\n  .product-block--abbonement-enhancer .acc.acc-subscription {\n    margin-bottom: -20px;\n    border-bottom: 0;\n    display: none;\n  }\n\n  .acc-subscription .acc-header {\n    line-height: 21px;\n  }\n\n  .acc-subscription .acc-item.open .acc-header {\n    padding-bottom: 0;\n  }\n\n  .acc-subscription .acc-body {\n    padding: 0 20px;\n  }\n\n  .acc-subscription .acc-item.open .acc-body {\n    padding-top: 0;\n  }\n\n  .sub-option {\n    display: flex;\n    gap: 10px;\n    align-items: center;\n    cursor: pointer;\n  }\n\n  .sub-option input[type=\"radio\"] {\n    width: 12px;\n    height: 12px;\n    accent-color: #2E3234;\n  }\n\n  .product-block.product-block--\\@app:has(.shopify_subscriptions_app_container) {\n    display:none;\n  }\n</style>\n\n<script>\n//  Shopify Subscriptions sync (variant -> block, ui -> app, dealing with the apps bugs via custom js..)\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n  const container = document.querySelector(\".shopify_subscriptions_app_container\");\n  const dropdown  = document.querySelector(\".custom-dropdown\");\n  const variantEl = document.querySelector(\"[data-variant-option]\");\n  const sellingPlanJson = document.querySelector(\"[data-acc-subscription-selling-plans]\");\n  const productForm = document.querySelector(\".product_form form, form[action*='/cart/add']\");\n  const subscriptionUi = document.querySelector(\".acc.acc-subscription\");\n  let sellingPlanMap = {};\n\n  if (!container) return;\n  if (subscriptionUi) subscriptionUi.style.display = \"block\";\n\n  try {\n    sellingPlanMap = JSON.parse(sellingPlanJson?.textContent || \"{}\");\n  } catch (error) {\n    console.warn(\"[subs] selling plan map parse failed\", error);\n  }\n\n  const HIDDEN = \"shopify_subscriptions_app_block--hidden\";\n\n  // Stores the subscription radio index selected by the user.\n  // Persists across variant changes so selecting subscription before size works.\n  let pendingSubIndex = null;\n  let pendingDeselectIndex = null;\n\n  function getVariantId() {\n    // The custom dropdown updates first; prefer it to avoid stale hidden variant ids.\n    const activeLi = dropdown?.querySelector('li[data-variant-id].selected');\n    if (activeLi) return activeLi.getAttribute(\"data-variant-id\");\n\n    const variantSelectionId = productForm?.closest(\".product_form\")?.querySelector(\"variant-selection\")?.getAttribute(\"variant\");\n    if (variantSelectionId && variantSelectionId !== \"not-selected\" && variantSelectionId !== \"unavailable\") return variantSelectionId;\n\n    const formVariantId = productForm?.querySelector('[name=\"id\"]')?.value;\n    if (formVariantId && formVariantId !== \"not-selected\") return formVariantId;\n\n    // Fallback: select value (skip placeholder \"not-selected\")\n    if (variantEl?.tagName === \"SELECT\" && variantEl.value && variantEl.value !== \"not-selected\") {\n      return variantEl.value;\n    }\n\n    return null;\n  }\n\n  function setProductFormVariant(variantId) {\n    const variantField = productForm?.querySelector('[name=\"id\"]');\n    if (variantField && variantId) {\n      variantField.value = variantId;\n    }\n  }\n\n  function getSellingPlanId(variantId, subIndex) {\n    if (!variantId || !Number.isInteger(subIndex)) return null;\n    const plans = sellingPlanMap[String(variantId)] || [];\n    return plans[subIndex - 1] || null;\n  }\n\n  function setProductFormSellingPlan(sellingPlanId) {\n    if (!productForm) return;\n\n    let input = productForm.querySelector('[name=\"selling_plan\"][data-acc-selling-plan]');\n    if (!input) {\n      input = document.createElement(\"input\");\n      input.type = \"hidden\";\n      input.name = \"selling_plan\";\n      input.setAttribute(\"data-acc-selling-plan\", \"true\");\n      productForm.appendChild(input);\n    }\n\n    if (sellingPlanId) {\n      input.value = sellingPlanId;\n      input.disabled = false;\n      if (subscriptionUi) subscriptionUi.dataset.selectedSellingPlan = sellingPlanId;\n    } else {\n      input.value = \"\";\n      input.disabled = true;\n      if (subscriptionUi) delete subscriptionUi.dataset.selectedSellingPlan;\n    }\n  }\n\n  function prepareUiSelection(ui) {\n    const index = Number(ui.dataset.target);\n    if (!Number.isFinite(index)) return;\n\n    const isDeselect = pendingSubIndex === index || ui.checked;\n    if (isDeselect) {\n      pendingDeselectIndex = index;\n      setProductFormSellingPlan(null);\n      return;\n    }\n\n    pendingDeselectIndex = null;\n    pendingSubIndex = index;\n    if (subscriptionUi) subscriptionUi.dataset.selectedSubIndex = String(index);\n    setProductFormSellingPlan(getSellingPlanId(getVariantId(), index));\n  }\n\n  function applyCurrentSubscriptionState() {\n    if (pendingSubIndex === null) {\n      const checkedUi = subscriptionUi?.querySelector(\".sub-ui-radio:checked\");\n      const checkedIndex = Number(checkedUi?.dataset.target);\n      if (Number.isInteger(checkedIndex)) {\n        pendingSubIndex = checkedIndex;\n      }\n    }\n\n    if (pendingSubIndex === null) {\n      setProductFormSellingPlan(null);\n      if (subscriptionUi) delete subscriptionUi.dataset.selectedSubIndex;\n      return;\n    }\n\n    if (subscriptionUi) subscriptionUi.dataset.selectedSubIndex = String(pendingSubIndex);\n    setProductFormSellingPlan(getSellingPlanId(getVariantId(), pendingSubIndex));\n  }\n\n  function showBlock(variantId) {\n    if (!variantId) return console.log(\"[subs] no variantId\");\n\n    container.querySelectorAll(\".shopify_subscriptions_app_block\")\n      .forEach(b => b.classList.add(HIDDEN));\n\n    const block = container.querySelector(\n      `.shopify_subscriptions_app_block[data-variant-id=\"${variantId}\"]`\n    );\n\n    if (!block) return console.log(\"[subs] no block for variant\", variantId);\n\n    block.classList.remove(HIDDEN);\n    console.log(\"[subs] show block for variant\", variantId);\n  }\n\n  function clickAppRadio(index) {\n    const radios = container.querySelectorAll(\n      `.shopify_subscriptions_app_block:not(.${HIDDEN}) input[type=\"radio\"]`\n    );\n    const el = radios[index];\n    if (!el) return console.log(\"[subs] no app radio at index\", index);\n\n    el.click();\n    console.log(\"[subs] clicked app radio index\", index);\n  }\n\n  // Reset the hidden app subscription radios to \"one-time purchase\" (index 0)\n  function resetAppSubscription() {\n    const visibleBlock = container.querySelector(\n      `.shopify_subscriptions_app_block:not(.${HIDDEN})`\n    );\n    if (!visibleBlock) return;\n    const oneTimeRadio = visibleBlock.querySelector('input[type=\"radio\"]');\n    if (oneTimeRadio) oneTimeRadio.click();\n  }\n\n  function sync({ variantId = null, subIndex = null } = {}) {\n    const id = variantId || getVariantId();\n\n    // Store pending subscription index if provided\n    if (Number.isInteger(subIndex)) {\n      pendingSubIndex = subIndex;\n      if (subscriptionUi) subscriptionUi.dataset.selectedSubIndex = String(subIndex);\n    }\n\n    // Show the correct subscription app block for the selected variant\n    showBlock(id);\n\n    // If no variant selected yet, defer — pendingSubIndex is stored for later\n    if (!id) {\n      console.log(\"[subs] no variant selected, subscription choice stored for later\");\n      setProductFormSellingPlan(null);\n      return;\n    }\n\n    // Determine which index to apply: explicit subIndex or previously stored one\n    const indexToApply = Number.isInteger(subIndex) ? subIndex : pendingSubIndex;\n\n    if (Number.isInteger(indexToApply)) {\n      setProductFormSellingPlan(getSellingPlanId(id, indexToApply));\n      requestAnimationFrame(() => setTimeout(() => clickAppRadio(indexToApply), 50));\n    } else {\n      setProductFormSellingPlan(null);\n      requestAnimationFrame(() => setTimeout(resetAppSubscription, 50));\n    }\n  }\n\n  // Dropdown (size selector) click => sync subscription block for new variant\n  dropdown?.addEventListener(\"click\", (e) => {\n    const li = e.target.closest(\"li[data-variant-id]\");\n    if (!li) return; // Ignore clicks on the dropdown header/arrow\n\n    const newVariantId = li.getAttribute(\"data-variant-id\");\n    setProductFormVariant(newVariantId);\n\n    // If user has NOT selected a subscription, reset the app radios\n    // If user HAS selected one (pendingSubIndex), keep it and re-apply\n    if (pendingSubIndex === null) {\n      document.querySelectorAll('.acc.acc-subscription input').forEach((input) => {\n        input.checked = false;\n      });\n      setProductFormSellingPlan(null);\n    } else {\n      setProductFormSellingPlan(getSellingPlanId(newVariantId, pendingSubIndex));\n    }\n\n    setTimeout(() => {\n      variantEl?.dispatchEvent(\n        new Event(\"change\", { bubbles: true })\n      );\n      // After the theme processes the variant change, sync the subscription block\n      setTimeout(() => {\n        sync({ variantId: newVariantId });\n\n        // Re-check the UI radio to reflect the pending selection visually\n        if (pendingSubIndex !== null) {\n          const uiRadios = document.querySelectorAll('.acc.acc-subscription .sub-ui-radio');\n          uiRadios.forEach(r => {\n            r.checked = (Number(r.dataset.target) === pendingSubIndex);\n          });\n        }\n      }, 100);\n    }, 500);\n  });\n\n  // Prepare the hidden selling_plan before Shopify's app radios finish updating.\n  document.addEventListener(\"pointerdown\", (e) => {\n    const option = e.target.closest(\".sub-option\");\n    const ui = e.target.closest(\".sub-ui-radio\") || option?.querySelector(\".sub-ui-radio\");\n    if (!ui) return;\n\n    prepareUiSelection(ui);\n  });\n\n  // UI radio click => toggle off the current subscription choice.\n  document.addEventListener(\"click\", (e) => {\n    const option = e.target.closest(\".sub-option\");\n    const ui = e.target.closest(\".sub-ui-radio\") || option?.querySelector(\".sub-ui-radio\");\n    if (!ui) return;\n\n    const index = Number(ui.dataset.target);\n    if (!Number.isFinite(index)) return console.log(\"[subs] ui radio missing data-target\");\n\n    if (pendingDeselectIndex === index) {\n      setTimeout(() => {\n        ui.checked = false;\n        pendingSubIndex = null;\n        pendingDeselectIndex = null;\n        if (subscriptionUi) delete subscriptionUi.dataset.selectedSubIndex;\n        console.log(\"[subs] subscription deselected\");\n        setProductFormSellingPlan(null);\n        resetAppSubscription();\n      }, 0);\n    }\n  });\n\n  // UI radio change => store and apply to app.\n  document.addEventListener(\"change\", (e) => {\n    const ui = e.target.closest(\".sub-ui-radio\");\n    if (!ui) return;\n\n    const index = Number(ui.dataset.target);\n    if (!Number.isFinite(index)) return console.log(\"[subs] ui radio missing data-target\");\n    if (pendingDeselectIndex === index) return;\n\n    console.log(\"[subs] ui changed -> index\", index);\n    pendingDeselectIndex = null;\n    sync({ subIndex: index });\n\n    document.querySelector('[name=add]')?.scrollIntoView({\n      behavior: \"smooth\",\n      block: \"center\"\n    });\n  });\n\n  document.addEventListener(\"pointerdown\", (e) => {\n    if (!e.target.closest('[name=\"add\"], .ajax-submit, [data-add-to-cart-trigger]')) return;\n    applyCurrentSubscriptionState();\n  }, true);\n\n  document.addEventListener(\"click\", (e) => {\n    if (!e.target.closest('[name=\"add\"], .ajax-submit, [data-add-to-cart-trigger]')) return;\n    applyCurrentSubscriptionState();\n  }, true);\n\n  // Also listen for the native select change event (variant change from other sources)\n  if (variantEl) {\n    variantEl.addEventListener(\"change\", () => {\n      const id = getVariantId();\n      if (id) {\n        // Small delay to let the theme finish processing\n        setTimeout(() => sync({ variantId: id }), 150);\n      }\n    });\n  }\n\n  sync();\n});\n</script>",
+            "padding_bottom": 16
+          }
+        },
+        "code_GGgh3C": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "<div class=\"acc acc-subscription\" style=\"display: block;\" data-selected-sub-index=\"1\"> <div class=\"acc-item open\"> <button type=\"button\" class=\"acc-header\"> <span>Buy or gift as a subscription</span> <span class=\"acc-toggle\">−</span></button> <div class=\"acc-body\" style=\"max-height: 210px;\"> <label class=\"sub-option\"> <input type=\"radio\" name=\"subscription-ui\" class=\"sub-ui-radio\" data-target=\"1\"> <span>Deliver every month</span></label> <label class=\"sub-option\"> <input type=\"radio\" name=\"subscription-ui\" class=\"sub-ui-radio\" data-target=\"2\"> <span>Deliver every 6 months</span></label> <label class=\"sub-option\"> <input type=\"radio\" name=\"subscription-ui\" class=\"sub-ui-radio\" data-target=\"3\"> <span>Deliver every 12 months</span></label> <p style=\"margin-top: 7px;\">\n        Automatic renewal, skipping, or cancellation of subscriptions is possible at any time. <a href=\"/policies/subscription-policy\" title=\"View subscription policy\" target=\"_blank\">View subscription policy</a></p></div></div>\n</div>\n\n<style>\n  .product-block--abbonement-enhancer .acc.acc-subscription {\n    margin-bottom: -20px;\n    border-bottom: 0;\n    display: none;\n  }\n\n  .acc-subscription .acc-header {\n    line-height: 21px;\n  }\n\n  .acc-subscription .acc-item.open .acc-header {\n    padding-bottom: 0;\n  }\n\n  .acc-subscription .acc-body {\n    padding: 0 20px;\n  }\n\n  .acc-subscription .acc-item.open .acc-body {\n    padding-top: 0;\n  }\n\n  .sub-option {\n    display: flex;\n    gap: 10px;\n    align-items: center;\n    cursor: pointer;\n  }\n\n  .sub-option input[type=\"radio\"] {\n    width: 12px;\n    height: 12px;\n    accent-color: #2E3234;\n  }\n\n  .product-block.product-block--\\@app:has(.shopify_subscriptions_app_container) {\n    display:none;\n  }\n</style>\n\n<script>\n//  Shopify Subscriptions sync (variant -> block, ui -> app, dealing with the apps bugs via custom js..)\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n  const container = document.querySelector(\".shopify_subscriptions_app_container\");\n  const dropdown  = document.querySelector(\".custom-dropdown\");\n  const variantEl = document.querySelector(\"[data-variant-option]\");\n  const sellingPlanJson = document.querySelector(\"[data-acc-subscription-selling-plans]\");\n  const productForm = document.querySelector(\".product_form form, form[action*='/cart/add']\");\n  const subscriptionUi = document.querySelector(\".acc.acc-subscription\");\n  let sellingPlanMap = {};\n\n  if (!container) return;\n  if (subscriptionUi) subscriptionUi.style.display = \"block\";\n\n  try {\n    sellingPlanMap = JSON.parse(sellingPlanJson?.textContent || \"{}\");\n  } catch (error) {\n    console.warn(\"[subs] selling plan map parse failed\", error);\n  }\n\n  const HIDDEN = \"shopify_subscriptions_app_block--hidden\";\n\n  // Stores the subscription radio index selected by the user.\n  // Persists across variant changes so selecting subscription before size works.\n  let pendingSubIndex = null;\n  let pendingDeselectIndex = null;\n\n  function getVariantId() {\n    // The custom dropdown updates first; prefer it to avoid stale hidden variant ids.\n    const activeLi = dropdown?.querySelector('li[data-variant-id].selected');\n    if (activeLi) return activeLi.getAttribute(\"data-variant-id\");\n\n    const variantSelectionId = productForm?.closest(\".product_form\")?.querySelector(\"variant-selection\")?.getAttribute(\"variant\");\n    if (variantSelectionId && variantSelectionId !== \"not-selected\" && variantSelectionId !== \"unavailable\") return variantSelectionId;\n\n    const formVariantId = productForm?.querySelector('[name=\"id\"]')?.value;\n    if (formVariantId && formVariantId !== \"not-selected\") return formVariantId;\n\n    // Fallback: select value (skip placeholder \"not-selected\")\n    if (variantEl?.tagName === \"SELECT\" && variantEl.value && variantEl.value !== \"not-selected\") {\n      return variantEl.value;\n    }\n\n    return null;\n  }\n\n  function setProductFormVariant(variantId) {\n    const variantField = productForm?.querySelector('[name=\"id\"]');\n    if (variantField && variantId) {\n      variantField.value = variantId;\n    }\n  }\n\n  function getSellingPlanId(variantId, subIndex) {\n    if (!variantId || !Number.isInteger(subIndex)) return null;\n    const plans = sellingPlanMap[String(variantId)] || [];\n    return plans[subIndex - 1] || null;\n  }\n\n  function setProductFormSellingPlan(sellingPlanId) {\n    if (!productForm) return;\n\n    let input = productForm.querySelector('[name=\"selling_plan\"][data-acc-selling-plan]');\n    if (!input) {\n      input = document.createElement(\"input\");\n      input.type = \"hidden\";\n      input.name = \"selling_plan\";\n      input.setAttribute(\"data-acc-selling-plan\", \"true\");\n      productForm.appendChild(input);\n    }\n\n    if (sellingPlanId) {\n      input.value = sellingPlanId;\n      input.disabled = false;\n      if (subscriptionUi) subscriptionUi.dataset.selectedSellingPlan = sellingPlanId;\n    } else {\n      input.value = \"\";\n      input.disabled = true;\n      if (subscriptionUi) delete subscriptionUi.dataset.selectedSellingPlan;\n    }\n  }\n\n  function prepareUiSelection(ui) {\n    const index = Number(ui.dataset.target);\n    if (!Number.isFinite(index)) return;\n\n    const isDeselect = pendingSubIndex === index || ui.checked;\n    if (isDeselect) {\n      pendingDeselectIndex = index;\n      setProductFormSellingPlan(null);\n      return;\n    }\n\n    pendingDeselectIndex = null;\n    pendingSubIndex = index;\n    if (subscriptionUi) subscriptionUi.dataset.selectedSubIndex = String(index);\n    setProductFormSellingPlan(getSellingPlanId(getVariantId(), index));\n  }\n\n  function applyCurrentSubscriptionState() {\n    if (pendingSubIndex === null) {\n      const checkedUi = subscriptionUi?.querySelector(\".sub-ui-radio:checked\");\n      const checkedIndex = Number(checkedUi?.dataset.target);\n      if (Number.isInteger(checkedIndex)) {\n        pendingSubIndex = checkedIndex;\n      }\n    }\n\n    if (pendingSubIndex === null) {\n      setProductFormSellingPlan(null);\n      if (subscriptionUi) delete subscriptionUi.dataset.selectedSubIndex;\n      return;\n    }\n\n    if (subscriptionUi) subscriptionUi.dataset.selectedSubIndex = String(pendingSubIndex);\n    setProductFormSellingPlan(getSellingPlanId(getVariantId(), pendingSubIndex));\n  }\n\n  function showBlock(variantId) {\n    if (!variantId) return console.log(\"[subs] no variantId\");\n\n    container.querySelectorAll(\".shopify_subscriptions_app_block\")\n      .forEach(b => b.classList.add(HIDDEN));\n\n    const block = container.querySelector(\n      `.shopify_subscriptions_app_block[data-variant-id=\"${variantId}\"]`\n    );\n\n    if (!block) return console.log(\"[subs] no block for variant\", variantId);\n\n    block.classList.remove(HIDDEN);\n    console.log(\"[subs] show block for variant\", variantId);\n  }\n\n  function clickAppRadio(index) {\n    const radios = container.querySelectorAll(\n      `.shopify_subscriptions_app_block:not(.${HIDDEN}) input[type=\"radio\"]`\n    );\n    const el = radios[index];\n    if (!el) return console.log(\"[subs] no app radio at index\", index);\n\n    el.click();\n    console.log(\"[subs] clicked app radio index\", index);\n  }\n\n  // Reset the hidden app subscription radios to \"one-time purchase\" (index 0)\n  function resetAppSubscription() {\n    const visibleBlock = container.querySelector(\n      `.shopify_subscriptions_app_block:not(.${HIDDEN})`\n    );\n    if (!visibleBlock) return;\n    const oneTimeRadio = visibleBlock.querySelector('input[type=\"radio\"]');\n    if (oneTimeRadio) oneTimeRadio.click();\n  }\n\n  function sync({ variantId = null, subIndex = null } = {}) {\n    const id = variantId || getVariantId();\n\n    // Store pending subscription index if provided\n    if (Number.isInteger(subIndex)) {\n      pendingSubIndex = subIndex;\n      if (subscriptionUi) subscriptionUi.dataset.selectedSubIndex = String(subIndex);\n    }\n\n    // Show the correct subscription app block for the selected variant\n    showBlock(id);\n\n    // If no variant selected yet, defer — pendingSubIndex is stored for later\n    if (!id) {\n      console.log(\"[subs] no variant selected, subscription choice stored for later\");\n      setProductFormSellingPlan(null);\n      return;\n    }\n\n    // Determine which index to apply: explicit subIndex or previously stored one\n    const indexToApply = Number.isInteger(subIndex) ? subIndex : pendingSubIndex;\n\n    if (Number.isInteger(indexToApply)) {\n      setProductFormSellingPlan(getSellingPlanId(id, indexToApply));\n      requestAnimationFrame(() => setTimeout(() => clickAppRadio(indexToApply), 50));\n    } else {\n      setProductFormSellingPlan(null);\n      requestAnimationFrame(() => setTimeout(resetAppSubscription, 50));\n    }\n  }\n\n  // Dropdown (size selector) click => sync subscription block for new variant\n  dropdown?.addEventListener(\"click\", (e) => {\n    const li = e.target.closest(\"li[data-variant-id]\");\n    if (!li) return; // Ignore clicks on the dropdown header/arrow\n\n    const newVariantId = li.getAttribute(\"data-variant-id\");\n    setProductFormVariant(newVariantId);\n\n    // If user has NOT selected a subscription, reset the app radios\n    // If user HAS selected one (pendingSubIndex), keep it and re-apply\n    if (pendingSubIndex === null) {\n      document.querySelectorAll('.acc.acc-subscription input').forEach((input) => {\n        input.checked = false;\n      });\n      setProductFormSellingPlan(null);\n    } else {\n      setProductFormSellingPlan(getSellingPlanId(newVariantId, pendingSubIndex));\n    }\n\n    setTimeout(() => {\n      variantEl?.dispatchEvent(\n        new Event(\"change\", { bubbles: true })\n      );\n      // After the theme processes the variant change, sync the subscription block\n      setTimeout(() => {\n        sync({ variantId: newVariantId });\n\n        // Re-check the UI radio to reflect the pending selection visually\n        if (pendingSubIndex !== null) {\n          const uiRadios = document.querySelectorAll('.acc.acc-subscription .sub-ui-radio');\n          uiRadios.forEach(r => {\n            r.checked = (Number(r.dataset.target) === pendingSubIndex);\n          });\n        }\n      }, 100);\n    }, 500);\n  });\n\n  // Prepare the hidden selling_plan before Shopify's app radios finish updating.\n  document.addEventListener(\"pointerdown\", (e) => {\n    const option = e.target.closest(\".sub-option\");\n    const ui = e.target.closest(\".sub-ui-radio\") || option?.querySelector(\".sub-ui-radio\");\n    if (!ui) return;\n\n    prepareUiSelection(ui);\n  });\n\n  // UI radio click => toggle off the current subscription choice.\n  document.addEventListener(\"click\", (e) => {\n    const option = e.target.closest(\".sub-option\");\n    const ui = e.target.closest(\".sub-ui-radio\") || option?.querySelector(\".sub-ui-radio\");\n    if (!ui) return;\n\n    const index = Number(ui.dataset.target);\n    if (!Number.isFinite(index)) return console.log(\"[subs] ui radio missing data-target\");\n\n    if (pendingDeselectIndex === index) {\n      setTimeout(() => {\n        ui.checked = false;\n        pendingSubIndex = null;\n        pendingDeselectIndex = null;\n        if (subscriptionUi) delete subscriptionUi.dataset.selectedSubIndex;\n        console.log(\"[subs] subscription deselected\");\n        setProductFormSellingPlan(null);\n        resetAppSubscription();\n      }, 0);\n    }\n  });\n\n  // UI radio change => store and apply to app.\n  document.addEventListener(\"change\", (e) => {\n    const ui = e.target.closest(\".sub-ui-radio\");\n    if (!ui) return;\n\n    const index = Number(ui.dataset.target);\n    if (!Number.isFinite(index)) return console.log(\"[subs] ui radio missing data-target\");\n    if (pendingDeselectIndex === index) return;\n\n    console.log(\"[subs] ui changed -> index\", index);\n    pendingDeselectIndex = null;\n    sync({ subIndex: index });\n\n    document.querySelector('[name=add]')?.scrollIntoView({\n      behavior: \"smooth\",\n      block: \"center\"\n    });\n  });\n\n  document.addEventListener(\"pointerdown\", (e) => {\n    if (!e.target.closest('[name=\"add\"], .ajax-submit, [data-add-to-cart-trigger]')) return;\n    applyCurrentSubscriptionState();\n  }, true);\n\n  document.addEventListener(\"click\", (e) => {\n    if (!e.target.closest('[name=\"add\"], .ajax-submit, [data-add-to-cart-trigger]')) return;\n    applyCurrentSubscriptionState();\n  }, true);\n\n  // Also listen for the native select change event (variant change from other sources)\n  if (variantEl) {\n    variantEl.addEventListener(\"change\", () => {\n      const id = getVariantId();\n      if (id) {\n        // Small delay to let the theme finish processing\n        setTimeout(() => sync({ variantId: id }), 150);\n      }\n    });\n  }\n\n  sync();\n});\n</script>",
+            "padding_bottom": 16
           }
         },
         "description_TaWNem": {
@@ -75,7 +132,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b>FABRIC & CARE</b>",
+            "heading": "<b> FABRIC & CARE </b>",
             "text": "<p>{{ product.metafields.custom.fabric_care | metafield_tag }}</p>",
             "padding_bottom": 0
           }
@@ -86,7 +143,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b>SIZE & FIT</b>",
+            "heading": "<b> SIZE & FIT </b>",
             "text": "<p>{{ product.metafields.custom.size_fit | metafield_tag }}</p><p><a href=\"/pages/international-size-guide\" title=\"International Size Guide\">SIZE CHART</a></p>",
             "padding_bottom": 0
           }
@@ -97,7 +154,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b>ORGANIC LINEN</b>",
+            "heading": "<b> MATERIALS & SUSTAINABLITY </b>",
             "text": "<p>We founded Heavenly Essentials to reduce the environmental impact of our intimates & everyday essentials. We make all our pieces with the highest quality, super-soft 100% GOTS Certified Organic linen — a sustainably-sourced fabric that’s also completely compostable. <br/><br/>The most soft, breathable fabric for everyday wear & gynecologist recommended. Our organic linen is a natural fiber, grown without any pesticides, fertilizers, or gmo seeds– making your Heavenly Essential’s not only good for you, but gentle on the planet, too.</p>",
             "padding_bottom": 0
           }
@@ -108,7 +165,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b>SHIPPING & RETURNS</b>",
+            "heading": "<b> SHIPPING & RETURNS </b>",
             "text": "<p>Enjoy free US shipping on orders over $100.<br/><br/>Please allow 1-2 business days before your order ships for standard processing.<br/><br/><strong>RETURNS</strong><br/>We accept returns that are requested within 30 days of receiving the item(s).</p>",
             "padding_bottom": 20
           }
@@ -171,6 +228,19 @@
             "padding_bottom": 16
           }
         },
+        "icon_6UwkwV": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/security.png",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Made in USA",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
         "code_r6gqFF": {
           "type": "code",
           "settings": {
@@ -181,11 +251,18 @@
       },
       "block_order": [
         "title",
+        "judge_me_reviews_preview_badge_cReDFB",
         "price",
         "text_jnjwTx",
         "text_zKmLy6",
         "variants",
+        "code_Tq3LmY",
+        "code_6wPtiK",
         "buttons",
+        "subscriptions_app_block_hGGiEM",
+        "code_HhmdtB",
+        "code_X9bUHM",
+        "code_GGgh3C",
         "description_TaWNem",
         "accordion_xcrqAb",
         "accordion_Te4hRh",
@@ -197,9 +274,11 @@
         "upsell",
         "icon_2",
         "icon_1",
+        "icon_6UwkwV",
         "code_r6gqFF"
       ],
       "custom_css": [
+        ".strong,strong {font-weight: 600;}",
         ".product__price {font-size: 17px;}",
         "@media (min-width: 768px) {.product__price {font-size: 20px; }}",
         ".radio__buttons {display: flex; align-items: center; height: 100%; gap: 10px;}",
@@ -208,8 +287,8 @@
       ],
       "settings": {
         "product_sticky_enable": true,
-        "variant_image_scroll": false,
-        "image_layout": "stacked",
+        "variant_image_scroll": true,
+        "image_layout": "thumbnails-left",
         "image_size": "normal",
         "show_cart_bar": true,
         "enable_zoom": true,
@@ -223,11 +302,11 @@
       "type": "section-divider",
       "settings": {
         "show_line": true,
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "border_color": "",
         "bg_color": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 10
       }
     },
     "section_rich_text_HQmWBD": {
@@ -269,6 +348,88 @@
         "color": "",
         "padding_top": 24,
         "padding_bottom": 0
+      }
+    },
+    "section_highlights_BCQQfY": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_ydcbzw": {
+          "type": "highlight",
+          "settings": {
+            "heading": "100% ORGANIC LINEN",
+            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
+            "url": "",
+            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_4XmDVz": {
+          "type": "highlight",
+          "settings": {
+            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
+            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
+            "url": "",
+            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_YqwTpa": {
+          "type": "highlight",
+          "settings": {
+            "heading": "FROM EARTH AND BACK",
+            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
+            "url": "",
+            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_R9MKJq": {
+          "type": "highlight",
+          "settings": {
+            "heading": "PLANT-BASED, NATURAL DYES",
+            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
+            "url": "",
+            "image": "shopify://shop_images/plantdyesswatches.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_ydcbzw",
+        "highlight_4XmDVz",
+        "highlight_YqwTpa",
+        "highlight_R9MKJq"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
+        ".highlights__item:hover .image-wrapper {opacity: 0;}",
+        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
+        ".body-size-6 {font-size: 28px;}",
+        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
+        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
+      ],
+      "settings": {
+        "style": "square",
+        "grid": 4,
+        "width": "wrapper--full-padded",
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_size": 6,
+        "text_size": 6,
+        "color": "#212121",
+        "bg_color": "rgba(0,0,0,0)",
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 10
       }
     },
     "section_highlights_D4363m": {
@@ -349,7 +510,148 @@
         "bg_color": "rgba(0,0,0,0)",
         "layout_mobile": "2",
         "padding_top": 0,
-        "padding_bottom": 10
+        "padding_bottom": 40
+      }
+    },
+    "section_highlights_FA93MW": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_A3R7BA": {
+          "type": "highlight",
+          "settings": {
+            "heading": "100% ORGANIC LINEN",
+            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
+            "url": "",
+            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_7fAY38": {
+          "type": "highlight",
+          "settings": {
+            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
+            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
+            "url": "",
+            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_3tkVhU": {
+          "type": "highlight",
+          "settings": {
+            "heading": "FROM EARTH AND BACK",
+            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
+            "url": "",
+            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_MmrWtQ": {
+          "type": "highlight",
+          "settings": {
+            "heading": "PLANT-BASED, NATURAL DYES",
+            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
+            "url": "",
+            "image": "shopify://shop_images/plantdyesswatches.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_A3R7BA",
+        "highlight_7fAY38",
+        "highlight_3tkVhU",
+        "highlight_MmrWtQ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
+        ".highlights__item:hover .image-wrapper {opacity: 0;}",
+        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
+        ".body-size-6 {font-size: 28px;}",
+        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
+        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
+      ],
+      "settings": {
+        "style": "square",
+        "grid": 4,
+        "width": "wrapper--full-padded",
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_size": 6,
+        "text_size": 6,
+        "color": "#212121",
+        "bg_color": "rgba(0,0,0,0)",
+        "layout_mobile": "slider",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "feb_category_section_wt9aWd": {
+      "type": "feb-category-section",
+      "blocks": {
+        "card_k43QFy": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/France_Flax.png",
+            "title": "Normandy, France",
+            "text": "Our linen comes from Normandy, France, in flax fields on cliffs overlooking the British Channel."
+          }
+        },
+        "card_pfrePX": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/wellness-design-linen-textiles-healthy-home-a-cultivated-living-flax-harvest.jpg",
+            "title": "French Linen",
+            "text": "The climate of Normandy produces the highest quality linen on Earth: breathable, heat-regulating, and long-lasting."
+          }
+        },
+        "card_9ytc9W": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/linen-knit-fabric-white.jpg",
+            "title": "Slub Linen",
+            "text": "Full-bodied and well-washed slub linen with natural variations that give the fabric real depth."
+          }
+        },
+        "card_KxVwFG": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/plantdyesswatches.jpg",
+            "title": "PLANT-BASED, NATURAL DYES",
+            "text": "Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals)."
+          }
+        }
+      },
+      "block_order": [
+        "card_k43QFy",
+        "card_pfrePX",
+        "card_9ytc9W",
+        "card_KxVwFG"
+      ],
+      "name": "Linen Info Cards",
+      "settings": {
+        "heading": "",
+        "bg_color": "#ffffff",
+        "text_color": "#1f2937",
+        "container_width": 1450,
+        "columns_desktop": 3,
+        "image_ratio": "4 / 5",
+        "gap": 3,
+        "heading_size": 32,
+        "title_size": 16,
+        "text_size": 15,
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "section_divider_GH3QTq": {
@@ -371,14 +673,14 @@
           "type": "related",
           "settings": {
             "product_recommendations_heading": "Explore More",
-            "limit": 4
+            "limit": 6
           }
         },
         "recent": {
           "type": "recent",
           "settings": {
             "product_recently_heading": "Recently viewed",
-            "product_recently_limit": 4
+            "product_recently_limit": 6
           }
         }
       },
@@ -432,8 +734,21 @@
       "block_order": [
         "judge_me_reviews_review_widget_gaNJNK"
       ],
+      "custom_css": [],
       "settings": {
         "include_margins": false
+      }
+    },
+    "section_divider_JUDeGE": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -441,10 +756,14 @@
     "main",
     "section_divider_93BzHk",
     "section_rich_text_HQmWBD",
+    "section_highlights_BCQQfY",
     "section_highlights_D4363m",
+    "section_highlights_FA93MW",
+    "feb_category_section_wt9aWd",
     "section_divider_GH3QTq",
     "related",
     "section_divider_3tb8fn",
-    "1724442472d2a1fb7a"
+    "1724442472d2a1fb7a",
+    "section_divider_JUDeGE"
   ]
 }

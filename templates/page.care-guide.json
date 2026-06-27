@@ -78,19 +78,19 @@
         "text_QqGVrr": {
           "type": "text",
           "settings": {
-            "text": "<p>We recommend hand-washing your linen garments or using the gentle cycle in the machine at 40° cold water, with a natural detergent. Do not tumble dry, rub or wring out the garment after washing, as it can damage the fibres. </p><p>Wash separately with like colors, and avoid using bleach or chemical detergents. To whiten and brighten your Heavenlies, we recommend a bleach-free alternative, like natural Oxygen powder, that can be added to the wash cycle. If your garments become 'sheer' over time, we recommend putting in the dryer, on the lowest heat setting, so the fibers can expand and thicken.</p><p>Always air-dry items flat or air fluff (low heat), and avoid tumble drying, to prevent unwanted shrinkage- and extend the longevity of your pieces. Low-heat ironing is great to remove wrinkles. Unlike traditional woven linen, knitted linen fabric does not crease!</p>",
+            "text": "<p>We recommend hand-washing your linen garments or using the gentle cycle in the machine at 40° with a natural detergent. Do not tumble dry, rub or wring out the garment after washing, as it can damage the fibres. </p><p>Wash separately with like colors, and avoid using bleach or chemical detergents. To whiten and brighten your Heavenlies, we recommend a bleach-free alternative, like natural Oxygen powder, that can be added to the wash cycle. If your garments become 'sheer' over time, we recommend putting in the dryer, on the lowest heat setting, so the fibers can expand and thicken.</p><p>Always air-dry items flat or air fluff (low heat), and avoid tumble drying, to prevent unwanted shrinkage- and extend the longevity of your pieces. Low-heat ironing is great to remove wrinkles. Unlike traditional woven linen, knitted jersey fabric does not crease!</p>",
             "text_size": 4,
             "text_style": "font-body",
             "padding_bottom": 16
           }
         },
-        "buttons_yr6fMH": {
+        "buttons_aET3yA": {
           "type": "buttons",
           "settings": {
             "button_text": "Learn more",
             "button_url": "shopify://pages/detailed-care-instructions",
             "button_type": "btn--primary",
-            "button_size": "btn--small",
+            "button_size": "",
             "button_style": "btn--text",
             "show_arrow": false,
             "padding_bottom": 16
@@ -100,7 +100,7 @@
       "block_order": [
         "heading_tWgBd4",
         "text_QqGVrr",
-        "buttons_yr6fMH"
+        "buttons_aET3yA"
       ],
       "settings": {
         "layout": "is-reversed",

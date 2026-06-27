@@ -1,0 +1,192 @@
+/* --------------- collection card ------------------------ */
+
+#shopify-section-template--25518946222381__section_collections_list_Hp98KG .collection-item__bg .image-wrapper {
+    transform: none !important;
+}
+
+/* #shopify-section-template--25518946222381__section_collections_list_Hp98KG .collection-item__info span {
+    background: transparent !important;
+} */
+
+
+.jn-icon-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    gap: 15px;
+}
+
+
+.jn-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}        
+
+.jn-icon-box img{
+    width: 45px;
+}
+
+.jn-icon-box p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+
+
+
+/* subscriptions badges section */
+
+.appstle-tootltip-parent{
+    display: none !important;
+}
+
+
+.WIDGET_TYPE_7 .appstle_custom_select {
+    margin-top: 4px !important;
+}
+
+.product-card__fabric-type {
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+
+.jn-icon-box img {
+    width: 40px;
+}    
+
+.jn-icon-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    gap: 6px;
+}
+
+.jn-icon-box p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.product-card__fabric-type {
+    font-size: 10px;
+}
+
+
+}
+
+@media only screen and (max-width: 1024px){
+    .jn-icon-box p {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+
+.slider__button {
+    opacity: 1!important;
+    visibility: visible!important;
+    transform: translateZ(0)!important;
+}
+
+
+.slider__button {
+    --icon-size: 28px;
+    --btn-size: 40px;
+    position: absolute;
+    top: var(--button-position, 50%);
+    width: var(--btn-size);
+    height: var(--btn-size);
+    padding: 0;
+    border: 0;
+    border-radius: var(--RADIUS);
+    color: inherit;
+    background: var(--COLOR-BG);
+    box-shadow: 0 2px 6px #0000000a,0 2px 2px #00000005;
+    margin-top: calc(var(--btn-size) / -2);
+    overflow: hidden;
+    font-size: 0;
+    text-indent: -100%;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+
+@media (max-width: 767px) {
+  .slick-arrow,
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 99 !important;
+  }
+
+  .swiper-button-next {
+    right: 8px !important;
+  }
+
+  .swiper-button-prev {
+    left: 8px !important;
+  }
+}
+
+
+
+/* common arro bg  */
+
+.slider__button {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+
+/* press section  */
+#Logos--template--25518946222381__section_press_logos_9HWp3P .jn-arrow-container {
+    display: none;
+}
+
+
+#Logos--template--25518946222381__section_press_logos_9HWp3P button.custom-logo-arrow.custom-logo-arrow--prev {
+    display: none !important;
+}
+
+
+#Logos--template--25518946222381__section_press_logos_9HWp3P button.custom-logo-arrow.custom-logo-arrow--next {
+    display: none !important;
+}
+
+/* finest luxury section  */
+
+#Logos--template--25518946222381__section_press_logos_eGxRAq button.custom-logo-arrow.custom-logo-arrow--prev {
+    display: none !important;
+}
+
+
+#Logos--template--25518946222381__section_press_logos_eGxRAq button.custom-logo-arrow.custom-logo-arrow--next {
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 767px){
+
+    #shopify-section-template--25518946222381__logos button.custom-logo-arrow.custom-logo-arrow--next {
+    display: none !important;
+}
+
+#shopify-section-template--25518946222381__logos button.custom-logo-arrow.custom-logo-arrow--prev {
+    display: none !important;
+}
+
+
+}

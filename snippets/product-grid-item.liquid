@@ -1,17 +1,17 @@
 {% comment %}
-    Renders list of products in grid layout
+  Renders list of products in grid layout
 
-    Accepts:
-    - product: {Object} product (required)
-    - animation_delay: {Int} animation timing for load
-    - last_element: {Boolean} True when custom image is taking up the first slot for the collection
-                              and the loop is on the last element for the page.
-    - index: element index in the loop
-    - block_index: index of the block in Tab collections section
-    - sizes: Image sizes
+  Accepts:
+  - product: {Object} product (required)
+  - animation_delay: {Int} animation timing for load
+  - last_element: {Boolean} True when custom image is taking up the first slot for the collection
+                            and the loop is on the last element for the page.
+  - index: element index in the loop
+  - block_index: index of the block in Tab collections section
+  - sizes: Image sizes
 
-    Usage:
-    {% render 'product-grid-item', product: product, index: index, sizes: image_sizes %}
+  Usage:
+  {% render 'product-grid-item', product: product, index: index, sizes: image_sizes %}
 {% endcomment %}
 
 {%- liquid
@@ -41,7 +41,7 @@
     assign columns_medium = 2
   endif
 
-  if show_product_card != nil and show_product_card == false
+  if show_product_card != null and show_product_card == false
     assign transparent_class = 'product-item--transparent'
   endif
 
@@ -533,13 +533,19 @@
 {%- endcapture -%}
 
 {%- unless hidden_product -%}
-  <div class="grid-item product-item {{ swatches_class }} {{ alignment_class }} {{ overlay_text_class }} {{ quickview_class }} {{ transparent_class }}"
+  <div
+    class="grid-item product-item {{ swatches_class }} {{ alignment_class }} {{ overlay_text_class }} {{ quickview_class }} {{ transparent_class }}"
     id="{{ item_unique }}"
     style="--swatch-size: var(--swatch-size-filters);"
     data-grid-item
   >
     <div class="product-item__image{% if double_img %} double__image{% endif %}" data-product-image>
-      <a class="product-link" href="{{ product_url }}" aria-label="{{ product.title | strip_html | escape }}" data-product-link="{{ product_url }}">
+      <a
+        class="product-link"
+        href="{{ product_url }}"
+        aria-label="{{ product.title | strip_html | escape }}"
+        data-product-link="{{ product_url }}"
+      >
         {%- if product.media.size > 0 -%}
           <div class="product-item__bg" data-product-image-default>
             {%- liquid
@@ -551,7 +557,7 @@
               endif
 
               capture featured_image
-                render 'image' image: product.featured_media.preview_image, aspect_ratio: aspect_ratio, sizes: sizes, widths: widths, loading: loading, fetchpriority: fetchpriority, preload: preload, attributes: image_animations, cover: true
+                render 'image', image: product.featured_media.preview_image, aspect_ratio: aspect_ratio, sizes: sizes, widths: widths, loading: loading, fetchpriority: fetchpriority, preload: preload, attributes: image_animations, cover: true
               endcapture
             -%}
 
@@ -564,8 +570,41 @@
                   {%- assign image_inner_empty = false -%}
                   {%- assign variant_title = variant.title | replace: '"', "'" -%}
 
-                  <div class="product-item__bg__inner" data-variant-title="{{ variant_title }}">
-                    {%- render 'image' image: variant.featured_image, aspect_ratio: aspect_ratio, sizes: sizes, widths: widths, cover: true -%}
+                  {% comment %}
+                    <div class="product-item__bg__inner" data-variant-title="{{ variant_title }}">
+                      {%- render 'image',
+                        image: variant.featured_image,
+                        aspect_ratio: aspect_ratio,
+                        sizes: sizes,
+                        widths: widths,
+                        cover: true
+                      -%}
+                    </div>
+                  {% endcomment %}
+
+                  {%- assign variant_color = '' -%}
+
+                  {%- for option in product.options_with_values -%}
+                    {%- assign option_name = option.name | downcase -%}
+
+                    {%- if option_name == 'color' or option_name == 'colour' -%}
+                      {%- assign color_index = forloop.index0 -%}
+                      {%- assign variant_color = variant.options[color_index] -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+
+                  <div
+                    class="product-item__bg__inner"
+                    data-variant-title="{{ variant_title }}"
+                    data-variant-color="{{ variant_color | handle }}"
+                  >
+                    {%- render 'image',
+                      image: variant.featured_image,
+                      aspect_ratio: aspect_ratio,
+                      sizes: sizes,
+                      widths: widths,
+                      cover: true
+                    -%}
                   </div>
                 {%- endif -%}
               {%- endfor -%}
@@ -581,7 +620,8 @@
             <hover-images class="product-item__bg__under">
               <div class="product-item__bg__slider" data-hover-slider>
                 {%- for media in product.media limit: settings.image_hover_limit -%}
-                  <div class="product-item__bg__slide{% if media.media_type == 'video' or media.media_type == 'external_video' %} deferred-media{% endif %}"
+                  <div
+                    class="product-item__bg__slide{% if media.media_type == 'video' or media.media_type == 'external_video' %} deferred-media{% endif %}"
                     {% unless forloop.first %}
                       data-hover-slide
                     {% endunless %}
@@ -601,7 +641,13 @@
                         endcase
                       -%}
                     {%- else -%}
-                      {%- render 'image' image: media.preview_image, aspect_ratio: aspect_ratio, sizes: sizes, widths: widths, cover: true -%}
+                      {%- render 'image',
+                        image: media.preview_image,
+                        aspect_ratio: aspect_ratio,
+                        sizes: sizes,
+                        widths: widths,
+                        cover: true
+                      -%}
                     {%- endif -%}
                   </div>
                 {%- endfor -%}
@@ -621,132 +667,136 @@
       {{ over_image_content }}
     </div>
 
-<div class="product-information" data-product-information>
-  <div class="product-item__info" data-product-title="{{ product.title | strip_html | escape }}">
-         <div class="product-item__column product-item__column--swatches">
-        {%- if siblings_html != blank -%}
-          {{ siblings_html }}
-        {%- elsif has_colors -%}
-          <div class="product-item__swatches__holder product-item__swatches__holder--{{ settings.swatch_style }} product-item__swatches__holder--{{ settings.collection_swatch_style }}">
-            {{ swatches }}
-            <span class="product-item__swatches__count">
-              <span data-swatch-count>&nbsp;</span>
-            </span>
-          </div>
-        {%- endif -%}
-      </div>
-    <!-- First Row: Title and Price -->
-    <div class="product-item__row product-item__row--first">
-      <!-- Title Column (80%) -->
-      <div class="product-item__column product-item__column--title">
-        <a class="product-link" href="{{ product_url }}" data-product-link="{{ product_url }}">
-          <p class="product-item__title">{{ product.title | strip_html | escape }}</p>
-        </a>
-      </div>
-      <!-- Price Column (20%) -->
-      
-    </div>
+    <div class="product-information" data-product-information>
+      <div class="product-item__info" data-product-title="{{ product.title | strip_html | escape }}">
+        {% comment %} old color swatch {% endcomment %}
 
-    <!-- Second Row: First Variant, Collection Name, and Swatches -->
-    <div class="product-item__row product-item__row--second">
-      <!-- First Variant and Collection Name Column (60%) -->
-   {% comment %}   <div class="product-item__column product-item__column--details">
-        <span class="product-item__variant-collection">
-          {% if product.variants.size > 0 %}
-            {% assign color_option_value = "" %}
-            {% for option in product.options_with_values %}
-              {% if option.name == "color" or option.name == "Color" %}
-                {% assign color_option_value = product.variants.first.options[forloop.index0] %}
-                {% break %}
-              {% endif %}
-            {% endfor %}
-            {% if color_option_value != "" %}
-              <span class="product-item__variant">{{ color_option_value }}</span>
-              {%- for collection in product.collections -%}
-              {%- if collection.title == "Organic Linen" -%}
-                <span class="separator">|</span>
-                 <span class="product-item__collection">
-  {{ collection.title }}
-</span>
-              {%- endif -%}
-                {%- endfor -%} 
-            {% endif %}
-          {% endif %}
-    
-        </span>
-      </div>{% endcomment %}
-      <!-- Swatches Column (40%) -->
-      <div class="product-item__column product-item__column--price">
-        <div class="product-item__price__holder{% if has_siblings %} has-siblings{% endif %}">
-          <div class="product-item__price" data-product-price>
+        {% comment %} {%- render 'product-variant-options' product: product, unique: unique, block: block, block_style: block_style, product_form_id: product_form_id, enable_size_chart: true -%} {% endcomment %}
 
-            {%- liquid
-              if settings.currency_code_enable
-                assign product_price_min = product.price_min | money_with_currency
-                assign product_compare_at_price = product.compare_at_price | money_with_currency
-              else
-                assign product_price_min = product.price_min | money
-                assign product_compare_at_price = product.compare_at_price | money
-              endif
-            -%}
-
-            <!-- Price logic -->
-            <span class="price{% if product.compare_at_price > product.price %} sale{% endif %}">
-              {% if product.available or badge_soldout != '' %}
-                <span class="new-price">
-                  {% if product.price_varies %}
-                    <small>{{ 'products.general.from' | t }}</small>
-                  {% endif %}
-                  {%- if product.price == 0 and product.price_varies == false -%}
-                    {{ 'general.money.free' | t }}
-                  {%- else -%}
-                    {% if product.available == false %}
-                     {{ product_price_min }}
-                      {% else %}
-                    {{ product_price_min }}
-                      
-                  {%- endif -%}
-                    {%- endif -%}
-                </span>
-                {% if product.compare_at_price > product.price %}
-                  <span class="old-price">{{ product_compare_at_price }}</span>
-                {% endif %}
-              {% else %}
-                <span class="sold-out">{{ 'products.product.sold_out' | t }}</span>
-              {% endif %}
-            </span>
-            {% if current_variant.unit_price %}
-              <br>
-              <span class="unit small">
-                {% if settings.currency_code_enable %}
-                  {{ current_variant.unit_price | money_with_currency }}
-                {% else %}
-                  {{ current_variant.unit_price | money }}
-                {% endif %}
-                /
-                {% if current_variant.unit_price_measurement.reference_value != 1 %}
-                  {{ current_variant.unit_price_measurement.reference_value }}
-                {% endif %}
-                {{ current_variant.unit_price_measurement.reference_unit }}
+        <div class="product-item__column product-item__column--swatches">
+          {%- if siblings_html != blank -%}
+            {{ siblings_html }}
+          {%- elsif has_colors -%}
+            <div class="product-item__swatches__holder product-item__swatches__holder--{{ settings.swatch_style }} product-item__swatches__holder--{{ settings.collection_swatch_style }}">
+              {{ swatches }}
+              <span class="product-item__swatches__count">
+                <span data-swatch-count>&nbsp;</span>
               </span>
-            {% endif %}
-            <!-- End of Price logic -->
+            </div>
+          {%- endif -%}
+        </div>
 
+        {% comment %} {% render 'home-page-swatches', product: product %} {% endcomment %}
+
+        {% comment %} old color swatch end {% endcomment %}
+
+        {% comment %} home-page-swatches.liquid {% endcomment %}
+
+        <!-- First Row: Title and Price -->
+        <div class="product-item__row product-item__row--first">
+          <!-- Title Column (80%) -->
+          <div class="product-item__column product-item__column--title">
+            {% if product.metafields.custom.fabric_type != blank %}
+              <p class="product-card__fabric-type">
+                {{ product.metafields.custom.fabric_type.value }}
+              </p>
+            {% endif %}
+            <a class="product-link" href="{{ product_url }}" data-product-link="{{ product_url }}">
+              <p class="product-item__title">{{ product.title | strip_html | escape }}</p>
+            </a>
+          </div>
+          <!-- Price Column (20%) -->
+        </div>
+
+        <!-- Second Row: First Variant, Collection Name, and Swatches -->
+        <div class="product-item__row product-item__row--second">
+          <!-- First Variant and Collection Name Column (60%) -->
+          {% comment %}
+            <div class="product-item__column product-item__column--details">
+                    <span class="product-item__variant-collection">
+                      {% if product.variants.size > 0 %}
+                        {% assign color_option_value = "" %}
+                        {% for option in product.options_with_values %}
+                          {% if option.name == "color" or option.name == "Color" %}
+                            {% assign color_option_value = product.variants.first.options[forloop.index0] %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor %}
+                        {% if color_option_value != "" %}
+                          <span class="product-item__variant">{{ color_option_value }}</span>
+                          {%- for collection in product.collections -%}
+                          {%- if collection.title == "Organic Linen" -%}
+                            <span class="separator">|</span>
+                             <span class="product-item__collection">
+              {{ collection.title }}
+            </span>
+                          {%- endif -%}
+                            {%- endfor -%}
+                        {% endif %}
+                      {% endif %}
+
+                    </span>
+                  </div>
+          {% endcomment %}
+          <!-- Swatches Column (40%) -->
+          <div class="product-item__column product-item__column--price">
+            <div class="product-item__price__holder{% if has_siblings %} has-siblings{% endif %}">
+              <div class="product-item__price" data-product-price>
+                {%- liquid
+                  if settings.currency_code_enable
+                    assign product_price_min = product.price_min | money_with_currency
+                    assign product_compare_at_price = product.compare_at_price | money_with_currency
+                  else
+                    assign product_price_min = product.price_min | money
+                    assign product_compare_at_price = product.compare_at_price | money
+                  endif
+                -%}
+
+                <!-- Price logic -->
+                <span class="price{% if product.compare_at_price > product.price %} sale{% endif %}">
+                  {% if product.available or badge_soldout != '' %}
+                    <span class="new-price">
+                      {% if product.price_varies %}
+                        <small>{{ 'products.general.from' | t }}</small>
+                      {% endif %}
+                      {%- if product.price == 0 and product.price_varies == false -%}
+                        {{ 'general.money.free' | t }}
+                      {%- else -%}
+                        {% if product.available == false %}
+                          {{ product_price_min }}
+                        {% else %}
+                          {{ product_price_min }}
+                        {%- endif -%}
+                      {%- endif -%}
+                    </span>
+                    {% if product.compare_at_price > product.price %}
+                      <span class="old-price">{{ product_compare_at_price }}</span>
+                    {% endif %}
+                  {% else %}
+                    <span class="sold-out">{{ 'products.product.sold_out' | t }}</span>
+                  {% endif %}
+                </span>
+                {% if current_variant.unit_price %}
+                  <br>
+                  <span class="unit small">
+                    {% if settings.currency_code_enable %}
+                      {{ current_variant.unit_price | money_with_currency }}
+                    {% else %}
+                      {{ current_variant.unit_price | money }}
+                    {% endif %}
+                    /
+                    {% if current_variant.unit_price_measurement.reference_value != 1 %}
+                      {{ current_variant.unit_price_measurement.reference_value }}
+                    {% endif %}
+                    {{ current_variant.unit_price_measurement.reference_unit }}
+                  </span>
+                {% endif %}
+                <!-- End of Price logic -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
   </div>
 {%- endunless -%}

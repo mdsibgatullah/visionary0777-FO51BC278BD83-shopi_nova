@@ -12820,3 +12820,69 @@
     }
 
 })(themeVendor.ScrollLock, themeVendor.Rellax, themeVendor.Flickity, themeVendor.FlickityFade, themeVendor.themeImages);
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function filterVariantImages() {
+    // 1. Current selected color variant khuje ber kora
+    // Apnar theme-er option selector wrapper onusare querySelector change hote pare
+    const colorSelectors = document.querySelectorAll('input[name="Color"], input[name="color"], select[data-option-index="0"], .variant-input input');
+    let selectedColor = '';
+
+    colorSelectors.forEach(function(input) {
+      if (input.type === 'radio' && input.checked) {
+        selectedColor = input.value.trim().toLowerCase();
+      } else if (input.tagName === 'SELECT') {
+        selectedColor = input.value.trim().toLowerCase();
+      }
+    });
+
+    if (!selectedColor) {
+      // Alternately, get it from URL parameter if available (?variant=...)
+      const urlParams = new URLSearchParams(window.location.search);
+      const variantId = urlParams.get('variant');
+      // Shopify default product object thekeo neya jay
+    }
+
+    if (!selectedColor) return;
+
+    // 2. Theme-er image gallery/thumbnail container khuje ber kora
+    // Standard theme-er common gallery classes/elements
+    const thumbnails = document.querySelectorAll('.product__media-item, .product-single__thumbnails-item, .thumb-item, [data-media-id]');
+
+    thumbnails.forEach(function(thumb) {
+      const img = thumb.querySelector('img');
+      if (img) {
+        const altText = img.getAttribute('alt') ? img.getAttribute('alt').trim().toLowerCase() : '';
+
+        // Jodi alt text variant color-er sathe match kore, tobe dekhabe. Baki gulo hide hobe.
+        // Prothom bar load er somoy ba custom alt text thakle seita logic onuyayi handle hobe
+        if (altText === selectedColor || altText.includes(selectedColor)) {
+          thumb.style.display = 'block';
+          // Option for flex layouts: thumb.style.setProperty('display', 'block', 'important');
+        } else if (altText !== '') { 
+          // Sudu matro color alt text thakle hide korbe, jate generic images (size chart etc.) thake
+          thumb.style.display = 'none';
+        }
+      }
+    });
+  }
+
+  // Variant change event listen kora
+  // Shopify standard dawn theme ebong onno theme-e url change hoy variant bodlale
+  window.addEventListener('popstate', filterVariantImages);
+  
+  // Custom event listener variant change selector-er jonno
+  const form = document.querySelector('form[action="/cart/add"]');
+  if (form) {
+    form.addEventListener('change', function() {
+      setTimeout(filterVariantImages, 100); // 100ms delay to let liquid/theme script load first
+    });
+  }
+
+  // Initial execution on page load
+  setTimeout(filterVariantImages, 200);
+});
+</script>

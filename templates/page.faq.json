@@ -144,7 +144,7 @@
           "settings": {
             "default_open": false,
             "title": "Can I cancel or edit my order?",
-            "content": "<p>Once you've received an order confirmation, you can not change it yourself.</p><p>We kindly ask you to send an email to <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.com</a>  as soon as possible and our team will do their best to help you.</p><p>If your package has already been shipped, we cannot edit it.</p>",
+            "content": "<p>Once you've received an order confirmation, you can not change it yourself.</p><p>We kindly ask you to send an email to <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.us</a>  as soon as possible and our team will do their best to help you.</p><p>If your package has already been shipped, we cannot edit it.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -156,7 +156,7 @@
           "settings": {
             "default_open": false,
             "title": "My tracking link shows \"delivered\", but I never received my order. What now?",
-            "content": "<p>Contact the shipping company directly. If they are not able to help you, please contact us at <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.com</a> and we will do our best to help you find your package. </p>",
+            "content": "<p>Contact the shipping company directly. If they are not able to help you, please contact us at <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.us</a> and we will do our best to help you find your package. </p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -168,7 +168,7 @@
           "settings": {
             "default_open": false,
             "title": "What happens if my package is lost or stolen?",
-            "content": "<p>After delivery of the package, (unless lost in the mail by the carrier), which is insured, Heavenly Essentials is not responsible for lost or stolen packages. If you require any additional assistance, please contact us at <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.com</a> and we will do our best to resolve.</p>",
+            "content": "<p>After delivery of the package, (unless lost in the mail by the carrier), which is insured, Heavenly Essentials is not responsible for lost or stolen packages. If you require any additional assistance, please contact us at <a href=\"mailto:mailtoinfo@heavenlyessentials.us\" title=\"mailto:mailtoinfo@heavenlyessentials.us\">info@heavenlyessentials.us</a> and we will do our best to resolve.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -285,7 +285,7 @@
           "settings": {
             "default_open": false,
             "title": "Where are Heavenly Essentials materials sourced?",
-            "content": "<p>All of our products are made from Organic, Chemical-free, Bleach-free and Natural Flax from France. Our products are manufactured in Europe and sewn locally in the USA. </p><p>We are committed to an ethical and transparent supply chain.</p>",
+            "content": "<p>All of our products are made from Organic, Chemical-free, Bleach-free and Chemical-free Flax from France. Our products are manufactured in Europe and sewn locally in the USA. </p><p>We are committed to a ethical and transparent supply chain.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -326,7 +326,7 @@
           "settings": {
             "default_open": false,
             "title": "How do I care for my items?",
-            "content": "<p>All HEAVENLY ESSENTIALS items can be hand or machine-washed, on gentle cycle only. If using a washing machine, it must be set on delicate cycle setting. Hand washing will help to extend the life of your garment, and is also more gentle on the environment. We recommend using a wash bag in cool water and laying flat dry - reducing energy and also better for your items longevity.</p><p>Avoid using bleach or chemical detergents. To Whiten & Brighten your Heavenlies, we recommend a bleach-free alternative, like natural Oxygen Whitener, that can be added to the wash cycle. If your garments become 'sheer' over time, we recommend washing and putting in the dryer (when damp) for 10-15 minutes, on the lowest heat setting, so the fibers can expand and thicken.</p>",
+            "content": "<p>All HEAVENLY ESSENTIALS items can be hand or machine-washed, on gentle cycle only. If using a washing machine, it must be set on delicate cycle setting. Hand washing will help to extend the life of your garment, and is also more gentle on the environment. We recommend using a wash bag in cool water and laying flat dry - reducing energy and also better for your undies longevity.</p><p>Avoid using bleach or chemical detergents. To Whiten & Brighten your Heavenlies, we recommend a bleach-free alternative, like natural Oxygen Whitener, that can be added to the wash cycle. If your garments become 'sheer' over time, we recommend washing and putting in the dryer (when damp) for 10-15 minutes, on the lowest heat setting, so the fibers can expand and thicken.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -350,7 +350,7 @@
           "settings": {
             "default_open": false,
             "title": "What is the lifespan of a pair?",
-            "content": "<p><strong>Natural flax fibers can last up to three times longer than synthetics, cotton or other materials, making them a great investment! </strong>With gentle wash and care, <em>Heavenly Essentials are designed to be stronger and last longer than conventional clothing. </em></p><p></p><p>High-quality underwear should typically last several years of regular rotation. However, the exact lifespan depends on how often you wear a specific pair and your laundry routine. </p><p><br/>Expected Lifespan by Usage</p><ul><li>Heavy Rotation (1-2x a week): 6 to 12 months.</li><li>Moderate Rotation (every 2-3 weeks): 2 to 3 years.</li></ul><p><em>Flax is the most durable natural fiber to exist. After years of love and wear, we recommend planting them in the compost. A fully regenerative garment!</em></p>",
+            "content": "<p><strong>Natural flax fibers can last up to three times longer than synthetics, cotton or other materials, making them a great investment! </strong>With gentle wash and care, <em>Heavenly Essentials are designed to be stronger and last longer than conventional clothing. </em></p><p><em>Flax is the most durable natural fiber to exist. After years of love and wear, we recommend planting them in the compost. A fully regenerative garment!</em></p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,

@@ -20,10 +20,39 @@
             "padding_bottom": 8
           }
         },
+        "judge_me_reviews_preview_badge_VFmpFa": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {
             "padding_bottom": 22
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "qikify_volume_discount_volume_offer_7wNyQH": {
+          "type": "shopify://apps/qikify-volume-discount/blocks/volume_offer/f0592105-7af5-4bc5-afd2-d674b4b2de92",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
           }
         },
         "text_jnjwTx": {
@@ -57,7 +86,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b>ORGANIC LINEN</b>",
+            "heading": "<b> MATERIALS & SUSTAINABLITY </b>",
             "text": "<p>We founded Heavenly Essentials to reduce the environmental impact of our intimates & everyday essentials. To take responsibility for the whole life cycle of your Heavenly Essential's, we make all our pieces with the highest quality, super-soft 100% GOTS Certified Organic Linen — a sustainably-sourced fabric that’s also completely compostable.<br/><br/>The softest, most breathable fabric for everyday wear, that is gynecologist recommended. Our organic linen is a natural fibre, grown without any pesticides, fertilizers, or gmo seeds– making your Heavenly Essential’s not only good for you, but the Planet too.</p>",
             "padding_bottom": 0
           }
@@ -68,40 +97,24 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b>SHIPPING & RETURNS</b>",
+            "heading": "<b> SHIPPING & RETURNS </b>",
             "text": "<p>Enjoy free US shipping on orders over $100</p><p><br/>Membership is only valid in the United States.<br/><br/><strong>RETURNS</strong><br/>Memberships are non-returnable and non-refundable.</p>",
             "padding_bottom": 0
-          }
-        },
-        "variants": {
-          "type": "variants",
-          "settings": {
-            "info_page": "",
-            "size_chart_style": "text",
-            "subscriptions_enable_selectors": false,
-            "padding_bottom": 16
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "show_quantity": false,
-            "show_payment_button": false,
-            "show_gift_card_recipient": false,
-            "padding_bottom": 32
           }
         }
       },
       "block_order": [
         "title",
+        "judge_me_reviews_preview_badge_VFmpFa",
         "price",
+        "variants",
+        "qikify_volume_discount_volume_offer_7wNyQH",
+        "buttons",
         "text_jnjwTx",
         "text_zKmLy6",
         "description_TaWNem",
         "accordion_UbJrwr",
-        "accordion_pReJKH",
-        "variants",
-        "buttons"
+        "accordion_pReJKH"
       ],
       "custom_css": [
         ".radio__button {width: 74px;}",
@@ -116,7 +129,7 @@
       "settings": {
         "product_sticky_enable": true,
         "variant_image_scroll": true,
-        "image_layout": "stacked",
+        "image_layout": "thumbnails-left",
         "image_size": "normal",
         "show_cart_bar": true,
         "enable_zoom": true,
@@ -124,6 +137,18 @@
         "mobile_image_style": "thumbs",
         "padding_top": 30,
         "padding_bottom": 50
+      }
+    },
+    "section_divider_3CJpBL": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 43
       }
     },
     "section_multicolumn_6J3iGx": {
@@ -373,34 +398,68 @@
         "show_arrow": false,
         "featured_collection": "mens-best-sellers",
         "layout_desktop": "slider",
-        "grid": 4,
+        "grid": 6,
         "rows": 3,
         "width": "wrapper",
         "layout_mobile": "slider",
         "bg_color": "",
         "color": "",
         "padding_top": 0,
-        "padding_bottom": 50
+        "padding_bottom": 0
       }
     },
-    "section_divider_3CJpBL": {
+    "section_divider_dFMFnm": {
       "type": "section-divider",
       "settings": {
         "show_line": true,
         "width": "wrapper--full-padded",
         "border_color": "",
         "bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1780142932691702f2": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_p4VqyK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_p4VqyK"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "section_divider_Cq7mJK": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "main",
+    "section_divider_3CJpBL",
     "section_multicolumn_6J3iGx",
     "section_highlights_D4363m",
     "related",
     "section_collection_yGtKnW",
-    "section_divider_3CJpBL"
+    "section_divider_dFMFnm",
+    "1780142932691702f2",
+    "section_divider_Cq7mJK"
   ]
 }

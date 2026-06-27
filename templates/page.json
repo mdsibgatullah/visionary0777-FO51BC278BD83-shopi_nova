@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         ".hero__title {text-align: center;}"
       ],
@@ -29,10 +30,10 @@
         "padding_bottom": 50
       }
     },
-    "section_columns_FrzMbP": {
+    "section_columns_zXLjbK": {
       "type": "section-columns",
       "blocks": {
-        "image_97nJdL": {
+        "image_zV9EWw": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/HeavenlyEssentials-2025-934.jpg",
@@ -51,7 +52,7 @@
             "show_arrow": false
           }
         },
-        "image_aiPztn": {
+        "image_iKTYf6": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/BRA.png",
@@ -70,7 +71,7 @@
             "show_arrow": false
           }
         },
-        "image_zdek8M": {
+        "image_68tGft": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Screen_Shot_2026-06-07_at_5.59.44_PM.png",
@@ -91,10 +92,11 @@
         }
       },
       "block_order": [
-        "image_97nJdL",
-        "image_aiPztn",
-        "image_zdek8M"
+        "image_zV9EWw",
+        "image_iKTYf6",
+        "image_68tGft"
       ],
+      "disabled": true,
       "name": "Text columns with images",
       "settings": {
         "title": "Gentle care will prolong the life of your Heavenly wear.",
@@ -107,130 +109,26 @@
         "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
-        "padding_top": 9,
+        "padding_top": 50,
         "padding_bottom": 50,
         "layout_mobile": "slider"
       }
     },
-    "section_hero_NCM4tH": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_kHkGJk": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "heading_size": 11
-          }
-        },
-        "heading_LNhBCD": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "heading_size": 11
-          }
-        },
-        "text_gb4CXg": {
-          "type": "text",
-          "settings": {
-            "description": "",
-            "text_size": 5,
-            "text_style": "font-body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_kHkGJk",
-        "heading_LNhBCD",
-        "text_gb4CXg"
-      ],
-      "disabled": true,
-      "name": "Image banner",
-      "settings": {
-        "height": "screen-height-one-third",
-        "width": "wrapper--full-padded",
-        "image_1": "shopify://shop_images/94160001-foam-background.jpg",
-        "link": "",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#ffffff",
-        "show_placeholder": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_rich_text_KEfYP8": {
+    "section_rich_text_8ECMBC": {
       "type": "section-rich-text",
       "blocks": {
-        "subheading_JzhEhE": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "",
-            "text_size": 3,
-            "padding_bottom": 16
-          }
-        },
-        "heading_BttVJg": {
+        "heading_tFzHJb": {
           "type": "heading",
           "settings": {
-            "title": "Linen Care — Gentleness is Key.",
-            "text_size": 7,
+            "title": "Create Your Own Multi-Pack",
+            "text_size": 13,
             "padding_bottom": 16
           }
         },
-        "text_DgewkJ": {
+        "text_a9TVVa": {
           "type": "text",
           "settings": {
-            "text": "<h5><strong>1. Washing Instructions: </strong></h5><p><br/><strong>Hand Wash Preferred: </strong>To prevent pilling and fiber breakage, soak the garment in cold or lukewarm water (below 30°C/86°F) and gently squeeze. Avoid aggressive scrubbing. </p><p><br/><strong>Mild Detergent:</strong> Use a pH-neutral or delicate laundry detergent (like a silk/wool wash). Never use bleach, as it weakens the natural linen fibers.</p><p><br/><strong>Machine Wash Precaution:</strong> If you must use a machine, turn the item inside out and place it in a (natural fiber) mesh laundry bag. Select the \"Delicate\" or \"Hand Wash\" cycle with a low spin speed.</p>",
-            "text_size": 4,
-            "text_style": "font-body",
-            "padding_bottom": 16
-          }
-        },
-        "text_iRkPN8": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><strong>2. Drying: No Heat, No Gravity</strong></h5><p><br/><strong>Lay Flat to Dry:</strong> This is the most important step. Because linen jersey is a knit, hanging it while wet will cause the garment to stretch and lose its shape. Lay it flat on a clean towel or a drying rack.</p><p><br/><strong>Avoid Tumble Drying:</strong> High heat will cause significant shrinkage and make the fibers brittle.</p><p><br/><strong>No Wringing:</strong> Do not twist or wring the fabric to remove water. Instead, roll the garment in a dry towel and press down to absorb excess moisture.</p>",
-            "text_size": 4,
-            "text_style": "font-body",
-            "padding_bottom": 16
-          }
-        },
-        "text_jLgKqB": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><strong>3. Ironing: Steam and Moisture</strong></h5><p><br/><strong>Iron While Damp:</strong> Linen wrinkles easily. The best time to iron is when the fabric is still slightly damp.</p><p><br/><strong>Steam Ironing: </strong>Use a steam iron on a medium-high setting. Iron the garment inside out to prevent \"shiny\" marks on the surface of the fabric.</p><p><br/><strong>Embrace the Texture:</strong> If you prefer a casual look, you can skip ironing; the natural \"lived-in\" wrinkles of linen are part of its aesthetic charm. Knit linen creases significantly less than traditional woven linen.</p>",
-            "text_size": 4,
-            "text_style": "font-body",
-            "padding_bottom": 16
-          }
-        },
-        "text_mfaC4j": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><strong>4. Storage: Fold, Don't Hang</strong></h5><p><br/><strong>Folding is Best:</strong> Unlike woven linen shirts, jersey knits should be folded neatly and stored in a drawer. Hanging them for long periods will cause \"hanger bumps\" and permanent stretching.</p><p><br/><strong>Breathable Environment: </strong>Store in a cool, dry place. Avoid plastic storage bags, as linen needs to \"breathe\" to prevent mildew.</p>",
-            "text_size": 4,
-            "text_style": "font-body",
-            "padding_bottom": 16
-          }
-        },
-        "text_TghBMX": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><strong>5. Pro-Tips</strong></h5><p><br/><strong>Softens Over Time:</strong> Quality linen becomes softer and more comfortable with every wash.</p><p><br/><strong>Slight Shedding: </strong>Pure linen jersey may shed a small amount of lint during the first few washes. This is normal; simply wash it with similar colors.</p>",
-            "text_size": 4,
-            "text_style": "font-body",
-            "padding_bottom": 16
-          }
-        },
-        "text_QfjzRB": {
-          "type": "text",
-          "settings": {
-            "text": "<h5><strong>6. Lifetime</strong></h5><p><br/><strong>Designed to Last:</strong> Linen is the most durable natural fiber, that gets stronger and softer with wash and wear. Our  intimates and essentials are designed to last for several years, if proper care is taken. </p><p><strong>Quality over Quantity:</strong> Investing in high-quality, natural essentials is gentler on your body, and the planet - win, win.</p>",
+            "text": "<p>Add any 3 undies to save 10%; add 5 sets or more to save 15%. Discount automatically applied in the cart.</p>",
             "text_size": 4,
             "text_style": "font-body",
             "padding_bottom": 16
@@ -238,45 +136,90 @@
         }
       },
       "block_order": [
-        "subheading_JzhEhE",
-        "heading_BttVJg",
-        "text_DgewkJ",
-        "text_iRkPN8",
-        "text_jLgKqB",
-        "text_mfaC4j",
-        "text_TghBMX",
-        "text_QfjzRB"
+        "heading_tFzHJb",
+        "text_a9TVVa"
+      ],
+      "custom_css": [
+        ".hero__content.hero__content--compact.hero__content--transparent {max-width: 570px;}"
       ],
       "name": "Rich text",
       "settings": {
         "width": "wrapper",
-        "align_text": "text-left",
+        "align_text": "text-center",
         "overlay_opacity": 0,
         "overlay_color": "#000",
         "show_overlay_text": false,
         "bg_color": "",
         "color": "",
-        "padding_top": 42,
-        "padding_bottom": 100
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
-    "section_divider_Hb6Tih": {
-      "type": "section-divider",
+    "section_rich_text_JG7VbM": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_7UgNtY": {
+          "type": "heading",
+          "settings": {
+            "title": "Create Your Own Multi-Pack",
+            "text_size": 13,
+            "padding_bottom": 16
+          }
+        },
+        "text_KDiP7f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose any of our bras and a set of undies for 10% off. Discount automatically applied in the cart.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_7UgNtY",
+        "text_KDiP7f"
+      ],
+      "custom_css": [
+        ".hero__content.hero__content--compact.hero__content--transparent {max-width: 570px;}"
+      ],
+      "name": "Rich text",
       "settings": {
-        "show_line": true,
-        "width": "wrapper--full-padded",
-        "border_color": "",
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
         "bg_color": "",
-        "padding_top": 55,
+        "color": "",
+        "padding_top": 50,
         "padding_bottom": 0
+      }
+    },
+    "1782555132efaa781f": {
+      "type": "apps",
+      "blocks": {
+        "eb_easy_bundle_builder_app_block_bundle_page_wpBjPn": {
+          "type": "shopify://apps/eb-easy-bundle-builder/blocks/app-block-bundlePage/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
+          "settings": {
+            "bundle_id": 3,
+            "loadingUrl": "https://d3ks0ngva6go34.cloudfront.net/public/Loading_Spinner.gif"
+          }
+        }
+      },
+      "block_order": [
+        "eb_easy_bundle_builder_app_block_bundle_page_wpBjPn"
+      ],
+      "settings": {
+        "include_margins": false
       }
     }
   },
   "order": [
     "main",
-    "section_columns_FrzMbP",
-    "section_hero_NCM4tH",
-    "section_rich_text_KEfYP8",
-    "section_divider_Hb6Tih"
+    "section_columns_zXLjbK",
+    "section_rich_text_8ECMBC",
+    "section_rich_text_JG7VbM",
+    "1782555132efaa781f"
   ]
 }

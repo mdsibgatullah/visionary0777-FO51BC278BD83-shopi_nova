@@ -351,7 +351,7 @@
             "logo": "shopify://shop_images/Heavenly_TM_Logo.png",
             "logo_width": 100,
             "link": "",
-            "heading": "Finest luxury essentials. Handmade from the most exclusive fibers. Premium materials for superior comfort.",
+            "heading": "Finest luxury essentials. Handmade from the most exclusive materials. Premium materials for superior comfort.",
             "heading_size": 5
           }
         },
@@ -435,7 +435,7 @@
         "button_type": "btn--primary",
         "button_size": "btn--small",
         "button_style": "btn--solid",
-        "show_arrow": false,
+        "show_arrow": true,
         "featured_collection": "new-arrivals",
         "layout_desktop": "grid",
         "grid": 4,
@@ -446,66 +446,6 @@
         "color": "",
         "padding_top": 40,
         "padding_bottom": 1
-      }
-    },
-    "section_collections_list_KdDdD9": {
-      "type": "section-collections-list",
-      "blocks": {
-        "collection_rwfUhp": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "collection_image": "shopify://shop_images/Screenshot_2025-12-20_at_5.36.44_PM.png",
-            "title": ""
-          }
-        },
-        "collection_ezzhk6": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "collection_CKWfz9": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "collection_ydXA36": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_rwfUhp",
-        "collection_ezzhk6",
-        "collection_CKWfz9",
-        "collection_ydXA36"
-      ],
-      "disabled": true,
-      "name": "Collection list",
-      "settings": {
-        "title": "Collection list",
-        "description": "",
-        "button_text": "",
-        "button_url": "shopify://collections",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "layout": "grid",
-        "aspect_ratio": 1,
-        "grid": 4,
-        "layout_mobile": "slider",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 32,
-        "padding_bottom": 32
       }
     },
     "section_collection_fzbYE8": {
@@ -638,7 +578,7 @@
         "button_size": "btn--large",
         "button_style": "btn--solid",
         "show_arrow": false,
-        "layout": "slider",
+        "layout": "grid",
         "aspect_ratio": 1.2,
         "grid": 4,
         "layout_mobile": "slider",
@@ -648,7 +588,7 @@
         "padding_bottom": 32
       }
     },
-    "section_collection_hUc969": {
+    "section_collection_wkEcmt": {
       "type": "section-collection",
       "name": "Featured collection",
       "settings": {
@@ -658,19 +598,19 @@
         "link_text": "",
         "link_url": "",
         "button_type": "btn--primary",
-        "button_size": "btn--small",
+        "button_size": "",
         "button_style": "btn--solid",
         "show_arrow": false,
         "featured_collection": "new-arrivals-collection",
         "layout_desktop": "grid",
         "grid": 4,
-        "rows": 1,
+        "rows": 3,
         "width": "wrapper",
         "layout_mobile": "slider",
         "bg_color": "",
         "color": "",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "section_hero_rAXU7M": {
@@ -710,11 +650,12 @@
       ],
       "name": "Image banner",
       "settings": {
-        "height": "screen-height-one-third",
+        "height": "image-height",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/100_Natural_Materials_38b186e8-ad8d-4a6c-ada6-52dc7c1d670b.png",
+        "image_1": "shopify://shop_images/new-100_Natural_Materials_38b186e8-ad8d-4a6c-ada6-52dc7.png",
         "link": "",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify://shop_images/100_Natural_Materials_38b186e8-ad8d-4a6c-ada6-52dc7c1d670b-_1.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
@@ -746,11 +687,11 @@
         "button_style": "btn--solid",
         "show_arrow": false,
         "featured_collection": "multipacks-women",
-        "layout_desktop": "grid",
+        "layout_desktop": "slider",
         "grid": 4,
         "rows": 1,
         "width": "wrapper--full-padded",
-        "layout_mobile": "2",
+        "layout_mobile": "slider",
         "bg_color": "",
         "color": "",
         "padding_top": 40,
@@ -861,7 +802,7 @@
             "logo": "shopify://shop_images/TriangleBraWhite.jpg",
             "logo_width": 180,
             "link": "",
-            "heading": "100%  organic flax, sustainable linen undies that are better for you.",
+            "heading": "100%  organic flax linen, sustainable undies that are better for you.",
             "heading_size": 6
           }
         },
@@ -906,7 +847,7 @@
         "title": "DESIGNED IN LOS ANGELES, SUSTAINABLY SOURCED IN EUROPE",
         "enable_heading_slider": true,
         "text_style": "font-body",
-        "logo_opacity": 60,
+        "logo_opacity": 100,
         "bg_color": "#ffffff",
         "color": "",
         "padding_top": 50,
@@ -942,65 +883,10 @@
         "padding_bottom": 0
       }
     },
-    "section_hero_gECRmE": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_EQemXB": {
-          "type": "heading",
-          "settings": {
-            "title": "Essentials That Elevate",
-            "heading_size": 7
-          }
-        },
-        "text_kaP63i": {
-          "type": "text",
-          "settings": {
-            "description": "Ultra-Soft & Luxurious Linen",
-            "text_size": 5,
-            "text_style": "font-body"
-          }
-        },
-        "button_yBq7Jh": {
-          "type": "button",
-          "settings": {
-            "link_text": "SHOP NOW",
-            "link": "shopify://collections/all",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_EQemXB",
-        "text_kaP63i",
-        "button_yBq7Jh"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "screen-height-three-quarters",
-        "width": "wrapper--full",
-        "image_1": "shopify://shop_images/Screenshot_2025-12-11_at_11.02.18_PM_a6ba61e5-0847-4f6b-b9a6-368646f4cbd3.png",
-        "link": "",
-        "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/Screenshot_2025-12-11_at_11.02.18_PM.png",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "overlay_opacity": 15,
-        "overlay_color": "#000000",
-        "show_overlay_text": true,
-        "bg_color": "",
-        "color": "#ffffff",
-        "show_placeholder": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_rich_text_yn4NVX": {
+    "section_rich_text_EiXMYW": {
       "type": "section-rich-text",
       "blocks": {
-        "heading_pfF9XG": {
+        "heading_EgKnHK": {
           "type": "heading",
           "settings": {
             "title": "Testimonials",
@@ -1010,13 +896,14 @@
         }
       },
       "block_order": [
-        "heading_pfF9XG"
+        "heading_EgKnHK"
       ],
+      "name": "Rich text",
       "settings": {
         "width": "wrapper",
         "align_text": "text-center",
         "overlay_opacity": 0,
-        "overlay_color": "#000000",
+        "overlay_color": "#000",
         "show_overlay_text": false,
         "bg_color": "#f7f9fa",
         "color": "",
@@ -1191,6 +1078,23 @@
         "padding_bottom": 0
       }
     },
+    "1779507690f99d1e01": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_4jWrcr": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1400
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_4jWrcr"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
     "section_reviews_db3gPk": {
       "type": "section-reviews",
       "blocks": {
@@ -1227,6 +1131,7 @@
         "review_XyPAza",
         "review_8fBLmm"
       ],
+      "custom_css": [],
       "settings": {
         "show_featured_image": false,
         "image_aspect_ratio": 1.3,
@@ -1237,7 +1142,36 @@
         "color": "",
         "card_bg_color": "",
         "padding_top": 0,
-        "padding_bottom": 50
+        "padding_bottom": 0
+      }
+    },
+    "17825494472589a5d7": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_jgitfd": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "JOIN US",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_jgitfd"
+      ],
+      "settings": {
+        "include_margins": false
       }
     }
   },
@@ -1250,22 +1184,22 @@
     "section_collections_list_RBYEUT",
     "section_press_logos_eGxRAq",
     "featured-collection",
-    "section_collections_list_KdDdD9",
     "section_collection_fzbYE8",
     "section_hero_PfTTyy",
     "section_collections_list_7CRbBG",
-    "section_collection_hUc969",
+    "section_collection_wkEcmt",
     "section_hero_rAXU7M",
     "section_collection_wfUmVh",
     "section_double_4jprVL",
     "section_press_logos_9HWp3P",
     "logos",
     "section_video_ze79EB",
-    "section_hero_gECRmE",
-    "section_rich_text_yn4NVX",
+    "section_rich_text_EiXMYW",
     "section_reviews_gNLnLw",
     "section_hero_zNRk7z",
     "section_hero_Xe4HYd",
-    "section_reviews_db3gPk"
+    "1779507690f99d1e01",
+    "section_reviews_db3gPk",
+    "17825494472589a5d7"
   ]
 }
