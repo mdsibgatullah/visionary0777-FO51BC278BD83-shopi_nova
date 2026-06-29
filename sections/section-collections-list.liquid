@@ -149,6 +149,10 @@
             <div class="collection-list {{ grid_classes }}" data-grid-slider{% if request.design_mode %} data-block-scroll{% endif %}>
               {{ collection_items }}
             </div>
+
+            <button class="custom-mobile-arrow custom-mobile-arrow--prev" type="button"></button>
+            <button class="custom-mobile-arrow custom-mobile-arrow--next" type="button"></button>
+
           </grid-slider>
         {%- else -%}
           <div class="collection-list {{ grid_classes }}">

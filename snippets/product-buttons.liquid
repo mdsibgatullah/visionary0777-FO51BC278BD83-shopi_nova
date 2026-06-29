@@ -49,9 +49,15 @@
         aria-labelledby="{{ unique }}-select-quantity-label"
         data-popout-toggle>
         <span data-popout-toggle-text>1</span>
-        {%- render 'icon-nav-arrow-down' -%}
+        {%- render 'accordion-arrow-down' -%}
       </button>
-
+<style>
+  .product__submit__item--inline .select-popout__toggle {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+</style>
       <ul id="{{ unique }}-select-quantity" class="select-popout__list" data-popout-list data-scroll-lock-scrollable>
         {%- for idx in (1..10) -%}
           <li class="select-popout__item{% if forloop.index == 1 %} is-active{% endif %}">
@@ -143,9 +149,11 @@
             </button>
 
             {%- if show_newsletter -%}
-              {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
-              {% comment %}{%- assign button_text = 'products.product.sold_out' | t | append: ' - ' | append: newsletter_text -%} {% endcomment %}
-{%- assign button_text = 'WAITLIST' | append: ' - ' | append: newsletter_text -%} 
+             {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
+             {%- assign button_text = 'products.product.sold_out' | t | append: ' - ' | append: newsletter_text -%} 
+
+{% comment %} {%- assign button_text = 'WAITLIST' | append: ' - ' | append: newsletter_text -%}  {% endcomment %}
+
               <product-modal class="product-soldout-notification">
                 <button type="button" class="btn btn--primary {{ btn_atc_class }}" data-popup-open>
                   <span class="btn__text">{{ button_text }}</span>

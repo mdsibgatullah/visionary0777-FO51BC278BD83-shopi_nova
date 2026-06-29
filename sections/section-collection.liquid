@@ -1,3 +1,87 @@
+<style>
+@media screen and (max-width: 767px) {
+
+{% comment %} theme default arrow  {% endcomment %}
+
+.slider__arrows {
+    display: none !important;
+}
+
+{% comment %} theme default arrow  {% endcomment %}
+
+  grid-slider {
+    position: relative;
+    display: block;
+  }
+
+  .custom-mobile-arrow {
+    display: flex;
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+    z-index: 99;
+
+    width: 48px;
+    height: 48px;
+
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    font-size: 0;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .custom-mobile-arrow::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    display: block;
+    border-top: 2px solid #222;
+    border-left: 2px solid #222;
+  }
+
+  .custom-mobile-arrow--prev {
+    left: -15px;
+  }
+
+  .custom-mobile-arrow--prev::before {
+    transform: rotate(-45deg);
+  }
+
+  .custom-mobile-arrow--next {
+    right: 0;
+  }
+
+  .custom-mobile-arrow--next::before {
+    transform: rotate(135deg);
+  }
+}
+</style>
+
+
+<script>
+  document.addEventListener('click', function(e) {
+    const nextBtn = e.target.closest('.custom-mobile-arrow--next');
+    const prevBtn = e.target.closest('.custom-mobile-arrow--prev');
+
+    if (!nextBtn && !prevBtn) return;
+
+    const slider = e.target.closest('grid-slider').querySelector('[data-grid-slider]');
+    if (!slider) return;
+
+    const scrollAmount = slider.clientWidth / 2;
+
+    slider.scrollBy({
+      left: nextBtn ? scrollAmount : -scrollAmount,
+      behavior: 'smooth'
+    });
+  });
+</script>
+
+
 {%- liquid
   assign animation_order = 0
   assign animation_anchor = '#Collection--' | append: section.id
@@ -164,17 +248,19 @@
           {%- endif -%}
         {%- endcapture -%}
 
-        {%- if layout_desktop == 'slider' -%}
-          <grid-slider align-arrows>
-            <div class="{{ product_grid_classes }}" data-grid-slider>
-              {{ product_items }}
-            </div>
-          </grid-slider>
-        {%- else -%}
-          <div class="{{ product_grid_classes }}">
-            {{ product_items }}
-          </div>
-        {%- endif -%}
+        {%- if layout_desktop == 'slider' or layout_mobile == 'slider' -%}
+  <grid-slider align-arrows>
+    <div class="{{ product_grid_classes }}" data-grid-slider>
+      {{ product_items }}
+    </div>
+  <button class="custom-mobile-arrow custom-mobile-arrow--prev" type="button"></button>
+<button class="custom-mobile-arrow custom-mobile-arrow--next" type="button"></button>
+  </grid-slider>
+{%- else -%}
+  <div class="{{ product_grid_classes }}">
+    {{ product_items }}
+  </div>
+{%- endif -%}
       </div>
     </div>
   </div>

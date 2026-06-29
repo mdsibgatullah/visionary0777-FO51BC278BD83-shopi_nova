@@ -35,7 +35,7 @@
           "settings": {
             "subheading": "",
             "subheading_size": 1,
-            "title": "INTIMATES WITH AN IMPACT— DESIGNED IN LOS ANGELES, SUSTAINABLY SOURCED IN FRANCE.",
+            "title": "DESIGNED IN LOS ANGELES, SUSTAINABLY SOURCED IN FRANCE.",
             "heading_size": 6,
             "text": "<h6>\"Our elevated <em>essentials</em> offer a sustainable, organic option for everyone looking to feel <em>confident</em> and <em>comfortable</em> in their skin.\"</h6><h6>- Founder, Lilly Anne Sheridan</h6>",
             "text_size": 1,
@@ -164,11 +164,11 @@
         "text_yL368U": {
           "type": "text",
           "settings": {
-            "subheading": "LUXURY INTIMATE WEAR MADE BY NATURE: EDEN FOR ALL",
+            "subheading": "SOFT, SUSTAINABLE & STYLISH: Luxury Meets Sustainability",
             "subheading_size": 3,
             "title": "VISION",
             "heading_size": 8,
-            "text": "<h5><strong>Proverbs 31:13-24</strong></h5><h5></h5><p>Hi, Angel! Heavenly Essentials is on a mission to bring Heaven on Earth— by redefining everyday essentials. We created “<strong>wearable wellness”</strong>, crafted exclusively from 100% GOTS Certified Organic linen, that is soft as a cloud. We developed ultra-soft, functional fabrics <strong>made from the flax plant</strong>; to bridge the gap between fashion and wellness. </p><p>Our premium products feature 100% organic linen (made from flax fibers): ultra-soft, knitted linen fabric, linen elastics, sewn with linen thread. We paired the highest quality materials with sophisticated designs; effortlessly fusing comfort and style. Our pieces feature minimalist and modern silhouettes, made exclusively from state-of-the-art materials. Everything we make is sustainably-sourced, ethically produced, supports regenerative agriculture and are biodegradable and compostable after years of love and wear. </p><p>We are excited to be the first ever circular clothing brand! Everything we make adheres to a fully regenerative process; grown from the Earth and turns back to Earth. We specialize in regenerative wear, sourced from the finest European flax fibers, that do not pollute the environment or harm our bodies. Everything in our product range is entirely plastic-free and made from natural materials. Our objective is to provide the highest quality, eco-luxury clothing staples; that are better for you and the Planet. </p><p>In each collection you’ll find our Heavenly-inspired essentials and staple pieces. We only use plant-based, organic fabrics and botanical dyes; entirely made from plants down to the thread. All of our pieces are made from French flax and sewn sweat-shop free, in Los Angeles. We believe in ethical production, quality over quantity - and can't wait for you to experience the Heavenly way!</p>",
+            "text": "<h5><strong>Proverbs 31:13-24</strong></h5><h5></h5><p>Hi, Angel! Heavenly Essentials is on a mission to bring Heaven on Earth— by redefining everyday essentials. We created “<strong>wearable wellness”</strong>, crafted exclusively from 100% GOTS Certified Organic linen, that is soft as a cloud. We developed functional fabrics made from the flax plant; to bridge the gap between fashion and wellness. </p><p>Our premium products feature 100% organic linen (made from flax fibers): ultra-soft, knitted linen fabric, linen elastics, sewn with linen thread. We paired the highest quality materials with contemporary designs; effortlessly fusing comfort and style. Our pieces feature minimalist and modern silhouettes, made exclusively from state-of-the-art materials. Everything we make is sustainably-sourced, ethically produced, supports regenerative agriculture and is biodegradable and compostable when their time is up. </p><p>We are excited to be the first ever circular clothing brand! Everything we make adheres to a fully regenerative process; grown from the Earth and turns back to Earth. We specialize in regenerative wear, sourced from the finest European flax fibers, that do not pollute the environment or harm our bodies. Everything in our product range is entirely plastic-free and made from natural materials. Our objective is to provide the highest quality, eco-luxury clothing staples; that are better for you and the Planet. </p><p>In each collection you’ll find our Heavenly-inspired essentials and staple pieces. We only use plant-based, organic fabrics and botanical dyes; made from plants. All of our pieces are made from French flax and sewn sweat-shop free, in the Los Angeles fashion district. We believe in ethical production, quality over quantity - and can't wait for you to experience the Heavenly way!</p>",
             "text_size": 3,
             "button_text": "",
             "button_url": "",
@@ -199,70 +199,6 @@
         "borders": false,
         "gutters": false,
         "reverse_blocks": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_double_LDEtXf": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_n3W4ip": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "SOFT, SUSTAINABLE & STYLISH",
-            "text_size": 3,
-            "padding_bottom": 16
-          }
-        },
-        "heading_NJqWc3": {
-          "type": "heading",
-          "settings": {
-            "title": "The Brand",
-            "text_size": 8,
-            "padding_bottom": 16
-          }
-        },
-        "text_p7JaYJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>ELEGANT. QUALITY. MINIMAL.TIMELESS.</strong></p><p>Rebuilding intimate wear from the ground up.</p><p>The foundations of HEAVENLY were defined by a personal refusal to accept that the clothes worn closest to the body, that matter most to our health, are made from plastic or toxic chemicals.</p><p>Inspired by the Bible and ancient textiles that clothed kings for thousands of years, we've created essentials that combine modernity and minimalism with the integrity of plant-based, natural fibers.</p><p>The name HEAVENLY is a reminder of bridging Heaven on Earth, by intentionally choosing what touches your skin (the house of your spirit), and covering your temple with materials from the Earth.</p><p>— Lilly Anne, Founder</p>",
-            "text_size": 4,
-            "text_style": "font-body",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_GGLm7j": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Learn more",
-            "button_url": "shopify://pages/sustainability",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_n3W4ip",
-        "heading_NJqWc3",
-        "text_p7JaYJ",
-        "buttons_GGLm7j"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "layout": "",
-        "height": "screen-height-one-third",
-        "mobile_height": "screen-height-one-third--mobile",
-        "width": "wrapper--full",
-        "image_1": "shopify://shop_images/954.png",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "reverse_blocks": false,
-        "bg_color": "",
-        "color": "",
-        "show_placeholder": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -442,7 +378,6 @@
     "section_custom_content_JikHcP",
     "section_custom_content_rHdGhA",
     "section_custom_content_Dr8UYf",
-    "section_double_LDEtXf",
     "section_announcement_8hVnNN",
     "double-1",
     "section_hero_aj9p9A",

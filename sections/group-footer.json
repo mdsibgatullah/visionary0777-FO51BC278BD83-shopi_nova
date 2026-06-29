@@ -42,7 +42,7 @@
         "linklist_cdk4Ca": {
           "type": "linklist",
           "settings": {
-            "linklist": "links",
+            "linklist": "links-2",
             "title": "",
             "column_width": 20,
             "enable_accordion": false

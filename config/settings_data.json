@@ -144,15 +144,41 @@
         "disabled": false,
         "settings": {}
       },
+      "8232719769135528861": {
+        "type": "shopify://apps/qikify-volume-discount/blocks/app-embed/f0592105-7af5-4bc5-afd2-d674b4b2de92",
+        "disabled": false,
+        "settings": {}
+      },
       "11348531219507317188": {
         "type": "shopify://apps/eb-easy-bundle-builder/blocks/app-embed/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
         "disabled": false,
         "settings": {}
       },
-      "9674181886073616913": {
-        "type": "shopify://apps/mida-fraud-ip-blocker/blocks/blocker-script/09aab972-8c77-47b1-a9a0-4712e9f2405d",
+      "1768834845299682660": {
+        "type": "shopify://apps/subscriptions/blocks/app-embed-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+        "disabled": true,
+        "settings": {
+          "color_text_title": "#6d7175",
+          "color_text_body": "#6d7175",
+          "dividers_color": "#8f8d8d",
+          "bacgkround_color": "#ffffff",
+          "border_thickness": 1,
+          "border_radius": 0,
+          "subscription_policy_url": ""
+        }
+      },
+      "17370010407503379518": {
+        "type": "shopify://apps/wishlist-by-square/blocks/app-embed/88ec2beb-ce43-48ed-b791-0a6554082c2b",
         "disabled": false,
         "settings": {}
+      },
+      "4571859552318407796": {
+        "type": "shopify://apps/glo-color-swatch/blocks/app-embed-block/4394f710-096c-4021-bbde-8ebb26057c11",
+        "disabled": true,
+        "settings": {
+          "customCssGCW": "",
+          "customJsGCW": ""
+        }
       }
     }
   },

@@ -1,0 +1,235 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        ".hero__title {text-align: center;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_divider_Hb6Tih": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 55,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_z4XUm9": {
+      "type": "section-columns",
+      "blocks": {
+        "image_H6xwLj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HeavenlyEssentials-2025-934.jpg",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Machine Wash Gentle",
+            "heading_size": 4,
+            "text": "<p>Turn the item inside out and place it in a (natural fiber) mesh laundry bag. Select the \"Delicate\" or \"Hand Wash\" cycle with a low spin speed. Do not twist or wring the fabric. </p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_kHpfV3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BRA.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Lay flat to Dry",
+            "heading_size": 4,
+            "text": "<p>Lay flat to dry on a clean towel or a drying rack. Do not hang dry. Avoid heat tumble drying, which will cause significant shrinkage and make the fibers break down more quickly.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_gLtJEQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2026-06-07_at_5.59.44_PM.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Store in Drawer",
+            "heading_size": 4,
+            "text": "<p>Store in a cool, dry place. Avoid plastic storage bags. Fold neatly and store in a drawer. Avoid hanging for long periods of time, to prevent stretching or deformity.</p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_H6xwLj",
+        "image_kHpfV3",
+        "image_gLtJEQ"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "Gentle care will prolong the life of your Heavenly wear.",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 9,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_R7zB6q": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_RTFW3f": {
+          "type": "heading",
+          "settings": {
+            "title": "Linen Care — Gentleness is Key.",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_cQjD9i": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>1. Washing Instructions: </strong></h5><p><br/><strong>Hand Wash Preferred: </strong>To prevent pilling and fiber breakage, soak the garment in cold or lukewarm water (below 30°C/86°F) and gently squeeze. Avoid aggressive scrubbing. </p><p><br/><strong>Mild Detergent:</strong> Use a pH-neutral or delicate laundry detergent (like a silk/wool wash). Never use bleach, as it weakens the natural linen fibers.</p><p><br/><strong>Machine Wash Precaution:</strong> If you must use a machine, turn the item inside out and place it in a (natural fiber) mesh laundry bag. Select the \"Delicate\" or \"Hand Wash\" cycle with a low spin speed.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_TxMQcp": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>2. Drying: No Heat, No Gravity</strong></h5><p><br/><strong>Lay Flat to Dry:</strong> This is the most important step. Because linen jersey is a knit, hanging it while wet will cause the garment to stretch and lose its shape. Lay it flat on a clean towel or a drying rack.</p><p><br/><strong>Avoid Tumble Drying:</strong> High heat will cause significant shrinkage and make the fibers brittle.</p><p><br/><strong>No Wringing:</strong> Do not twist or wring the fabric to remove water. Instead, roll the garment in a dry towel and press down to absorb excess moisture.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_k9j3wm": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>3. Ironing: Steam and Moisture</strong></h5><p><br/><strong>Iron While Damp:</strong> Linen wrinkles easily. The best time to iron is when the fabric is still slightly damp.</p><p><br/><strong>Steam Ironing: </strong>Use a steam iron on a medium-high setting. Iron the garment inside out to prevent \"shiny\" marks on the surface of the fabric.</p><p><br/><strong>Embrace the Texture:</strong> If you prefer a casual look, you can skip ironing; the natural \"lived-in\" wrinkles of linen are part of its aesthetic charm. Knit linen creases significantly less than traditional woven linen.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_pBYHEi": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>4. Storage: Fold, Don't Hang</strong></h5><p><br/><strong>Folding is Best:</strong> Unlike woven linen shirts, jersey knits should be folded neatly and stored in a drawer. Hanging them for long periods will cause \"hanger bumps\" and permanent stretching.</p><p><br/><strong>Breathable Environment: </strong>Store in a cool, dry place. Avoid plastic storage bags, as linen needs to \"breathe\" to prevent mildew.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_HkC94G": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>5. Pro-Tips</strong></h5><p><br/><strong>Softens Over Time:</strong> Quality linen becomes softer and more comfortable with every wash.</p><p><br/><strong>Slight Shedding: </strong>Pure linen jersey may shed a small amount of lint during the first few washes. This is normal; simply wash it with similar colors.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "text_8U4LdU": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>6. Lifetime</strong></h5><p><br/><strong>Designed to Last:</strong> Linen is the most durable natural fiber, that gets stronger and softer with wash and wear. Our  intimates and essentials are designed to last for several years, if proper care is taken. </p><p><strong>Quality over Quantity:</strong> Investing in high-quality, natural essentials is gentler on your body, and the planet - win, win.</p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_RTFW3f",
+        "text_cQjD9i",
+        "text_TxMQcp",
+        "text_k9j3wm",
+        "text_pBYHEi",
+        "text_HkC94G",
+        "text_8U4LdU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 42,
+        "padding_bottom": 100
+      }
+    },
+    "section_divider_z8tGRn": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_divider_Hb6Tih",
+    "section_columns_z4XUm9",
+    "section_rich_text_R7zB6q",
+    "section_divider_z8tGRn"
+  ]
+}

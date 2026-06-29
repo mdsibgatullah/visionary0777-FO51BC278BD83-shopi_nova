@@ -45,7 +45,7 @@
       "type": "apps",
       "blocks": {
         "yuko_affiliate_marketing_afflr_sign_up_form_cUPY4U": {
-          "type": "shopify://apps/yuko-affiliate-marketing-afflr/blocks/Sign-up-form/930fc171-ade4-41f6-9a10-f3ebe3d8d513",
+          "type": "shopify://apps/yuko-affiliate-marketing/blocks/Sign-up-form/930fc171-ade4-41f6-9a10-f3ebe3d8d513",
           "settings": {
             "form_id": "6a299437-695b-4800-a280-489e3c5767cd"
           }
