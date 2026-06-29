@@ -78,7 +78,7 @@
         "text_rJMFWJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Heavenly Essentials uses 100%<strong> GOTS certified </strong>(Global Organic Textile Standard)<strong> </strong>Linen, certified in the EU and US. GOTS is the leading standard for organic textiles, in ecological and sustainable production. It assures the raw material was grown organically, without using insecticides, pesticides or any harmful chemicals.</p><p>We also offer <strong>European Flax Certified</strong>, 100% linen.</p><p>We source the finest flax fibers on the Earth, up to 15.5 microns, which is rarer than cashmere. All of our flax is grown and processed in Europe.</p><p>We sew all our garments in Los Angeles (USA), with sustainably sourced, 100% linen thread.</p>",
+            "text": "<p>Heavenly Essentials uses 100%<strong> GOTS certified </strong>(Global Organic Textile Standard)<strong> </strong>Linen, certified in the EU and US. GOTS is the leading standard for organic textiles, in ecological and sustainable production. It assures the raw material was grown organically, without using insecticides, pesticides or any harmful chemicals.</p><p>We also offer <strong>European Flax Certified</strong>, 100% linen. </p><p>We source the finest flax fibers on the Earth, up to 15.5 microns, which is rarer than cashmere. All of our flax is grown and processed in Europe.</p><p>We sew all our garments in Los Angeles (USA), with sustainably sourced, 100% linen thread.</p>",
             "text_size": 4,
             "text_style": "font-body",
             "padding_bottom": 16
@@ -160,7 +160,7 @@
         "text_dBbTAX": {
           "type": "text",
           "settings": {
-            "text": "<p>All of our raw materials and textiles are grown and manufactured in Europe. The European textile industry is world-renowned for its craftsmanship, luxury and sustainability-focus.  </p><p>We design and sew all our pieces in the USA, ensuring the highest ethical standards and procedures. We are committed to a fully transparent production process, free of child-labor or any unethical practices. </p>",
+            "text": "<p>Our raw materials and textiles are grown and processed in Europe. The European textile industry is world-renowned for its craftsmanship, luxury and sustainability-focus.  </p><p>We design and sew all our pieces in the USA, ensuring the highest ethical standards and procedures. We are committed to a fully transparent production process, free of child-labor or any unethical practices. </p>",
             "text_size": 4,
             "text_style": "font-body",
             "padding_bottom": 16
@@ -242,7 +242,6 @@
       "block_order": [
         "heading_qXPbUV"
       ],
-      "disabled": true,
       "name": "Countdown",
       "settings": {
         "end_date": "",
@@ -266,38 +265,6 @@
         "digits_size_mobile": 1,
         "text_size_mobile": 1,
         "text_align_mobile": "text-left--mobile"
-      }
-    },
-    "section_rich_text_cjTEmy": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_GqgxTx": {
-          "type": "heading",
-          "settings": {
-            "title": "Did you know that 26 Billion Pounds of clothes end up in the landfill every year? Heavenly Essentials is working to combat this through our regenerative, plant-based materials, factory direct model, compostable packaging, and timeless, classic styles - so we can all do our part to better the planet in style.",
-            "text_size": 7,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_GqgxTx"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h2.hero__title.heading-size-7.block-padding.aos-animate {color: #5454547a;}"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "width": "wrapper",
-        "align_text": "text-left",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "section_double_dDx9Gn": {
@@ -401,10 +368,10 @@
         "padding_bottom": 0
       }
     },
-    "section_slideshow_xaHErY": {
+    "section_slideshow_dQJgxn": {
       "type": "section-slideshow",
       "blocks": {
-        "image_ebCNRY": {
+        "image_8mTXGW": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
@@ -412,7 +379,7 @@
             "overlay_opacity": 0,
             "overlay_color": "#000",
             "show_overlay_text": false,
-            "title": "Eden for All",
+            "title": "Eden on Earth",
             "heading_size": 11,
             "description": "Luxury Intimate Wear Made by Nature",
             "text_size": 5,
@@ -421,7 +388,7 @@
             "bg_color": "",
             "color": "#000000",
             "first_button_text": "View products",
-            "first_button_link": "shopify://pages/sustainability",
+            "first_button_link": "shopify://collections",
             "first_button_type": "btn--primary",
             "first_button_size": "",
             "first_button_style": "btn--text",
@@ -434,7 +401,7 @@
             "second_button_show_arrow": false
           }
         },
-        "image_P8TYkU": {
+        "image_iDgTMh": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Lily_FP.png",
@@ -451,7 +418,7 @@
             "bg_color": "",
             "color": "#000000",
             "first_button_text": "View products",
-            "first_button_link": "shopify://pages/sustainability",
+            "first_button_link": "shopify://collections",
             "first_button_type": "btn--primary",
             "first_button_size": "",
             "first_button_style": "btn--text",
@@ -466,13 +433,13 @@
         }
       },
       "block_order": [
-        "image_ebCNRY",
-        "image_P8TYkU"
+        "image_8mTXGW",
+        "image_iDgTMh"
       ],
       "name": "Slideshow",
       "settings": {
-        "height": "screen-height-two-thirds",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-two-thirds--mobile",
         "width": "wrapper--full",
         "transition": "slide",
         "show_arrows": true,
@@ -593,10 +560,9 @@
     "section_double_knX4Lj",
     "section_double_Hk8Fbj",
     "section_countdown_timer_yPhCtD",
-    "section_rich_text_cjTEmy",
     "section_double_dDx9Gn",
     "section_double_h39HnH",
-    "section_slideshow_xaHErY",
+    "section_slideshow_dQJgxn",
     "section_tab_collections_VNxHja",
     "section_divider_nRyQRr"
   ]

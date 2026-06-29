@@ -1,3 +1,4 @@
+
 {%- liquid
   assign enable_sort = section.settings.enable_sort
   assign enable_filters = section.settings.enable_filters
@@ -32,9 +33,6 @@
   <div class="search-outer">
     <form action="{{ routes.search_url }}" class="search-form">
       <input name="options[prefix]" type="hidden" value="last">
-      <!-- Search only products -->
-      <input type="hidden" name="type" value="product">
-      
       <div class="input-holder">
         <input
           type="search"
@@ -70,6 +68,8 @@
 
                   if item.object_type == 'product'
                     render 'product-grid-item', product: item, index: forloop.index
+                  else
+                    render 'search-results-item', item: item, tabindex: true
                   endif
                 endfor
               -%}

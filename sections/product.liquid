@@ -1,43 +1,3 @@
-<style>
-  .product-container {
-    display: flex;
-    align-items: flex-start; /* ইমেজ এবং টেক্সট উপরের দিকে এলাইন থাকবে */
-    gap: 40px; /* ইমেজ ও টেক্সটের মাঝের ফাঁকা */
-    position: relative; /* এটি জরুরি যাতে স্টিকি এলিমেন্ট বাইরে না যায় */
-  }
-
-  .left-image-gallery {
-    flex: 1; /* ইমেজ গ্যালারি ৫০০০% জায়গা নেবে */
-    position: sticky;
-    top: 20px; /* স্ক্রিনের ওপর থেকে কতটুকু নিচে আটকে থাকবে */
-    height: auto;
-  }
-
-  .right-text-content {
-    flex: 1; /* টেক্সটও ৫০০০% জায়গা নেবে */
-  }
-
-  /* রেসপনসিভ: মোবাইল স্ক্রিনে স্টিকি বন্ধ করে দেয়া */
-@media (max-width: 768px) {
-  .product-container {
-    display: flex;
-    flex-direction: column; /* ইমেজ ও টেক্সটকে লম্বালম্বি সারিবদ্ধ করবে */
-    width: 100%;
-  }
-
-  .left-image-gallery, 
-  .right-text-content {
-    width: 100% !important; /* দুই সাইডকেই পুরো উইডথ দেবে */
-    flex: none;
-    position: relative !important; /* স্টিকি পজিশন পুরোপুরি বন্ধ */
-    top: auto;
-  }
-} 
-</style>
-
-
-
-
 <!-- /sections/product.liquid -->
 
 {%- liquid
@@ -46,7 +6,7 @@
   assign image_size = section.settings.image_size
   assign image_layout = section.settings.image_layout
   assign mobile_image_style = section.settings.mobile_image_style
-assign featured_media = product.featured_media | default: current_variant.featured_media
+  assign featured_media = current_variant.featured_media | default: product.featured_media
   assign featured_media_aspect_ratio = featured_media.aspect_ratio | default: 1
   assign is_title_linked = true
   if template.name == 'product'
@@ -169,10 +129,10 @@ assign featured_media = product.featured_media | default: current_variant.featur
 
   <div class="product__wrapper {{ product_wrapper_modifier }}" data-product>
     <div class="product__wrapper__inner">
-      <div class="product__page product-container">
+      <div class="product__page">
 
         <product-images
-          class="{{ product_images_classlist }} left-image-gallery"
+          class="{{ product_images_classlist }}"
           data-active-media="{{ section.id }}-{{ featured_media.id }}"
           {% if enable_thumbs %}data-fader-desktop{% endif %}
           {% if enable_thumbs_mobile %}data-fader-mobile{% endif %}
@@ -263,7 +223,7 @@ assign featured_media = product.featured_media | default: current_variant.featur
           {%- endif -%}
         </product-images>
 
-        <div class="product__content right-text-content">
+        <div class="product__content">
           <div class="form__wrapper{% unless show_buy_buttons %} form__wrapper--no-buttons{% endunless %}{% unless current_variant.available %} variant--soldout{% endunless %}{% if settings.form_style == 'classic' %} form__wrapper--classic{% else %} form__wrapper--modern{% endif %}{% if settings.show_newsletter %} show-product-notification{% endif %}" data-form-wrapper>
             <div class="form__width">
               {% comment %} The input with name="id" submits to cart {% endcomment %}

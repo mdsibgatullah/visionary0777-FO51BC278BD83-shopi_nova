@@ -1,88 +1,3 @@
-<style>
-
-  @media screen and (max-width: 767px) {
-  .logos__slider__outer {
-    position: relative !important;
-    overflow: visible !important;
-  }
-
-  .custom-logo-arrow {
-    position: absolute !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    z-index: 9999 !important;
-    width: 44px;
-    height: 44px;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    border: 0;
-    padding: 0;
-    cursor: pointer;
-  }
-
-  .custom-logo-arrow::before {
-    content: "";
-    width: 14px;
-    height: 14px;
-    display: block;
-    border-top: 2px solid #222;
-    border-left: 2px solid #222;
-  }
-
-  .custom-logo-arrow--prev {
-    left: 14px !important;
-    right: auto !important;
-  }
-
-  .custom-logo-arrow--prev::before {
-    transform: rotate(-45deg);
-  }
-
-  .custom-logo-arrow--next {
-    right: 14px !important;
-    left: auto !important;
-  }
-
-  .custom-logo-arrow--next::before {
-    transform: rotate(135deg);
-  }
-}
-
-</style>
-
-
-
-<script>
-document.addEventListener('click', function(e) {
-  const nextBtn = e.target.closest('.custom-logo-arrow--next');
-  const prevBtn = e.target.closest('.custom-logo-arrow--prev');
-
-  if (!nextBtn && !prevBtn) return;
-
-  const wrapper = e.target.closest('.logos__slider__outer');
-  if (!wrapper) return;
-
-  const slider = wrapper.querySelector('[data-slider-logos]');
-  if (!slider) return;
-
-  const firstItem = slider.querySelector('.logos__slide');
-  if (!firstItem) return;
-
-  const scrollAmount = firstItem.offsetWidth;
-
-  slider.scrollBy({
-    left: nextBtn ? scrollAmount : -scrollAmount,
-    behavior: 'smooth'
-  });
-});
-</script>
-
-
-
-
-
 <!-- /sections/section-logo-list.liquid -->
 
 {%- liquid
@@ -220,13 +135,9 @@ document.addEventListener('click', function(e) {
         data-aos-anchor="{{ animation_anchor }}"
         data-aos-order="{{ animation_order }}"
       >
-
-        <button class="custom-logo-arrow custom-logo-arrow--prev" type="button"></button>
-
         <div class="logos__slider" data-slider-logos data-block-scroll>
-          {{ slides }}  
+          {{ slides }}
         </div>
-        <button class="custom-logo-arrow custom-logo-arrow--next" type="button"></button>
       </div>
     {%- else -%}
       {%- render 'no-blocks' -%}

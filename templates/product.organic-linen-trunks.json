@@ -20,10 +20,6 @@
             "padding_bottom": 8
           }
         },
-        "judge_me_reviews_preview_badge_Cwkhik": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -57,14 +53,6 @@
             "padding_bottom": 16
           }
         },
-        "code_MUQtWg": {
-          "type": "code",
-          "disabled": true,
-          "settings": {
-            "code": "<div class=\"jn-icon-container\">\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Icons-_plant.png?v=1780207614\" alt=\"\">\n            <p>Plant-Based Luxury</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/100_French_Flax.png?v=1779606898\" alt=\"\">\n            <p>100% French Flax</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Icons-_Made-in-USA.png?v=1780208054\" alt=\"\">\n            <p>Made in USA</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/ddas-finest-material.png?v=1779613797\" alt=\"\">\n            <p>Finest Materials<br>(Non-Toxic)</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/dds-sss.png?v=1779614306\" alt=\"\">\n            <p>GOTS Certified<br>Organic</p>\n        </div>\n    </div>",
-            "padding_bottom": 16
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -72,27 +60,6 @@
             "show_payment_button": true,
             "show_gift_card_recipient": false,
             "padding_bottom": 32
-          }
-        },
-        "subscriptions_app_block_Kt84pi": {
-          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
-          "settings": {
-            "widget_style": "card",
-            "widget_style_card_selector": "radio_button",
-            "subscription_policy_url": "shopify://pages/subscription-policy",
-            "color_text_body": "#212121",
-            "dividers_color": "#8f8d8d",
-            "background_color": "#ffffff",
-            "border_thickness": 1,
-            "border_radius": 0,
-            "product": "{{product}}"
-          }
-        },
-        "code_x3dQtT": {
-          "type": "code",
-          "settings": {
-            "code": "",
-            "padding_bottom": 16
           }
         },
         "description_TaWNem": {
@@ -108,7 +75,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "FABRIC & CARE",
+            "heading": "<b>FABRIC & CARE</b>",
             "text": "<p>{{ product.metafields.custom.fabric_care | metafield_tag }}</p>",
             "padding_bottom": 0
           }
@@ -119,7 +86,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "SIZE & FIT",
+            "heading": "<b>SIZE & FIT</b>",
             "text": "<p>{{ product.metafields.custom.size_fit | metafield_tag }}</p><p><a href=\"/pages/international-size-guide\" title=\"International Size Guide\">SIZE CHART</a></p>",
             "padding_bottom": 0
           }
@@ -130,7 +97,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "MATERIALS & SUSTAINABLITY",
+            "heading": "<b>ORGANIC LINEN</b>",
             "text": "<p>We founded Heavenly Essentials to reduce the environmental impact of our intimates & everyday essentials. We make all our pieces with the highest quality, super-soft 100% GOTS Certified Organic linen — a sustainably-sourced fabric that’s also completely compostable. <br/><br/>The most soft, breathable fabric for everyday wear. Our organic linen is a natural fiber, grown without any pesticides, fertilizers, or gmo seeds– making your Heavenly Essential’s not only good for you, but gentle on the planet, too.</p>",
             "padding_bottom": 0
           }
@@ -141,7 +108,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "SHIPPING & RETURNS",
+            "heading": "<b>SHIPPING & RETURNS</b>",
             "text": "<p>Enjoy free US shipping on orders over $100.<br/><br/>Please allow 1-2 business days before your order ships for standard processing.<br/><br/><strong>RETURNS</strong><br/>We accept returns that are requested within 30 days of receiving the item(s).</p>",
             "padding_bottom": 20
           }
@@ -204,19 +171,6 @@
             "padding_bottom": 16
           }
         },
-        "icon_qn9KAT": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-email",
-            "image": "shopify://shop_images/security.png",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Made in USA",
-            "text_size": 3,
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
         "code_r6gqFF": {
           "type": "code",
           "settings": {
@@ -227,15 +181,11 @@
       },
       "block_order": [
         "title",
-        "judge_me_reviews_preview_badge_Cwkhik",
         "price",
         "text_jnjwTx",
         "text_zKmLy6",
         "variants",
-        "code_MUQtWg",
         "buttons",
-        "subscriptions_app_block_Kt84pi",
-        "code_x3dQtT",
         "description_TaWNem",
         "accordion_xcrqAb",
         "accordion_Te4hRh",
@@ -247,7 +197,6 @@
         "upsell",
         "icon_2",
         "icon_1",
-        "icon_qn9KAT",
         "code_r6gqFF"
       ],
       "custom_css": [
@@ -260,14 +209,14 @@
       "settings": {
         "product_sticky_enable": true,
         "variant_image_scroll": false,
-        "image_layout": "thumbnails-left",
+        "image_layout": "stacked",
         "image_size": "normal",
         "show_cart_bar": true,
         "enable_zoom": true,
         "enable_video_looping": false,
         "mobile_image_style": "thumbs",
         "padding_top": 30,
-        "padding_bottom": 30
+        "padding_bottom": 45
       }
     },
     "section_divider_93BzHk": {
@@ -275,7 +224,7 @@
       "settings": {
         "show_line": true,
         "width": "wrapper--full-padded",
-        "border_color": "#f0f0f0",
+        "border_color": "",
         "bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -322,10 +271,10 @@
         "padding_bottom": 0
       }
     },
-    "section_highlights_hAY7iE": {
+    "section_highlights_D4363m": {
       "type": "section-highlights",
       "blocks": {
-        "highlight_6KUxUq": {
+        "highlight_9m83Hn": {
           "type": "highlight",
           "settings": {
             "heading": "100% ORGANIC LINEN",
@@ -337,7 +286,7 @@
             "border_color": ""
           }
         },
-        "highlight_hQ7igM": {
+        "highlight_yaWLrn": {
           "type": "highlight",
           "settings": {
             "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
@@ -349,7 +298,7 @@
             "border_color": ""
           }
         },
-        "highlight_wFdcmc": {
+        "highlight_b9pnp3": {
           "type": "highlight",
           "settings": {
             "heading": "FROM EARTH AND BACK",
@@ -361,7 +310,7 @@
             "border_color": ""
           }
         },
-        "highlight_AffpWG": {
+        "highlight_zLx7cQ": {
           "type": "highlight",
           "settings": {
             "heading": "PLANT-BASED, NATURAL DYES",
@@ -375,10 +324,10 @@
         }
       },
       "block_order": [
-        "highlight_6KUxUq",
-        "highlight_hQ7igM",
-        "highlight_wFdcmc",
-        "highlight_AffpWG"
+        "highlight_9m83Hn",
+        "highlight_yaWLrn",
+        "highlight_b9pnp3",
+        "highlight_zLx7cQ"
       ],
       "custom_css": [
         ".highlights__item:hover .highlights__item__content {opacity: 0;}",
@@ -400,146 +349,7 @@
         "bg_color": "rgba(0,0,0,0)",
         "layout_mobile": "2",
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_highlights_D4363m": {
-      "type": "section-highlights",
-      "blocks": {
-        "highlight_9m83Hn": {
-          "type": "highlight",
-          "settings": {
-            "heading": "100% ORGANIC LINEN",
-            "textdescription": "",
-            "url": "",
-            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_yaWLrn": {
-          "type": "highlight",
-          "settings": {
-            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
-            "textdescription": "",
-            "url": "",
-            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_b9pnp3": {
-          "type": "highlight",
-          "settings": {
-            "heading": "FROM EARTH AND BACK",
-            "textdescription": "",
-            "url": "",
-            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_zLx7cQ": {
-          "type": "highlight",
-          "settings": {
-            "heading": "PLANT-BASED, NATURAL DYES",
-            "textdescription": "",
-            "url": "",
-            "image": "shopify://shop_images/plantdyesswatches.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_9m83Hn",
-        "highlight_yaWLrn",
-        "highlight_b9pnp3",
-        "highlight_zLx7cQ"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
-        ".body-size-6 {font-size: 28px;}",
-        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
-        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
-      ],
-      "settings": {
-        "style": "square",
-        "grid": 4,
-        "width": "wrapper--full-padded",
-        "heading": "",
-        "heading_position": "text-center",
-        "heading_size": 6,
-        "text_size": 6,
-        "color": "#212121",
-        "bg_color": "rgba(0,0,0,0)",
-        "layout_mobile": "2",
-        "padding_top": 0,
         "padding_bottom": 10
-      }
-    },
-    "feb_category_section_b4JqJX": {
-      "type": "feb-category-section",
-      "blocks": {
-        "card_HxKpHP": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/France_Flax.png",
-            "title": "Normandy, France",
-            "text": "Our linen comes from Normandy, France, in flax fields on cliffs overlooking the British Channel."
-          }
-        },
-        "card_nagzxK": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/wellness-design-linen-textiles-healthy-home-a-cultivated-living-flax-harvest.jpg",
-            "title": "French Linen",
-            "text": "The climate of Normandy produces the highest quality linen on Earth: breathable, heat-regulating, and long-lasting."
-          }
-        },
-        "card_Uz6GDw": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/linen-knit-fabric-white.jpg",
-            "title": "Slub Linen Knit",
-            "text": "Extra-fine micron, slub linen with natural variations that give the fabric real depth."
-          }
-        },
-        "card_dF8RQ9": {
-          "type": "card",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/plantdyesswatches.jpg",
-            "title": "PLANT-BASED, NATURAL DYES",
-            "text": "Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals)."
-          }
-        }
-      },
-      "block_order": [
-        "card_HxKpHP",
-        "card_nagzxK",
-        "card_Uz6GDw",
-        "card_dF8RQ9"
-      ],
-      "name": "Linen Info Cards",
-      "settings": {
-        "heading": "",
-        "bg_color": "#ffffff",
-        "text_color": "#1f2937",
-        "container_width": 1450,
-        "columns_desktop": 3,
-        "image_ratio": "4 / 5",
-        "gap": 3,
-        "heading_size": 32,
-        "title_size": 16,
-        "text_size": 15,
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "section_divider_GH3QTq": {
@@ -561,14 +371,14 @@
           "type": "related",
           "settings": {
             "product_recommendations_heading": "Explore More",
-            "limit": 6
+            "limit": 4
           }
         },
         "recent": {
           "type": "recent",
           "settings": {
             "product_recently_heading": "Recently viewed",
-            "product_recently_limit": 6
+            "product_recently_limit": 4
           }
         }
       },
@@ -591,7 +401,7 @@
         "bg_color": "",
         "color": "",
         "border_color": "",
-        "padding_top": 0,
+        "padding_top": 25,
         "padding_bottom": 0
       }
     },
@@ -625,31 +435,16 @@
       "settings": {
         "include_margins": false
       }
-    },
-    "section_divider_8V38bA": {
-      "type": "section-divider",
-      "name": "Divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper--full-padded",
-        "border_color": "",
-        "bg_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "main",
     "section_divider_93BzHk",
     "section_rich_text_HQmWBD",
-    "section_highlights_hAY7iE",
     "section_highlights_D4363m",
-    "feb_category_section_b4JqJX",
     "section_divider_GH3QTq",
     "related",
     "section_divider_3tb8fn",
-    "1724442472d2a1fb7a",
-    "section_divider_8V38bA"
+    "1724442472d2a1fb7a"
   ]
 }

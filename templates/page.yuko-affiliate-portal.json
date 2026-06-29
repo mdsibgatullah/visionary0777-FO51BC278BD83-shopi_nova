@@ -11,9 +11,10 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
-        ".hero__title {text-align: center;}"
+        ".hero__title {text-align: left; margin-left: 30px; font-family: 'Libre Bodoni', Georgia, serif !important; font-weight: 400 !important; font-style: normal !important;}",
+        ".hero__content__wrapper {padding: 0 !important; max-width: 100%;}",
+        ".hero__content {max-width: 100% !important; width: 100% !important; padding: 0 !important;}"
       ],
       "settings": {
         "subheading": "",
@@ -32,6 +33,7 @@
     },
     "section_divider_Hb6Tih": {
       "type": "section-divider",
+      "custom_css": [],
       "settings": {
         "show_line": true,
         "width": "wrapper--full-padded",
@@ -40,28 +42,10 @@
         "padding_top": 55,
         "padding_bottom": 0
       }
-    },
-    "177927715621288fa4": {
-      "type": "apps",
-      "blocks": {
-        "yuko_affiliate_marketing_afflr_sign_up_form_cUPY4U": {
-          "type": "shopify://apps/yuko-affiliate-marketing-afflr/blocks/Sign-up-form/930fc171-ade4-41f6-9a10-f3ebe3d8d513",
-          "settings": {
-            "form_id": "6a299437-695b-4800-a280-489e3c5767cd"
-          }
-        }
-      },
-      "block_order": [
-        "yuko_affiliate_marketing_afflr_sign_up_form_cUPY4U"
-      ],
-      "settings": {
-        "include_margins": false
-      }
     }
   },
   "order": [
     "main",
-    "section_divider_Hb6Tih",
-    "177927715621288fa4"
+    "section_divider_Hb6Tih"
   ]
 }

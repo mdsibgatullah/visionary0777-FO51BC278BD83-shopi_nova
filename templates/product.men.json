@@ -20,31 +20,19 @@
             "padding_bottom": 8
           }
         },
-        "judge_me_reviews_preview_badge_jziK8L": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
         "price": {
           "type": "price",
           "settings": {
             "padding_bottom": 16
           }
         },
-        "text_JaU9GK": {
+        "text_3NPd8F": {
           "type": "text",
           "settings": {
             "title": "",
             "text": "<p>{{ product.metafields.custom.single_line_description_.value }}</p>",
             "layout": "left",
             "padding_bottom": 16
-          }
-        },
-        "divider_JUJ4nt": {
-          "type": "divider",
-          "disabled": true,
-          "settings": {
-            "show_line": true,
-            "padding_bottom": 20
           }
         },
         "variants": {
@@ -56,47 +44,7 @@
             "padding_bottom": 16
           }
         },
-        "code_ALqCW7": {
-          "type": "code",
-          "disabled": true,
-          "settings": {
-            "code": "<div class=\"personalization-wrapper\">\n  \n  <div id=\"personalization-summary\" class=\"pers-summary-box\" style=\"display: none;\">\n    <span class=\"summary-label\">Personalise: <strong id=\"summary-text-values\"></strong></span>\n    <div class=\"summary-actions\">\n      <button type=\"button\" id=\"edit-pers-btn\" class=\"link-btn\">Edit</button> | \n      <button type=\"button\" id=\"clear-pers-btn\" class=\"link-btn\">Clear</button>\n    </div>\n  </div>\n\n  <button type=\"button\" id=\"open-pers-modal\" class=\"btn-personalise\">PERSONALISE</button>\n</div>\n\n<div id=\"pers-modal\" class=\"pers-modal-overlay\">\n  <div class=\"pers-modal-content\">\n    <button type=\"button\" class=\"close-modal-btn\" id=\"close-pers-modal\">&times;</button>\n    \n    <h2>Personalise your style</h2>\n    <p class=\"pers-subtitle\">Whether as a gift for your loved ones or for yourself, in our Swiss sewing workshop, we embroider the desired Initials onto your favorite styles. <a href=\"#\">More Information</a></p>\n    \n    <div class=\"pers-grid\">\n      <div class=\"pers-field-group\">\n        <label>CHARACTERS (<span id=\"char-count\">3</span>/3)</label>\n        <input type=\"text\" id=\"input-text\" maxlength=\"3\" value=\"ASF\" autocomplete=\"off\">\n        <small class=\"field-help\">Letters, numbers and special characters.</small>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>FONT</label>\n        <select id=\"input-font\">\n          <option value=\"BLOCK\" selected>BLOCK</option>\n          <option value=\"SCRIPT\">SCRIPT</option>\n          <option value=\"MODERN\">MODERN</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>SYMBOL</label>\n        <select id=\"input-symbol\">\n          <option value=\"Star\" selected>★ Star</option>\n          <option value=\"Heart\">♥ Heart</option>\n          <option value=\"None\">None</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>THREAD COLOR</label>\n        <select id=\"input-color\">\n          <option value=\"Black\" selected>⬛ Black</option>\n          <option value=\"White\">⬜ White</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>POSITION</label>\n        <select id=\"input-position\">\n          <option value=\"Chest\" selected>Chest</option>\n          <option value=\"Sleeve\">Sleeve</option>\n        </select>\n      </div>\n\n      <div class=\"pers-preview-box\">\n        <div id=\"live-preview-icon\">★</div>\n      </div>\n    </div>\n\n    <div class=\"pers-terms\">\n      <input type=\"checkbox\" id=\"pers-agree-terms\">\n      <label for=\"pers-agree-terms\">\n        The price for personalisation is <strong>CHF 15.-</strong>. Embroidery extends the delivery time by three working days. Personalised items can unfortunately not be returned or exchanged and cannot be subscribed to.\n      </label>\n    </div>\n\n    <button type=\"button\" id=\"save-pers-btn\" class=\"btn-save-pers\" disabled>PERSONALISE (+15.-)</button>\n  </div>\n</div>\n\n<style>\n.personalization-wrapper { margin: 15px 0; width: 100%; font-family: inherit; }\n.btn-personalise { width: 100%; background: #ffffff; color: #000000; border: 1px solid #d3d3d3; padding: 14px; font-size: 13px; font-weight: 500; letter-spacing: 2px; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; }\n.btn-personalise:hover { background: #f7f7f7; border-color: #000; }\n.pers-summary-box { display: flex; justify-content: space-between; align-items: center; font-size: 13px; padding: 10px 0; border-bottom: 1px solid #eee; margin-bottom: 12px; }\n.link-btn { background: none; border: none; text-decoration: underline; cursor: pointer; padding: 0 4px; font-size: 13px; color: #000; }\n.pers-modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99999; justify-content: center; align-items: center; padding: 15px; }\n.pers-modal-content { background: #fff; padding: 40px; max-width: 680px; width: 100%; position: relative; box-sizing: border-box; }\n.close-modal-btn { position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 28px; cursor: pointer; color: #666; }\n.pers-modal-content h2 { font-size: 24px; margin-top: 0; margin-bottom: 12px; font-weight: normal; letter-spacing: 0.5px; }\n.pers-subtitle { font-size: 13px; color: #666; margin-bottom: 30px; line-height: 1.5; }\n.pers-subtitle a { color: #000; text-decoration: underline; }\n.pers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }\n.pers-field-group { display: flex; flex-direction: column; }\n.pers-field-group label { font-size: 11px; font-weight: 600; margin-bottom: 8px; letter-spacing: 0.5px; color: #333; }\n.pers-field-group input[type=\"text\"], .pers-field-group select { padding: 12px; border: 1px solid #ccc; font-size: 13px; outline: none; width: 100%; box-sizing: border-box; background: #fff; }\n.field-help { font-size: 11px; color: #999; margin-top: 6px; line-height: 1.3; }\n.pers-preview-box { grid-column: span 1; display: flex; justify-content: center; align-items: center; background: #f9f9f9; border: 1px solid #eee; min-height: 100px; }\n#live-preview-icon { font-size: 45px; color: #000; }\n.pers-terms { margin-top: 30px; display: flex; gap: 12px; align-items: flex-start; }\n.pers-terms input[type=\"checkbox\"] { margin-top: 3px; }\n.pers-terms label { font-size: 12px; color: #555; line-height: 1.6; cursor: pointer; }\n.btn-save-pers { width: auto; float: right; background: #b5b5b5; color: #fff; border: none; padding: 14px 35px; margin-top: 25px; font-weight: 500; font-size: 13px; letter-spacing: 1px; cursor: not-allowed; text-transform: uppercase; }\n.btn-save-pers.active { background: #848484; color: #fff; cursor: pointer; }\n@media (max-width: 650px) { .pers-grid { grid-template-columns: 1fr; gap: 15px; } .pers-modal-content { padding: 25px; max-height: 90vh; overflow-y: auto; } .btn-save-pers { width: 100%; float: none; margin-top: 20px; } }\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const PERSONALIZATION_VARIANT_ID = \"52086759948589\"; \n\n  const modal = document.getElementById(\"pers-modal\");\n  const openBtn = document.getElementById(\"open-pers-modal\");\n  const closeBtn = document.getElementById(\"close-pers-modal\");\n  const saveBtn = document.getElementById(\"save-pers-btn\");\n  const clearBtn = document.getElementById(\"clear-pers-btn\");\n  const editBtn = document.getElementById(\"edit-pers-btn\");\n  const termsCheck = document.getElementById(\"pers-agree-terms\");\n  const textInput = document.getElementById(\"input-text\");\n  const charCount = document.getElementById(\"char-count\");\n  const symbolSelect = document.getElementById(\"input-symbol\");\n  const previewIcon = document.getElementById(\"live-preview-icon\");\n  const summaryBox = document.getElementById(\"personalization-summary\");\n  const summaryText = document.getElementById(\"summary-text-values\");\n\n  let hasPersonalization = false;\n  let savedProperties = {};\n\n  openBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n  closeBtn.addEventListener(\"click\", () => modal.style.display = \"none\");\n  editBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n\n  textInput.addEventListener(\"input\", function() {\n    charCount.textContent = this.value.length;\n    validateForm();\n  });\n\n  symbolSelect.addEventListener(\"change\", function() {\n    if(this.value === \"Star\") previewIcon.textContent = \"★\";\n    else if(this.value === \"Heart\") previewIcon.textContent = \"♥\";\n    else previewIcon.textContent = \"\";\n  });\n\n  termsCheck.addEventListener(\"change\", validateForm);\n\n  function validateForm() {\n    if (textInput.value.trim().length > 0 && termsCheck.checked) {\n      saveBtn.disabled = false;\n      saveBtn.classList.add(\"active\");\n    } else {\n      saveBtn.disabled = true;\n      saveBtn.classList.remove(\"active\");\n    }\n  }\n\n  saveBtn.addEventListener(\"click\", function() {\n    const textVal = textInput.value.trim();\n    const fontVal = document.getElementById(\"input-font\").value;\n    const symbolVal = symbolSelect.value;\n    const colorVal = document.getElementById(\"input-color\").value;\n    const positionVal = document.getElementById(\"input-position\").value;\n\n    savedProperties = {\n      \"Text\": textVal,\n      \"Font\": fontVal,\n      \"Symbol\": symbolVal,\n      \"Thread Color\": colorVal,\n      \"Position\": positionVal\n    };\n\n    summaryText.textContent = `${textVal} / ${fontVal} / ${symbolVal} / ${colorVal} / ${positionVal}`;\n    summaryBox.style.display = \"flex\";\n    openBtn.textContent = \"EDIT PERSONALISATION\";\n    hasPersonalization = true;\n    modal.style.display = \"none\";\n  });\n\n  clearBtn.addEventListener(\"click\", function() {\n    savedProperties = {};\n    hasPersonalization = false;\n    textInput.value = \"ASF\";\n    charCount.textContent = \"3\";\n    termsCheck.checked = false;\n    saveBtn.disabled = true;\n    saveBtn.classList.remove(\"active\");\n    summaryBox.style.display = \"none\";\n    openBtn.textContent = \"PERSONALISE\";\n  });\n\n  // BROADCAST NATIVE FORM INTERCEPTOR WITH DOM MANIPULATION\n  const formSubmitBtn = document.querySelector('[data-add-to-cart], .product-form__submit, button[name=\"add\"]');\n\n  if (formSubmitBtn) {\n    formSubmitBtn.addEventListener(\"click\", function(e) {\n      if (hasPersonalization) {\n        // থিমের নিজস্ব ডিফল্ট অ্যাকশনকে পজ করছি\n        e.preventDefault();\n        e.stopPropagation();\n        e.stopImmediatePropagation();\n\n        const form = formSubmitBtn.closest('form[action*=\"/cart/add\"]');\n        let mainVariantId = form.querySelector('[name=\"id\"]')?.value || window.meta?.product?.variants[0]?.id;\n        const mainQty = form.querySelector('[name=\"quantity\"]')?.value || 1;\n\n        formSubmitBtn.classList.add('loading');\n        formSubmitBtn.disabled = true;\n\n        // সলিউশন: পিওর বাণ্ডিল অবজেক্ট যা থিমের নেটিভ API সহজে ক্যাচ করতে পারে\n        const bundlePayload = {\n          items: [\n            {\n              id: parseInt(mainVariantId),\n              quantity: parseInt(mainQty)\n            },\n            {\n              id: parseInt(PERSONALIZATION_VARIANT_ID),\n              quantity: parseInt(mainQty),\n              properties: {\n                \"Linked Product\": window.meta?.product?.name || \"Main Item\",\n                ...savedProperties\n              }\n            }\n          ]\n        };\n\n        // পিওর AJAX কল উইথ পারফেক্ট হেডার রিকোয়েস্ট\n        fetch('/cart/add.js', {\n          method: 'POST',\n          headers: {\n            'Content-Type': 'application/json',\n            'X-Requested-With': 'XMLHttpRequest'\n          },\n          body: JSON.stringify(bundlePayload)\n        })\n        .then(response => {\n          if (!response.ok) throw new Error('Network Error');\n          return response.json();\n        })\n        .then(() => {\n          // ৩. থিমের কার্ট সেকশন ও এইচটিএমএল রি-রেন্ডার ট্রিগার (UNDEFINED সমস্যার সমাধান)\n          return fetch(window.Shopify.routes.root + '?sections=cart-drawer');\n        })\n        .then(res => res.json())\n        .then(sectionsData => {\n          // কার্ট ড্রয়ারের মূল HTML কন্টেন্ট আপডেট করা হচ্ছে\n          const drawerContainer = document.querySelector('#cart-drawer');\n          if (drawerContainer && sectionsData['cart-drawer']) {\n            const parser = new DOMParser();\n            const htmlDoc = parser.parseFromString(sectionsData['cart-drawer'], 'text/html');\n            const newInner = htmlDoc.querySelector('#cart-drawer')?.innerHTML;\n            if (newInner) {\n              drawerContainer.innerHTML = newInner;\n            }\n          }\n\n          // গ্লোবাল কার্ট কাউন্ট আপডেট ট্রিগার (আইকন আপডেট)\n          fetch(window.Shopify.routes.root + 'cart.js')\n            .then(res => res.json())\n            .then(cart => {\n              formSubmitBtn.classList.remove('loading');\n              formSubmitBtn.disabled = false;\n\n              // থিমের রি-রেন্ডার নোটিফিকেশন ইভেন্ট ফায়ার\n              document.dispatchEvent(new CustomEvent('cart:updated', {\n                bubbles: true,\n                detail: cart\n              }));\n              \n              document.dispatchEvent(new CustomEvent('theme:cart:change', {\n                bubbles: true,\n                detail: { cart: cart }\n              }));\n\n              // ৪. ড্রয়ার ওপেন করার কাস্টম মেথড কল (DRAWER OPEN সমস্যার সমাধান)\n              const nativeDrawer = document.querySelector('cart-drawer');\n              if (nativeDrawer) {\n                // থিমের ওয়েব কম্পোনেন্ট ক্লাস ওপেন ট্রিগার\n                nativeDrawer.setAttribute('open', '');\n                nativeDrawer.classList.add('is-open');\n              }\n              \n              // ব্যাকআপ ইভেন্ট ট্রিগার\n              document.dispatchEvent(new CustomEvent('cart:open', { bubbles: true }));\n              document.dispatchEvent(new CustomEvent('cart:toggle', { bubbles: true }));\n\n.then(data => {\n   // ১. শপিফাইকে কার্ট স্টেট আপডেট করতে বলুন\n   if (window.theme && window.theme.CartForm) {\n       // থিম ভেদে কার্ট আপডেট করার ফাংশন আলাদা হতে পারে (যেমন: Dawn থিমের জন্য নিচে দেওয়া হলো)\n       document.querySelector('cart-drawer').renderContents(data);\n   } else {\n       // যদি থিমের নির্দিষ্ট ফাংশন না পান, তবে কার্ট পেজ রিফ্রেশ না করে ড্রয়ার রিফ্রেশ করতে এই কোডটি বেস্ট:\n       fetch(`${window.Shopify.routes.root}cart?view=drawer`)\n         .then(response => response.text())\n         .then(html => {\n            const innerDrawer = document.querySelector('#CartDrawer'); // আপনার থিমের ড্রয়ার আইডি দিন\n            if(innerDrawer) {\n               innerDrawer.innerHTML = html;\n               // ড্রয়ার ওপেন করার ক্লাস যোগ করুন (যেমন: active বা is-open)\n               innerDrawer.classList.add('active'); \n            }\n         });\n   }\n})\n});\n</script>",
-            "padding_bottom": 16
-          }
-        },
-        "code_ennWRW": {
-          "type": "code",
-          "disabled": true,
-          "settings": {
-            "code": "<div class=\"personalization-wrapper\">\n  \n  <div id=\"personalization-summary\" class=\"pers-summary-box\" style=\"display: none;\">\n    <span class=\"summary-label\">Personalise: <strong id=\"summary-text-values\"></strong></span>\n    <div class=\"summary-actions\">\n      <button type=\"button\" id=\"edit-pers-btn\" class=\"link-btn\">Edit</button> | \n      <button type=\"button\" id=\"clear-pers-btn\" class=\"link-btn\">Clear</button>\n    </div>\n  </div>\n\n  <button type=\"button\" id=\"open-pers-modal\" class=\"btn-personalise\">PERSONALISE</button>\n</div>\n\n<div id=\"shopify-hidden-properties\">\n  <input type=\"hidden\" name=\"properties[_Personalized]\" id=\"prop-active\" value=\"No\">\n  <input type=\"hidden\" name=\"properties[Text]\" id=\"prop-text\" disabled>\n  <input type=\"hidden\" name=\"properties[Font]\" id=\"prop-font\" disabled>\n  <input type=\"hidden\" name=\"properties[Symbol]\" id=\"prop-symbol\" disabled>\n  <input type=\"hidden\" name=\"properties[Thread Color]\" id=\"prop-color\" disabled>\n  <input type=\"hidden\" name=\"properties[Position]\" id=\"prop-position\" disabled>\n</div>\n\n<div id=\"pers-modal\" class=\"pers-modal-overlay\">\n  <div class=\"pers-modal-content\">\n    <button type=\"button\" class=\"close-modal-btn\" id=\"close-pers-modal\">&times;</button>\n    \n    <h2>Personalise your style</h2>\n    <p class=\"pers-subtitle\">Whether as a gift for your loved ones or for yourself, we embroider the desired Initials onto your favorite styles.</p>\n    \n    <div class=\"pers-grid\">\n      <div class=\"pers-field-group\">\n        <label>CHARACTERS (<span id=\"char-count\">0</span>/3)</label>\n        <input type=\"text\" id=\"input-text\" maxlength=\"3\" placeholder=\"ASF\" autocomplete=\"off\">\n        <small class=\"field-help\">Letters, numbers and special characters.</small>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>FONT</label>\n        <select id=\"input-font\">\n          <option value=\"BLOCK\">BLOCK</option>\n          <option value=\"SCRIPT\">SCRIPT</option>\n          <option value=\"MODERN\">MODERN</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>SYMBOL</label>\n        <select id=\"input-symbol\">\n          <option value=\"Star\">★ Star</option>\n          <option value=\"Heart\">♥ Heart</option>\n          <option value=\"None\">None</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>THREAD COLOR</label>\n        <select id=\"input-color\">\n          <option value=\"Black\">⬛ Black</option>\n          <option value=\"White\">⬜ White</option>\n          <option value=\"Gold\">✨ Gold</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>POSITION</label>\n        <select id=\"input-position\">\n          <option value=\"Chest\">Chest</option>\n          <option value=\"Sleeve\">Sleeve</option>\n          <option value=\"Hem\">Hem</option>\n        </select>\n      </div>\n\n      <div class=\"pers-preview-box\">\n        <div id=\"live-preview-icon\">★</div>\n      </div>\n    </div>\n\n    <div class=\"pers-terms\">\n      <input type=\"checkbox\" id=\"pers-agree-terms\">\n      <label for=\"pers-agree-terms\">\n        The price for personalisation is <strong>+CHF 15.-</strong>. Embroidery extends the delivery time by three working days. Personalised items cannot be returned or exchanged.\n      </label>\n    </div>\n\n    <button type=\"button\" id=\"save-pers-btn\" class=\"btn-save-pers\" disabled>PERSONALISE (+15.-)</button>\n  </div>\n</div>\n\n<style>\n.personalization-wrapper {\n  margin: 15px 0;\n  width: 100%;\n}\n.btn-personalise {\n  width: 100%;\n  background: #ffffff;\n  color: #000000;\n  border: 1px solid #d3d3d3;\n  padding: 12px;\n  font-weight: 500;\n  letter-spacing: 1px;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n.btn-personalise:hover {\n  background: #f7f7f7;\n  border-color: #000;\n}\n.pers-summary-box {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  font-size: 13px;\n  padding: 8px 0;\n  border-bottom: 1px solid #eee;\n  margin-bottom: 10px;\n}\n.link-btn {\n  background: none;\n  border: none;\n  text-decoration: underline;\n  cursor: pointer;\n  padding: 0 4px;\n  font-size: 13px;\n}\n\n/* Modal Styles */\n.pers-modal-overlay {\n  display: none;\n  position: fixed;\n  top: 0; left: 0; width: 100%; height: 100%;\n  background: rgba(0,0,0,0.5);\n  z-index: 9999;\n  justify-content: center;\n  align-items: center;\n  padding: 15px;\n}\n.pers-modal-content {\n  background: #fff;\n  padding: 30px;\n  max-width: 650px;\n  width: 100%;\n  position: relative;\n  box-sizing: border-box;\n}\n.close-modal-btn {\n  position: absolute;\n  top: 15px; right: 20px;\n  background: none; border: none; font-size: 28px; cursor: pointer;\n}\n.pers-modal-content h2 {\n  font-size: 22px; margin-top: 0; margin-bottom: 10px; font-weight: normal;\n}\n.pers-subtitle {\n  font-size: 13px; color: #666; margin-bottom: 25px; line-height: 1.4;\n}\n\n/* Grid Layout */\n.pers-grid {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 20px;\n}\n.pers-field-group {\n  display: flex;\n  flex-direction: column;\n}\n.pers-field-group label {\n  font-size: 11px; font-weight: bold; margin-bottom: 6px; letter-spacing: 0.5px;\n}\n.pers-field-group input[type=\"text\"], .pers-field-group select {\n  padding: 10px; border: 1px solid #ccc; font-size: 14px; outline: none; width: 100%; box-sizing: border-box;\n}\n.field-help {\n  font-size: 11px; color: #999; margin-top: 4px;\n}\n\n/* Preview Box */\n.pers-preview-box {\n  grid-column: span 1;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #f9f9f9;\n  border: 1px dashed #ccc;\n  min-height: 100px;\n}\n#live-preview-icon {\n  font-size: 40px; color: #000;\n}\n\n/* Terms and Save Button */\n.pers-terms {\n  margin-top: 25px; display: flex; gap: 10px; align-items: flex-start;\n}\n.pers-terms label {\n  font-size: 12px; color: #444; line-height: 1.5; cursor: pointer;\n}\n.btn-save-pers {\n  width: 100%; background: #ccc; color: #fff; border: none; padding: 14px;\n  margin-top: 20px; font-weight: bold; cursor: not-allowed; transition: background 0.3s;\n}\n.btn-save-pers.active {\n  background: #333; color: #fff; cursor: pointer;\n}\n\n/* Mobile Responsive */\n@media (max-width: 600px) {\n  .pers-grid { grid-template-columns: 1fr; gap: 15px; }\n  .pers-modal-content { padding: 20px; height: 90vh; overflow-y: auto; }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const modal = document.getElementById(\"pers-modal\");\n  const openBtn = document.getElementById(\"open-pers-modal\");\n  const closeBtn = document.getElementById(\"close-pers-modal\");\n  const saveBtn = document.getElementById(\"save-pers-btn\");\n  const clearBtn = document.getElementById(\"clear-pers-btn\");\n  const editBtn = document.getElementById(\"edit-pers-btn\");\n  const termsCheck = document.getElementById(\"pers-agree-terms\");\n  const textInput = document.getElementById(\"input-text\");\n  const charCount = document.getElementById(\"char-count\");\n  const symbolSelect = document.getElementById(\"input-symbol\");\n  const previewIcon = document.getElementById(\"live-preview-icon\");\n\n  // Summary and Input elements\n  const summaryBox = document.getElementById(\"personalization-summary\");\n  const summaryText = document.getElementById(\"summary-text-values\");\n\n  // Open & Close Modal\n  openBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n  closeBtn.addEventListener(\"click\", () => modal.style.display = \"none\");\n\n  // Character Counter & Live Validation\n  textInput.addEventListener(\"input\", function() {\n    charCount.textContent = this.value.length;\n    validateForm();\n  });\n\n  // Dynamic Symbol Preview Change\n  symbolSelect.addEventListener(\"change\", function() {\n    if(this.value === \"Star\") previewIcon.textContent = \"★\";\n    else if(this.value === \"Heart\") previewIcon.textContent = \"♥\";\n    else previewIcon.textContent = \"\";\n  });\n\n  // Checkbox agreement validation\n  termsCheck.addEventListener(\"change\", validateForm);\n\n  function validateForm() {\n    if (textInput.value.trim().length > 0 && termsCheck.checked) {\n      saveBtn.disabled = false;\n      saveBtn.classList.add(\"active\");\n    } else {\n      saveBtn.disabled = true;\n      saveBtn.classList.remove(\"active\");\n    }\n  }\n\n  // Save Settings & Build Summary (P-3 Workflow)\n  saveBtn.addEventListener(\"click\", function() {\n    const textVal = textInput.value.trim();\n    const fontVal = document.getElementById(\"input-font\").value;\n    const symbolVal = symbolSelect.value;\n    const colorVal = document.getElementById(\"input-color\").value;\n    const positionVal = document.getElementById(\"input-position\").value;\n\n    // Apply data to Shopify hidden line item property inputs\n    document.getElementById(\"prop-active\").value = \"Yes\";\n    updateHiddenInput(\"prop-text\", textVal);\n    updateHiddenInput(\"prop-font\", fontVal);\n    updateHiddenInput(\"prop-symbol\", symbolVal);\n    updateHiddenInput(\"prop-color\", colorVal);\n    updateHiddenInput(\"prop-position\", positionVal);\n\n    // Update UI Summary Text\n    summaryText.textContent = `${textVal} / ${fontVal} / ${symbolVal} / ${colorVal} / ${positionVal}`;\n    summaryBox.style.display = \"flex\";\n    openBtn.textContent = \"EDIT PERSONALISATION\";\n    modal.style.display = \"none\";\n  });\n\n  // Clear Personalization Data\n  clearBtn.addEventListener(\"click\", function() {\n    document.getElementById(\"prop-active\").value = \"No\";\n    [\"prop-text\", \"prop-font\", \"prop-symbol\", \"prop-color\", \"prop-position\"].forEach(id => {\n      const el = document.getElementById(id);\n      el.value = \"\";\n      el.disabled = true;\n    });\n\n    // Reset inputs inside modal\n    textInput.value = \"\";\n    charCount.textContent = \"0\";\n    termsCheck.checked = false;\n    saveBtn.disabled = true;\n    saveBtn.classList.remove(\"active\");\n\n    // UI resets\n    summaryBox.style.display = \"none\";\n    openBtn.textContent = \"PERSONALISE\";\n  });\n\n  // Edit Button Action\n  editBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n\n  function updateHiddenInput(id, value) {\n    const input = document.getElementById(id);\n    input.value = value;\n    input.disabled = false; // Enabled inputs get sent to Shopify Cart\n  }\n});\n</script>",
-            "padding_bottom": 16
-          }
-        },
-        "code_FVN48T": {
-          "type": "code",
-          "disabled": true,
-          "settings": {
-            "code": "<div class=\"jn-icon-container\">\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Icons-_plant.png?v=1780207614\" alt=\"\">\n            <p>Plant-Based Luxury</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/100_French_Flax.png?v=1779606898\" alt=\"\">\n            <p>100% French Flax</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Icons-_Made-in-USA.png?v=1780208054\" alt=\"\">\n            <p>Made in USA</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/ddas-finest-material.png?v=1779613797\" alt=\"\">\n            <p>Finest Materials<br>(Non-Toxic)</p>\n        </div>\n\n        <div class=\"jn-icon-box\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/dds-sss.png?v=1779614306\" alt=\"\">\n            <p>GOTS Certified<br>Organic</p>\n        </div>\n    </div>",
-            "padding_bottom": 16
-          }
-        },
-        "code_CEN9JC": {
-          "type": "code",
-          "disabled": true,
-          "settings": {
-            "code": "<div class=\"personalization-wrapper\">\n  \n  <div id=\"personalization-summary\" class=\"pers-summary-box\" style=\"display: none;\">\n    <span class=\"summary-label\">Personalise: <strong id=\"summary-text-values\"></strong></span>\n    <div class=\"summary-actions\">\n      <button type=\"button\" id=\"edit-pers-btn\" class=\"link-btn\">Edit</button> | \n      <button type=\"button\" id=\"clear-pers-btn\" class=\"link-btn\">Clear</button>\n    </div>\n  </div>\n\n  <button type=\"button\" id=\"open-pers-modal\" class=\"btn-personalise\">PERSONALISE</button>\n</div>\n\n<div id=\"pers-modal\" class=\"pers-modal-overlay\">\n  <div class=\"pers-modal-content\">\n    <button type=\"button\" class=\"close-modal-btn\" id=\"close-pers-modal\">&times;</button>\n    \n    <h2>Personalise your style</h2>\n    <p class=\"pers-subtitle\">Whether as a gift for your loved ones or for yourself, in our USA sewing workshop, we embroider the desired Initials onto your favorite styles. <a href=\"#\">More Information</a></p>\n    \n    <div class=\"pers-grid\">\n      <div class=\"pers-field-group\">\n        <label>CHARACTERS (<span id=\"char-count\">3</span>/3)</label>\n        <input type=\"text\" id=\"input-text\" maxlength=\"3\" value=\"ASF\" autocomplete=\"off\">\n        <small class=\"field-help\">Letters, numbers and special characters.</small>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>FONT</label>\n        <select id=\"input-font\">\n          <option value=\"MODERN\">MODERN</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>SYMBOL</label>\n        <select id=\"input-symbol\">\n          <option value=\"Star\" selected>★ Star</option>\n          <option value=\"Heart\">♥ Heart</option>\n          <option value=\"Heavenly\">  Heavenly</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>THREAD COLOR</label>\n        <select id=\"input-color\">\n          <option value=\"White\" selected> White</option>\n          <option value=\"Natural\">Natural</option>\n    <option value=\"Copper\">100% Copper</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>POSITION</label>\n        <select id=\"input-position\">\n          <option value=\"Chest\" selected>Chest</option>\n          <option value=\"Sleeve\">Sleeve</option>\n  <option value=\"Hem\">Hem</option>\n        </select>\n      </div>\n\n      <div class=\"pers-preview-box\">\n        <div id=\"live-preview-icon\">★</div>\n      </div>\n    </div>\n\n    <div class=\"pers-terms\">\n      <input type=\"checkbox\" id=\"pers-agree-terms\">\n      <label for=\"pers-agree-terms\">\n        The price for personalisation is <strong>+$15</strong>. Embroidery extends the delivery time by three working days. Personalised items can unfortunately not be returned or exchanged and cannot be subscribed to.\n      </label>\n    </div>\n\n    <button type=\"button\" id=\"save-pers-btn\" class=\"btn-save-pers\" disabled>PERSONALISE (+$15)</button>\n  </div>\n</div>\n\n<style>\n.personalization-wrapper { margin: 15px 0; width: 100%; font-family: inherit; }\n.btn-personalise { width: 100%; background: #ffffff; color: #000000; border: 1px solid #d3d3d3; padding: 14px; font-size: 13px; font-weight: 500; letter-spacing: 2px; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; }\n.btn-personalise:hover { background: #f7f7f7; border-color: #000; }\n.pers-summary-box { display: flex; justify-content: space-between; align-items: center; font-size: 13px; padding: 10px 0; border-bottom: 1px solid #eee; margin-bottom: 12px; }\n.link-btn { background: none; border: none; text-decoration: underline; cursor: pointer; padding: 0 4px; font-size: 13px; color: #000; }\n.pers-modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99999; justify-content: center; align-items: center; padding: 15px; }\n.pers-modal-content { background: #fff; padding: 40px; max-width: 680px; width: 100%; position: relative; box-sizing: border-box; }\n.close-modal-btn { position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 28px; cursor: pointer; color: #666; }\n.pers-modal-content h2 { font-size: 24px; margin-top: 0; margin-bottom: 12px; font-weight: normal; letter-spacing: 0.5px; }\n.pers-subtitle { font-size: 13px; color: #666; margin-bottom: 30px; line-height: 1.5; }\n.pers-subtitle a { color: #000;}\n.pers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }\n.pers-field-group { display: flex; flex-direction: column; }\n.pers-field-group label { font-size: 11px; font-weight: 600; margin-bottom: 8px; letter-spacing: 0.5px; color: #333; }\n.pers-field-group input[type=\"text\"], .pers-field-group select { padding: 12px; border: 1px solid #ccc; font-size: 13px; outline: none; width: 100%; box-sizing: border-box; background: #fff; }\n.field-help { font-size: 11px; color: #999; margin-top: 6px; line-height: 1.3; }\n.pers-preview-box { grid-column: span 1; display: flex; justify-content: center; align-items: center; background: #f9f9f9; border: 1px solid #eee; min-height: 100px; }\n#live-preview-icon { font-size: 45px; color: #000; }\n.pers-terms { margin-top: 30px; display: flex; gap: 12px; align-items: flex-start; }\n.pers-terms input[type=\"checkbox\"] { margin-top: 3px; }\n.pers-terms label { font-size: 12px; color: #555; line-height: 1.6; cursor: pointer; }\n.btn-save-pers { width: auto; float: right; background: #b5b5b5; color: #fff; border: none; padding: 14px 35px; margin-top: 25px; font-weight: 500; font-size: 13px; letter-spacing: 1px; cursor: not-allowed; text-transform: uppercase; }\n.btn-save-pers.active { background: #000; color: #fff; cursor: pointer; }\n@media (max-width: 650px) { .pers-grid { grid-template-columns: 1fr; gap: 15px; } .pers-modal-content { padding: 25px; max-height: 90vh; overflow-y: auto; } .btn-save-pers { width: 100%; float: none; margin-top: 20px; } }\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const PERSONALIZATION_VARIANT_ID = \"52086759948589\"; \n\n  const modal = document.getElementById(\"pers-modal\");\n  const openBtn = document.getElementById(\"open-pers-modal\");\n  const closeBtn = document.getElementById(\"close-pers-modal\");\n  const saveBtn = document.getElementById(\"save-pers-btn\");\n  const clearBtn = document.getElementById(\"clear-pers-btn\");\n  const editBtn = document.getElementById(\"edit-pers-btn\");\n  const termsCheck = document.getElementById(\"pers-agree-terms\");\n  const textInput = document.getElementById(\"input-text\");\n  const charCount = document.getElementById(\"char-count\");\n  const symbolSelect = document.getElementById(\"input-symbol\");\n  const previewIcon = document.getElementById(\"live-preview-icon\");\n  const summaryBox = document.getElementById(\"personalization-summary\");\n  const summaryText = document.getElementById(\"summary-text-values\");\n\n  let hasPersonalization = false;\n  let savedProperties = {};\n\n  openBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n  closeBtn.addEventListener(\"click\", () => modal.style.display = \"none\");\n  editBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n\n  textInput.addEventListener(\"input\", function() {\n    charCount.textContent = this.value.length;\n    validateForm();\n  });\n\n    symbolSelect.addEventListener(\"change\", function() {\n  if(this.value === \"Star\") {\n    previewIcon.innerHTML = \"★\";\n  }\n  else if(this.value === \"Heart\") {\n    previewIcon.innerHTML = \"♥\";\n  }\n  else if(this.value === \"Heavenly\") {\n    previewIcon.innerHTML = `\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Brand_Flower_Symbol-removebg_6_a3917234-8750-456f-8f5b-35b786ca5cff.png?v=1780119598\"\n        alt=\"Heavenly\"\n        style=\"width:70px;height:70px;object-fit:contain;\"\n      >\n    `;\n  }\n  else {\n    previewIcon.innerHTML = \"\";\n  }\n});\n\n  termsCheck.addEventListener(\"change\", validateForm);\n\n  function validateForm() {\n    if (textInput.value.trim().length > 0 && termsCheck.checked) {\n      saveBtn.disabled = false;\n      saveBtn.classList.add(\"active\");\n    } else {\n      saveBtn.disabled = true;\n      saveBtn.classList.remove(\"active\");\n    }\n  }\n\n  saveBtn.addEventListener(\"click\", function() {\n    const textVal = textInput.value.trim();\n    const fontVal = document.getElementById(\"input-font\").value;\n    const symbolVal = symbolSelect.value;\n    const colorVal = document.getElementById(\"input-color\").value;\n    const positionVal = document.getElementById(\"input-position\").value;\n\n    savedProperties = {\n      \"Text\": textVal,\n      \"Font\": fontVal,\n      \"Symbol\": symbolVal,\n      \"Thread Color\": colorVal,\n      \"Position\": positionVal\n    };\n\n    summaryText.textContent = `${textVal} / ${fontVal} / ${symbolVal} / ${colorVal} / ${positionVal}`;\n    summaryBox.style.display = \"flex\";\n    openBtn.textContent = \"EDIT PERSONALISATION\";\n    hasPersonalization = true;\n    modal.style.display = \"none\";\n  });\n\n  clearBtn.addEventListener(\"click\", function() {\n    savedProperties = {};\n    hasPersonalization = false;\n    textInput.value = \"ASF\";\n    charCount.textContent = \"3\";\n    termsCheck.checked = false;\n    saveBtn.disabled = true;\n    saveBtn.classList.remove(\"active\");\n    summaryBox.style.display = \"none\";\n    openBtn.textContent = \"PERSONALISE\";\n  });\n\n  // BROADCAST DRAWER COMPATIBLE BUNDLE LOGIC\n  const formSubmitBtn = document.querySelector('[data-add-to-cart], .product-form__submit, button[name=\"add\"]');\n\n  if (formSubmitBtn) {\n    formSubmitBtn.addEventListener(\"click\", function(e) {\n      if (hasPersonalization) {\n        e.preventDefault();\n        e.stopPropagation();\n        e.stopImmediatePropagation();\n\n        const form = formSubmitBtn.closest('form[action*=\"/cart/add\"]');\n        let mainVariantId = form.querySelector('[name=\"id\"]')?.value || window.meta?.product?.variants[0]?.id;\n        const mainQty = form.querySelector('[name=\"quantity\"]')?.value || 1;\n\n        formSubmitBtn.classList.add('loading');\n        formSubmitBtn.disabled = true;\n\n        // Step 1: Main Product-ti empty options (no properties) soho add hocche\n        fetch('/cart/add.js', {\n          method: 'POST',\n          headers: { 'Content-Type': 'application/json' },\n          body: JSON.stringify({\n            id: parseInt(mainVariantId),\n            quantity: parseInt(mainQty)\n          })\n        })\n        .then(() => {\n          // Step 2: Main product add howar por Add-on ($15) product properites soho add hobe\n          return fetch('/cart/add.js', {\n            method: 'POST',\n            headers: { 'Content-Type': 'application/json' },\n            body: JSON.stringify({\n              id: parseInt(PERSONALIZATION_VARIANT_ID),\n              quantity: parseInt(mainQty),\n              properties: {\n                \"Linked Style\": window.meta?.product?.name || \"Main Style\",\n                ...savedProperties\n              }\n            })\n          });\n        })\n        .then(response => response.json())\n        .then(() => {\n          // Step 3: Duti product successfully backend e add hoye gele Cart update ebong Drawer trigger hobe\n          return fetch('/cart.js').then(res => res.json());\n        })\n        .then(cartData => {\n          formSubmitBtn.classList.remove('loading');\n          formSubmitBtn.disabled = false;\n\n          // Broadcast Drawer render context force dispatch\n          document.dispatchEvent(new CustomEvent('theme:cart:change', {\n            bubbles: true,\n            detail: { cart: cartData }\n          }));\n\n          // Drawer slide-out animation open trigger\n          document.dispatchEvent(new CustomEvent('cart:toggle', {\n            bubbles: true\n          }));\n\n          // Alternate structural call for theme scripts\n          if (window.theme && window.theme.CartDrawer) {\n            window.theme.CartDrawer.open();\n          }\n        })\n        .catch(error => {\n          console.error('Drawer Error:', error);\n          form.submit();\n        });\n      }\n    }, true); \n  }\n});\n\n</script>",
-            "padding_bottom": 16
-          }
-        },
-        "code_MtHpKe": {
-          "type": "code",
-          "disabled": true,
-          "settings": {
-            "code": "<div class=\"personalization-wrapper\">\n  \n  <div id=\"personalization-summary\" class=\"pers-summary-box\" style=\"display: none;\">\n    <span class=\"summary-label\">Personalise: <strong id=\"summary-text-values\"></strong></span>\n    <div class=\"summary-actions\">\n      <button type=\"button\" id=\"edit-pers-btn\" class=\"link-btn\">Edit</button> | \n      <button type=\"button\" id=\"clear-pers-btn\" class=\"link-btn\">Clear</button>\n    </div>\n  </div>\n\n  <button type=\"button\" id=\"open-pers-modal\" class=\"btn-personalise\">PERSONALISE</button>\n</div>\n\n<div id=\"pers-modal\" class=\"pers-modal-overlay\">\n  <div class=\"pers-modal-content\">\n    <button type=\"button\" class=\"close-modal-btn\" id=\"close-pers-modal\">&times;</button>\n    \n    <h2>Personalise your style</h2>\n    <p class=\"pers-subtitle\">\n      Whether as a gift for your loved ones or for yourself, in our USA sewing workshop, we embroider the desired Initials onto your favorite styles. \n      <a href=\"#\">More Information</a>\n    </p>\n    \n    <div class=\"pers-grid\">\n      <div class=\"pers-field-group\">\n        <label>CHARACTERS (<span id=\"char-count\">3</span>/3)</label>\n        <input type=\"text\" id=\"input-text\" maxlength=\"3\" value=\"ASF\" autocomplete=\"off\">\n        <small class=\"field-help\">Letters, numbers and special characters.</small>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>FONT</label>\n        <select id=\"input-font\">\n          <option value=\"MODERN\">MODERN</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>SYMBOL</label>\n        <select id=\"input-symbol\">\n          <option value=\"Star\" selected>★ Star</option>\n          <option value=\"Heart\">♥ Heart</option>\n          <option value=\"Heavenly\"> ✾ Heavenly</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>THREAD COLOR</label>\n        <select id=\"input-color\">\n          <option value=\"White\" selected>White</option>\n          <option value=\"Natural\">Natural</option>\n          <option value=\"Copper\">100% Copper</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>POSITION</label>\n        <select id=\"input-position\">\n          <option value=\"Chest\" selected>Chest</option>\n          <option value=\"Sleeve\">Sleeve</option>\n          <option value=\"Hem\">Hem</option>\n        </select>\n      </div>\n\n      <div class=\"pers-preview-box\">\n        <div id=\"live-preview-icon\">★</div>\n      </div>\n    </div>\n\n    <div class=\"pers-terms\">\n      <input type=\"checkbox\" id=\"pers-agree-terms\">\n      <label for=\"pers-agree-terms\">\n        The price for personalisation is <strong>+$15</strong>. Embroidery extends the delivery time by three working days. Personalised items can unfortunately not be returned or exchanged and cannot be subscribed to.\n      </label>\n    </div>\n\n    <button type=\"button\" id=\"save-pers-btn\" class=\"btn-save-pers\" disabled>\n      PERSONALISE (+$15)\n    </button>\n  </div>\n</div>\n\n<style>\n.personalization-wrapper { margin: 15px 0; width: 100%; font-family: inherit; }\n.btn-personalise { width: 100%; background: #fff; color: #000; border: 1px solid #d3d3d3; padding: 14px; font-size: 13px; letter-spacing: 2px; cursor: pointer; text-transform: uppercase; }\n.btn-personalise:hover { background: #f7f7f7; border-color: #000; }\n\n.pers-summary-box { display:flex; justify-content:space-between; font-size:13px; padding:10px 0; border-bottom:1px solid #eee; margin-bottom:12px; }\n.link-btn { background:none; border:none; text-decoration:underline; cursor:pointer; }\n\n.pers-modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.5); z-index:99999; justify-content:center; align-items:center; padding:15px; }\n.pers-modal-content { background:#fff; padding:40px; max-width:680px; width:100%; position:relative; }\n\n.close-modal-btn { position:absolute; right:20px; top:15px; font-size:28px; background:none; border:none; cursor:pointer; }\n\n.pers-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }\n\n.pers-field-group label { font-size:11px; font-weight:600; margin-bottom:8px; display:block; }\n\n.pers-field-group input, .pers-field-group select {\n  padding:12px; border:1px solid #ccc; width:100%;\n}\n\n.pers-preview-box { display:flex; align-items:center; justify-content:center; background:#f9f9f9; min-height:100px; }\n\n#live-preview-icon { font-size:45px; }\n\n.btn-save-pers {\n  float:right; padding:14px 35px; background:#b5b5b5; color:#fff;\n  border:none; cursor:not-allowed;\n}\n\n.btn-save-pers.active { background:#000; cursor:pointer; }\n\n@media(max-width:650px){\n  .pers-grid{grid-template-columns:1fr;}\n}\n</style>\n\n<script>\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n\n  const PERSONALIZATION_VARIANT_ID = \"52086759948589\";\n\n  const modal = document.getElementById(\"pers-modal\");\n  const openBtn = document.getElementById(\"open-pers-modal\");\n  const closeBtn = document.getElementById(\"close-pers-modal\");\n  const saveBtn = document.getElementById(\"save-pers-btn\");\n  const termsCheck = document.getElementById(\"pers-agree-terms\");\n  const textInput = document.getElementById(\"input-text\");\n  const charCount = document.getElementById(\"char-count\");\n  const symbolSelect = document.getElementById(\"input-symbol\");\n  const previewIcon = document.getElementById(\"live-preview-icon\");\n  const summaryBox = document.getElementById(\"personalization-summary\");\n  const summaryText = document.getElementById(\"summary-text-values\");\n\n  let hasPersonalization = false;\n  let savedProperties = {};\n\n  // MODAL\n  openBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n  closeBtn.addEventListener(\"click\", () => modal.style.display = \"none\");\n\n  textInput.addEventListener(\"input\", function () {\n    charCount.textContent = this.value.length;\n    validateForm();\n  });\n\n  symbolSelect.addEventListener(\"change\", function () {\n    if (this.value === \"Star\") previewIcon.innerHTML = \"★\";\n    else if (this.value === \"Heart\") previewIcon.innerHTML = \"♥\";\n    else if (this.value === \"Heavenly\") {\n      previewIcon.innerHTML = `<img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Brand_Flower_Symbol-removebg_6_a3917234-8750-456f-8f5b-35b786ca5cff.png?v=1780119598\" style=\"width:70px;height:70px;object-fit:contain;\">`;\n    }\n  });\n\n  termsCheck.addEventListener(\"change\", validateForm);\n\n  function validateForm() {\n    saveBtn.disabled = !(textInput.value.trim() && termsCheck.checked);\n    saveBtn.classList.toggle(\"active\", !saveBtn.disabled);\n  }\n\n  // SAVE\n  saveBtn.addEventListener(\"click\", function () {\n\n    savedProperties = {\n      Text: textInput.value,\n      Font: document.getElementById(\"input-font\").value,\n      Symbol: symbolSelect.value,\n      Color: document.getElementById(\"input-color\").value,\n      Position: document.getElementById(\"input-position\").value\n    };\n\n    summaryText.textContent = Object.values(savedProperties).join(\" / \");\n    summaryBox.style.display = \"flex\";\n\n    hasPersonalization = true;\n    modal.style.display = \"none\";\n  });\n\n  // CLEAR\n  document.getElementById(\"clear-pers-btn\").addEventListener(\"click\", function () {\n    hasPersonalization = false;\n    savedProperties = {};\n    summaryBox.style.display = \"none\";\n  });\n\n  // ⭐ IMPORTANT: ONLY ADD ADD-ON PRODUCT AFTER CART UPDATE\n  document.addEventListener(\"submit\", function (e) {\n\n    const form = e.target;\n\n    if (!form.matches('form[action*=\"/cart/add\"]')) return;\n    if (!hasPersonalization) return;\n\n    e.preventDefault();\n\n    const formData = new FormData(form);\n    const id = formData.get(\"id\");\n    const qty = formData.get(\"quantity\") || 1;\n\n    const btn = form.querySelector('[type=\"submit\"]');\n    if (btn) btn.classList.add(\"loading\");\n\n    // STEP 1: Let Shopify handle main product (important fix)\n    fetch('/cart/add.js', {\n      method: 'POST',\n      headers: { 'Content-Type': 'application/json' },\n      body: JSON.stringify({\n        id: parseInt(id),\n        quantity: parseInt(qty)\n      })\n    })\n\n    // STEP 2: add personalization product\n    .then(() => {\n      return fetch('/cart/add.js', {\n        method: 'POST',\n        headers: { 'Content-Type': 'application/json' },\n        body: JSON.stringify({\n          id: parseInt(PERSONALIZATION_VARIANT_ID),\n          quantity: parseInt(qty),\n          properties: {\n            ...savedProperties\n          }\n        })\n      });\n    })\n\n    // STEP 3: redirect cart page\n    .then(() => {\n      window.location.href = \"/cart\";\n    })\n\n    .catch((err) => {\n      console.error(err);\n      form.submit();\n    });\n\n  }, true);\n\n});\n\n</script>",
-            "padding_bottom": 16
-          }
-        },
-        "code_dKMMdT": {
+        "code_6HDx64": {
           "type": "code",
           "settings": {
             "code": "<div class=\"personalization-wrapper\">\n  \n  <div id=\"personalization-summary\" class=\"pers-summary-box\" style=\"display: none;\">\n    <span class=\"summary-label\">Personalise: <strong id=\"summary-text-values\"></strong></span>\n    <div class=\"summary-actions\">\n      <button type=\"button\" id=\"edit-pers-btn\" class=\"link-btn\">Edit</button> | \n      <button type=\"button\" id=\"clear-pers-btn\" class=\"link-btn\">Clear</button>\n    </div>\n  </div>\n\n  <button type=\"button\" id=\"open-pers-modal\" class=\"btn-personalise\">PERSONALISE</button>\n</div>\n\n<div id=\"pers-modal\" class=\"pers-modal-overlay\">\n  <div class=\"pers-modal-content\">\n    <button type=\"button\" class=\"close-modal-btn\" id=\"close-pers-modal\">&times;</button>\n    \n    <h2>Personalise your style</h2>\n    <p class=\"pers-subtitle\">Whether as a gift for your loved ones or for yourself, in our USA sewing workshop, we embroider the desired Initials onto your favorite styles with premium 100% linen thread. <a href=\"#\">More Information</a></p>\n    \n    <div class=\"pers-grid\">\n      <div class=\"pers-field-group\">\n        <label>CHARACTERS (<span id=\"char-count\">3</span>/3)</label>\n        <input type=\"text\" id=\"input-text\" maxlength=\"3\" value=\"ASF\" autocomplete=\"off\">\n        <small class=\"field-help\">Letters, numbers and special characters.</small>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>FONT</label>\n        <select id=\"input-font\">\n          <option value=\"MODERN\">MODERN</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>SYMBOL</label>\n        <select id=\"input-symbol\">\n          <option value=\"Star\" selected>★ Star</option>\n          <option value=\"Heart\">♥ Heart</option>\n          <option value=\"Heavenly\"> ✾ Heavenly</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>THREAD COLOR</label>\n        <select id=\"input-color\">\n          <option value=\"White\" selected> White</option>\n          <option value=\"Natural\">Natural</option>\n    <option value=\"Copper\">100% Copper</option>\n        </select>\n      </div>\n\n      <div class=\"pers-field-group\">\n        <label>POSITION</label>\n        <select id=\"input-position\">\n          <option value=\"Chest\" selected>Chest</option>\n          <option value=\"Sleeve\">Sleeve</option>\n  <option value=\"Hem\">Hem</option>\n        </select>\n      </div>\n\n      <div class=\"pers-preview-box\">\n        <div id=\"live-preview-icon\">★</div>\n      </div>\n    </div>\n\n    <div class=\"pers-terms\">\n      <input type=\"checkbox\" id=\"pers-agree-terms\">\n      <label for=\"pers-agree-terms\">\n        The price for personalisation is <strong>+$30</strong>. Embroidery extends the delivery time by three working days. Personalised items can unfortunately not be returned or exchanged and cannot be subscribed to.\n      </label>\n    </div>\n\n    <button type=\"button\" id=\"save-pers-btn\" class=\"btn-save-pers\" disabled>PERSONALISE (+$30)</button>\n  </div>\n</div>\n\n<style>\n.personalization-wrapper { margin: 15px 0; width: 100%; font-family: inherit; }\n.btn-personalise { width: 100%; background: #ffffff; color: #000000; border: 1px solid #d3d3d3; padding: 14px; font-size: 13px; font-weight: 500; letter-spacing: 2px; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; }\n.btn-personalise:hover { background: #f7f7f7; border-color: #000; }\n.pers-summary-box { display: flex; justify-content: space-between; align-items: center; font-size: 13px; padding: 10px 0; border-bottom: 1px solid #eee; margin-bottom: 12px; }\n.link-btn { background: none; border: none; text-decoration: underline; cursor: pointer; padding: 0 4px; font-size: 13px; color: #000; }\n.pers-modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 99999; justify-content: center; align-items: center; padding: 15px; }\n.pers-modal-content { background: #fff; padding: 40px; max-width: 680px; width: 100%; position: relative; box-sizing: border-box; }\n.close-modal-btn { position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 28px; cursor: pointer; color: #666; }\n.pers-modal-content h2 { font-size: 24px; margin-top: 0; margin-bottom: 12px; font-weight: normal; letter-spacing: 0.5px; }\n.pers-subtitle { font-size: 13px; color: #666; margin-bottom: 30px; line-height: 1.5; }\n.pers-subtitle a { color: #000;}\n.pers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }\n.pers-field-group { display: flex; flex-direction: column; }\n.pers-field-group label { font-size: 11px; font-weight: 600; margin-bottom: 8px; letter-spacing: 0.5px; color: #333; }\n.pers-field-group input[type=\"text\"], .pers-field-group select { padding: 12px; border: 1px solid #ccc; font-size: 13px; outline: none; width: 100%; box-sizing: border-box; background: #fff; }\n.field-help { font-size: 11px; color: #999; margin-top: 6px; line-height: 1.3; }\n.pers-preview-box { grid-column: span 1; display: flex; justify-content: center; align-items: center; background: #f9f9f9; border: 1px solid #eee; min-height: 100px; }\n#live-preview-icon { font-size: 45px; color: #000; }\n.pers-terms { margin-top: 30px; display: flex; gap: 12px; align-items: flex-start; }\n.pers-terms input[type=\"checkbox\"] { margin-top: 3px; }\n.pers-terms label { font-size: 12px; color: #555; line-height: 1.6; cursor: pointer; }\n.btn-save-pers { width: auto; float: right; background: #b5b5b5; color: #fff; border: none; padding: 14px 35px; margin-top: 25px; font-weight: 500; font-size: 13px; letter-spacing: 1px; cursor: not-allowed; text-transform: uppercase; }\n.btn-save-pers.active { background: #000; color: #fff; cursor: pointer; }\n@media (max-width: 650px) { .pers-grid { grid-template-columns: 1fr; gap: 15px; } .pers-modal-content { padding: 25px; max-height: 90vh; overflow-y: auto; } .btn-save-pers { width: 100%; float: none; margin-top: 20px; } }\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const PERSONALIZATION_VARIANT_ID = \"52086759948589\"; \n\n  const modal = document.getElementById(\"pers-modal\");\n  const openBtn = document.getElementById(\"open-pers-modal\");\n  const closeBtn = document.getElementById(\"close-pers-modal\");\n  const saveBtn = document.getElementById(\"save-pers-btn\");\n  const clearBtn = document.getElementById(\"clear-pers-btn\");\n  const editBtn = document.getElementById(\"edit-pers-btn\");\n  const termsCheck = document.getElementById(\"pers-agree-terms\");\n  const textInput = document.getElementById(\"input-text\");\n  const charCount = document.getElementById(\"char-count\");\n  const symbolSelect = document.getElementById(\"input-symbol\");\n  const previewIcon = document.getElementById(\"live-preview-icon\");\n  const summaryBox = document.getElementById(\"personalization-summary\");\n  const summaryText = document.getElementById(\"summary-text-values\");\n\n  let hasPersonalization = false;\n  let savedProperties = {};\n\n  openBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n  closeBtn.addEventListener(\"click\", () => modal.style.display = \"none\");\n  editBtn.addEventListener(\"click\", () => modal.style.display = \"flex\");\n\n  textInput.addEventListener(\"input\", function() {\n    charCount.textContent = this.value.length;\n    validateForm();\n  });\n\n    symbolSelect.addEventListener(\"change\", function() {\n  if(this.value === \"Star\") {\n    previewIcon.innerHTML = \"★\";\n  }\n  else if(this.value === \"Heart\") {\n    previewIcon.innerHTML = \"♥\";\n  }\n  else if(this.value === \"Heavenly\") {\n    previewIcon.innerHTML = `\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Brand_Flower_Symbol-removebg_6_a3917234-8750-456f-8f5b-35b786ca5cff.png?v=1780119598\"\n        alt=\"Heavenly\"\n        style=\"width:70px;height:70px;object-fit:contain;\"\n      >\n    `;\n  }\n  else {\n    previewIcon.innerHTML = \"\";\n  }\n});\n\n  termsCheck.addEventListener(\"change\", validateForm);\n\n  function validateForm() {\n    if (textInput.value.trim().length > 0 && termsCheck.checked) {\n      saveBtn.disabled = false;\n      saveBtn.classList.add(\"active\");\n    } else {\n      saveBtn.disabled = true;\n      saveBtn.classList.remove(\"active\");\n    }\n  }\n\n  saveBtn.addEventListener(\"click\", function() {\n    const textVal = textInput.value.trim();\n    const fontVal = document.getElementById(\"input-font\").value;\n    const symbolVal = symbolSelect.value;\n    const colorVal = document.getElementById(\"input-color\").value;\n    const positionVal = document.getElementById(\"input-position\").value;\n\n    savedProperties = {\n      \"Text\": textVal,\n      \"Font\": fontVal,\n      \"Symbol\": symbolVal,\n      \"Thread Color\": colorVal,\n      \"Position\": positionVal\n    };\n\n    summaryText.textContent = `${textVal} / ${fontVal} / ${symbolVal} / ${colorVal} / ${positionVal}`;\n    summaryBox.style.display = \"flex\";\n    openBtn.textContent = \"EDIT PERSONALISATION\";\n    hasPersonalization = true;\n    modal.style.display = \"none\";\n  });\n\n  clearBtn.addEventListener(\"click\", function() {\n    savedProperties = {};\n    hasPersonalization = false;\n    textInput.value = \"ASF\";\n    charCount.textContent = \"3\";\n    termsCheck.checked = false;\n    saveBtn.disabled = true;\n    saveBtn.classList.remove(\"active\");\n    summaryBox.style.display = \"none\";\n    openBtn.textContent = \"PERSONALISE\";\n  });\n\n  // BROADCAST DRAWER COMPATIBLE BUNDLE LOGIC\n  const formSubmitBtn = document.querySelector('[data-add-to-cart], .product-form__submit, button[name=\"add\"]');\n\n  if (formSubmitBtn) {\n    formSubmitBtn.addEventListener(\"click\", function(e) {\n      if (hasPersonalization) {\n        e.preventDefault();\n        e.stopPropagation();\n        e.stopImmediatePropagation();\n\n        const form = formSubmitBtn.closest('form[action*=\"/cart/add\"]');\n        let mainVariantId = form.querySelector('[name=\"id\"]')?.value || window.meta?.product?.variants[0]?.id;\n        const mainQty = form.querySelector('[name=\"quantity\"]')?.value || 1;\n\n        formSubmitBtn.classList.add('loading');\n        formSubmitBtn.disabled = true;\n\n        // Step 1: Main Product-ti empty options (no properties) soho add hocche\n        fetch('/cart/add.js', {\n          method: 'POST',\n          headers: { 'Content-Type': 'application/json' },\n          body: JSON.stringify({\n            id: parseInt(mainVariantId),\n            quantity: parseInt(mainQty)\n          })\n        })\n        .then(() => {\n          // Step 2: Main product add howar por Add-on ($15) product properites soho add hobe\n          return fetch('/cart/add.js', {\n            method: 'POST',\n            headers: { 'Content-Type': 'application/json' },\n            body: JSON.stringify({\n              id: parseInt(PERSONALIZATION_VARIANT_ID),\n              quantity: parseInt(mainQty),\n              properties: {\n                \"Linked Style\": window.meta?.product?.name || \"Main Style\",\n                ...savedProperties\n              }\n            })\n          });\n        })\n        .then(response => response.json())\n        .then(() => {\n          // Step 3: Duti product successfully backend e add hoye gele Cart update ebong Drawer trigger hobe\n          return fetch('/cart.js').then(res => res.json());\n        })\n        .then(cartData => {\n          formSubmitBtn.classList.remove('loading');\n          formSubmitBtn.disabled = false;\n\n          // Broadcast Drawer render context force dispatch\n          document.dispatchEvent(new CustomEvent('theme:cart:change', {\n            bubbles: true,\n            detail: { cart: cartData }\n          }));\n\n          // Drawer slide-out animation open trigger\n          document.dispatchEvent(new CustomEvent('cart:toggle', {\n            bubbles: true\n          }));\n\n          // Alternate structural call for theme scripts\n          if (window.theme && window.theme.CartDrawer) {\n            window.theme.CartDrawer.open();\n          }\n        })\n        .catch(error => {\n          console.error('Drawer Error:', error);\n          form.submit();\n        });\n      }\n    }, true); \n  }\n});\n\n</script>",
@@ -112,75 +60,72 @@
             "padding_bottom": 32
           }
         },
-        "subscriptions_app_block_Vnbqnh": {
+        "subscriptions_app_block_CAzLDU": {
           "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
           "settings": {
             "widget_style": "card",
             "widget_style_card_selector": "radio_button",
-            "subscription_policy_url": "shopify://pages/subscription-policy",
-            "color_text_body": "#212121",
-            "dividers_color": "#8f8d8d",
-            "background_color": "#ffffff",
+            "subscription_policy_url": "",
+            "color_text_body": "#6D7175",
+            "dividers_color": "#8F8D8D",
+            "background_color": "#FFFFFF",
             "border_thickness": 1,
             "border_radius": 0,
             "product": "{{product}}"
           }
         },
-        "code_Gj3M6L": {
-          "type": "code",
-          "settings": {
-            "code": "",
-            "padding_bottom": 16
-          }
-        },
-        "description_TaWNem": {
-          "type": "description",
-          "settings": {
-            "show_read_more": true,
-            "padding_bottom": 0
-          }
-        },
         "accordion_xcrqAb": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b> FABRIC & CARE </b>",
+            "heading": "FABRIC & CARE",
             "text": "<p>Consciously made with our super-soft & sustainable, 100% GOTS Certified Organic Cotton Jersey.<br/><br/><strong>Fabric:</strong> 100% GOTS Organic Cotton Jersey<br/><strong>Stabilizer:</strong> 100% Polyester<br/><br/>To take care and keep your Cou Cou's looking cuter, for longer, just wash your pieces on gentle, lay flat to dry & voilà! These more gentle care methods aren’t just better for your Cou Cou's, they’re better for the planet, too.<br/><br/>Designed in London. Made in Portugal.</p>",
             "padding_bottom": 0
           }
         },
         "accordion_Te4hRh": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b> SIZE & FIT </b>",
+            "heading": "SIZE & FIT",
             "text": "<p>Featuring a soft underwire, natural lifted cup & romantic, Italian-inspired seams — along with adjustable straps. Made with dainty, low-coverage cups to give you all the comfort & support you deserve.<br/><br/>The Teacup Bra comes in standard Cou Cou sizing, XXS-XXL. We recommend sizing up for extra comfort and coverage. See the size chart for specific specs.<br/><br/>Jade wears a size XS in The Teacup.</p><p></p>",
             "padding_bottom": 0
           }
         },
         "accordion_UbJrwr": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b> ORGANIC LINEN </b>",
+            "heading": "ORGANIC LINEN",
             "text": "<p>We founded Heavenly Essentials to reduce the environmental impact of our intimates & everyday essentials. To take responsibility for the whole life cycle of yourHeavenly Essential's, we make all our pieces with the highest quality, super-soft 100% GOTS Certified Organic linen — a sustainably-sourced fabric that’s also completely compostable. <br/><br/>The most soft, breathable fabric for everyday wear & gynecologist recommended. Our organic linen is a natural fibre, grown without any pesticides, fertilizers, gmo seeds ( or any of that stuff!)– making your Heavenly Essential’s not only good for the planet, they’re good for you, too.</p>",
             "padding_bottom": 0
           }
         },
         "accordion_pReJKH": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b> SHIPPING & RETURNS </b>",
+            "heading": "SHIPPING 7 RETURNS",
             "text": "<p>Enjoy free UK, EU & US shipping on orders over £110/€150/$180.<br/><br/>Please allow 1-2 business days before your order ships for standard processing.<br/><br/><strong>RETURNS</strong><br/>We accept returns that are requested within 14 days of receiving the item(s).</p>",
+            "padding_bottom": 0
+          }
+        },
+        "description_TaWNem": {
+          "type": "description",
+          "settings": {
+            "show_read_more": true,
             "padding_bottom": 0
           }
         },
@@ -237,7 +182,7 @@
             "padding_bottom": 16
           }
         },
-        "icon_twxwjf": {
+        "icon_WFzXRg": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-truck",
@@ -250,7 +195,7 @@
             "padding_bottom": 16
           }
         },
-        "code_Gj8U3h": {
+        "code_icCdk6": {
           "type": "code",
           "settings": {
             "code": "<img src=\"https://cdn.shopify.com/s/files/1/0883/8860/0109/files/Add_Product-2.png?v=1725931981\" style=\"width:100%;\"><style>@media (max-width:768px){img{margin-bottom:-20px}}</style>",
@@ -260,37 +205,34 @@
       },
       "block_order": [
         "title",
-        "judge_me_reviews_preview_badge_jziK8L",
         "price",
-        "text_JaU9GK",
-        "divider_JUJ4nt",
+        "text_3NPd8F",
         "variants",
-        "code_ALqCW7",
-        "code_ennWRW",
-        "code_FVN48T",
-        "code_CEN9JC",
-        "code_MtHpKe",
-        "code_dKMMdT",
+        "code_6HDx64",
         "buttons",
-        "subscriptions_app_block_Vnbqnh",
-        "code_Gj3M6L",
-        "description_TaWNem",
+        "subscriptions_app_block_CAzLDU",
         "accordion_xcrqAb",
         "accordion_Te4hRh",
         "accordion_UbJrwr",
         "accordion_pReJKH",
+        "description_TaWNem",
         "pickup",
         "divider_1",
         "upsell",
         "icon_1",
         "icon_2",
-        "icon_twxwjf",
-        "code_Gj8U3h"
+        "icon_WFzXRg",
+        "code_icCdk6"
+      ],
+      "custom_css": [
+        ".selector-wrapper.selector-wrapper--fullwidth {border-bottom: 1px solid #f0f0f0;}",
+        ".plan_card {border-color: #000 !important; color: #000 !important;}",
+        ".custom_radio_button:has(input[type=\"radio\"]:checked):before {background: #000;}"
       ],
       "settings": {
         "product_sticky_enable": true,
         "variant_image_scroll": true,
-        "image_layout": "thumbnails-left",
+        "image_layout": "stacked",
         "image_size": "normal",
         "show_cart_bar": true,
         "enable_zoom": true,
@@ -300,220 +242,6 @@
         "padding_bottom": 30
       }
     },
-    "section_divider_d3NfcB": {
-      "type": "section-divider",
-      "name": "Divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper",
-        "border_color": "",
-        "bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "section_rich_text_hJTfiw": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_c9aHAy": {
-          "type": "heading",
-          "settings": {
-            "title": "WHAT MAKES US SPECIAL",
-            "text_size": 5,
-            "padding_bottom": 16
-          }
-        },
-        "text_CVPWVQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Intimate essentials for everyday. Consciously made with 100% GOTS Certified Organic linen.</p>",
-            "text_size": 3,
-            "text_style": "font-body",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_c9aHAy",
-        "text_CVPWVQ"
-      ],
-      "custom_css": [
-        "@media (max-width: 768px) {h2 {font-size: 21px; font-weight: normal; }}",
-        "@media (min-width: 768px) {h2 {font-size: 28px; font-weight: normal; }}"
-      ],
-      "settings": {
-        "width": "wrapper",
-        "align_text": "text-center",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 24,
-        "padding_bottom": 0
-      }
-    },
-    "section_highlights_9R9BFy": {
-      "type": "section-highlights",
-      "blocks": {
-        "highlight_bTmCpW": {
-          "type": "highlight",
-          "settings": {
-            "heading": "100% ORGANIC LINEN",
-            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
-            "url": "",
-            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_V9pBmK": {
-          "type": "highlight",
-          "settings": {
-            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
-            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
-            "url": "",
-            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_iMPxiR": {
-          "type": "highlight",
-          "settings": {
-            "heading": "FROM EARTH AND BACK",
-            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
-            "url": "",
-            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_AbpEbK": {
-          "type": "highlight",
-          "settings": {
-            "heading": "PLANT-BASED, NATURAL DYES",
-            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
-            "url": "",
-            "image": "shopify://shop_images/plantdyesswatches.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_bTmCpW",
-        "highlight_V9pBmK",
-        "highlight_iMPxiR",
-        "highlight_AbpEbK"
-      ],
-      "custom_css": [
-        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
-        ".highlights__item:hover .image-wrapper {opacity: 0;}",
-        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
-        ".body-size-6 {font-size: 28px;}",
-        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
-        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
-      ],
-      "settings": {
-        "style": "square",
-        "grid": 4,
-        "width": "wrapper--full-padded",
-        "heading": "",
-        "heading_position": "text-center",
-        "heading_size": 6,
-        "text_size": 6,
-        "color": "#212121",
-        "bg_color": "rgba(0,0,0,0)",
-        "layout_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 40
-      }
-    },
-    "section_highlights_xrmh4W": {
-      "type": "section-highlights",
-      "blocks": {
-        "highlight_GjCH7L": {
-          "type": "highlight",
-          "settings": {
-            "heading": "100% ORGANIC LINEN",
-            "textdescription": "",
-            "url": "",
-            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_CpahtU": {
-          "type": "highlight",
-          "settings": {
-            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
-            "textdescription": "",
-            "url": "",
-            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_TRAaew": {
-          "type": "highlight",
-          "settings": {
-            "heading": "FROM EARTH AND BACK",
-            "textdescription": "",
-            "url": "",
-            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_ygUWTq": {
-          "type": "highlight",
-          "settings": {
-            "heading": "PLANT-BASED, NATURAL DYES",
-            "textdescription": "",
-            "url": "",
-            "image": "shopify://shop_images/plantdyesswatches.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_GjCH7L",
-        "highlight_CpahtU",
-        "highlight_TRAaew",
-        "highlight_ygUWTq"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
-        ".body-size-6 {font-size: 28px;}",
-        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
-        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
-      ],
-      "settings": {
-        "style": "square",
-        "grid": 4,
-        "width": "wrapper--full-padded",
-        "heading": "",
-        "heading_position": "text-center",
-        "heading_size": 6,
-        "text_size": 6,
-        "color": "#212121",
-        "bg_color": "rgba(0,0,0,0)",
-        "layout_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 40
-      }
-    },
     "section_highlights_D4363m": {
       "type": "section-highlights",
       "blocks": {
@@ -521,7 +249,7 @@
           "type": "highlight",
           "settings": {
             "heading": "LUXE LINEN",
-            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
+            "textdescription": "<p>test description</p>",
             "url": "",
             "image": "shopify://shop_images/Noor1_closeup-flax-seed-flax-blossoms-white-backdropgenerative-ai_722401-28898.jpg",
             "color": "#ffffff",
@@ -533,7 +261,7 @@
           "type": "highlight",
           "settings": {
             "heading": "WORLDS MOST SUSTAINABLE NATURAL FIBER",
-            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
+            "textdescription": "<p>test description</p>",
             "url": "",
             "image": "shopify://shop_images/Noor2_flax_fiber.jpg",
             "color": "",
@@ -545,7 +273,7 @@
           "type": "highlight",
           "settings": {
             "heading": "FROM EARTH AND BACK TO EARTH",
-            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
+            "textdescription": "<p>test description</p>",
             "url": "",
             "image": "shopify://shop_images/Noor3_8706_ed.jpg",
             "color": "",
@@ -557,7 +285,7 @@
           "type": "highlight",
           "settings": {
             "heading": "PLANT BASED, NATURAL DYES",
-            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
+            "textdescription": "<p>test description test description test description test description test description test description</p>",
             "url": "",
             "image": "shopify://shop_images/Noor4_natural_dyes.png",
             "color": "",
@@ -572,7 +300,6 @@
         "highlight_b9pnp3",
         "highlight_zLx7cQ"
       ],
-      "disabled": true,
       "custom_css": [
         ".highlights__item:hover .highlights__item__content {opacity: 0;}",
         ".highlights__item:hover .image-wrapper {opacity: 0;}",
@@ -594,65 +321,6 @@
         "padding_bottom": 10
       }
     },
-    "feb_category_section_eNxfLX": {
-      "type": "feb-category-section",
-      "blocks": {
-        "card_hf6KFb": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/location-normandy-france_2000x2400_6b4ad43c-e653-4ae6-a7cf-ae0744e885a4.jpg",
-            "title": "Normandy, France",
-            "text": "Our linen comes from Normandy, France, in flax fields on cliffs overlooking the British Channel."
-          }
-        },
-        "card_PwEzEf": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/fiber-frenchlinen.jpg",
-            "title": "French Linen",
-            "text": "The climate of Normandy produces the highest quality linen on Earth: breathable, heat-regulating, and long-lasting."
-          }
-        },
-        "card_7gycFr": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/weave-slub-linen.jpg",
-            "title": "Slub Linen",
-            "text": "Full-bodied and well-washed slub linen with natural variations that give the fabric real depth."
-          }
-        },
-        "card_Kfa6Vt": {
-          "type": "card",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/plantdyesswatches.jpg",
-            "title": "PLANT-BASED, NATURAL DYES",
-            "text": "Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals)."
-          }
-        }
-      },
-      "block_order": [
-        "card_hf6KFb",
-        "card_PwEzEf",
-        "card_7gycFr",
-        "card_Kfa6Vt"
-      ],
-      "name": "Linen Info Cards",
-      "settings": {
-        "heading": "",
-        "bg_color": "#ffffff",
-        "text_color": "#1f2937",
-        "container_width": 1450,
-        "columns_desktop": 3,
-        "image_ratio": "4 / 5",
-        "gap": 3,
-        "heading_size": 32,
-        "title_size": 16,
-        "text_size": 15,
-        "padding_top": 0,
-        "padding_bottom": 40
-      }
-    },
     "related": {
       "type": "related",
       "blocks": {
@@ -660,14 +328,14 @@
           "type": "related",
           "settings": {
             "product_recommendations_heading": "Related products",
-            "limit": 6
+            "limit": 4
           }
         },
         "recent": {
           "type": "recent",
           "settings": {
             "product_recently_heading": "Recently viewed",
-            "product_recently_limit": 6
+            "product_recently_limit": 4
           }
         }
       },
@@ -710,12 +378,7 @@
   },
   "order": [
     "main",
-    "section_divider_d3NfcB",
-    "section_rich_text_hJTfiw",
-    "section_highlights_9R9BFy",
-    "section_highlights_xrmh4W",
     "section_highlights_D4363m",
-    "feb_category_section_eNxfLX",
     "related",
     "1724442472d2a1fb7a"
   ]

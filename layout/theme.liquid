@@ -1,55 +1,72 @@
 <!doctype html>
 <html class="no-js no-touch supports-no-cookies" lang="{{ request.locale.iso_code }}">
-<head>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WB8PJZKV');</script>
-<!-- End Google Tag Manager -->
-{% render 'ultimate-datalayer' %}
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQE6NM0BMM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  {% comment %} <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% endcomment %}
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="theme-color" content="{{ settings.accent_bright }}">
-  <link rel="canonical" href="{{ canonical_url }}">
-  <!-- ======================= Broadcast Theme V5.8.0 ========================= -->
+      gtag('config', 'G-WQE6NM0BMM');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-WB8PJZKV');
+    </script>
+    <!-- End Google Tag Manager -->
+    {% render 'ultimate-datalayer' %}
 
-  {{ 'theme.css' | asset_url | preload_tag: as: 'style' }}
-  {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
-  {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="{{ settings.accent_bright }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <!-- ======================= Broadcast Theme V5.8.0 ========================= -->
 
-  {%- if settings.loading_image_1 != blank or settings.loading_image_2 != blank -%}
-  {%- style -%}
-    .loading { position: fixed; top: 0; left: 0; z-index: 99999; width: 100%; height: 100%; background: var(--bg); transition: opacity 0.2s ease-out, visibility 0.2s ease-out; }
-    body.is-loaded .loading { opacity: 0; visibility: hidden; pointer-events: none; }
-    .loading__image__holder { position: absolute; top: 0; left: 0; width: 100%; height: 100%; font-size: 0; display: flex; align-items: center; justify-content: center; }
-    .loading__image__holder:nth-child(2) { opacity: 0; }
-    .loading__image { max-width: {{ settings.loading_image_width }}px; max-height: {{ settings.loading_image_width }}px; object-fit: contain; }
-    .loading--animate .loading__image__holder:nth-child(1) { animation: pulse1 2s infinite ease-in-out; }
-    .loading--animate .loading__image__holder:nth-child(2) { animation: pulse2 2s infinite ease-in-out; }
-    @keyframes pulse1 {
-      0% { opacity: 1; }
-      50% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-    @keyframes pulse2 {
-      0% { opacity: 0; }
-      50% { opacity: 1; }
-      100% { opacity: 0; }
-    }
-  {%- endstyle -%}
-{%- endif -%}
+    {{ 'theme.css' | asset_url | preload_tag: as: 'style' }}
+    {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
 
-  {% if settings.favicon %}
-    <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
-  {% endif %}
+    {%- if settings.loading_image_1 != blank or settings.loading_image_2 != blank -%}
+      {%- style -%}
+        .loading { position: fixed; top: 0; left: 0; z-index: 99999; width: 100%; height: 100%; background: var(--bg); transition: opacity 0.2s ease-out, visibility 0.2s ease-out; }
+        body.is-loaded .loading { opacity: 0; visibility: hidden; pointer-events: none; }
+        .loading__image__holder { position: absolute; top: 0; left: 0; width: 100%; height: 100%; font-size: 0; display: flex; align-items: center; justify-content: center; }
+        .loading__image__holder:nth-child(2) { opacity: 0; }
+        .loading__image { max-width: {{ settings.loading_image_width }}px; max-height: {{ settings.loading_image_width }}px; object-fit: contain; }
+        .loading--animate .loading__image__holder:nth-child(1) { animation: pulse1 2s infinite ease-in-out; }
+        .loading--animate .loading__image__holder:nth-child(2) { animation: pulse2 2s infinite ease-in-out; }
+        @keyframes pulse1 {
+          0% { opacity: 1; }
+          50% { opacity: 0; }
+          100% { opacity: 1; }
+        }
+        @keyframes pulse2 {
+          0% { opacity: 0; }
+          50% { opacity: 1; }
+          100% { opacity: 0; }
+        }
+      {%- endstyle -%}
+    {%- endif -%}
 
-  <!-- Title and description ================================================ -->
-  {% capture seo_title %}
+    {% if settings.favicon %}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {% endif %}
+
+    <!-- Title and description ================================================ -->
+    {% capture seo_title %}
     {% assign title_content = page_title %}
     {% if template == 'password' %}
       {% assign title_content = shop.name %}
@@ -65,97 +82,95 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       &ndash; {{ shop.name }}
     {% endunless %}
   {% endcapture %}
-  <title>{{ seo_title }}</title>
+    <title>{{ seo_title }}</title>
 
-  {% if page_description %}
-    <meta name="description" content="{{ page_description | escape }}">
-  {% else %}
-    <meta name="description" content="{{ shop.description | escape }}">
-  {% endif %}
-
-  {% render 'social-meta' %}
-
-  <!-- CSS ================================================================== -->
-  {% style %}
-    {%- liquid
-      assign heading_font = settings.type_heading_font
-      assign base_font = settings.type_base_font
-
-      assign heading_font_bold = heading_font | font_modify: 'weight', 'bolder'
-      assign base_font_bold = base_font | font_modify: 'weight', 'bolder'
-
-      assign base_font_100 = base_font | font_modify: 'weight', '+100'
-      assign base_font_200 = base_font | font_modify: 'weight', '+200'
-      assign base_font_300 = base_font | font_modify: 'weight', '+300'
-      assign base_font_400 = base_font | font_modify: 'weight', '+400'
-      if base_font_100 and base_font_100.weight > base_font.weight
-        assign base_font_bold = base_font_100
-      elsif base_font_200 and base_font_200.weight > base_font.weight
-        assign base_font_bold = base_font_200
-      elsif base_font_300 and base_font_300.weight > base_font.weight
-        assign base_font_bold = base_font_300
-      elsif base_font_400 and base_font_400.weight > base_font.weight
-        assign base_font_bold = base_font_400
-      endif
-
-      assign heading_font_100 = heading_font | font_modify: 'weight', '+100'
-      assign heading_font_200 = heading_font | font_modify: 'weight', '+200'
-      assign heading_font_300 = heading_font | font_modify: 'weight', '+300'
-      assign heading_font_400 = heading_font | font_modify: 'weight', '+400'
-      if heading_font_100 and heading_font_100.weight > heading_font.weight
-        assign heading_font_bold = heading_font_100
-      elsif heading_font_200 and heading_font_200.weight > heading_font.weight
-        assign heading_font_bold = heading_font_200
-      elsif heading_font_300 and heading_font_300.weight > heading_font.weight
-        assign heading_font_bold = heading_font_300
-      elsif heading_font_400 and heading_font_400.weight > heading_font.weight
-        assign heading_font_bold = heading_font_400
-      endif
-
-      assign btn_font = settings.btn_font
-    -%}
-
-    {{ heading_font | font_face: font_display: 'swap' }}
-    {{ base_font | font_face: font_display: 'swap' }}
-    {{ btn_font | font_face: font_display: 'swap' }}
-
-    {% if heading_font_bold %}
-      {{ heading_font_bold | font_face: font_display: 'swap' }}
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% else %}
+      <meta name="description" content="{{ shop.description | escape }}">
     {% endif %}
 
-    {% if base_font_bold %}
-      {{ base_font_bold | font_face: font_display: 'swap' }}
-    {% endif %}
+    {% render 'social-meta' %}
 
-    {% assign base_font_italic = base_font | font_modify: 'style', 'italic' %}
-    {% assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic' %}
+    <!-- CSS ================================================================== -->
+    {% style %}
+      {%- liquid
+        assign heading_font = settings.type_heading_font
+        assign base_font = settings.type_base_font
 
-    {% if base_font_italic %}
-      {{ base_font_italic | font_face: font_display: 'swap' }}
-    {% endif %}
+        assign heading_font_bold = heading_font | font_modify: 'weight', 'bolder'
+        assign base_font_bold = base_font | font_modify: 'weight', 'bolder'
 
-    {% if base_font_bold_italic %}
-      {{ base_font_bold_italic | font_face: font_display: 'swap' }}
-    {% endif %}
-  {% endstyle %}
+        assign base_font_100 = base_font | font_modify: 'weight', '+100'
+        assign base_font_200 = base_font | font_modify: 'weight', '+200'
+        assign base_font_300 = base_font | font_modify: 'weight', '+300'
+        assign base_font_400 = base_font | font_modify: 'weight', '+400'
+        if base_font_100 and base_font_100.weight > base_font.weight
+          assign base_font_bold = base_font_100
+        elsif base_font_200 and base_font_200.weight > base_font.weight
+          assign base_font_bold = base_font_200
+        elsif base_font_300 and base_font_300.weight > base_font.weight
+          assign base_font_bold = base_font_300
+        elsif base_font_400 and base_font_400.weight > base_font.weight
+          assign base_font_bold = base_font_400
+        endif
 
-  {% render 'css-variables' %}
+        assign heading_font_100 = heading_font | font_modify: 'weight', '+100'
+        assign heading_font_200 = heading_font | font_modify: 'weight', '+200'
+        assign heading_font_300 = heading_font | font_modify: 'weight', '+300'
+        assign heading_font_400 = heading_font | font_modify: 'weight', '+400'
+        if heading_font_100 and heading_font_100.weight > heading_font.weight
+          assign heading_font_bold = heading_font_100
+        elsif heading_font_200 and heading_font_200.weight > heading_font.weight
+          assign heading_font_bold = heading_font_200
+        elsif heading_font_300 and heading_font_300.weight > heading_font.weight
+          assign heading_font_bold = heading_font_300
+        elsif heading_font_400 and heading_font_400.weight > heading_font.weight
+          assign heading_font_bold = heading_font_400
+        endif
 
-  {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
+        assign btn_font = settings.btn_font
+      -%}
 
-  {%- if settings.swatches_type != 'disabled' or settings.show_siblings -%}
-    {{ 'swatches.css' | asset_url | preload_tag: as: 'style' }}
-    {{ 'swatches.css' | asset_url | stylesheet_tag: preload: true }}
-    {%- render 'swatch-color-list' -%}
-  {%- endif %}
+      {{ heading_font | font_face: font_display: 'swap' }}
+      {{ base_font | font_face: font_display: 'swap' }}
+      {{ btn_font | font_face: font_display: 'swap' }}
 
-  {%- if request.design_mode -%}
-    {{ 'design-mode.css' | asset_url | stylesheet_tag }}
-  {%- endif -%}
+      {% if heading_font_bold %}
+        {{ heading_font_bold | font_face: font_display: 'swap' }}
+      {% endif %}
 
-  {{ 'style.css' | asset_url | stylesheet_tag }}
+      {% if base_font_bold %}
+        {{ base_font_bold | font_face: font_display: 'swap' }}
+      {% endif %}
 
-  <script>
+      {% assign base_font_italic = base_font | font_modify: 'style', 'italic' %}
+      {% assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic' %}
+
+      {% if base_font_italic %}
+        {{ base_font_italic | font_face: font_display: 'swap' }}
+      {% endif %}
+
+      {% if base_font_bold_italic %}
+        {{ base_font_bold_italic | font_face: font_display: 'swap' }}
+      {% endif %}
+    {% endstyle %}
+
+    {% render 'css-variables' %}
+
+    {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
+
+    {%- if settings.swatches_type != 'disabled' or settings.show_siblings -%}
+      {{ 'swatches.css' | asset_url | preload_tag: as: 'style' }}
+      {{ 'swatches.css' | asset_url | stylesheet_tag: preload: true }}
+      {%- render 'swatch-color-list' -%}
+    {%- endif %}
+
+    {%- if request.design_mode -%}
+      {{ 'design-mode.css' | asset_url | stylesheet_tag }}
+    {%- endif -%}
+
+    <script>
     if (window.navigator.userAgent.indexOf('MSIE ') > 0 || window.navigator.userAgent.indexOf('Trident/') > 0) {
       document.documentElement.className = document.documentElement.className + ' ie';
 
@@ -263,157 +278,181 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     document.documentElement.style.setProperty('--one-half', `${windowInnerHeight * 0.5}px`);
     document.documentElement.style.setProperty('--one-third', `${windowInnerHeight * 0.33}px`);
     document.documentElement.style.setProperty('--one-fifth', `${windowInnerHeight * 0.2}px`);
-  </script>
+    </script>
 
-  {% if template.directory == 'customers' or template contains 'cart' %}
-    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
-  {% endif %}
+    {% if template.directory == 'customers' or template contains 'cart' %}
+      <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+    {% endif %}
 
-  <!-- Theme Javascript ============================================================== -->
-  <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-
-  {%- if request.design_mode -%}
-    <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
-  {%- endif -%}
-
-  {%- comment -%}
-    If you need to do some edits in Theme JS use theme.dev.js file
-
-    *** DO NOT EDIT theme.js file ***
-
-    Then call theme.dev.js file by editing the row above from:
+    <!-- Theme Javascript ============================================================== -->
+    <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-    to
-    <script src="{{ 'theme.dev.js' | asset_url }}" defer="defer"></script>
-  {%- endcomment -%}
 
-  <!-- Shopify app scripts =========================================================== -->
+    {%- if request.design_mode -%}
+      <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
 
-  {{ content_for_header }}
+    {%- comment -%}
+      If you need to do some edits in Theme JS use theme.dev.js file
 
+      *** DO NOT EDIT theme.js file ***
 
+      Then call theme.dev.js file by editing the row above from:
+      <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+      to
+      <script src="{{ 'theme.dev.js' | asset_url }}" defer="defer"></script>
+    {%- endcomment -%}
 
+    <!-- Shopify app scripts =========================================================== -->
 
-</head>
+    {{ content_for_header }}
+  </head>
 
-<body id="{{ page_title | handle }}" class="template-{{ template.name | handle }} grid-{{ settings.grid_style }}{% if customer %} customer-logged-in{% endif %}{% if settings.animations_enable %} aos-initialized{% endif %}{% if settings.product_grid_outline %} has-line-design{% endif %}" data-animations="{{ settings.animations_enable }}">
-  {%- render 'loading' -%}
+  <body
+    id="{{ page_title | handle }}"
+    class="template-{{ template.name | handle }} grid-{{ settings.grid_style }}{% if customer %} customer-logged-in{% endif %}{% if settings.animations_enable %} aos-initialized{% endif %}{% if settings.product_grid_outline %} has-line-design{% endif %}"
+    data-animations="{{ settings.animations_enable }}"
+  >
+    {%- render 'loading' -%}
 
-  <a class="in-page-link visually-hidden skip-link" data-skip-content href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+    <a class="in-page-link visually-hidden skip-link" data-skip-content href="#MainContent">
+      {{- 'general.accessibility.skip_to_content' | t -}}
+    </a>
 
-  <div class="container" data-site-container>
-    <div class="header-sections">
-      {% sections 'group-header' %}
+    <div class="container" data-site-container>
+      <div class="header-sections">
+        {% sections 'group-header' %}
+      </div>
+
+      {% sections 'group-overlay' %}
+
+      <!-- CONTENT -->
+      <main role="main" id="MainContent" class="main-content">
+        {{ content_for_layout }}
+      </main>
     </div>
 
-    {% sections 'group-overlay' %}
+    {% sections 'group-pre-footer' %}
 
-    <!-- CONTENT -->
-    <main role="main" id="MainContent" class="main-content">
+    <footer class="footer-sections">
+      {% sections 'group-footer' %}
+    </footer>
 
-      {{ content_for_layout }}
+    {% render 'template-swatch' %}
 
-    </main>
-  </div>
+    {% render 'zoom-pswp' %}
 
-  {% sections 'group-pre-footer' %}
+    {%- if template.name != 'product' and settings.show_scroll_top_button -%}
+      <button
+        type="button"
+        class="btn btn--scroll-top btn--black btn--solid"
+        aria-label="{{ 'general.accessibility.scroll_to_top' | t }}"
+        data-scroll-top-button
+      >
+        {%- render 'icon-arrow-up' -%}
+      </button>
+    {%- endif -%}
 
-  <footer class="footer-sections">
-    {% sections 'group-footer' %}
-  </footer>
+    {%- comment -%}
+      In order to use your custom javascript file at assets/custom.js
+      just cut this next line and paste it outside this comment:
+      <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+    {%- endcomment -%}
+    <!-- Paste marketing code or third party scripts below this comment line ============== -->
 
-  {% render 'template-swatch' %}
+    <!-- And above this comment line ================================================== -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const menuItems = document.querySelectorAll('.header__desktop__bar__c .menu__item');
+        const header = document.querySelector('.theme__header');
 
-  {% render 'zoom-pswp' %}
+        // Function to check if the current page is the homepage
+        const isHomepage = () => {
+          const path = window.location.pathname;
+          return path === '/' || path === '/index.html'; // Adjust based on your homepage URL structure
+        };
 
+        // If not on the homepage, set the header background to white
+        if (!isHomepage()) {
+          header.style.backgroundColor = 'white';
+          header.style.color = 'black';
+        }
 
-  {%- if template.name != 'product' and settings.show_scroll_top_button -%}
-    <button type="button" class="btn btn--scroll-top btn--black btn--solid" aria-label="{{ 'general.accessibility.scroll_to_top' | t }}" data-scroll-top-button>
-      {%- render 'icon-arrow-up' -%}
-    </button>
-  {%- endif -%}
+        // Add event listeners to menu items for the hover effect
+        menuItems.forEach((menuItem) => {
+          const submenu = menuItem.querySelector('.header__dropdown');
 
-  {%- comment -%}
-    In order to use your custom javascript file at assets/custom.js
-    just cut this next line and paste it outside this comment:
-    <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
-  {%- endcomment -%}
-  <!-- Paste marketing code or third party scripts below this comment line ============== -->
- <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+          if (submenu) {
+            menuItem.addEventListener('mouseenter', () => {
+              header.style.backgroundColor = 'white';
+              header.style.color = 'black';
+            });
 
-
-  <!-- And above this comment line ================================================== -->
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const menuItems = document.querySelectorAll('.header__desktop__bar__c .menu__item');
-  const header = document.querySelector('.theme__header');
-
-  // Function to check if the current page is the homepage
-  const isHomepage = () => {
-    const path = window.location.pathname;
-    return path === '/' || path === '/index.html'; // Adjust based on your homepage URL structure
-  };
-
-  // If not on the homepage, set the header background to white
-  if (!isHomepage()) {
-    header.style.backgroundColor = 'white';
-    header.style.color = 'black';
-  }
-
-});
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    // Query all elements with the class 'product-item__title'
-    document.querySelectorAll('.product-item__title').forEach(item => {
-        // Check if the text content includes "Heavenly Essentials Gift Card"
-        if (item.textContent.includes('Heavenly Essentials Gift Card') || item.textContent.includes('HEAVENLY ESSENTIALS GIFT CARD')) {
+            menuItem.addEventListener('mouseleave', () => {
+              if (isHomepage()) {
+                header.style.backgroundColor = ''; // Reset to original color on homepage
+                header.style.color = ''; // Reset text color on homepage
+              }
+            });
+          }
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Query all elements with the class 'product-item__title'
+        document.querySelectorAll('.product-item__title').forEach((item) => {
+          // Check if the text content includes "Heavenly Essentials Gift Card"
+          if (
+            item.textContent.includes('Heavenly Essentials Gift Card') ||
+            item.textContent.includes('HEAVENLY ESSENTIALS GIFT CARD')
+          ) {
             // Find the closest parent with class 'product-item__info'
             const productInfo = item.closest('.product-item__info');
             // Add a specific class to modify CSS
             productInfo.classList.add('product-item__info--gift-card');
             // Alternatively, directly set the margin-bottom style
             productInfo.style.marginBottom = '2px'; // Adjust the value as needed
-        }
-    });
-});
-</script>
+          }
+        });
+      });
+    </script>
 
-  {% comment %}
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-  // Select all elements with the class 'new-price'
-  const newPriceElements = document.querySelectorAll('.new-price');
+    {% comment %}
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        // Select all elements with the class 'new-price'
+        const newPriceElements = document.querySelectorAll('.new-price');
 
-  // Loop through each element
-  newPriceElements.forEach(function(element) {
-    // Check if the element contains the text 'Sold Out'
-    if (element.textContent.includes('Sold Out')) {
-      // Find the closest '.product-item__column' parent and adjust the title's padding
-      const productTitle = element.closest('.product-item__column').querySelector('.product-item__title');
-      
-      // Change padding-top to 14px if the title is found
-      if (productTitle) {
-        productTitle.style.paddingTop = '14px';
-      }
-    }
-  });
-});
+        // Loop through each element
+        newPriceElements.forEach(function(element) {
+          // Check if the element contains the text 'Sold Out'
+          if (element.textContent.includes('Sold Out')) {
+            // Find the closest '.product-item__column' parent and adjust the title's padding
+            const productTitle = element.closest('.product-item__column').querySelector('.product-item__title');
 
-</script> {% endcomment %}
-<script> 
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Script Loaded and Window Fully Loaded');
+            // Change padding-top to 14px if the title is found
+            if (productTitle) {
+              productTitle.style.paddingTop = '14px';
+            }
+          }
+        });
+      });
 
-    // Function to initialize custom select elements
-    function initializeCustomSelects() {
-        const customSelectElements = document.querySelectorAll('.custom-select');
-        console.log('Number of .custom-select elements found:', customSelectElements.length);
+      </script>
+    {% endcomment %}
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        console.log('Script Loaded and Window Fully Loaded');
 
-        customSelectElements.forEach((customSelect, index) => {
+        // Function to initialize custom select elements
+        function initializeCustomSelects() {
+          const customSelectElements = document.querySelectorAll('.custom-select');
+          console.log('Number of .custom-select elements found:', customSelectElements.length);
+
+          customSelectElements.forEach((customSelect, index) => {
             if (customSelect.dataset.initialized) {
-                return; // Prevent re-initialization
+              return; // Prevent re-initialization
             }
             customSelect.dataset.initialized = 'true';
 
@@ -427,8 +466,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Check for required elements
             if (!trigger || options.length === 0) {
-                console.error('Required elements not found within custom-select:', customSelect);
-                return;
+              console.error('Required elements not found within custom-select:', customSelect);
+              return;
             }
 
             // Set ARIA attributes for accessibility
@@ -437,420 +476,179 @@ document.addEventListener('DOMContentLoaded', function() {
             trigger.setAttribute('tabindex', '0'); // Make trigger focusable
 
             options.forEach((option) => {
-                option.setAttribute('role', 'option');
-                option.setAttribute('tabindex', '-1'); // Make options focusable
-                if (option.classList.contains('disabled')) {
-                    option.setAttribute('aria-disabled', 'true');
-                }
+              option.setAttribute('role', 'option');
+              option.setAttribute('tabindex', '-1'); // Make options focusable
+              if (option.classList.contains('disabled')) {
+                option.setAttribute('aria-disabled', 'true');
+              }
             });
 
             // Toggle dropdown on trigger click
             trigger.addEventListener('click', (event) => {
-                event.stopPropagation();
-                const isOpen = customSelect.classList.toggle('open');
-                trigger.setAttribute('aria-expanded', isOpen);
-                console.log(`Dropdown toggled: ${isOpen ? 'Opened' : 'Closed'}`);
+              event.stopPropagation();
+              const isOpen = customSelect.classList.toggle('open');
+              trigger.setAttribute('aria-expanded', isOpen);
+              console.log(`Dropdown toggled: ${isOpen ? 'Opened' : 'Closed'}`);
 
-                if (isOpen) {
-                    adjustDropdownPosition(customSelect, trigger);
-                }
+              if (isOpen) {
+                adjustDropdownPosition(customSelect, trigger);
+              }
             });
 
             // Close dropdown when pressing Escape key
             trigger.addEventListener('keydown', (event) => {
-                if (event.key === 'Escape') {
-                    customSelect.classList.remove('open');
-                    trigger.setAttribute('aria-expanded', 'false');
-                    console.log('Dropdown closed with Escape key');
-                }
+              if (event.key === 'Escape') {
+                customSelect.classList.remove('open');
+                trigger.setAttribute('aria-expanded', 'false');
+                console.log('Dropdown closed with Escape key');
+              }
             });
 
             // Select an option
-            options.forEach(option => {
-                option.addEventListener('click', (event) => {
-                    event.stopPropagation();
-                    if (!option.classList.contains('disabled')) {
-                        selectedVariantId = option.getAttribute('data-value');
-                        trigger.textContent = option.textContent;
-                        trigger.setAttribute('data-value', selectedVariantId);
-                        customSelect.classList.remove('open');
-                        trigger.setAttribute('aria-expanded', 'false');
-                        console.log('Option selected:', option.textContent, 'Value:', selectedVariantId);
+            options.forEach((option) => {
+              option.addEventListener('click', (event) => {
+                event.stopPropagation();
+                if (!option.classList.contains('disabled')) {
+                  selectedVariantId = option.getAttribute('data-value');
+                  trigger.textContent = option.textContent;
+                  trigger.setAttribute('data-value', selectedVariantId);
+                  customSelect.classList.remove('open');
+                  trigger.setAttribute('aria-expanded', 'false');
+                  console.log('Option selected:', option.textContent, 'Value:', selectedVariantId);
 
-                        // Enable add-to-cart button if variant selected
-                        if (addToCartButton) {
-                            addToCartButton.removeAttribute('disabled');
-                        }
-                    }
-                });
+                  // Enable add-to-cart button if variant selected
+                  if (addToCartButton) {
+                    addToCartButton.removeAttribute('disabled');
+                  }
+                }
+              });
             });
 
             // Close dropdown if clicking outside
             document.addEventListener('click', (event) => {
-                if (!customSelect.contains(event.target)) {
-                    if (customSelect.classList.contains('open')) {
-                        console.log('Dropdown closed due to outside click:', customSelect);
-                    }
-                    customSelect.classList.remove('open');
-                    trigger.setAttribute('aria-expanded', 'false');
+              if (!customSelect.contains(event.target)) {
+                if (customSelect.classList.contains('open')) {
+                  console.log('Dropdown closed due to outside click:', customSelect);
                 }
+                customSelect.classList.remove('open');
+                trigger.setAttribute('aria-expanded', 'false');
+              }
             });
 
             // Close dropdown when mouse leaves the dropdown area
             customSelect.addEventListener('mouseleave', () => {
-                customSelect.classList.remove('open');
-                trigger.setAttribute('aria-expanded', 'false');
-                console.log('Dropdown closed on mouse leave');
+              customSelect.classList.remove('open');
+              trigger.setAttribute('aria-expanded', 'false');
+              console.log('Dropdown closed on mouse leave');
             });
 
             // Handle Add to Cart button click using fetch
             if (addToCartButton) {
-                addToCartButton.addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevent default form submission
+              addToCartButton.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent default form submission
 
-                    if (!selectedVariantId) {
-                        console.error('No variant selected, Add to Cart action prevented');
-                        return;
-                    }
+                if (!selectedVariantId) {
+                  console.error('No variant selected, Add to Cart action prevented');
+                  return;
+                }
 
-                    // Provide feedback that the add-to-cart process is starting
-                    addToCartButton.textContent = 'Adding...';
-                    addToCartButton.setAttribute('disabled', 'disabled');
+                // Provide feedback that the add-to-cart process is starting
+                addToCartButton.textContent = 'Adding...';
+                addToCartButton.setAttribute('disabled', 'disabled');
 
-                    // Prepare form data with necessary fields
-                    const formData = new URLSearchParams();
-                    formData.append('id', selectedVariantId);
-                    formData.append('quantity', 1); // Set default quantity to 1
+                // Prepare form data with necessary fields
+                const formData = new URLSearchParams();
+                formData.append('id', selectedVariantId);
+                formData.append('quantity', 1); // Set default quantity to 1
 
-                    console.log('Submitting Add to Cart request with:', {
-                        id: selectedVariantId,
-                        quantity: 1
-                    });
-
-                    // Send the POST request using fetch
-                    fetch('/cart/add.js', {  // Ensure endpoint is correct and ends with .js for JSON response
-                        method: 'POST',
-                        body: formData,
-                        headers: {
-                            'Content-Type': 'application/x-www-form-urlencoded', // Proper content type for form data
-                            'Accept': 'application/json' // Important to request JSON response
-                        }
-                    })
-                    .then(response => {
-                        console.log('Response status:', response.status);
-                        if (!response.ok) {
-                            // Log the status and response text for detailed error inspection
-                            return response.text().then(text => { throw new Error(`HTTP error! status: ${response.status}, response: ${text}`); });
-                        }
-                        return response.json(); // Parse the JSON response
-                    })
-                    .then(data => {
-                        console.log('Add to Cart successful:', data);
-                        // Redirect to the cart page after successful addition
-                        window.location.href = '/cart';
-                    })
-                    .catch(error => {
-                        console.error('Error adding to cart:', error);
-                        addToCartButton.textContent = 'Error, try again';
-                    })
-                    .finally(() => {
-                        // Re-enable button after response or error
-                        addToCartButton.removeAttribute('disabled');
-                    });
+                console.log('Submitting Add to Cart request with:', {
+                  id: selectedVariantId,
+                  quantity: 1,
                 });
+
+                // Send the POST request using fetch
+                fetch('/cart/add.js', {
+                  // Ensure endpoint is correct and ends with .js for JSON response
+                  method: 'POST',
+                  body: formData,
+                  headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded', // Proper content type for form data
+                    Accept: 'application/json', // Important to request JSON response
+                  },
+                })
+                  .then((response) => {
+                    console.log('Response status:', response.status);
+                    if (!response.ok) {
+                      // Log the status and response text for detailed error inspection
+                      return response.text().then((text) => {
+                        throw new Error(`HTTP error! status: ${response.status}, response: ${text}`);
+                      });
+                    }
+                    return response.json(); // Parse the JSON response
+                  })
+                  .then((data) => {
+                    console.log('Add to Cart successful:', data);
+                    // Redirect to the cart page after successful addition
+                    window.location.href = '/cart';
+                  })
+                  .catch((error) => {
+                    console.error('Error adding to cart:', error);
+                    addToCartButton.textContent = 'Error, try again';
+                  })
+                  .finally(() => {
+                    // Re-enable button after response or error
+                    addToCartButton.removeAttribute('disabled');
+                  });
+              });
             }
-        });
-    }
+          });
+        }
 
-    // Adjust dropdown position based on available space
-    function adjustDropdownPosition(customSelect, trigger) {
-        const rect = trigger.getBoundingClientRect();
-        const viewportHeight = window.innerHeight;
-        const dropdownHeight = customSelect.querySelector('.custom-options').offsetHeight;
+        // Adjust dropdown position based on available space
+        function adjustDropdownPosition(customSelect, trigger) {
+          const rect = trigger.getBoundingClientRect();
+          const viewportHeight = window.innerHeight;
+          const dropdownHeight = customSelect.querySelector('.custom-options').offsetHeight;
 
-        const spaceBelow = viewportHeight - rect.bottom;
-        const spaceAbove = rect.top;
+          const spaceBelow = viewportHeight - rect.bottom;
+          const spaceAbove = rect.top;
 
-        if (spaceBelow < dropdownHeight && spaceAbove > dropdownHeight) {
+          if (spaceBelow < dropdownHeight && spaceAbove > dropdownHeight) {
             // Not enough space below, and enough space above: Open upwards
             customSelect.classList.add('open-up');
-        } else {
+          } else {
             // Default behavior: Open downwards
             customSelect.classList.remove('open-up');
+          }
         }
-    }
 
-    // Initialize custom selects if already present
-    initializeCustomSelects();
+        // Initialize custom selects if already present
+        initializeCustomSelects();
 
-    // Use MutationObserver to watch for dynamically added custom-select elements
-    const observer = new MutationObserver((mutations) => {
-        mutations.forEach(mutation => {
-            mutation.addedNodes.forEach(node => {
-                if (node.nodeType === 1 && node.matches('.custom-select')) {
-                    console.log('New .custom-select element detected:', node);
-                    initializeCustomSelects(); // Re-initialize when new elements are detected
-                } else if (node.nodeType === 1) {
-                    const newSelects = node.querySelectorAll('.custom-select');
-                    if (newSelects.length > 0) {
-                        console.log(`Detected ${newSelects.length} new .custom-select elements inside added node.`);
-                        initializeCustomSelects();
-                    }
+        // Use MutationObserver to watch for dynamically added custom-select elements
+        const observer = new MutationObserver((mutations) => {
+          mutations.forEach((mutation) => {
+            mutation.addedNodes.forEach((node) => {
+              if (node.nodeType === 1 && node.matches('.custom-select')) {
+                console.log('New .custom-select element detected:', node);
+                initializeCustomSelects(); // Re-initialize when new elements are detected
+              } else if (node.nodeType === 1) {
+                const newSelects = node.querySelectorAll('.custom-select');
+                if (newSelects.length > 0) {
+                  console.log(`Detected ${newSelects.length} new .custom-select elements inside added node.`);
+                  initializeCustomSelects();
                 }
+              }
             });
+          });
         });
-    });
 
-    // Start observing the body for added nodes
-    observer.observe(document.body, {
-        childList: true,
-        subtree: true,
-    });
-});
-
-</script>
-
-{% comment %} custom JS code {% endcomment %}
-
-
-{% comment %}
-
-<style>
-  /* ১. ম্যাচ না করা থাম্বনেইলগুলোকে লেআউট থেকে সম্পূর্ণ ভ্যানিশ করা */
-  .product__thumbs .product__thumb.v-strict-hide {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    height: 0 !important;
-    width: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    position: absolute !important;
-    transform: scale(0) !important;
-    pointer-events: none !important;
-  }
-
-  /* ২. ফাঁকা জায়গা দূর করার ম্যাজিক সিএসএস (ফ্লেক্স ও হাইট অটো রিসেট) */
-  .product__thumbs, 
-  .product__thumbs_holder {
-    display: flex !important;
-    flex-direction: column !important;
-    height: auto !important;
-    min-height: unset !important;
-    max-height: unset !important;
-    transform: none !important; /* স্লাইডারের পজিশনিং ব্রেক করা */
-  }
-
-  /* ৩. একটিভ থাম্বনেইলগুলোর পজিশন ঠিক রাখা যাতে সিরিয়ালি বসে */
-  .product__thumbs .product__thumb:not(.v-strict-hide) {
-    position: relative !important;
-    top: 0 !important;
-    left: 0 !important;
-    transform: none !important;
-    margin-bottom: 8px !important; /* থাম্বনেইলগুলোর মাঝের গ্যাপ */
-    display: block !important;
-  }
-</style>
-
-<script>
-(function() {
-  function getSelectedColor() {
-    let color = '';
-    
-    // ব্রডকাস্ট কাস্টম সোয়াচ ইনপুট থেকে সিলেক্টেড ভ্যালু নেওয়া
-    const activeRadio = document.querySelector('.swatch input:checked, .variant-input input:checked, input[type="radio"]:checked');
-    if (activeRadio) {
-      const val = activeRadio.value.trim().toLowerCase();
-      if (!['xs','s','m','l','xl','2xl'].includes(val)) {
-        color = val;
-      }
-    }
-    
-    // ব্যাকআপ লেবেল ট্র্যাকিং
-    if (!color) {
-      const labelEl = document.querySelector('[data-variant-label], .product-form__selected-value, .ProductForm__SelectedValue, .variant-input__option-value');
-      if (labelEl) color = labelEl.innerText;
-    }
-    
-    return color ? color.trim().toLowerCase() : '';
-  }
-
-  function applyBroadcastFilter() {
-    const activeColor = getSelectedColor();
-    if (!activeColor) return;
-
-    // আপনার ইন্সপেক্ট এলিমেন্ট অনুযায়ী এক্সাক্ট ক্লাস
-    const thumbs = document.querySelectorAll('.product__thumbs .product__thumb');
-
-    thumbs.forEach(function(thumb) {
-      const img = thumb.querySelector('img');
-      if (img) {
-        const altText = img.getAttribute('alt') ? img.getAttribute('alt').trim().toLowerCase() : '';
-
-        if (altText !== '') {
-          // অল্ট টেক্সট যদি সিলেক্টেড কালারের সাথে মিলে যায়
-          if (altText === activeColor || altText.includes(activeColor)) {
-            thumb.classList.remove('v-strict-hide');
-          } else {
-            // যদি শুধু অন্য কালারের ভ্যারিয়েন্ট ইমেজ হয়
-            if (altText === 'white' || altText === 'natural' || altText.includes('white') || altText.includes('natural')) {
-              thumb.classList.add('v-strict-hide');
-            }
-          }
-        }
-      }
-    });
-  }
-
-  // ইউজার কালার চেঞ্জ করলে বা ক্লিক করলে রান হবে
-  document.addEventListener('click', function(e) {
-    if (e.target.closest('input[type="radio"], label, .swatch-element, .ColorSwatch')) {
-      setTimeout(applyBroadcastFilter, 30);
-      setTimeout(applyBroadcastFilter, 150);
-    }
-  });
-
-  document.addEventListener('change', function() {
-    setTimeout(applyBroadcastFilter, 50);
-  });
-
-  // ইনিশিয়াল লোডের ফাঁকা জায়গা চিরতরে লক করার জন্য মাল্টি-টাইমিং এক্সিকিউশন
-  setTimeout(applyBroadcastFilter, 50);
-  setTimeout(applyBroadcastFilter, 300);
-  setTimeout(applyBroadcastFilter, 800);
-  window.addEventListener('load', applyBroadcastFilter);
-})();
-</script>
-
-{% endcomment %}
-
-
-<style>
-  /* ১. ম্যাচ না করা থাম্বনেইলগুলোকে লেআউট থেকে সম্পূর্ণ ভ্যানিশ করা */
-  .product__thumbs .product__thumb.v-strict-hide {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    height: 0 !important;
-    width: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    position: absolute !important;
-    transform: scale(0) !important;
-    pointer-events: none !important;
-  }
-
-  /* ২. ফাঁকা জায়গা দূর করার ম্যাজিক সিএসএস (ফ্লেক্স ও হাইট অটো রিসেট) */
-  .product__thumbs, 
-  .product__thumbs_holder {
-    display: flex !important;
-    flex-direction: column !important;
-    height: auto !important;
-    min-height: unset !important;
-    max-height: unset !important;
-    transform: none !important; 
-  }
-
-  /* ৩. একটিভ থাম্বনেইলগুলোর পজিশন ঠিক রাখা যাতে সিরিয়ালি বসে */
-  .product__thumbs .product__thumb:not(.v-strict-hide) {
-    position: relative !important;
-    top: 0 !important;
-    left: 0 !important;
-    transform: none !important;
-    margin-bottom: 8px !important; 
-    display: block !important;
-  }
-
-  @media only screen and (max-width: 767px){
-   .product__thumbs .product__thumb:not(.v-strict-hide) {
-    margin-bottom: 0px !important; 
-  }
-  
-  }
-
-
-</style>
-
-<script>
-(function() {
-  function getSelectedColor() {
-    let color = '';
-    
-    // ব্রডকাস্ট কাস্টম সোয়াচ ইনপুট থেকে সিলেক্টেড ভ্যালু নেওয়া
-    const activeRadio = document.querySelector('.swatch input:checked, .variant-input input:checked, input[type="radio"]:checked');
-    if (activeRadio) {
-      const val = activeRadio.value.trim().toLowerCase();
-      if (!['xs','s','m','l','xl','2xl'].includes(val)) {
-        color = val;
-      }
-    }
-    
-    // ব্যাকআপ লেবেল ট্র্যাকিং
-    if (!color) {
-      const labelEl = document.querySelector('[data-variant-label], .product-form__selected-value, .ProductForm__SelectedValue, .variant-input__option-value');
-      if (labelEl) color = labelEl.innerText;
-    }
-    
-    return color ? color.trim().toLowerCase() : '';
-  }
-
-  function applyBroadcastFilter() {
-    const activeColor = getSelectedColor();
-    if (!activeColor) return;
-
-    const thumbs = document.querySelectorAll('.product__thumbs .product__thumb');
-
-    thumbs.forEach(function(thumb) {
-      const img = thumb.querySelector('img');
-      if (img) {
-        const altText = img.getAttribute('alt') ? img.getAttribute('alt').trim().toLowerCase() : '';
-
-        if (altText !== '') {
-          if (altText === activeColor || altText.includes(activeColor)) {
-            thumb.classList.remove('v-strict-hide');
-          } else {
-            if (altText === 'white' || altText === 'natural' || altText.includes('white') || altText.includes('natural')) {
-              thumb.classList.add('v-strict-hide');
-            }
-          }
-        }
-      }
-    });
-
-    // --- মেইন ইমেজ অটো-ফিক্স ট্রিক ---
-    // ফিল্টার হওয়ার পর প্রথম যে বৈধ (Visible) থাম্বনেইলটি পাওয়া যাবে, সেটিকে ক্লিক করানো
-    setTimeout(function() {
-      const firstVisibleThumbLink = document.querySelector('.product__thumbs .product__thumb:not(.v-strict-hide) .product__thumb_link, .product__thumbs .product__thumb:not(.v-strict-hide) a');
-      if (firstVisibleThumbLink) {
-        firstVisibleThumbLink.click(); // এটি মেইন ইমেজকে জোর করে কারেন্ট কালারে নিয়ে আসবে
-      }
-    }, 100);
-  }
-
-  // ইউজার কালার চেঞ্জ করলে বা ক্লিক করলে রান হবে
-  document.addEventListener('click', function(e) {
-    if (e.target.closest('input[type="radio"], label, .swatch-element, .ColorSwatch')) {
-      setTimeout(applyBroadcastFilter, 50);
-      setTimeout(applyBroadcastFilter, 250);
-    }
-  });
-
-  document.addEventListener('change', function() {
-    setTimeout(applyBroadcastFilter, 50);
-  });
-
-  // ইনিশিয়াল লোড টাইমিং এক্সিকিউশন
-  setTimeout(applyBroadcastFilter, 150);
-  setTimeout(applyBroadcastFilter, 500);
-  setTimeout(applyBroadcastFilter, 1000);
-  window.addEventListener('load', applyBroadcastFilter);
-})();
-</script>
-
-
-{% comment %} custom toogle dropdwn menu  {% endcomment %}
-
-
-
-</body>
+        // Start observing the body for added nodes
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true,
+        });
+      });
+    </script>
+  </body>
 </html>

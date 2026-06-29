@@ -30,7 +30,6 @@
         },
         "cart-message": {
           "type": "cart-message",
-          "disabled": true,
           "settings": {
             "cart_custom_message_text": "<p>Use coupon code <strong>HEAVENLY10</strong> for 10% off your first order.</p>",
             "cart_custom_message_color": ""

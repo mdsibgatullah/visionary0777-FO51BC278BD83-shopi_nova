@@ -1,32 +1,4 @@
-<style>
-  /* মোবাইল ডিভাইসের জন্য */
-  @media (max-width: 1024px) {
-    .highlights__item, 
-    .highlights__item a, 
-    .highlights__item__content_description {
-      pointer-events: none !important; /* সব ধরনের ক্লিক ইভেন্ট ব্লক */
-      cursor: default !important;
-    }
-    
-    .highlights__item__content_description {
-      display: none !important; /* মোবাইলে লেখাটি লুকানোর জন্য */
-    }
-  }
-
-  /* ডেস্কটপের জন্য (হোভার ইফেক্ট) */
-  @media (min-width: 1025px) {
-    .highlights__item__content_description {
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-    .highlights__item:hover .highlights__item__content_description {
-      opacity: 1;
-      color: black;
-    }
-  }
-</style>
- 
- {%- liquid
+{%- liquid
   assign unique = section.id
   assign animation_anchor = '#highlights--' | append: unique
   assign heading = section.settings.heading
@@ -181,7 +153,7 @@
 
           <div {{ item_attributes }}>
             {%- if link != blank -%}
-              <a href="{{ link }}" class="{{ item_inner_classes }} {% if template.suffix != 'mobile' %} mobile-disable-link {% endif %}">
+              <a href="{{ link }}" class="{{ item_inner_classes }}">
             {%- else -%}
               <div class="{{ item_inner_classes }}">
             {%- endif -%}
@@ -471,20 +443,3 @@
     }
   }
 {% endschema %}
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    if (window.innerWidth <= 768) {
-      const highlightItems = document.querySelectorAll('.highlights__item');
-      highlightItems.forEach(item => {
-        // ক্লিক ইভেন্ট ক্যাপচার করা এবং আটকানো
-        item.addEventListener('click', function(e) {
-          e.stopImmediatePropagation();
-          e.preventDefault();
-          return false;
-        }, true);
-      });
-    }
-  });
-</script>

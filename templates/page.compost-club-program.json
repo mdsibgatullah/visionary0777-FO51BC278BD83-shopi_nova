@@ -157,7 +157,7 @@
       ],
       "settings": {
         "layout": "is-reversed",
-        "height": "image-height",
+        "height": "screen-height-three-quarters",
         "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
         "image_1": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
@@ -237,7 +237,7 @@
         "color": "",
         "show_placeholder": true,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 34
       }
     },
     "section_divider_FxFqVa": {
@@ -250,47 +250,6 @@
         "padding_top": 0,
         "padding_bottom": 27
       }
-    },
-    "section_custom_code_XbeFMd": {
-      "type": "section-custom-code",
-      "name": "Custom code",
-      "settings": {
-        "code": "<style>\n  /* Section Wrapper */\n  .shopify-join-section {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 40px 20px;\n    background-color: transparent; /* Background change korle ekhane korben */\n  }\n\n  /* Link Styles */\n  .join-link {\n    display: inline-flex;\n    align-items: center;\n    gap: 12px;\n    text-decoration: none;\n    cursor: pointer;\n    transition: all 0.3s ease;\n  }\n\n  /* Text Styles */\n  .join-link h2 {\n    font-family: inherit; /* Apnar Shopify theme er font nibe */\n    font-size: 36px;\n    font-weight: 500;\n    letter-spacing: 2px;\n    text-transform: uppercase;\n    color: #212121;\n    margin: 0;\n    line-height: 1;\n  }\n\n  /* Icon Styles */\n  .join-link svg {\n    width: 28px;\n    height: 28px;\n    color: #2b2b2b;\n    flex-shrink: 0;\n    transition: transform 0.3s ease, color 0.3s ease;\n  }\n  \n  .join-link:hover svg {\n    color: #212121;\n    transform: scale(1.1); /* Hover korle icon ektu boro hobe */\n  }\n\n  /* Mobile Responsive */\n  @media (max-width: 768px) {\n    .join-link h2 {\n      font-size: 22px;\n    }\n    .join-link svg {\n      width: 22px;\n      height: 22px;\n    }\n  }\n</style>\n\n<section class=\"shopify-join-section\">\n  <a href=\"https://www.instagram.com/heavenlyessentials\" target=\"_blank\" rel=\"noopener\" class=\"join-link\" aria-label=\"Join us on Instagram\">\n    <h2>Join Us</h2>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\">\n      <rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"></rect>\n      <path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path>\n      <line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"></line>\n    </svg>\n  </a>\n</section>",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "1779528991d77c97e8": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_iKbwct": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_iKbwct"
-      ],
-      "settings": {
-        "include_margins": false
-      }
     }
   },
   "order": [
@@ -299,8 +258,6 @@
     "section_double_jg7xyh",
     "section_double_qBCXAp",
     "section_double_QrXmLg",
-    "section_divider_FxFqVa",
-    "section_custom_code_XbeFMd",
-    "1779528991d77c97e8"
+    "section_divider_FxFqVa"
   ]
 }
