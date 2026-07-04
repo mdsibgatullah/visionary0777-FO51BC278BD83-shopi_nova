@@ -117,13 +117,20 @@
           "settings": {
             "widget_style": "card",
             "widget_style_card_selector": "radio_button",
-            "subscription_policy_url": "shopify://policies/refund-policy",
+            "subscription_policy_url": "shopify://pages/subscription-policy",
             "color_text_body": "#212121",
             "dividers_color": "#8f8d8d",
             "background_color": "#ffffff",
             "border_thickness": 1,
             "border_radius": 0,
             "product": "{{product}}"
+          }
+        },
+        "code_Gj3M6L": {
+          "type": "code",
+          "settings": {
+            "code": "",
+            "padding_bottom": 16
           }
         },
         "description_TaWNem": {
@@ -139,7 +146,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b> FABRIC & CARE </b>",
+            "heading": "FABRIC & CARE",
             "text": "<p>Consciously made with our super-soft & sustainable, 100% GOTS Certified Organic Cotton Jersey.<br/><br/><strong>Fabric:</strong> 100% GOTS Organic Cotton Jersey<br/><strong>Stabilizer:</strong> 100% Polyester<br/><br/>To take care and keep your Cou Cou's looking cuter, for longer, just wash your pieces on gentle, lay flat to dry & voilà! These more gentle care methods aren’t just better for your Cou Cou's, they’re better for the planet, too.<br/><br/>Designed in London. Made in Portugal.</p>",
             "padding_bottom": 0
           }
@@ -150,7 +157,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b> SIZE & FIT </b>",
+            "heading": "SIZE & FIT",
             "text": "<p>Featuring a soft underwire, natural lifted cup & romantic, Italian-inspired seams — along with adjustable straps. Made with dainty, low-coverage cups to give you all the comfort & support you deserve.<br/><br/>The Teacup Bra comes in standard Cou Cou sizing, XXS-XXL. We recommend sizing up for extra comfort and coverage. See the size chart for specific specs.<br/><br/>Jade wears a size XS in The Teacup.</p><p></p>",
             "padding_bottom": 0
           }
@@ -161,7 +168,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b> ORGANIC LINEN </b>",
+            "heading": "ORGANIC LINEN",
             "text": "<p>We founded Heavenly Essentials to reduce the environmental impact of our intimates & everyday essentials. To take responsibility for the whole life cycle of yourHeavenly Essential's, we make all our pieces with the highest quality, super-soft 100% GOTS Certified Organic linen — a sustainably-sourced fabric that’s also completely compostable. <br/><br/>The most soft, breathable fabric for everyday wear & gynecologist recommended. Our organic linen is a natural fibre, grown without any pesticides, fertilizers, gmo seeds ( or any of that stuff!)– making your Heavenly Essential’s not only good for the planet, they’re good for you, too.</p>",
             "padding_bottom": 0
           }
@@ -172,9 +179,9 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "<b> SHIPPING & RETURNS </b>",
+            "heading": "SHIPPING & RETURNS",
             "text": "<p>Enjoy free UK, EU & US shipping on orders over £110/€150/$180.<br/><br/>Please allow 1-2 business days before your order ships for standard processing.<br/><br/><strong>RETURNS</strong><br/>We accept returns that are requested within 14 days of receiving the item(s).</p>",
-            "padding_bottom": 0
+            "padding_bottom": 16
           }
         },
         "pickup": {
@@ -186,6 +193,7 @@
         },
         "divider_1": {
           "type": "divider",
+          "disabled": true,
           "settings": {
             "show_line": true,
             "padding_bottom": 16
@@ -266,6 +274,7 @@
         "code_dKMMdT",
         "buttons",
         "subscriptions_app_block_Vnbqnh",
+        "code_Gj3M6L",
         "description_TaWNem",
         "accordion_xcrqAb",
         "accordion_Te4hRh",
@@ -279,10 +288,13 @@
         "icon_twxwjf",
         "code_Gj8U3h"
       ],
+      "custom_css": [
+        "summary.accordion__title {font-weight: bold;}"
+      ],
       "settings": {
         "product_sticky_enable": true,
         "variant_image_scroll": true,
-        "image_layout": "stacked",
+        "image_layout": "thumbnails-left",
         "image_size": "normal",
         "show_cart_bar": true,
         "enable_zoom": true,
@@ -343,6 +355,87 @@
         "color": "",
         "padding_top": 24,
         "padding_bottom": 0
+      }
+    },
+    "section_highlights_9R9BFy": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_bTmCpW": {
+          "type": "highlight",
+          "settings": {
+            "heading": "100% ORGANIC LINEN",
+            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
+            "url": "",
+            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_V9pBmK": {
+          "type": "highlight",
+          "settings": {
+            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
+            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
+            "url": "",
+            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_iMPxiR": {
+          "type": "highlight",
+          "settings": {
+            "heading": "FROM EARTH AND BACK",
+            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
+            "url": "",
+            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_AbpEbK": {
+          "type": "highlight",
+          "settings": {
+            "heading": "PLANT-BASED, NATURAL DYES",
+            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
+            "url": "",
+            "image": "shopify://shop_images/plantdyesswatches.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_bTmCpW",
+        "highlight_V9pBmK",
+        "highlight_iMPxiR",
+        "highlight_AbpEbK"
+      ],
+      "custom_css": [
+        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
+        ".highlights__item:hover .image-wrapper {opacity: 0;}",
+        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
+        ".body-size-6 {font-size: 28px;}",
+        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
+        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
+      ],
+      "settings": {
+        "style": "square",
+        "grid": 4,
+        "width": "wrapper--full-padded",
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_size": 6,
+        "text_size": 6,
+        "color": "#212121",
+        "bg_color": "rgba(0,0,0,0)",
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "section_highlights_xrmh4W": {
@@ -511,7 +604,7 @@
         "card_hf6KFb": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/location-normandy-france_2000x2400_6b4ad43c-e653-4ae6-a7cf-ae0744e885a4.jpg",
+            "image": "shopify://shop_images/France_Flax.png",
             "title": "Normandy, France",
             "text": "Our linen comes from Normandy, France, in flax fields on cliffs overlooking the British Channel."
           }
@@ -519,7 +612,7 @@
         "card_PwEzEf": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/fiber-frenchlinen.jpg",
+            "image": "shopify://shop_images/wellness-design-linen-textiles-healthy-home-a-cultivated-living-flax-harvest.jpg",
             "title": "French Linen",
             "text": "The climate of Normandy produces the highest quality linen on Earth: breathable, heat-regulating, and long-lasting."
           }
@@ -616,87 +709,6 @@
       ],
       "settings": {
         "include_margins": false
-      }
-    },
-    "section_highlights_9R9BFy": {
-      "type": "section-highlights",
-      "blocks": {
-        "highlight_bTmCpW": {
-          "type": "highlight",
-          "settings": {
-            "heading": "100% ORGANIC LINEN",
-            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
-            "url": "",
-            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_V9pBmK": {
-          "type": "highlight",
-          "settings": {
-            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
-            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
-            "url": "",
-            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_iMPxiR": {
-          "type": "highlight",
-          "settings": {
-            "heading": "FROM EARTH AND BACK",
-            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
-            "url": "",
-            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_AbpEbK": {
-          "type": "highlight",
-          "settings": {
-            "heading": "PLANT-BASED, NATURAL DYES",
-            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
-            "url": "",
-            "image": "shopify://shop_images/plantdyesswatches.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_bTmCpW",
-        "highlight_V9pBmK",
-        "highlight_iMPxiR",
-        "highlight_AbpEbK"
-      ],
-      "custom_css": [
-        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
-        ".highlights__item:hover .image-wrapper {opacity: 0;}",
-        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
-        ".body-size-6 {font-size: 28px;}",
-        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
-        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
-      ],
-      "settings": {
-        "style": "square",
-        "grid": 4,
-        "width": "wrapper--full-padded",
-        "heading": "",
-        "heading_position": "text-center",
-        "heading_size": 6,
-        "text_size": 6,
-        "color": "#212121",
-        "bg_color": "rgba(0,0,0,0)",
-        "layout_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 40
       }
     }
   },

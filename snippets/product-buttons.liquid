@@ -49,7 +49,9 @@
         aria-labelledby="{{ unique }}-select-quantity-label"
         data-popout-toggle>
         <span data-popout-toggle-text>1</span>
-        {%- render 'accordion-arrow-down' -%}
+        {%- render 'icon-nav-arrow-down' -%}
+        {% comment %} {%- render 'accordion-arrow-down' -%} {% endcomment %}
+        {% comment %} {%- render 'accordion-arrow-down' -%} {% endcomment %}
       </button>
 <style>
   .product__submit__item--inline .select-popout__toggle {
@@ -177,11 +179,11 @@
               </product-modal>
             {%- endif -%}
           </div>
-          {%- if buybutton_setting -%}
+          {% comment %} {%- if buybutton_setting -%} {% endcomment %}
             <div class="product__submit__item">
               {{ form | payment_button }}
             </div>
-          {%- endif -%}
+          {% comment %} {%- endif -%} {% endcomment %}
         </div>
       </div>
     {%- endform -%}

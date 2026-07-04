@@ -9,6 +9,65 @@
  */
 {
   "sections": {
+    "section_rich_text_GghmMi": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_rLzbcb": {
+          "type": "heading",
+          "settings": {
+            "title": "Create Your Own Multi-Pack",
+            "text_size": 13,
+            "padding_bottom": 16
+          }
+        },
+        "text_LWyt3k": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Add any 3 undies to save 10%; add 5 sets or more to save 15%. Discount automatically applied in the cart.</em></p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_rLzbcb",
+        "text_LWyt3k"
+      ],
+      "custom_css": [
+        ".hero__content.hero__content--compact.hero__content--transparent {max-width: 570px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "178255663965892096": {
+      "type": "apps",
+      "blocks": {
+        "eb_easy_bundle_builder_app_block_bundle_page_kkWUaf": {
+          "type": "shopify://apps/eb-easy-bundle-builder/blocks/app-block-bundlePage/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
+          "settings": {
+            "bundle_id": 3,
+            "loadingUrl": "https://d3ks0ngva6go34.cloudfront.net/public/Loading_Spinner.gif"
+          }
+        }
+      },
+      "block_order": [
+        "eb_easy_bundle_builder_app_block_bundle_page_kkWUaf"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -56,6 +115,7 @@
       "block_order": [
         "text_7cf3bU"
       ],
+      "disabled": true,
       "settings": {
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
@@ -120,6 +180,7 @@
         "image_9zhcaJ",
         "image_cyhz7U"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 767px) {.brick__block:first-child .b {display: none; }}",
         " {margin-top: -15px;}",
@@ -188,6 +249,7 @@
         "text_NwjfUA",
         "text_yL368U"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 767px) {.brick__block:first-of-type .hero__title {display: none; } .brick__block:first-of-type {margin: 0; padding: 0; height: 0; overflow: hidden; } .hero__title {margin: 0 0 20px; }}",
         "@media (min-width: 768px) {.brick__block:nth-of-type(2) .hero__title {display: none; }}"
@@ -250,6 +312,7 @@
         "text_CU6NjW",
         "buttons_aw4mg9"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "layout": "",
@@ -265,6 +328,25 @@
         "show_placeholder": true,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "17825325748b9ea499": {
+      "type": "apps",
+      "blocks": {
+        "eb_easy_bundle_builder_app_block_bundle_page_tJaNmi": {
+          "type": "shopify://apps/eb-easy-bundle-builder/blocks/app-block-bundlePage/05b1325c-6303-4da5-8e2f-b13ab2a50e1a",
+          "settings": {
+            "bundle_id": 2,
+            "loadingUrl": ""
+          }
+        }
+      },
+      "block_order": [
+        "eb_easy_bundle_builder_app_block_bundle_page_tJaNmi"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": false
       }
     },
     "section_announcement_8hVnNN": {
@@ -295,6 +377,7 @@
         "message_3V86Aw",
         "text_QRNUF7"
       ],
+      "disabled": true,
       "settings": {
         "show_border": false,
         "layout": "marquee",
@@ -353,6 +436,7 @@
         "image_bxfm8C",
         "image_99XcVb"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "layout": "is-reversed",
@@ -422,6 +506,7 @@
       "block_order": [
         "newsletter_nRRD9j"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 768px) {.hero__content {padding-top: 40px; padding-bottom: 40px; }}",
         "@media (min-width: 768px) {.hero__content {padding-top: 40px; padding-bottom: 70px; }}"
@@ -438,11 +523,14 @@
     }
   },
   "order": [
+    "section_rich_text_GghmMi",
+    "178255663965892096",
     "main",
     "section_custom_content_JikHcP",
     "section_custom_content_rHdGhA",
     "section_custom_content_Dr8UYf",
     "section_double_fG6cNQ",
+    "17825325748b9ea499",
     "section_announcement_8hVnNN",
     "double-1",
     "section_hero_aj9p9A",

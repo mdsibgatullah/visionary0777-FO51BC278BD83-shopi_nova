@@ -47,6 +47,7 @@
     "grid_style": "compact",
     "product_grid_outline": false,
     "show_scroll_top_button": false,
+    "predictive_search_enabled": true,
     "instagram_link": "https://www.instagram.com/heavenlyessentials/",
     "facebook_link": "https://www.facebook.com/heavenly.essentials.us/",
     "twitter_link": "https://x.com/heavenlyessntls",
@@ -78,7 +79,7 @@
     "collection_swatch_style": "slider",
     "swatch_color_list": "Black: #000000\nWhite: #fafafa\nBlank: blank.png\nNatural: #b0a69a",
     "favicon": "shopify://shop_images/Brand_Flower_Symbol-removebg.png",
-    "cart_type": "page",
+    "cart_type": "drawer",
     "link_hover_color": "#bcb2a8",
     "header_link_hover": "#AB8C52",
     "show_logo_bg": false,
@@ -171,14 +172,6 @@
         "type": "shopify://apps/wishlist-by-square/blocks/app-embed/88ec2beb-ce43-48ed-b791-0a6554082c2b",
         "disabled": false,
         "settings": {}
-      },
-      "4571859552318407796": {
-        "type": "shopify://apps/glo-color-swatch/blocks/app-embed-block/4394f710-096c-4021-bbde-8ebb26057c11",
-        "disabled": true,
-        "settings": {
-          "customCssGCW": "",
-          "customJsGCW": ""
-        }
       }
     }
   },

@@ -57,16 +57,21 @@
   {% if expands %}
     aria-haspopup="true"
     aria-expanded="false"
-    data-hover-disclosure-toggle="dropdown-{{ key }}"
+    data-click-disclosure-toggle="dropdown-{{ key }}"
     aria-controls="dropdown-{{ key }}"
     role="button"
   {% endif %}>
-  <a href="{{ link.url }}" data-top-link class="navlink navlink--toplevel{% if highlight_item == link_title_lowercase %} navlink--highlight{% endif %}">
+  <a href="{{ link.url }}" data-top-link class="navlink navlink--toplevel{% if link.active or link.child_active %} is-active-permanent{% endif %}{% if highlight_item == link_title_lowercase %} navlink--highlight{% endif %}">
     <span class="navtext">{{ link.title | strip_html | escape }}</span>
+     {% if expands %}
+      <span class="navlink__dropdown-arrow" aria-hidden="true">
+        <svg focusable="false" role="presentation" class="icon icon-nav-arrow-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    {% endif %}
   </a>
   {% if expands %}
     <div class="header__dropdown"
-      data-hover-disclosure
+     data-click-disclosure
       id="dropdown-{{ key }}">
       <div class="header__dropdown__wrapper">
         <div class="header__dropdown__inner">

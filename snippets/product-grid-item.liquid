@@ -1,5 +1,3 @@
-
-
 {% comment %}
   Renders list of products in grid layout
 
@@ -572,12 +570,34 @@
                   {%- assign image_inner_empty = false -%}
                   {%- assign variant_title = variant.title | replace: '"', "'" -%}
 
-
-
-
                   {% comment %}
+                    <div class="product-item__bg__inner" data-variant-title="{{ variant_title }}">
+                      {%- render 'image',
+                        image: variant.featured_image,
+                        aspect_ratio: aspect_ratio,
+                        sizes: sizes,
+                        widths: widths,
+                        cover: true
+                      -%}
+                    </div>
+                  {% endcomment %}
 
-                  <div class="product-item__bg__inner" data-variant-title="{{ variant_title }}">
+                  {%- assign variant_color = '' -%}
+
+                  {%- for option in product.options_with_values -%}
+                    {%- assign option_name = option.name | downcase -%}
+
+                    {%- if option_name == 'color' or option_name == 'colour' -%}
+                      {%- assign color_index = forloop.index0 -%}
+                      {%- assign variant_color = variant.options[color_index] -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+
+                  <div
+                    class="product-item__bg__inner"
+                    data-variant-title="{{ variant_title }}"
+                    data-variant-color="{{ variant_color | handle }}"
+                  >
                     {%- render 'image',
                       image: variant.featured_image,
                       aspect_ratio: aspect_ratio,
@@ -586,59 +606,6 @@
                       cover: true
                     -%}
                   </div>
-
-
-                  {% endcomment %}
-
-{%- assign variant_color = '' -%}
-
-{%- for option in product.options_with_values -%}
-  {%- assign option_name = option.name | downcase -%}
-
-  {%- if option_name == 'color' or option_name == 'colour' -%}
-    {%- assign color_index = forloop.index0 -%}
-    {%- assign variant_color = variant.options[color_index] -%}
-  {%- endif -%}
-{%- endfor -%}
-
-<div 
-  class="product-item__bg__inner" 
-  data-variant-title="{{ variant_title }}"
-  data-variant-color="{{ variant_color | handle }}"
->
-  {%- render 'image',
-    image: variant.featured_image,
-    aspect_ratio: aspect_ratio,
-    sizes: sizes,
-    widths: widths,
-    cover: true
-  -%}
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 {%- endif -%}
               {%- endfor -%}
               {%- if image_inner_empty -%}
@@ -702,11 +669,9 @@
 
     <div class="product-information" data-product-information>
       <div class="product-item__info" data-product-title="{{ product.title | strip_html | escape }}">
+        {% comment %} old color swatch {% endcomment %}
 
-
-{% comment %} old color swatch {% endcomment %}
-  
-{% comment %} {%- render 'product-variant-options' product: product, unique: unique, block: block, block_style: block_style, product_form_id: product_form_id, enable_size_chart: true -%} {% endcomment %}
+        {% comment %} {%- render 'product-variant-options' product: product, unique: unique, block: block, block_style: block_style, product_form_id: product_form_id, enable_size_chart: true -%} {% endcomment %}
 
         <div class="product-item__column product-item__column--swatches">
           {%- if siblings_html != blank -%}
@@ -721,20 +686,11 @@
           {%- endif -%}
         </div>
 
-
         {% comment %} {% render 'home-page-swatches', product: product %} {% endcomment %}
 
-        
+        {% comment %} old color swatch end {% endcomment %}
 
-{% comment %} old color swatch end {% endcomment %}
-
-{% comment %} home-page-swatches.liquid {% endcomment %}
-
-
-
-
-
-
+        {% comment %} home-page-swatches.liquid {% endcomment %}
 
         <!-- First Row: Title and Price -->
         <div class="product-item__row product-item__row--first">
@@ -844,4 +800,3 @@
     </div>
   </div>
 {%- endunless -%}
-

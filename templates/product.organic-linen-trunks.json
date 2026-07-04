@@ -20,7 +20,7 @@
             "padding_bottom": 8
           }
         },
-        "judge_me_reviews_preview_badge_q4bLa3": {
+        "judge_me_reviews_preview_badge_Cwkhik": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
@@ -79,13 +79,20 @@
           "settings": {
             "widget_style": "card",
             "widget_style_card_selector": "radio_button",
-            "subscription_policy_url": "shopify://pages/refund-policy",
+            "subscription_policy_url": "shopify://pages/subscription-policy",
             "color_text_body": "#212121",
             "dividers_color": "#8f8d8d",
             "background_color": "#ffffff",
             "border_thickness": 1,
             "border_radius": 0,
             "product": "{{product}}"
+          }
+        },
+        "code_x3dQtT": {
+          "type": "code",
+          "settings": {
+            "code": "",
+            "padding_bottom": 16
           }
         },
         "description_TaWNem": {
@@ -220,7 +227,7 @@
       },
       "block_order": [
         "title",
-        "judge_me_reviews_preview_badge_q4bLa3",
+        "judge_me_reviews_preview_badge_Cwkhik",
         "price",
         "text_jnjwTx",
         "text_zKmLy6",
@@ -228,6 +235,7 @@
         "code_MUQtWg",
         "buttons",
         "subscriptions_app_block_Kt84pi",
+        "code_x3dQtT",
         "description_TaWNem",
         "accordion_xcrqAb",
         "accordion_Te4hRh",
@@ -259,7 +267,7 @@
         "enable_video_looping": false,
         "mobile_image_style": "thumbs",
         "padding_top": 30,
-        "padding_bottom": 30
+        "padding_bottom": 35
       }
     },
     "section_divider_93BzHk": {
@@ -481,7 +489,7 @@
         "card_HxKpHP": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/location-normandy-france_2000x2400_6b4ad43c-e653-4ae6-a7cf-ae0744e885a4.jpg",
+            "image": "shopify://shop_images/France_Flax.png",
             "title": "Normandy, France",
             "text": "Our linen comes from Normandy, France, in flax fields on cliffs overlooking the British Channel."
           }
@@ -489,7 +497,7 @@
         "card_nagzxK": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/fiber-frenchlinen.jpg",
+            "image": "shopify://shop_images/wellness-design-linen-textiles-healthy-home-a-cultivated-living-flax-harvest.jpg",
             "title": "French Linen",
             "text": "The climate of Normandy produces the highest quality linen on Earth: breathable, heat-regulating, and long-lasting."
           }
@@ -497,9 +505,9 @@
         "card_Uz6GDw": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/weave-slub-linen.jpg",
-            "title": "Slub Linen",
-            "text": "Full-bodied and well-washed slub linen with natural variations that give the fabric real depth."
+            "image": "shopify://shop_images/linen-knit-fabric-white.jpg",
+            "title": "Slub Linen Knit",
+            "text": "Extra-fine micron, slub linen with natural variations that give the fabric real depth."
           }
         },
         "card_dF8RQ9": {
@@ -617,6 +625,18 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "section_divider_8V38bA": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -629,6 +649,7 @@
     "section_divider_GH3QTq",
     "related",
     "section_divider_3tb8fn",
-    "1724442472d2a1fb7a"
+    "1724442472d2a1fb7a",
+    "section_divider_8V38bA"
   ]
 }

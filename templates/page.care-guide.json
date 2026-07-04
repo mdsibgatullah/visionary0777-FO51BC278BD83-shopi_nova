@@ -265,7 +265,9 @@
         "collection_hTnKBn",
         "collection_TQyw8i"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media (hover: hover) {.collection-item__bg .image-wrapper {--transform-scale: unset;transition: transform 2s cubic-bezier(.215, .61, .355, 1); }}"
+      ],
       "name": "Collection list",
       "settings": {
         "title": "",

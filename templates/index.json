@@ -54,7 +54,7 @@
         "mobile_height": "four-fifty-height-hero--mobile",
         "width": "wrapper--full",
         "transition": "slide",
-        "show_arrows": true,
+        "show_arrows": false,
         "autoplay": false,
         "autoplay_speed": 8,
         "padding_top": 0,
@@ -184,6 +184,23 @@
         "padding_bottom": 0
       }
     },
+    "1779507690f99d1e01": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_4jWrcr": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1400
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_4jWrcr"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
     "section_video_wmVKdw": {
       "type": "section-video",
       "settings": {
@@ -260,6 +277,137 @@
         "color": "#000000",
         "padding_top": 42,
         "padding_bottom": 0
+      }
+    },
+    "section_hero_rAXU7M": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_BrnzMq": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_size": 11
+          }
+        },
+        "text_B8Qpnp": {
+          "type": "text",
+          "settings": {
+            "description": "",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_gEbf3a": {
+          "type": "button",
+          "settings": {
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BrnzMq",
+        "text_B8Qpnp",
+        "button_gEbf3a"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "height": "image-height",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/new-100_Natural_Materials_38b186e8-ad8d-4a6c-ada6-52dc7.png",
+        "link": "",
+        "mobile_height": "image-height--mobile",
+        "mobile_image": "shopify://shop_images/100_Natural_Materials_38b186e8-ad8d-4a6c-ada6-52dc7c1d670b-_1.jpg",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_press_logos_eGxRAq": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_Md4anp": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify://shop_images/Heavenly_TM_Logo.png",
+            "logo_width": 100,
+            "link": "",
+            "heading": "Finest luxury essentials. Handmade from the most exclusive materials. Premium materials for superior comfort.",
+            "heading_size": 5
+          }
+        },
+        "logo_item_T4rqwE": {
+          "type": "logo-item",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/HeavenlyEssentials-24_b760072e-5a55-4cfa-8096-a861057c42ae.jpg",
+            "logo_width": 180,
+            "link": "",
+            "heading": "Finest luxury. Handmade from the most exclusive materials. The finest materials for superior comfort.",
+            "heading_size": 5
+          }
+        },
+        "logo_item_TkyCNH": {
+          "type": "logo-item",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/HeavenlyEssentials-34_8b5d5347-eb69-4892-9b97-3bee8879c607.jpg",
+            "logo_width": 180,
+            "link": "",
+            "heading": "100%  organic flax linen, sustainable undies that are better for you.",
+            "heading_size": 6
+          }
+        },
+        "logo_item_CBJ6Xe": {
+          "type": "logo-item",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/HeavenlyEssentials-32_9de14392-81b4-47f3-a909-44212d35a348.jpg",
+            "logo_width": 180,
+            "link": "",
+            "heading": "Finest luxury. Handmade from the most exclusive materials. The finest materials for superior comfort.",
+            "heading_size": 6
+          }
+        },
+        "logo_item_wLgcda": {
+          "type": "logo-item",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify://shop_images/HeavenlyEssentials-43_eb42b37d-c214-47ba-9cbd-19cfa529d993.jpg",
+            "logo_width": 180,
+            "link": "",
+            "heading": "100%  organic flax linen, sustainable undies that are better for you.",
+            "heading_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_Md4anp",
+        "logo_item_T4rqwE",
+        "logo_item_TkyCNH",
+        "logo_item_CBJ6Xe",
+        "logo_item_wLgcda"
+      ],
+      "settings": {
+        "title": "FOR MEN AND WOMEN. DISCOVER HEAVENLY ESSENTIALS.",
+        "enable_heading_slider": true,
+        "text_style": "font-body",
+        "logo_opacity": 60,
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 30
       }
     },
     "section_collections_list_RBYEUT": {
@@ -340,99 +488,6 @@
         "color": "",
         "padding_top": 32,
         "padding_bottom": 32
-      }
-    },
-    "1779507690f99d1e01": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_4jWrcr": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1400
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_4jWrcr"
-      ],
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "section_press_logos_eGxRAq": {
-      "type": "section-press-logos",
-      "blocks": {
-        "logo_item_Md4anp": {
-          "type": "logo-item",
-          "settings": {
-            "logo": "shopify://shop_images/Heavenly_TM_Logo.png",
-            "logo_width": 100,
-            "link": "",
-            "heading": "Finest luxury essentials. Handmade from the most exclusive materials. Premium materials for superior comfort.",
-            "heading_size": 5
-          }
-        },
-        "logo_item_T4rqwE": {
-          "type": "logo-item",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/HeavenlyEssentials-24_b760072e-5a55-4cfa-8096-a861057c42ae.jpg",
-            "logo_width": 180,
-            "link": "",
-            "heading": "Finest luxury. Handmade from the most exclusive materials. The finest materials for superior comfort.",
-            "heading_size": 5
-          }
-        },
-        "logo_item_TkyCNH": {
-          "type": "logo-item",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/HeavenlyEssentials-34_8b5d5347-eb69-4892-9b97-3bee8879c607.jpg",
-            "logo_width": 180,
-            "link": "",
-            "heading": "100%  organic flax linen, sustainable undies that are better for you.",
-            "heading_size": 6
-          }
-        },
-        "logo_item_CBJ6Xe": {
-          "type": "logo-item",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/HeavenlyEssentials-32_9de14392-81b4-47f3-a909-44212d35a348.jpg",
-            "logo_width": 180,
-            "link": "",
-            "heading": "Finest luxury. Handmade from the most exclusive materials. The finest materials for superior comfort.",
-            "heading_size": 6
-          }
-        },
-        "logo_item_wLgcda": {
-          "type": "logo-item",
-          "disabled": true,
-          "settings": {
-            "logo": "shopify://shop_images/HeavenlyEssentials-43_eb42b37d-c214-47ba-9cbd-19cfa529d993.jpg",
-            "logo_width": 180,
-            "link": "",
-            "heading": "100%  organic flax linen, sustainable undies that are better for you.",
-            "heading_size": 6
-          }
-        }
-      },
-      "block_order": [
-        "logo_item_Md4anp",
-        "logo_item_T4rqwE",
-        "logo_item_TkyCNH",
-        "logo_item_CBJ6Xe",
-        "logo_item_wLgcda"
-      ],
-      "settings": {
-        "title": "FOR MEN AND WOMEN. DISCOVER HEAVENLY ESSENTIALS.",
-        "enable_heading_slider": true,
-        "text_style": "font-body",
-        "logo_opacity": 60,
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 30
       }
     },
     "featured-collection": {
@@ -627,61 +682,6 @@
         "bg_color": "",
         "color": "",
         "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
-    "section_hero_rAXU7M": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_BrnzMq": {
-          "type": "heading",
-          "settings": {
-            "title": "",
-            "heading_size": 11
-          }
-        },
-        "text_B8Qpnp": {
-          "type": "text",
-          "settings": {
-            "description": "",
-            "text_size": 5,
-            "text_style": "font-body"
-          }
-        },
-        "button_gEbf3a": {
-          "type": "button",
-          "settings": {
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_BrnzMq",
-        "text_B8Qpnp",
-        "button_gEbf3a"
-      ],
-      "name": "Image banner",
-      "settings": {
-        "height": "image-height",
-        "width": "wrapper--full",
-        "image_1": "shopify://shop_images/100_Natural_Materials_38b186e8-ad8d-4a6c-ada6-52dc7.png",
-        "link": "",
-        "mobile_height": "image-height--mobile",
-        "mobile_image": "shopify://shop_images/100_Natural_Materials_38b186e8-ad8d-4a6c-ada6-52dc7c1d670b-_1.jpg",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#ffffff",
-        "show_placeholder": true,
-        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -1145,17 +1145,34 @@
         "padding_bottom": 0
       }
     },
-    "section_custom_code_dHwRig": {
-      "type": "section-custom-code",
+    "17825494472589a5d7": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_jgitfd": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "JOIN US",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_jgitfd"
+      ],
       "disabled": true,
-      "name": "Custom code",
       "settings": {
-        "code": "<style>\n  /* Section Wrapper */\n  .shopify-join-section {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 40px 20px;\n    background-color: transparent; /* Background change korle ekhane korben */\n  }\n\n  /* Link Styles */\n  .join-link {\n    display: inline-flex;\n    align-items: center;\n    gap: 12px;\n    text-decoration: none;\n    cursor: pointer;\n    transition: all 0.3s ease;\n  }\n\n  /* Text Styles */\n  .join-link h2 {\n    font-family: inherit; /* Apnar Shopify theme er font nibe */\n    font-size: 36px;\n    font-weight: 500;\n    letter-spacing: 2px;\n    text-transform: uppercase;\n    color: #212121;\n    margin: 0;\n    line-height: 1;\n  }\n\n  /* Icon Styles */\n  .join-link svg {\n    width: 28px;\n    height: 28px;\n    color: #2b2b2b;\n    flex-shrink: 0;\n    transition: transform 0.3s ease, color 0.3s ease;\n  }\n  \n  .join-link:hover svg {\n    color: #212121;\n    transform: scale(1.1); /* Hover korle icon ektu boro hobe */\n  }\n\n  /* Mobile Responsive */\n  @media (max-width: 768px) {\n    .join-link h2 {\n      font-size: 22px;\n    }\n    .join-link svg {\n      width: 22px;\n      height: 22px;\n    }\n  }\n</style>\n\n<section class=\"shopify-join-section\">\n  <a href=\"https://www.instagram.com/heavenlyessentials\" target=\"_blank\" rel=\"noopener\" class=\"join-link\" aria-label=\"Join us on Instagram\">\n    <h2>Join Us</h2>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\">\n      <rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"></rect>\n      <path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path>\n      <line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"></line>\n    </svg>\n  </a>\n</section>",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "include_margins": false
       }
     }
   },
@@ -1163,17 +1180,17 @@
     "slideshow",
     "section_announcement_ctNxiV",
     "docs",
-    "section_video_wmVKdw",
     "1779507690f99d1e01",
+    "section_video_wmVKdw",
     "section_collections_list_Hp98KG",
-    "section_collections_list_RBYEUT",
+    "section_hero_rAXU7M",
     "section_press_logos_eGxRAq",
+    "section_collections_list_RBYEUT",
     "featured-collection",
     "section_collection_fzbYE8",
     "section_hero_PfTTyy",
     "section_collections_list_7CRbBG",
     "section_collection_wkEcmt",
-    "section_hero_rAXU7M",
     "section_collection_wfUmVh",
     "section_double_4jprVL",
     "section_press_logos_9HWp3P",
@@ -1184,6 +1201,6 @@
     "section_hero_zNRk7z",
     "section_hero_Xe4HYd",
     "section_reviews_db3gPk",
-    "section_custom_code_dHwRig"
+    "17825494472589a5d7"
   ]
 }

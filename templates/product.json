@@ -87,7 +87,7 @@
           "settings": {
             "widget_style": "card",
             "widget_style_card_selector": "radio_button",
-            "subscription_policy_url": "shopify://pages/refund-policy",
+            "subscription_policy_url": "shopify://pages/subscription-policy",
             "color_text_body": "#212121",
             "dividers_color": "#8f8d8d",
             "background_color": "#ffffff",
@@ -601,7 +601,7 @@
         "card_k43QFy": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/location-normandy-france_2000x2400_6b4ad43c-e653-4ae6-a7cf-ae0744e885a4.jpg",
+            "image": "shopify://shop_images/France_Flax.png",
             "title": "Normandy, France",
             "text": "Our linen comes from Normandy, France, in flax fields on cliffs overlooking the British Channel."
           }
@@ -609,7 +609,7 @@
         "card_pfrePX": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/fiber-frenchlinen.jpg",
+            "image": "shopify://shop_images/wellness-design-linen-textiles-healthy-home-a-cultivated-living-flax-harvest.jpg",
             "title": "French Linen",
             "text": "The climate of Normandy produces the highest quality linen on Earth: breathable, heat-regulating, and long-lasting."
           }
@@ -617,7 +617,7 @@
         "card_9ytc9W": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/weave-slub-linen.jpg",
+            "image": "shopify://shop_images/linen-knit-fabric-white.jpg",
             "title": "Slub Linen",
             "text": "Full-bodied and well-washed slub linen with natural variations that give the fabric real depth."
           }
@@ -738,6 +738,18 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "section_divider_JUDeGE": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -751,6 +763,7 @@
     "section_divider_GH3QTq",
     "related",
     "section_divider_3tb8fn",
-    "1724442472d2a1fb7a"
+    "1724442472d2a1fb7a",
+    "section_divider_JUDeGE"
   ]
 }

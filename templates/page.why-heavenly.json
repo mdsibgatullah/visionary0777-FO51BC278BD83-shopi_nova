@@ -93,7 +93,7 @@
         "text_qPpCeY": {
           "type": "text",
           "settings": {
-            "text": "<p>LINEN IS THE WORLDS MOST SUSTAINABLE, HEALTH-BOOSTING & HIGH PERFORMANCE NATURAL FIBER. Linen is a natural fiber made from the flax plant, renowned for its healing properties. Linen is the only fabric in the world that contains lignans, a unique wound healing compound (inflammation-reducing polyphenols), making it natures only \"healing\" fiber. Linen is the only fabric mentioned over 100 times in the Bible, regarded as a divine and holy material!</p><p>Organic Linen provides a wide range of benefits when it comes in contact with skin, and is often used in the medical industry for its wound-healing properties. Linen is naturally anti-bacterial, hypoallergenic, breathable, odor-resistant, moisture-wicking and temperature regulating— making it the premier natural fiber to protect your body's most sensitive areas. It is fertility-friendly and supports a healthy skin microbiome. Not only does linen promote wellness with wear, it lasts twice as long as cotton or synthetic fabrics, and softens with every wash!  </p><p></p><p>Heavenly Essentials is excited to offer the world's first 100% GOTS Certified Organic linen knitted fabric, made exclusively for undergarments! We developed a revolutionary fabric and first of its-kind- elastic trim, made from the miracle flax plant. Our team combined these cutting-edge materials with contemporary and classic designs, that are both comfortable and stylish. We are excited to offer spiritual garments that enhance your body's vibrational frequency and support delicate areas.</p>",
+            "text": "<p>LINEN IS THE WORLDS MOST SUSTAINABLE, WELLNESS-BOOSTING & HIGH PERFORMANCE NATURAL FIBER.</p><p>Linen is a natural fiber made from the flax plant, renowned for its restorative and metaphysical properties. Linen is the only fabric in the world that contains lignans, a unique wound healing compound (inflammation-reducing polyphenols), making it natures only \"healing\" fiber. Linen is the only fabric mentioned over 100 times in the Bible, regarded as a divine and holy material!</p><p>Organic Linen provides a wide range of benefits when it comes in contact with skin, and is often used in the medical industry for heart surgery, due to its wound-healing properties. Linen is naturally anti-bacterial, hypoallergenic, breathable, odor-resistant, moisture-wicking and temperature regulating— making it the premier natural fiber to protect your body's most sensitive areas. It is fertility-friendly and supports a healthy skin microbiome. Not only does linen promote wellness with wear, it lasts twice as long as cotton or synthetic fabrics, and softens with every wash!</p><p></p><p>Heavenly Essentials is excited to offer the world's first 100% GOTS Certified Organic linen knitted fabric, made exclusively for intimate wear! We developed a revolutionary fabric and first of its-kind- elastic trim, exclusively made from the miracle flax plant. Our team combined these cutting-edge materials with contemporary designs, that are comfortable and stylish. We are excited to offer spiritual garments, that enhance your body's vibrational frequency and support the well-being of delicate areas.</p>",
             "text_size": 3,
             "text_style": "font-body",
             "padding_bottom": 16
@@ -113,6 +113,129 @@
         "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
         "image_1": "shopify://shop_images/Flax_Flower117.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "show_placeholder": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "text_promo_BaPjMi": {
+      "type": "text-promo",
+      "blocks": {
+        "heading_BGhPDc": {
+          "type": "heading",
+          "settings": {
+            "title": "1 IN 6",
+            "text_size": 10
+          }
+        },
+        "text_Ep6zdf": {
+          "type": "text",
+          "settings": {
+            "content": "Women are experiencing infertility in the United States and worldwide.",
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_BGhPDc",
+        "text_Ep6zdf"
+      ],
+      "name": "Text promo",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "border": true,
+        "bg_color": "",
+        "color": "",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "inner_padding": 25,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "text_promo_xq6zR3": {
+      "type": "text-promo",
+      "blocks": {
+        "heading_kGxfDX": {
+          "type": "heading",
+          "settings": {
+            "title": "50%",
+            "text_size": 10
+          }
+        },
+        "text_kxXjEm": {
+          "type": "text",
+          "settings": {
+            "content": "Decline in Mens sperm count globally.",
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_kGxfDX",
+        "text_kxXjEm"
+      ],
+      "name": "Text promo",
+      "settings": {
+        "width": "wrapper--full-padded",
+        "border": true,
+        "bg_color": "",
+        "color": "",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "inner_padding": 25,
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_double_8Fxan7": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_93ADDN": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "No Polyester, No Plastic.",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_JPTm3b": {
+          "type": "heading",
+          "settings": {
+            "title": "Why no Polyester?",
+            "text_size": 7,
+            "padding_bottom": 16
+          }
+        },
+        "text_bNE6BJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The industry calls it \"recycled\". We call it what it is: plastic. <strong>Clothing made from polyester is created using petroleum-based plastic, a material linked to cancer risks, hormonal disruption, and infertility.</strong></p><p>A shredded bottle, spun into thread, treated with toxic chemicals, and worn against your skin, all-day long. Researchers are now finding plastic in human blood and testicular tissue.</p><p><br/>Polyester is cheap, easy to source, and carries a higher margin over natural fibers like linen. Synthetic underwear sits on the most permeable skin on your body. The chemicals it leaches are absorbing directly into your reproductive area. The vulvar/penile skin is one of the most absorbent skin areas on the body. What sits against it all day gets absorbed directly into your circulatory and lymphatic systems.</p><p></p><p>Reproductive issues are at an all time high, with 1 in 6 people globally affected by infertility. Man-made fabrics and chemical-derived dyes are directly linked with a number of health issues, including: cancer, infertility, metabolic disorders, skin problems, allergies and autoimmune diseases. Heavenly Essentials offers a natural solution to this problem!</p><p>We believe intimate wear has lost its way. Synthetic fibres, chemical finishes, and plastic-polyester construction have become the default, sold to you as premium. We believe that's backwards. We're not here to follow the industry. </p><p>We're here to restore what fabric was always meant to be: natural, traceable, and built to last. Natural fibers support healthy hormones like testosterone.</p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_93ADDN",
+        "heading_JPTm3b",
+        "text_bNE6BJ"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify://shop_images/Sustainablity2-5x3-01-01.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "reverse_blocks": false,
@@ -153,15 +276,7 @@
         "subheading_JDWnT3": {
           "type": "subheading",
           "settings": {
-            "subheading": "1 IN 6 WOMEN ARE EXPERIENCING INFERTILITY IN THE UNITED STATES AND WORLDWIDE.",
-            "text_size": 4,
-            "padding_bottom": 16
-          }
-        },
-        "subheading_XBdzF9": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "50% DECLINE IN MENS SPERM COUNT GLOBALLY.",
+            "subheading": "NO SYNTHETICS, NO SHORTCUTS.",
             "text_size": 4,
             "padding_bottom": 16
           }
@@ -169,7 +284,7 @@
         "text_yFfHPX": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Clothing made from polyester is created using petroleum-based plastic, a material linked to cancer risks and infertility.</strong></p><p>Reproductive issues are at an all time high, with 1 in 6 people globally affected by infertility — synthetic underwear a leading contributor. Heavenly Essentials offers a solution to this growing problem! Unnatural fabrics and chemical-derived dyes are directly linked with a number of health issues, including: cancer, infertility, metabolic disorders, skin problems, allergies and autoimmune diseases. </p><p><strong>Heavenly Intimates </strong>are the next generation of Womens & Mens 'wearable wellness' underwear essentials. We recreated timeless styles and paired them with ultra-premium, plant-based, luxury materials. Thoughtfully designed for daily wear; using top of the line, ultra-soft, organic linen, our linen collection is focused on elegant staple pieces- that are more comfortable and durable than conventional underwear.</p><p>Our butter-soft, linen knit fabric is crafted exclusively for close-to-skin. Every piece is made using the highest quality European flax linen and is  entirely chemical-free. All our products are <strong>100% plastic-free and have Zero synthetic materials.</strong> </p><p><strong>* Free of Petrochemicals, Fossil Fuels, Pesticides, PFAS and BPAs.</strong></p><ul><li>Soft & Organic</li><li>Hypoallergenic</li><li>Naturally Antibacterial & Moisture-wicking</li><li>Bleach-free (no chlorine)</li><li>Thermoregulation and Breathable</li></ul><p></p>",
+            "text": "<p><strong>Heavenly Essentials is in a league of its own. With 100% linen knit fabrics, natural material accents, and effortlessly elegant styles, there is truly no competition.</strong></p><p>We believe fabric is your second skin — what touches your body should be as pure as what you put in it. Our linen is fully biodegradable, breathable, and free from harmful chemicals, pesticides, and toxic treatments.</p><p>No hidden chemicals, no toxins. Just clean softness that lasts.</p><p><strong>Heavenly Essentials</strong> combines timeless styles with ultra-premium, organic materials. Thoughtfully designed for daily wear, that are more comfortable and durable than conventional underwear.</p><p>Every piece is made using the highest quality European flax linen and is completely chemical-free. All our products are <strong>100% plastic-free and have Zero synthetic materials or toxic dyes.</strong></p><p><strong>* Free of Petrochemicals, Fossil Fuels, Pesticides, PFAS and BPAs.</strong></p><ul><li>Soft & Organic</li><li>Hypoallergenic</li><li>Naturally Antibacterial & Moisture-wicking</li><li>Bleach-free (no chlorine)</li><li>Thermoregulation and Breathable</li><li>Bioavailable, Wound healing properties</li></ul>",
             "text_size": 3,
             "text_style": "font-body",
             "padding_bottom": 16
@@ -194,7 +309,6 @@
         "subheading_q4kAzg",
         "heading_rj3xLT",
         "subheading_JDWnT3",
-        "subheading_XBdzF9",
         "text_yFfHPX",
         "buttons_VDbwHK"
       ],
@@ -204,7 +318,7 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
-        "image_1": "shopify://shop_images/PS_Demi_3.png",
+        "image_1": "shopify://shop_images/new-PS_Demi_3.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "reverse_blocks": false,
@@ -243,11 +357,11 @@
         "text_gJPtCA": {
           "type": "text",
           "settings": {
-            "subheading": "Innovative Materials...",
+            "subheading": "Innovative Materials... from Nature",
             "subheading_size": 3,
             "title": "Organic Linen Elastic & Organic Linen Thread",
             "heading_size": 7,
-            "text": "<p>Every pair of Heavenlies has been thoughtfully designed, down to the thread. Each piece features a premium, organic linen elastic, made from a blend of organic flax and natural tree rubber threads: the first of it's kind. All our pieces are fully biodegradable and compostable, at end-of-life, making them the most sustainable underwear to ever exist.  </p><p>As a Biblically-based brand, we believe in not mixing materials, as instructed in Levitical law, (Leviticus 19:19 and Deuteronomy 22:11). Every detail matters in the construction of our intimates. Most 'natural' underwear brands use various materials and have synthetic, polyester (plastic) trims and poly thread, which are toxic for your body and the environment. </p><p>We exclusively use FSC-certified, natural tree rubber (no synthetic rubber) in our organic linen elastic ribbons. Every pair is sewn with 100% organic linen sewing thread. Heavenly Essentials is proud to be the only underwear brand in the world that features these state-of-the-art materials! </p><p>After years of wear, plant your Heavenlies in the ground and watch them turn back into nutrient-rich soil - a truly regenerative and circular garment.</p>",
+            "text": "<p>Our Heavenly collection is made with only the highest quality natural materials, harvested directly from the Earth. Our intimates are breathable, supremely soft, rich in texture, and comfortable for all-day wear. We replace petroleum-based synthetics with natural alternatives.</p><p>Every pair of Heavenlies has been thoughtfully designed, down to the thread. Each piece features a premium, organic linen elastic, made from a blend of organic flax and natural tree rubber threads: the first of it's kind. All our pieces are fully biodegradable and compostable, at end-of-life, making them the most sustainable underwear to ever exist.</p><p>As a Biblically-based brand, we believe in not mixing materials, as instructed in Levitical law, (Leviticus 19:19 and Deuteronomy 22:11). Every detail matters in the construction of our intimates. Most 'natural' underwear brands use various materials and have synthetic, polyester (plastic) trims and poly thread, which are toxic for your body and the environment.</p><p>We exclusively use FSC-certified, natural tree rubber (no synthetic rubber) in our organic linen elastic trims. Every pair is sewn with 100% organic linen sewing thread. Heavenly Essentials is proud to be the only underwear brand in the world that features these state-of-the-art materials!</p><p>After years of wear, plant your Heavenlies in the ground and watch them turn back into nutrient-rich soil - a truly regenerative and circular garment.</p>",
             "text_size": 3,
             "button_text": "Learn more",
             "button_url": "shopify://pages/biblical-references",
@@ -564,6 +678,9 @@
     "main",
     "section_rich_text_7tFQ7A",
     "section_double_jXDN9n",
+    "text_promo_BaPjMi",
+    "text_promo_xq6zR3",
+    "section_double_8Fxan7",
     "section_double_7bP6db",
     "section_custom_content_fVp3m6",
     "section_announcement_QNXt7h",

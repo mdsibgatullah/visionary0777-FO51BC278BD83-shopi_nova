@@ -1,0 +1,82 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+/* code by sibgatullah  */
+.template-search footer.site-footer-wrapper.section-padding {
+    border-top: 1px solid #e9e9e9;
+}
+.template-search .filter-group__heading .icon {
+    top: 0px;
+}
+.template-product span.heymerch-stockcount-container.heymerch-stockcount-customcss {
+	margin-top: 0 !important;
+}
+.template-product p.product__heading.strong {
+	font-weight: bold;
+	margin-top: 25px;
+}
+.n8k95w2 {
+    font-family: Libre Bodoni !important;
+	font-weight: 500 !important;
+}
+.filter-group__heading .icon {
+    --icon-size: 18px;
+    top: 0px;
+    right: -4px;
+}
+
+.selector-wrapper__scrollbar.ilm-checked .swatch-natural span.swatch__link {
+	box-shadow: 0 0 0 1px transparent;
+}
+
+.selector-wrapper__scrollbar.ilm-checked .swatch-white span.swatch__link {
+    box-shadow: 0 0  0 1px transparent;
+}
+
+.swatch-natural.is-active .swatch__link {
+	outline-offset: 1px;
+}
+.swatch-white.is-active .swatch__link {
+    outline: 1px solid darkgray;
+    outline-offset: 1px;
+}
+
+
+/* .template-product .swatch__button input:checked~label {
+    box-shadow: 0 0 0 3px var(--bg);
+}
+.template-product .swatch__button--circle .sibling__link:after, 
+.template-product .swatch__button--circle input~label:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+} */
+.template-product .swatch__button--circle .sibling__link, 
+.template-product .swatch__button--circle .swatch__link, 
+.template-product .swatch__button--circle input~label {
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.predictive-search mark {
+    background-color: #F7F9FA;
+    color: currentcolor;
+    font-style: unset;
+}
+
+@media (max-width: 768px){
+	details.footer__block.footer__block--social {
+		margin-bottom: 0px;
+	}
+    body{
+        overflow-x: hidden !important;
+    }
+}
+@media (min-width: 768px){
+    .swatch__button--circle .sibling__link,
+    .swatch__button--circle .swatch__link,
+    .swatch__button--circle input ~ label {
+        height: 10px !important;
+        width: 10px !important;
+    }
+}

@@ -20,7 +20,7 @@
             "padding_bottom": 8
           }
         },
-        "judge_me_reviews_preview_badge_nJ39aG": {
+        "judge_me_reviews_preview_badge_h6URRL": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
@@ -94,13 +94,20 @@
           "settings": {
             "widget_style": "card",
             "widget_style_card_selector": "radio_button",
-            "subscription_policy_url": "shopify://pages/refund-policy",
+            "subscription_policy_url": "shopify://pages/subscription-policy",
             "color_text_body": "#212121",
             "dividers_color": "#8f8d8d",
             "background_color": "#ffffff",
             "border_thickness": 1,
             "border_radius": 0,
             "product": "{{product}}"
+          }
+        },
+        "code_nbWQGi": {
+          "type": "code",
+          "settings": {
+            "code": "",
+            "padding_bottom": 16
           }
         },
         "description_TaWNem": {
@@ -235,7 +242,7 @@
       },
       "block_order": [
         "title",
-        "judge_me_reviews_preview_badge_nJ39aG",
+        "judge_me_reviews_preview_badge_h6URRL",
         "price",
         "text_jnjwTx",
         "text_zKmLy6",
@@ -245,6 +252,7 @@
         "buttons",
         "code_zdRBYa",
         "subscriptions_app_block_CCqaRx",
+        "code_nbWQGi",
         "description_TaWNem",
         "accordion_xcrqAb",
         "accordion_Te4hRh",
@@ -277,7 +285,7 @@
         "enable_video_looping": false,
         "mobile_image_style": "thumbs",
         "padding_top": 30,
-        "padding_bottom": 0
+        "padding_bottom": 30
       }
     },
     "section_divider_93BzHk": {
@@ -288,7 +296,7 @@
         "border_color": "#f0f0f0",
         "bg_color": "",
         "padding_top": 0,
-        "padding_bottom": 20
+        "padding_bottom": 10
       }
     },
     "section_rich_text_HQmWBD": {
@@ -395,6 +403,87 @@
         ".highlights__item {padding: 2px; margin-bottom: 0px;}",
         ".body-size-6 {font-size: 28px;}",
         "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 14px; }}"
+      ],
+      "settings": {
+        "style": "square",
+        "grid": 4,
+        "width": "wrapper--full-padded",
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_size": 6,
+        "text_size": 6,
+        "color": "#212121",
+        "bg_color": "rgba(0,0,0,0)",
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "section_highlights_WDbEJn": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_nP86Uk": {
+          "type": "highlight",
+          "settings": {
+            "heading": "100% ORGANIC LINEN",
+            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
+            "url": "",
+            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_7XU4j3": {
+          "type": "highlight",
+          "settings": {
+            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
+            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
+            "url": "",
+            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_RqkGtB": {
+          "type": "highlight",
+          "settings": {
+            "heading": "FROM EARTH AND BACK",
+            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
+            "url": "",
+            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        },
+        "highlight_eEepea": {
+          "type": "highlight",
+          "settings": {
+            "heading": "PLANT-BASED, NATURAL DYES",
+            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
+            "url": "",
+            "image": "shopify://shop_images/plantdyesswatches.jpg",
+            "color": "#ffffff",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_nP86Uk",
+        "highlight_7XU4j3",
+        "highlight_RqkGtB",
+        "highlight_eEepea"
+      ],
+      "custom_css": [
+        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
+        ".highlights__item:hover .image-wrapper {opacity: 0;}",
+        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
+        ".body-size-6 {font-size: 28px;}",
+        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
+        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
       ],
       "settings": {
         "style": "square",
@@ -552,87 +641,6 @@
       ],
       "settings": {
         "include_margins": false
-      }
-    },
-    "section_highlights_WDbEJn": {
-      "type": "section-highlights",
-      "blocks": {
-        "highlight_nP86Uk": {
-          "type": "highlight",
-          "settings": {
-            "heading": "100% ORGANIC LINEN",
-            "textdescription": "<p>Our linen is soft, luxurious, and designed for everyday comfort. Made from 100% Organic flax fibers, offering a premium feel and timeless fit.</p>",
-            "url": "",
-            "image": "shopify://shop_images/EHG27J_1_7fbbc258-0633-43a2-8254-b2219cdb20fe.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_7XU4j3": {
-          "type": "highlight",
-          "settings": {
-            "heading": "WORLDS MOST LUXURIOUS NATURAL FIBER",
-            "textdescription": "<p>Flax linen is nature's miracle fiber—plant-based, renewable, biodegradable, with natural wound-healing properties.</p>",
-            "url": "",
-            "image": "shopify://shop_images/sustainability_HeavenlyEssentials-8_1.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_RqkGtB": {
-          "type": "highlight",
-          "settings": {
-            "heading": "FROM EARTH AND BACK",
-            "textdescription": "<p>Our garments are fully regenerative, crafted from nature and designed to return to the Earth, supporting a sustainable, circular economy.</p>",
-            "url": "",
-            "image": "shopify://shop_images/hands-cupping-plant-business-investment_38b9f5f5-3a98-44b2-a94b-38215edc288d.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        },
-        "highlight_eEepea": {
-          "type": "highlight",
-          "settings": {
-            "heading": "PLANT-BASED, NATURAL DYES",
-            "textdescription": "<p>Non-toxic, botanical dyes from fruits, flowers, minerals, and spices. Our white fabrics are exclusively made using Oxygen (no bleach or chemicals).</p>",
-            "url": "",
-            "image": "shopify://shop_images/plantdyesswatches.jpg",
-            "color": "#ffffff",
-            "bg_color": "rgba(0,0,0,0)",
-            "border_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_nP86Uk",
-        "highlight_7XU4j3",
-        "highlight_RqkGtB",
-        "highlight_eEepea"
-      ],
-      "custom_css": [
-        ".highlights__item:hover .highlights__item__content {opacity: 0;}",
-        ".highlights__item:hover .image-wrapper {opacity: 0;}",
-        ".highlights__item {padding: 2px; margin-bottom: 0px;}",
-        ".body-size-6 {font-size: 28px;}",
-        "@media (min-width: 767px) {.highlights__item__content_description {font-size: 19px; }}",
-        "@media (max-width: 767px) {.body-size-6 {font-size: 18px; } .highlights__item__content_description {font-size: 17px; }}"
-      ],
-      "settings": {
-        "style": "square",
-        "grid": 4,
-        "width": "wrapper--full-padded",
-        "heading": "",
-        "heading_position": "text-center",
-        "heading_size": 6,
-        "text_size": 6,
-        "color": "#212121",
-        "bg_color": "rgba(0,0,0,0)",
-        "layout_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 40
       }
     }
   },

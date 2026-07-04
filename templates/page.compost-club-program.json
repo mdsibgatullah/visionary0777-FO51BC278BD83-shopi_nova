@@ -103,8 +103,8 @@
       ],
       "settings": {
         "layout": "",
-        "height": "screen-height-three-quarters",
-        "mobile_height": "image-height--mobile",
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-two-thirds--mobile",
         "width": "wrapper--full",
         "image_1": "shopify://shop_images/89_312967ec-ac35-4e38-b727-96adf6f52796.jpg",
         "image_width": "one-half",
